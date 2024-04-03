@@ -1,0 +1,35 @@
+site_name: Communication Box
+site_url: https://fga-pi2.gitlab.io/semestre-2024-1/grupo-08/communication-box
+site_dir: public
+theme:
+  name: material
+  favicon: assets/communication-box-logo.png
+  features:
+    - content.code.annotate
+    - content.tabs.link
+    - header.autohide
+    - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+extra_css:
+  - stylesheets/styles.css
+nav:
+  - Sobre: index.md
+  - Geral: 
+      - anexo: geral/anexo.md
+      - apendice: geral/apendice1.md
+      - arquitetura: geral/arquitetura.md
+      - bib: geral/bib.md
+      - integracao: geral/integracao.md
+      - projetos: geral/projetos.md
+      - prova de conceito: geral/prova-de-conceito.md
+      - requisitos de arquitetura: geral/requisitos-arquitetura.md
+      - visao geral: geral/visaogeral.md
+  - Software: 
+      - Exemplo: software/exemplo.md
+  - Eletrônica/Energia: 
+      - Exemplo: software/exemplo.md
+  - Estruturas:
+      - Exemplo: software/exemplo.md
