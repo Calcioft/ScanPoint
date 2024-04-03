@@ -1,5 +1,5 @@
 site_name: Communication Box
-site_url: "https://fga-pi2.gitlab.io/semestre-2024-1/grupo-08/communication-box"
+site_url: "https://fga-pi2.gitlab.io/"
 site_dir: public
 theme:
   name: material
