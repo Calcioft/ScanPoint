@@ -6,7 +6,7 @@ No mundo contemporâneo, a integração entre dispositivos inteligentes e proces
 <br>
 Inicialmente concebido como uma caixa equipada com uma Raspberry Pi, o projeto evoluiu para uma mesa inteligente, sob a orientação do professor, que visa integrar um dispositivo capaz de realizar leituras de objetos e enviar essas informações diretamente para uma impressora 3D. Essa solução não apenas simplifica o processo de fabricação, eliminando etapas manuais, mas também agiliza a produção, permitindo a impressão remota de objetos a partir de leituras instantâneas. 
 <br>
-O resultado esperado é que seja um sistema versátil e adaptável, capaz de atender às demandas de diversos ambientes. Combinando a expertise em computação em nuvem, representada pela integração com serviços como o Azure, com a inovação na fabricação digital, esse projeto representa um passo significativo em direção à automação inteligente e conectada.
+O resultado esperado é que seja um sistema versátil e adaptável, capaz de atender às demandas de diversos ambientes. Combinando a expertise em computação em nuvem, representada pela integração com serviços como o Azure, com a inovação na fabricação digital, esse projeto representa um passo significativo em direção à automação inteligente e conectada!
   </h3>
 </div>
 
