@@ -30,6 +30,6 @@ nav:
   - Software: 
       - Exemplo: software/exemplo.md
   - Eletrônica/Energia: 
-      - Exemplo: software/exemplo.md
+      - Exemplo: eletronica-energia/exemplo.md
   - Estruturas:
-      - Exemplo: software/exemplo.md
+      - Exemplo: estruturas/exemplo.md
