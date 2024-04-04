@@ -149,7 +149,7 @@ O resultado esperado é que seja um sistema versátil e adaptável, capaz de ate
 
 <h2 style="color: #000000; text-align: center"> Automotiva </h2>
 <div class="pictures">
-<a class="pessoa" href="https://gitlab.com/">
+<a class="pessoa" href="https://gitlab.com/soaressc321">
   <div class="photo-border">
     <img class="photo" src="assets/members/brenda_eps.jpeg" alt="Diogo">
   </div>

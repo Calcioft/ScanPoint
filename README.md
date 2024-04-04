@@ -10,12 +10,12 @@
 | Software | **Diretor técnico de software** | Pedro Menezes | 190139323 |
 | Aeroespacial | **Diretor técnico de Estrutura** | Maria Cláudia | 200041193 |
 | Energia | **Diretor técnico de Eletrônica/Energia** | Carolina Oliveira | 190011483 | 
-| Aeroespacial | Desenvolvedor | Cássio Filho | xxxxxxxxx |
+| Aeroespacial | Desenvolvedor | Cássio Filho | 190011521 |
 | Automotiva | Desenvolvedor | Diogo Soares | 190012188 |
 | Eletrônica | Desenvolvedor | Miguel Munoz | 221008795 |
 | Energia | Desenvolvedor | Lucas Pantoja | 190060352 |
 | Software | Desenvolvedor | Ana Carolina | 190101792 |
-| Software | Desenvolvedor | Guilherme Basilio | xxxxxxxxx |
+| Software | Desenvolvedor | Guilherme Basilio | 160007615 |
 | Software | Desenvolvedor | Artur de Souza | 190010606 |
 | Software | Desenvolvedor | Ciro Costa | 190011611 |
 | Software | Desenvolvedor | Vinicius Vieira | 190118059 |
