@@ -13,28 +13,28 @@ O resultado esperado é que seja um sistema versátil e adaptável, capaz de ate
 <div>
 <h1 style="color: #000000; font-weight: bold; text-align: center"> Documentações e Código fonte </h1>
 <div class="pictures">
-<a href="https://gitlab.com/">
+<a href="https://gitlab.com/fga-pi2/semestre-2024-1/grupo-08/communication-box/-/tree/main/docs/geral?ref_type=heads">
   <div class="repo-border">
 	<img class="photoRepo" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Geral">
   </div>
 	<h4 class="legenda">Geral</h4>
 	<h6 class=legenda>Relatórios e informações gerais</h6>
 </a>
-<a href="https://gitlab.com/">
+<a href="https://gitlab.com/fga-pi2/semestre-2024-1/grupo-08/communication-box/-/tree/main/docs/software?ref_type=heads">
   <div class="repo-border">
 	<img class="photoRepo" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Software">
   </div>
 	<h4 class="legenda">Software</h4>
 	<h6 class=legenda>Documentos e código fonte</h6>
 </a>
-<a href="https://gitlab.com/">
+<a href="https://gitlab.com/fga-pi2/semestre-2024-1/grupo-08/communication-box/-/tree/main/docs/eletronica-energia?ref_type=heads">
   <div class="repo-border">
-	<img class="photoRepo" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Eletrônica">
+	<img class="photoRepo" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Eletrônica e Energia">
   </div>
 	<h4 class="legenda">Eletrônica/Energia</h4>
 	<h6 class=legenda>Documentos e código fonte</h6>
 </a>
-<a href="https://gitlab.com/">
+<a href="https://gitlab.com/fga-pi2/semestre-2024-1/grupo-08/communication-box/-/tree/main/docs/estruturas?ref_type=heads">
   <div class="repo-border">
 	<img class="photoRepo" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Estruturas">
   </div>
@@ -54,96 +54,96 @@ O resultado esperado é que seja um sistema versátil e adaptável, capaz de ate
   </div>
   <h4 class="legenda">Brenda Santos</h4>
 </a>
-<a class="pessoa" href="https://gitlab.com/">
+<a class="pessoa" href="https://gitlab.com/dennielwilliam">
   <div class="photo-border">
     <img class="photo" src="assets/membros/denniel.jpeg" alt="Denniel">
   </div class="container-legenda" >
   <h4 class="legenda">Denniel William</h4>
 </a>
-<a class="pessoa" href="https://gitlab.com/">
+<a class="pessoa" href="https://gitlab.com/Carlacangussu">
   <div class="photo-border">
-    <img class="photo" src="assets/members/camila_mds.jpeg" alt="Camila">
+    <img class="photo" src="assets/members/camila_mds.jpeg" alt="Carla">
   </div>
-  <h4 class="legenda">Camila Costa</h4>
+  <h4 class="legenda">Carla Rocha</h4>
 </a>
-<a class="pessoa" href="https://gitlab.com/">
+<a class="pessoa" href="https://gitlab.com/pemiinem">
   <div class="photo-border">
-    <img class="photo" src="assets/members/daniel_mds.jpeg" alt="Daniel">
+    <img class="photo" src="assets/members/daniel_mds.jpeg" alt="Pedro">
   </div>
-  <h4 class="legenda">Daniel Rodrigues</h4>
+  <h4 class="legenda">Pedro Menezes</h4>
 </a>
-<a class="pessoa" href="https://gitlab.com/">
+<a class="pessoa" href="https://gitlab.com/AnaCarolinaRodriguesLeite">
   <div class="photo-border">
-    <img class="photo" src="assets/members/davi_mds.jpeg" alt="Davi">
+    <img class="photo" src="assets/members/davi_mds.jpeg" alt="Ana">
   </div>
-  <h4 class="legenda">Davi Rodrigues</h4>
+  <h4 class="legenda">Ana Carolina</h4>
 </a>
-<a class="pessoa" href="https://gitlab.com/">
+<a class="pessoa" href="https://gitlab.com/GuilhermeBES">
   <div class="photo-border">
-    <img class="photo" src="assets/members/felipe_mds.jpeg" alt="Felipe">
+    <img class="photo" src="assets/members/felipe_mds.jpeg" alt="Guilherme">
   </div>
-  <h4 class="legenda">Felipe de Oliveira</h4>
+  <h4 class="legenda">Guilherme Basílio</h4>
 </a>
-<a class="pessoa" href="https://gitlab.com/">
+<a class="pessoa" href="https://gitlab.com/art_42">
   <div class="photo-border">
-    <img class="photo" src="assets/members/leo_mds.jpeg" alt="Leandro">
+    <img class="photo" src="assets/members/leo_mds.jpeg" alt="Artur">
   </div>
-  <h4 class="legenda">Leandro Almeida</h4>
+  <h4 class="legenda">Artur de Souza</h4>
+</a>
+<a class="pessoa" href="https://gitlab.com/ciro-c">
+  <div class="photo-border">
+    <img class="photo" src="assets/members/leo_mds.jpeg" alt="Ciro">
+  </div>
+  <h4 class="legenda">Ciro Costa</h4>
+</a>
+<a class="pessoa" href="https://gitlab.com/Viniciusvieira00">
+  <div class="photo-border">
+    <img class="photo" src="assets/members/leo_mds.jpeg" alt="Vinicius">
+  </div>
+  <h4 class="legenda">Vinicius Vieira</h4>
 </a>
 </div>
 </div>
 
 <h2 style="color: #000000; text-align: center"> Energia </h2>
 <div class="pictures">
-<a class="pessoa" href="https://gitlab.com/">
+<a class="pessoa" href="https://gitlab.com/carolinaroliveira02">
   <div class="photo-border">
-    <img class="photo" src="assets/members/brenda_eps.jpeg" alt="Brenda">
+    <img class="photo" src="assets/members/brenda_eps.jpeg" alt="Carolina">
   </div>
-  <h4 class="legenda">Brenda Santos</h4>
+  <h4 class="legenda">Carolina Oliveira</h4>
 </a>
-<a class="pessoa" href="https://gitlab.com/">
+<a class="pessoa" href="https://gitlab.com/lcs.pantoja.silva">
   <div class="photo-border">
-    <img class="photo" src="assets/members/denniel_eps.jpeg" alt="Denniel">
+    <img class="photo" src="assets/members/denniel_eps.jpeg" alt="Lucas">
   </div>
-  <h4 class="legenda">Denniel William</h4>
+  <h4 class="legenda">Lucas Pantoja</h4>
 </a>
 </div>
 
 <h2 style="color: #000000; text-align: center"> Eletrônica </h2>
 <div class="pictures">
-<a class="pessoa" href="https://gitlab.com/">
+<a class="pessoa" href="https://gitlab.com/migueleparra">
   <div class="photo-border">
-    <img class="photo" src="assets/members/brenda_eps.jpeg" alt="Brenda">
+    <img class="photo" src="assets/members/brenda_eps.jpeg" alt="Miguel">
   </div>
-  <h4 class="legenda">Brenda Santos</h4>
-</a>
-<a class="pessoa" href="https://gitlab.com/">
-  <div class="photo-border">
-    <img class="photo" src="assets/members/denniel_eps.jpeg" alt="Denniel">
-  </div>
-  <h4 class="legenda">Denniel William</h4>
+  <h4 class="legenda">Miguel Munoz</h4>
 </a>
 </div>
 
 <h2 style="color: #000000; text-align: center"> Aeroespacial </h2>
 <div class="pictures">
-<a class="pessoa" href="https://gitlab.com/">
+<a class="pessoa" href="https://gitlab.com/mariaclaudialgaspar">
   <div class="photo-border">
-    <img class="photo" src="assets/members/brenda_eps.jpeg" alt="Brenda">
+    <img class="photo" src="assets/members/brenda_eps.jpeg" alt="Maria">
   </div>
-  <h4 class="legenda">Brenda Santos</h4>
+  <h4 class="legenda">Maria Cláudia</h4>
 </a>
 <a class="pessoa" href="https://gitlab.com/">
   <div class="photo-border">
-    <img class="photo" src="assets/members/denniel_eps.jpeg" alt="Denniel">
+    <img class="photo" src="assets/members/denniel_eps.jpeg" alt="Cássio">
   </div>
-  <h4 class="legenda">Denniel William</h4>
-</a>
-<a class="pessoa" href="https://gitlab.com/">
-  <div class="photo-border">
-    <img class="photo" src="assets/members/joao_eps.jpeg" alt="João">
-  </div>
-  <h4 class="legenda">João Gabriel</h4>
+  <h4 class="legenda">Cássio Filho</h4>
 </a>
 </div>
 
@@ -151,9 +151,9 @@ O resultado esperado é que seja um sistema versátil e adaptável, capaz de ate
 <div class="pictures">
 <a class="pessoa" href="https://gitlab.com/">
   <div class="photo-border">
-    <img class="photo" src="assets/members/brenda_eps.jpeg" alt="Brenda">
+    <img class="photo" src="assets/members/brenda_eps.jpeg" alt="Diogo">
   </div>
-  <h4 class="legenda">Brenda Santos</h4>
+  <h4 class="legenda">Diogo Soares</h4>
 </a>
 </div>
 </div>
