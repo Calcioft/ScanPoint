@@ -51,6 +51,7 @@ Engloba as fases 1, 2 e 3 do ciclo de vida do projeto, sendo elas: **Problematiz
 - [Definição, sequenciamento e cronograma de atividades;](https://gitlab.com)
 - [Estimativa de custos e orçamentos](https://gitlab.com)
 - [Levantamento de riscos e contingência para a execução do projeto e avaliação do impacto](https://gitlab.com)
+- tanana
 
 ### C2
 
