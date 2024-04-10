@@ -4,17 +4,17 @@
 
 | Engenharia | Cargo | Membro | Matrícula |
 | :- | :- | :- | :--: |
-| Software | **Coordenador geral** | Carla Rocha | 170085023 |
-| Software | **Diretor de qualidade** | Brenda Santos | 180041444 |
+| Software | **Coordenadora geral** | Carla Rocha | 170085023 |
+| Software | **Diretora de qualidade** | Brenda Santos | 180041444 |
 | Software | **Diretor técnico** | Denniel William | 170161871 |
 | Software | **Diretor técnico de software** | Pedro Menezes | 190139323 |
-| Aeroespacial | **Diretor técnico de Estrutura** | Maria Cláudia | 200041193 |
-| Energia | **Diretor técnico de Eletrônica/Energia** | Carolina Oliveira | 190011483 | 
+| Aeroespacial | **Diretora técnica de Estrutura** | Maria Claudia | 200041193 |
+| Energia | **Diretora técnica de Eletrônica/Energia** | Carolina Oliveira | 190011483 | 
 | Aeroespacial | Desenvolvedor | Cássio Filho | 190011521 |
 | Automotiva | Desenvolvedor | Diogo Soares | 190012188 |
 | Eletrônica | Desenvolvedor | Miguel Munoz | 221008795 |
 | Energia | Desenvolvedor | Lucas Pantoja | 190060352 |
-| Software | Desenvolvedor | Ana Carolina | 190101792 |
+| Software | Desenvolvedora | Ana Carolina | 190101792 |
 | Software | Desenvolvedor | Guilherme Basilio | 160007615 |
 | Software | Desenvolvedor | Artur de Souza | 190010606 |
 | Software | Desenvolvedor | Ciro Costa | 190011611 |
