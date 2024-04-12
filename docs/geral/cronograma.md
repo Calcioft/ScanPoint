@@ -18,8 +18,7 @@ Visando garantir que o projeto ocorra como o esperado, foi criado o cronograma d
 |12|Diagramas unifilares/trifilares de sistemas de alimentação| 07 dias |13/04/2024|19/04/2024| Carol e Lucas|
 |13|Diagramas esquemáticos de circuitos eletrônicos| 07 dias |13/04/2024|19/04/2024| Miguel|
 |14|Diagramas detalhando barramentos de alimentação dos circuitos eletrônicos| 07 dias |20/04/2024|/26/2024| Miguel| 
-|15|Diagramas com detalhes de lógicas e protocolos de comunicação entre elementos
-| 07 dias |13/04/2024|19/04/2024| Miguel | 
+|15|Diagramas com detalhes de lógicas e protocolos de comunicação entre elementos| 07 dias |13/04/2024|19/04/2024| Miguel | 
 |16|Diagramas com protocolos de comunicação entre componentes do software| 07 dias |13/04/2024|19/04/2024| Denniel e Ciro|
 |17| Diagrama de arquitetura de software | 07 dias | 13/04/2024| 19/04/2024|Artur, Pedro e Guilherme|
 |18| Diagrama de pacotes|07 dias| 13/04/2024| 19/04/2024|Vinicius|
