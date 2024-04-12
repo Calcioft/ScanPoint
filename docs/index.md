@@ -96,9 +96,9 @@ O resultado esperado é que seja um sistema versátil e adaptável, capaz de ate
   </div>
   <h4 class="legenda">Ciro Costa</h4>
 </a>
-<a class="pessoa" href="https://gitlab.com/Viniciusvieira00">
+<a class="pessoa" href="https://gitlab.com/viniciusvieira00">
   <div class="photo-border">
-    <img class="photo" src="assets/members/leo_mds.jpeg" alt="Vinicius">
+    <img class="photo" src="assets/membros/vinicius.jpeg" alt="Vinicius">
   </div>
   <h4 class="legenda">Vinicius Vieira</h4>
 </a>
