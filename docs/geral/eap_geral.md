@@ -3,9 +3,9 @@
 ## Versionamento
 | Versão | Data | Modificação | Autor |
 |--|--|--|--|
-| 0.1 | 12/04/2024 | Criação do documento | Ana Carolina Rodrigues |
-| 0.2 | 12/04/2024 | Introdução e Metodologia | Ana Carolina Rodrigues |
-| 0.3 | 12/04/2024 | Adição do link do eap | Ana Carolina Rodrigues |
+| 0.1 | 12/04/2024 | Criação do documento | Ana Carolina Rodrigues e Denniel William |
+| 0.2 | 12/04/2024 | Introdução e Metodologia | Ana Carolina Rodrigues e Denniel William |
+| 0.3 | 12/04/2024 | Adição do link do eap | Ana Carolina Rodrigues e Denniel William |
 
 
 ## Introdução
