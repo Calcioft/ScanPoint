@@ -13,6 +13,21 @@
 - O sistema realiza uma checagem de conexão com a impressora 3D via USB, assegurando que haja uma comunicação estável para transferir os dados do modelo.
 
 ## 5. Validação do Processo
+- Antes de iniciar a checagem do objeto, o sistema verifica se a conexão USB foi validado com sucesso.
+
+## 6. Checagem de peso
+- Uma balança realiza uma checagem de peso do objeto, assegurando que o peso esteja de acordo com o limite estipulado.
+
+## 7. Checagem do comprimento
+- A Camera junto ao sistema, realiza uma checagem de comprimento do objeto, assegurando que este esteja em conformidade com as dimensões da mesa.
+
+## 8. Checagem da Posição
+- O sistema verifica a posição do objeto em relação à mesa. O objeto deve estar posicionado com uma tolerância de ± 2 mm em relação ao centro da mesa.
+
+## 9. Checagem do Ângulo
+- O sistema verifica o ângulo do objeto em relação à horizontal e vertical para garantir que o modelo 3D seja capturado com precisão, sem distorções geométricas.
+
+## 10. Validação do Processo
 - Antes de iniciar a impressão, o sistema verifica se todos os processos anteriores foram validados com sucesso, garantindo que o modelo esteja pronto para ser impresso.
 
 ## 6. Acompanhamento do Escaneamento
