@@ -30,16 +30,16 @@
 ## 10. Validação do Processo
 - Antes de iniciar a impressão, o sistema verifica se todos os processos anteriores foram validados com sucesso, garantindo que o modelo esteja pronto para ser impresso.
 
-## 6. Acompanhamento do Escaneamento
+## 11. Acompanhamento do Escaneamento
 - O usuário pode acompanhar o progresso do escaneamento em tempo real, permitindo uma supervisão detalhada do processo.
 
-## 7. Visualização do Arquivo 3D
+## 12. Visualização do Arquivo 3D
 - Após a conclusão do escaneamento, o sistema oferece uma pré-visualização do modelo 3D, onde o usuário pode examinar o objeto e aprovar para impressão.
 
-## 8. Geração de Arquivo de Impressão 3D
+## 13. Geração de Arquivo de Impressão 3D
 - Com a aprovação do usuário, o sistema gera o arquivo de impressão 3D adequado, que é enviado para a impressora 3D.
 
-## 9. Download do Arquivo 3D
+## 14. Download do Arquivo 3D
 - O sistema também permite ao usuário efetuar o download do arquivo de impressão 3D para armazenamento ou uso em outro dispositivo ou local.
 
 ## Diagrama abaixo mostra a relação entre os casos de uso:
