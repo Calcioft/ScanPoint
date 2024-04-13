@@ -1,4 +1,4 @@
-| No. | Processo | Modo de Falha | Causa da Falha | Efeito da Falha Local | Efeito da Falha Global | Severidade | Ocorrência | Detecção | Risco | Plano de Ação | Responsável | Prevenção |
+| No. | Processo | Modo de Falha | Causa da Falha | Efeito da Falha Local | Efeito da Falha Global | Severidade | Ocorrência | Detecção | Número de Priorização de Risco (NPR) | Plano de Ação | Responsável | Prevenção |
 |-----|----------|---------------|----------------|-----------------------|------------------------|------------|------------|----------|-------|----------------|-------------|-----------|
 | 1   | Gestão da Equipe | Indisposição de um membro | Problemas pessoais/saúde | Sobrecarregar outros membros | Atraso nas atividades| 3 | 4 | 1 | 12 | Redistribuição das atividades entre membros competentes | Gerência | Comunicação prévia nas reuniões e/ou grupo de conversa |
 | 2   | Montagem do sistema eletrônico | Funcionamento inadequado das baterias | | Não fornecimento de energia suficiente aos equipamentos | Não entrega do projeto por mau funcionamento | 5 | 1 | 1 | 5 | Troca da bateria por uma reserva | Energia | Testes com as baterias |
