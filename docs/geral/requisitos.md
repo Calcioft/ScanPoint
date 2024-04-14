@@ -1,17 +1,8 @@
-# **Requisitos gerais**
+# Requisitos gerais
 
-O time está encarregado de coletar os requisitos -- o processo de
-definição e documentação do projeto e das características e funções do
-produto necessárias para satisfazer todas as necessidades e expectativas
-das partes interessadas. Estes requisitos, colocados numa relação de
-requisitos, devem incluir:
+Os requisitos são peças-chave em qualquer empreendimento, independentemente do campo de atuação, seja ele na área de estruturas, software ou eletroeletrônica. São responsáveis por representar as necessidades, expectativas e limitações a serem consideradas para atingir os objetivos estabelecidos nos projetos.
 
--   requisitos de funcionamento e de desempenho;
-
--   outros requisitos essenciais para projeto e desenvolvimento.
-
--   Resultados da análise crítica dessas entradas quanto a suficiência,
-    completeza e ausência de ambiguidades ou conflitos entre si.
+Uma distinção comum dentro do escopo dos requisitos é entre **requisitos funcionais** e **requisitos não funcionais**. Os requisitos funcionais descrevem as funcionalidades específicas que o sistema, produto ou serviço deve oferecer. Eles definem as ações que o sistema deve executar, os serviços que ele deve prestar e como ele deve responder às entradas dos usuários. Já os requisitos não funcionais dizem respeito às características e qualidades do sistema que não estão diretamente relacionadas às funcionalidades específicas, mas que têm um impacto significativo em sua qualidade global. Isso inclui aspectos como desempenho, segurança, usabilidade, confiabilidade e escalabilidade.
 
 **Requisitos funcionais para o produto**
 
@@ -35,5 +26,5 @@ requisitos, devem incluir:
 | RNF03 | Fixação da Câmera   | A câmera deve ser fixada a uma determinada inclinação para capturar as imagens do objeto de maneira adequada. | O grau precisa ser definido em breve. |
 | RNF04 | Alimentação por Bateria  | O sistema deve ser alimentado por bateria para garantir sua portabilidade e independência de fontes de energia externas. |             |
 | RNF05 | Eficiência de Processamento  | O software deve ser eficiente no processamento das imagens para garantir tempos de resposta aceitáveis durante o escaneamento.  |             |
-| RNF06 | Durabilidade e Resistência  | Os componentes eletrônicos devem ser selecionados levando em consideração sua durabilidade e resistência às condições ambientais adversas, garantindo uma vida útil prolongada do sistema. |             |
+| RNF06 | Durabilidade e Resistência  | Os componentes eletrônicos devem ser selecionados levando em consideração sua durabilidade e resistência às condições ambientais adversas, garantindo uma vida útil prolongada do sistema. | Resistência ao calor e umidade. |
 | RNF07 | Design da Base | A base deve ser circular, com um diâmetro de 32cm, para acomodar o objeto de forma estável durante o escaneamento. |     |
