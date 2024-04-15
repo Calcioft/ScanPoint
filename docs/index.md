@@ -92,7 +92,7 @@ O resultado esperado é que seja um sistema versátil e adaptável, capaz de ate
 </a>
 <a class="pessoa" href="https://gitlab.com/ciro-c">
   <div class="photo-border">
-    <img class="photo" src="assets/members/leo_mds.jpeg" alt="Ciro">
+    <img class="photo" src="https://gitlab.com/uploads/-/system/user/avatar/6454030/avatar.png?width=800" alt="Ciro">
   </div>
   <h4 class="legenda">Ciro Costa</h4>
 </a>
@@ -151,7 +151,7 @@ O resultado esperado é que seja um sistema versátil e adaptável, capaz de ate
 <div class="pictures">
 <a class="pessoa" href="https://gitlab.com/soaressc321">
   <div class="photo-border">
-    <img class="photo" src="assets/members/brenda_eps.jpeg" alt="Diogo">
+    <img class="photo" src="assets/membros/diogo.jpeg" alt="Diogo">
   </div>
   <h4 class="legenda">Diogo Soares</h4>
 </a>

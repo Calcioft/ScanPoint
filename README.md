@@ -24,6 +24,9 @@
 
 https://communication-box-fga-pi2-semestre-2024-1-grupo--f7dec8a78ed749.gitlab.io/
 
+## Como rodar os documentos
+[Como rodar os documentos](./how-to-docs.md)
+
 ## Reuniões
 
 | Dia | Horário |
