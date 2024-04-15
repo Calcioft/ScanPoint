@@ -1,3 +1,8 @@
+O FMEA, ou Análise de Modo e Efeitos de Falha, é uma metodologia usada para identificar e avaliar potenciais falhas em processos, produtos ou sistemas, visando prevenir problemas antes que eles ocorram. Essa técnica é amplamente aplicada em diversos setores, como engenharia, manufatura, saúde e tecnologia, para garantir a qualidade, confiabilidade e segurança dos produtos e processos.
+A análise FMEA envolve uma abordagem sistemática, onde uma equipe multidisciplinar identifica e classifica as possíveis falhas (modo de falha), analisando suas causas e efeitos (efeito da falha), e estimando a gravidade, frequência de ocorrência e detectabilidade de cada falha. Essa análise resulta em uma pontuação de Número de Priorização de Risco (NPR), que permite aos membros priorizar as falhas mais críticas para implementar medidas preventivas ou corretivas.
+Além disso, o FMEA é uma ferramenta dinâmica, que pode ser revisada e atualizada ao longo do ciclo de vida dos produtos ou processos, garantindo a contínua melhoria e inovação.
+Para o projeto atual, foi feito o seguinte FMEA, conforme tabela abaixo:
+
 **Tabela 1: FMEA**
 
 | No. | Processo                             | Modo de Falha                                              | Causa da Falha                                         | Efeito da Falha Local                                                | Efeito da Falha Global                       | Severidade | Ocorrência | Detecção | Número de Priorização de Risco (NPR) | Plano de Ação                                                                          | Responsável           | Prevenção                                                                                                                         |
@@ -36,3 +41,5 @@ Legenda:
     - 3: Severidade moderada: perda de desempenho perceptível
     - 4: Severidade alta com alta insatisfação
     - 5: Severidade muito alta: risco potencial de segurança e problemas graves de não conformidades
+
+Ao analisar os resultados, destacam-se os problemas identificados com os maiores Números de Priorização de Risco: a falha de comunicação dos módulos de software e eletrônica, classificada com um risco de 20; seguida pela ausência de um membro devido a questões pessoais ou de saúde, com um risco de 12; e, por fim, os desafios apresentados pelos drivers incompatíveis, também com um risco de 12. Esses achados ressaltam a importância de direcionar esforços para mitigar tais questões, visando garantir o sucesso e a eficiência do projeto.
