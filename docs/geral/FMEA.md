@@ -1,4 +1,4 @@
-# Levantamenot de riscos
+# Levantamento de riscos
 
 Para o levantamento de riscos decidimos utilizar a metodologia FMEA.
 

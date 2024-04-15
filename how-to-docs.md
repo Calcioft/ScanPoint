@@ -31,10 +31,10 @@ $ python3 -m venv venv
 # Entra no ambiente virtual
 $ source venv/bin/activate
 
-#Instala as dependencias
+# Instala as dependencias
 $ pip install -r requirements.txt
 
-#Rodando os docs
+# Rodando os docs
 
 $ mkdocs serve
 
