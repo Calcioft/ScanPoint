@@ -23,12 +23,14 @@ nav:
       - arquitetura: geral/arquitetura.md
       - bib: geral/bib.md
       - integracao: geral/integracao.md
+      - levantamento de riscos: geral/FMEA.md
       - projetos: geral/projetos.md
       - prova de conceito: geral/prova-de-conceito.md
       - requisitos de arquitetura: geral/requisitos-arquitetura.md
       - visao geral: geral/visaogeral.md
   - Software: 
       - Exemplo: software/exemplo.md
+      - Casos de Uso: software/casos-de-uso.md
   - Eletrônica/Energia: 
       - Exemplo: eletronica-energia/exemplo.md
   - Estruturas:
