@@ -1,3 +1,7 @@
+# Levantamenot de riscos
+
+Para o levantamento de riscos decidimos utilizar a metodologia FMEA.
+
 O FMEA, ou Análise de Modo e Efeitos de Falha, é uma metodologia usada para identificar e avaliar potenciais falhas em processos, produtos ou sistemas, visando prevenir problemas antes que eles ocorram. Essa técnica é amplamente aplicada em diversos setores, como engenharia, manufatura, saúde e tecnologia, para garantir a qualidade, confiabilidade e segurança dos produtos e processos.
 A análise FMEA envolve uma abordagem sistemática, onde uma equipe multidisciplinar identifica e classifica as possíveis falhas (modo de falha), analisando suas causas e efeitos (efeito da falha), e estimando a gravidade, frequência de ocorrência e detectabilidade de cada falha. Essa análise resulta em uma pontuação de Número de Priorização de Risco (NPR), que permite aos membros priorizar as falhas mais críticas para implementar medidas preventivas ou corretivas.
 Além disso, o FMEA é uma ferramenta dinâmica, que pode ser revisada e atualizada ao longo do ciclo de vida dos produtos ou processos, garantindo a contínua melhoria e inovação.
