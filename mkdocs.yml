@@ -25,7 +25,7 @@ nav:
       - integracao: geral/integracao.md
       - projetos: geral/projetos.md
       - prova de conceito: geral/prova-de-conceito.md
-      - requisitos de arquitetura: geral/requisitos-arquitetura.md
+      - requisitos de arquitetura: geral/requisitos.md
       - visao geral: geral/visaogeral.md
   - Software: 
       - Exemplo: software/exemplo.md
