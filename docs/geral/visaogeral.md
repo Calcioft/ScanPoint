@@ -40,24 +40,24 @@ O usuário tem a opção de baixar o arquivo 3D gerado para impressão posterior
 
 ## 4. Restrições
 
-As restrições impostas pelo communication-box podem ser críticas para os usuários de mesa scanner 3D giratória. Essas limitações podem afetar diretamente a eficácia e a utilidade do equipamento, tornando importante entender e gerenciar esses fatores. Vamos detalhar cada uma dessas restrições:
+As restrições impostas pelo communication-box podem ser críticas para os usuários de mesa scanner 3D giratória. Essas limitações podem afetar diretamente a eficácia e a utilidade do equipamento, tornando importante entender e gerenciar esses fatores. Algumas das principais observadas são:
 
 ### 4.1. Restrições de Implementação
 
 Considerando as restrições de implementação para o produto "Mesa de Scanner 3D Giratória", podemos identificar várias áreas que podem influenciar seu desenvolvimento, produção e uso eficaz:
 
-> Recursos Financeiros: Desenvolver e fabricar uma mesa de scanner 3D giratória pode exigir investimentos significativos em pesquisa e desenvolvimento, além de custos associados aos materiais para a contrução da mesa. Limitações de orçamento podem influenciar a seleção de materiais, tecnologias e métodos de produção.
-> Tecnologia Disponível: A disponibilidade de tecnologias de digitalização tridimensional e sistemas de rotação de qualidade pode ser uma restrição. Dependendo da tecnologia, o desenvolvimento da mesa de scanner 3D giratória pode ser limitado por restrições técnicas existentes em softwares que tem a capacidade de fazer processamento da imagem.
+> Recursos financeiros: Desenvolver e fabricar uma mesa de scanner 3D giratória pode exigir investimentos significativos em pesquisa e desenvolvimento, além de custos associados aos materiais para a contrução da mesa. Limitações de orçamento podem influenciar a seleção de materiais, tecnologias e métodos de produção.
+> Tecnologia disponível: A disponibilidade de tecnologias de digitalização tridimensional e sistemas de rotação de qualidade pode ser uma restrição. Dependendo da tecnologia, o desenvolvimento da mesa de scanner 3D giratória pode ser limitado por restrições técnicas existentes em softwares que tem a capacidade de fazer processamento da imagem.
 > Materiais: As restrições relacionadas aos materiais podem incluir a necessidade de selecionar materiais que sejam leves, duráveis e capazes de suportar o peso dos objetos a serem digitalizados. Além disso, os materiais selecionados devem ser compatíveis com as tecnologias de digitalização e não interferir na qualidade dos resultados.
 > Prazos: Restrições de tempo podem ser impostas por demandas da disciplina para cumprir os prazos estipulados pela ementa e plano de ensino da discplina, podendo influenciar o escopo e a complexidade do projeto.
 
 ### 4.2. Restrições de Uso
 
-> Tamanho do Objeto: O tamanho máximo do objeto que pode ser testado na mesa de scanner 3D giratória é uma restrição significativa. Objetos muito grandes podem não caber na área de digitalização ou podem exceder a capacidade de carga do sistema de rotação, limitando a versatilidade do equipamento.
+> Tamanho do objeto: O tamanho máximo do objeto que pode ser testado na mesa de scanner 3D giratória é uma restrição significativa. Objetos muito grandes podem não caber na área de digitalização ou podem exceder a capacidade de carga do sistema de rotação, limitando a versatilidade do equipamento.
 > Espessura do objeto: A espessura máxima do objeto que pode ser digitalizado também é uma restrição importante. Objetos muito finos podem não ser detectados corretamente pelo scanner 3D, resultando em dados imprecisos ou incompletos.
 > Peso do objeto: A capacidade de carga da mesa de scanner 3D giratória define o peso máximo do objeto que pode ser colocado sobre ela. Exceder esse limite pode danificar o equipamento ou comprometer a precisão da digitalização.
-> Tipo de Material do objeto: O tipo de material do objeto a ser testado também pode ser uma restrição. Alguns materiais podem não refletir corretamente a luz do scanner 3D, resultando em dados de baixa qualidade. Além disso, materiais transparentes ou altamente reflexivos podem apresentar desafios adicionais para a digitalização.
-> Opacidade: O objeto não pode ser translúcido, pois atrapalharia a obtenção de características essenciais para sua replicação precisa.
+> Tipo de material do objeto: O tipo de material do objeto a ser testado também pode ser uma restrição. Alguns materiais podem não refletir corretamente a luz do scanner 3D, resultando em dados de baixa qualidade. Além disso, materiais transparentes ou altamente reflexivos podem apresentar desafios adicionais para a digitalização.
+> Opacidade do objeto: O objeto não pode ser translúcido, pois atrapalharia a obtenção de características essenciais para sua replicação precisa.
 
 ## 5. Identificação de solução comerciais
 
@@ -76,17 +76,20 @@ existente.
 
 O objetivo geral do projeto Scan3D é desenvolver um sistema integrado que simplifique o processo de escaneamento e reprodução 3D de objetos físicos. O sistema visa oferecer uma solução abrangente que permita aos usuários capturar imagens de objetos do mundo real, processar essas imagens para gerar modelos 3D precisos e, em seguida, criar arquivos prontos para impressão 3D. Por meio do Scan3D, pretende-se facilitar e agilizar o processo de digitalização de objetos físicos, tornando-o acessível a uma variedade de usuários, desde entusiastas de tecnologia até profissionais de design e fabricação. O sistema busca eliminar as barreiras técnicas e de custo associadas ao escaneamento 3D tradicional, oferecendo uma solução eficiente e fácil de usar.
 
-
 ## 7. Objetivo específicos do projeto
 
-Assegurar o bom andamento de um projeto e desenvolvimento, conforme
-diretrizes gerais de qualidade.
+> Criação e Aprovação de Protótipo: Desenvolver um protótipo funcional de alta fidelidade do software Scan3D, que simule todas as funcionalidades e interações previstas para o produto final. Esse protótipo será projetado para oferecer uma experiência de usuário próxima da realidade, permitindo a validação de conceitos, fluxos de trabalho e usabilidade.
+> Definição da Arquitetura dos sistemas: Estabelecer uma arquitetura de software robusta e escalável para o sistema Scan3D, que permita uma integração eficiente de todos os módulos e componentes. Isso inclui a definição de interfaces de comunicação entre os diferentes subsistemas e a escolha das tecnologias adequadas para implementação.
+> Desenvolvimento dos Sistemas Específicos: Implementar os sistemas específicos necessários para o funcionamento do Scan3D, incluindo o sistema de captura de imagens, o sistema de processamento de imagens, o sistema de controle de hardware e o sistema de interface do usuário. Cada um desses sistemas será projetado e desenvolvido de forma a atender aos requisitos específicos do projeto.
+> Testes de Integração: Realizar testes de integração para garantir que todos os componentes do sistema Scan3D funcionem harmoniosamente juntos. Isso envolverá a verificação da comunicação entre os diferentes sistemas, a detecção e correção de possíveis conflitos e a garantia de que o sistema como um todo atenda aos requisitos estabelecidos.
+> Validação do Sistema: Submeter o sistema Scan3D a testes de validação para garantir que ele atenda aos objetivos e requisitos estabelecidos. Isso incluirá a verificação da precisão do escaneamento, a confiabilidade do hardware e software, e a usabilidade geral do sistema.
+> Documentação: Preparar documentação detalhada sobre o funcionamento e operação do sistema Scan3D, bem como materiais de treinamento para usuários e técnicos. Isso garantirá que os usuários estejam devidamente capacitados para utilizar o sistema de forma eficaz e segura.
 
 ## 8. Posicionamento
 
 ### 8.1. Oportunidade de Negócio
 
-Com o histórico de já ter feito parte da lista dos [países mais perigosos do mundo](https://www.camara.leg.br/radio/programas/543467-brasil-e-um-dos-dez-paises-mais-violentos-do-mundo-revela-atlas-da-violencia-2018/), embora as estatísticas variem, o cenário brasileiro é sempre alarmante quando se trata de criminalidade e violência. Tendo isso em mente e com uso de dados abertos da secretaria de segurança pública, a aplicação foi pensada de modo que o usuário possa ter uma noção real da periculosidade de uma região e contribuir com a inserção de dados.
+O Scan3D é um serviço especializado em escaneamento e reprodução 3D de objetos físicos. Nosso objetivo é oferecer uma solução abrangente que simplifique o processo de digitalização de objetos do mundo real. Com tecnologia avançada e expertise em impressão 3D, a ideia é auxiliar clientes a transformar objetos físicos em modelos digitais precisos. Atendemos diversas necessidades, desde a replicação de peças industriais até a criação de protótipos e obras de arte personalizadas.
 
 ### 8.2. Instrução de Posição do Produto
 
@@ -100,19 +103,19 @@ Com o histórico de já ter feito parte da lista dos [países mais perigosos do 
 ### 8.3. Ambiente do Usuário
 
 A aplicação poderá ser acessada por meio de smartphones com sistema operacional Android, sendo necessário conexão com a internet para uso completo e atualizado do aplicativo.
+(FALTA)
 
 ### 8.4. Perfil do Usuário
 
 | Representantes | Descrição | Tipo | Responsabilidades | Critério de sucesso | Envolvimento | 
 |---- |---- |---- |---- |---- |---- |
-| População | Público interessado em visualizar informações referentes à segurança | Usuário | Utilizar a aplicação | Visualizar os dados de maneira simples e eficiente | Médio |
-| Vítima / Testemunha | Público interessado em denunciar um crime como vítima ou testemunha | Usuário | Contribuir com a inserção de dados na aplicação | Facilitar o processo de denúncia de um crime | Alto |
+| População | Público interessado em scannear objetos em 3D | Usuário | Utilizar a aplicação | Visualizar a imagem impressa limpa e clara | Médio |
 
 ### 8.5. Principais Necessidades das Partes Interessadas ou do Usuário
 
 | Necessidade | Prioridade | Interesse | Solução atual | Solução proposta | 
 | ----|----|---- |---- |---- |
-| Visualizar o grau de segurança de uma região | Alta | Visualizar índices de segurança com maior praticidade | Pesquisar manualmente os dados disponibilizados pela SSP e/ou noticiários | Aplicação que permite ao usuário uma visualização eficaz dos dados de segurança por meio de mapas e filtros |
+| Visualizar as imagens tiradas pelo communication-box | Alta | Visualizar índices de segurança com maior praticidade | Pesquisar manualmente os dados disponibilizados pela SSP e/ou noticiários | Aplicação que permite ao usuário uma visualização eficaz dos dados de segurança por meio de mapas e filtros |
 | Auxiliar na denúncia de crimes | Alta | Guiar o usuário na denúncia de crimes | Pesquisar uma delegacia e fazer o boletim de ocorrência | Aplicação que indica e guia o usuário até a delegacia mais próxima, além de fornecer um atalho para realizar o boletim de ocorrência online | 
 | Ser notificado sobre a segurança de um local | Média | Saber dos níveis de segurança do local | Pesquisar manualmente os dados em noticiários | Aplicação notifica o usuário sobre crimes em locais próximos ou perto de locais favoritados | 
 
