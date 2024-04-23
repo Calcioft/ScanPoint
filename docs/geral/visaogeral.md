@@ -1,15 +1,17 @@
 # Documento de Visão
 
 # 1. Introdução
-<!-- A seção de Introdução se refere à fase 01 do ciclo de vida do projeto e
-tem por objetivo apresentar, de forma refinada, o problema abordado no
-projeto. -->
 
-A ideia de criação da "Mesa de Scanner 3D Giratória" pode destacar a demanda crescente por tecnologias de digitalização tridimensional e a necessidade de soluções acessíveis e eficientes para capturar modelos 3D precisos. A mesa de scanner 3D giratória propõe-se a oferecer uma solução completa e robusta para esse fim, combinando a praticidade da digitalização em 3D com a capacidade de girar o objeto a ser escaneado, permitindo uma captura completa e detalhada de todos os ângulos. A problemática enfrentadaa por profissionais e empresas que necessitam de digitalização tridimensional precisa e completa de objetos ou ambientes, abrange por exemplo, uma dificuldade comum que é a captura detalhada de objetos ou superfícies complexas, que requerem múltiplos ângulos de visualização para uma representação fiel.
+A crescente demanda por tecnologias de digitalização tridimensional reflete a necessidade de capturar modelos 3D precisos de maneira acessível e eficiente. Profissionais e empresas enfrentam desafios ao tentar digitalizar objetos ou ambientes de forma completa e detalhada, devido à dificuldade em capturar detalhes de superfícies complexas que requerem visualização de múltiplos ângulos para uma representação fiel.
 
-Nesse contexto, pode-se mencionar como solução a mesa de scanner 3D giratória, que oferece uma abordagem inovadora e eficiente para superar essa limitação. Ao permitir que o objeto seja girado automaticamente durante o processo de digitalização, essa tecnologia promete capturar todos os detalhes de forma completa e precisa, eliminando a necessidade de manobras manuais complexas ou múltiplas configurações de scanner.
+Nesse contexto, surge a necessidade de uma abordagem inovadora que possa superar essa limitação e simplificar o processo de digitalização tridimensional. O problema abordado no projeto é a dificuldade enfrentada por profissionais e empresas em obter digitalizações completas e detalhadas de objetos ou ambientes, especialmente quando se trata de superfícies complexas.
 
-Além disso, vale ressaltar a relevância e as aplicações potenciais da tecnologia de digitalização tridimensional em uma variedade de setores, como design de produtos, arquitetura, medicina, entretenimento e muito mais. Destacar como a mesa de scanner 3D giratória representa um avanço significativo nesse campo, oferecendo uma solução prática e acessível para profissionais que buscam simplificar e aprimorar seus processos de digitalização tridimensional.
+A Mesa de Scanner 3D Giratória propõe-se a oferecer uma solução completa e robusta para esse fim, combinando a praticidade da digitalização em 3D com a capacidade de girar automaticamente o objeto a ser escaneado. Isso promete capturar todos os detalhes de forma precisa e completa, eliminando a necessidade de manobras manuais complexas ou múltiplas configurações de scanner.
+
+Por exemplo, ao digitalizar uma escultura intricada, a Mesa de Scanner 3D Giratória permite que o escaneamento seja realizado de maneira contínua, capturando todos os ângulos necessários sem a necessidade de reposicionar manualmente o objeto. Isso resulta em um modelo 3D mais detalhado e preciso.
+
+Além disso, a relevância da tecnologia de digitalização tridimensional se estende por diversos setores, como design de produtos, arquitetura, medicina e entretenimento. A Mesa de Scanner 3D Giratória representa um avanço significativo nesse campo, oferecendo uma solução prática e acessível para profissionais que buscam simplificar e aprimorar seus processos de digitalização tridimensional, permitindo uma maior eficiência e precisão em seus projetos.
+
 
 ## 2. Definição do Produto
 
@@ -47,30 +49,38 @@ As restrições impostas pelo communication-box podem ser críticas para os usu�
 Considerando as restrições de implementação para o produto "Mesa de Scanner 3D Giratória", podemos identificar várias áreas que podem influenciar seu desenvolvimento, produção e uso eficaz:
 
 > Recursos financeiros: Desenvolver e fabricar uma mesa de scanner 3D giratória pode exigir investimentos significativos em pesquisa e desenvolvimento, além de custos associados aos materiais para a contrução da mesa. Limitações de orçamento podem influenciar a seleção de materiais, tecnologias e métodos de produção.
+
 > Tecnologia disponível: A disponibilidade de tecnologias de digitalização tridimensional e sistemas de rotação de qualidade pode ser uma restrição. Dependendo da tecnologia, o desenvolvimento da mesa de scanner 3D giratória pode ser limitado por restrições técnicas existentes em softwares que tem a capacidade de fazer processamento da imagem.
+
 > Materiais: As restrições relacionadas aos materiais podem incluir a necessidade de selecionar materiais que sejam leves, duráveis e capazes de suportar o peso dos objetos a serem digitalizados. Além disso, os materiais selecionados devem ser compatíveis com as tecnologias de digitalização e não interferir na qualidade dos resultados.
+
 > Prazos: Restrições de tempo podem ser impostas por demandas da disciplina para cumprir os prazos estipulados pela ementa e plano de ensino da discplina, podendo influenciar o escopo e a complexidade do projeto.
 
 ### 4.2. Restrições de Uso
 
 > Tamanho do objeto: O tamanho máximo do objeto que pode ser testado na mesa de scanner 3D giratória é uma restrição significativa. Objetos muito grandes podem não caber na área de digitalização ou podem exceder a capacidade de carga do sistema de rotação, limitando a versatilidade do equipamento.
+
 > Espessura do objeto: A espessura máxima do objeto que pode ser digitalizado também é uma restrição importante. Objetos muito finos podem não ser detectados corretamente pelo scanner 3D, resultando em dados imprecisos ou incompletos.
+
 > Peso do objeto: A capacidade de carga da mesa de scanner 3D giratória define o peso máximo do objeto que pode ser colocado sobre ela. Exceder esse limite pode danificar o equipamento ou comprometer a precisão da digitalização.
+
 > Tipo de material do objeto: O tipo de material do objeto a ser testado também pode ser uma restrição. Alguns materiais podem não refletir corretamente a luz do scanner 3D, resultando em dados de baixa qualidade. Além disso, materiais transparentes ou altamente reflexivos podem apresentar desafios adicionais para a digitalização.
+
 > Opacidade do objeto: O objeto não pode ser translúcido, pois atrapalharia a obtenção de características essenciais para sua replicação precisa.
 
 ## 5. Identificação de solução comerciais
 
-Realizar uma pesquisa de soluções já existentes no mercado. É
+<!-- Realizar uma pesquisa de soluções já existentes no mercado. É
 interessante realizar uma comparação (benchmarking) entre as soluções já
-existente.
+existente. -->
 
 | Solução     | Descrição |
 |-------------|-----------------------------------------------|
-| Solução 01  | Avaliação da solução 01 quanto ao critério 01 | 
-| Solução 02  |                                               | 
-|             |                                               | 
-| Solução N   |                                               | 
+| Faro Technologies - Faro Turntable  | A Faro Technologies oferece a Faro Turntable como uma opção para complementar seus scanners 3D. Esta mesa giratória é projetada para proporcionar uma rotação suave e precisa dos objetos durante o processo de digitalização, garantindo uma captura completa de todos os ângulos necessários. Ela é compatível com os scanners 3D da Faro e pode ser integrada facilmente em fluxos de trabalho existentes. | 
+| Hexagon Manufacturing Intelligence - Rotary Table  | A Hexagon Manufacturing Intelligence oferece uma mesa giratória como parte de sua linha de soluções de digitalização 3D. Esta mesa giratória é projetada para oferecer alta precisão e confiabilidade durante o processo de digitalização. Ela permite que os usuários capturem objetos de forma eficiente em diferentes ângulos, garantindo uma digitalização completa e precisa. A mesa giratória da Hexagon é compatível com os scanners 3D da empresa e pode ser facilmente integrada em ambientes industriais. | 
+| Creaform - HandySCAN 3D Turntable | A Creaform oferece a HandySCAN 3D Turntable como uma opção para usuários de seus scanners 3D. Esta mesa giratória é projetada para oferecer uma solução completa e eficiente para a digitalização 3D de objetos. Ela permite uma rotação suave e precisa dos objetos durante o processo de digitalização, garantindo uma captura detalhada de todos os ângulos. A HandySCAN 3D Turntable é compatível com os scanners 3D portáteis da Creaform e pode ser facilmente transportada e utilizada em diferentes ambientes de trabalho. | 
+| Zeiss - ROTOS |  A Zeiss oferece a ROTOS como uma mesa giratória para complementar seus scanners 3D. Esta mesa é projetada para proporcionar uma rotação precisa e estável de objetos durante o processo de digitalização. Ela oferece uma plataforma robusta e confiável para capturar digitalizações tridimensionais detalhadas. A ROTOS é compatível com os scanners 3D da Zeiss e é projetada para atender às demandas de aplicações industriais. | 
+| Artec 3D - Artec Turntable | A Artec 3D disponibiliza a Artec Turntable como uma solução complementar para seus scanners 3D. Esta mesa giratória foi projetada para oferecer uma rotação suave e precisa de objetos durante o processo de digitalização. Ela é compacta e portátil, o que a torna ideal para uso em ambientes diversos. A Artec Turntable é compatível com os scanners 3D da Artec e pode ser integrada facilmente em fluxos de trabalho existentes. | 
 
 ## 6. Objetivo geral do projeto
 
@@ -78,12 +88,17 @@ O objetivo geral do projeto Scan3D é desenvolver um sistema integrado que simpl
 
 ## 7. Objetivo específicos do projeto
 
-> Criação e Aprovação de Protótipo: Desenvolver um protótipo funcional de alta fidelidade do software Scan3D, que simule todas as funcionalidades e interações previstas para o produto final. Esse protótipo será projetado para oferecer uma experiência de usuário próxima da realidade, permitindo a validação de conceitos, fluxos de trabalho e usabilidade.
-> Definição da Arquitetura dos sistemas: Estabelecer uma arquitetura de software robusta e escalável para o sistema Scan3D, que permita uma integração eficiente de todos os módulos e componentes. Isso inclui a definição de interfaces de comunicação entre os diferentes subsistemas e a escolha das tecnologias adequadas para implementação.
-> Desenvolvimento dos Sistemas Específicos: Implementar os sistemas específicos necessários para o funcionamento do Scan3D, incluindo o sistema de captura de imagens, o sistema de processamento de imagens, o sistema de controle de hardware e o sistema de interface do usuário. Cada um desses sistemas será projetado e desenvolvido de forma a atender aos requisitos específicos do projeto.
-> Testes de Integração: Realizar testes de integração para garantir que todos os componentes do sistema Scan3D funcionem harmoniosamente juntos. Isso envolverá a verificação da comunicação entre os diferentes sistemas, a detecção e correção de possíveis conflitos e a garantia de que o sistema como um todo atenda aos requisitos estabelecidos.
-> Validação do Sistema: Submeter o sistema Scan3D a testes de validação para garantir que ele atenda aos objetivos e requisitos estabelecidos. Isso incluirá a verificação da precisão do escaneamento, a confiabilidade do hardware e software, e a usabilidade geral do sistema.
-> Documentação: Preparar documentação detalhada sobre o funcionamento e operação do sistema Scan3D, bem como materiais de treinamento para usuários e técnicos. Isso garantirá que os usuários estejam devidamente capacitados para utilizar o sistema de forma eficaz e segura.
+-  Criação e Aprovação de Protótipo: Desenvolver um protótipo funcional de alta fidelidade do software Scan3D, que simule todas as funcionalidades e interações previstas para o produto final. Esse protótipo será projetado para oferecer uma experiência de usuário próxima da realidade, permitindo a validação de conceitos, fluxos de trabalho e usabilidade.
+
+- Definição da Arquitetura dos sistemas: Estabelecer uma arquitetura de software robusta e escalável para o sistema Scan3D, que permita uma integração eficiente de todos os módulos e componentes. Isso inclui a definição de interfaces de comunicação entre os diferentes subsistemas e a escolha das tecnologias adequadas para implementação.
+
+- Desenvolvimento dos Sistemas Específicos: Implementar os sistemas específicos necessários para o funcionamento do Scan3D, incluindo o sistema de captura de imagens, o sistema de processamento de imagens, o sistema de controle de hardware e o sistema de interface do usuário. Cada um desses sistemas será projetado e desenvolvido de forma a atender aos requisitos específicos do projeto.
+
+- Testes de Integração: Realizar testes de integração para garantir que todos os componentes do sistema Scan3D funcionem harmoniosamente juntos. Isso envolverá a verificação da comunicação entre os diferentes sistemas, a detecção e correção de possíveis conflitos e a garantia de que o sistema como um todo atenda aos requisitos estabelecidos.
+
+- Validação do Sistema: Submeter o sistema Scan3D a testes de validação para garantir que ele atenda aos objetivos e requisitos estabelecidos. Isso incluirá a verificação da precisão do escaneamento, a confiabilidade do hardware e software, e a usabilidade geral do sistema.
+
+- Documentação: Preparar documentação detalhada sobre o funcionamento e operação do sistema Scan3D, bem como materiais de treinamento para usuários e técnicos. Isso garantirá que os usuários estejam devidamente capacitados para utilizar o sistema de forma eficaz e segura.
 
 ## 8. Posicionamento
 
@@ -94,11 +109,11 @@ O Scan3D é um serviço especializado em escaneamento e reprodução 3D de objet
 ### 8.2. Instrução de Posição do Produto
 
 **Para:** Os cidadãos  
-**Que:**  Desejam manter-se informados sobre os índices de segurança e contribuir com as estatísticas  
+**Que:**  Desejam ter imagens scaneadas de objetos pequenos 
 **O Stay Safe:**  É um aplicativo mobile  
-**Que:** Permite que a população visualize dados da SSP ou fornecidos pelos usuários  
-**Diferente de:** Aplicações similares que não permitem filtro de crimes e interação com os usuários   
-**Nosso produto:** Oferece uma visualização em mapa com filtros e alertas sobre crimes ocorridos em locais próximos 
+**Que:** Permite que a população visualize a imagem completa do objeto scaneado  
+**Diferente de:** Aplicações similares que não detém de um aplicativo para poder visualizar a imagem  
+**Nosso produto:** Oferece uma visualização com o tempo no qual o objeto está sendo scaneado
 
 ### 8.3. Ambiente do Usuário
 
@@ -116,8 +131,6 @@ A aplicação poderá ser acessada por meio de smartphones com sistema operacion
 | Necessidade | Prioridade | Interesse | Solução atual | Solução proposta | 
 | ----|----|---- |---- |---- |
 | Visualizar as imagens tiradas pelo communication-box | Alta | Visualizar índices de segurança com maior praticidade | Pesquisar manualmente os dados disponibilizados pela SSP e/ou noticiários | Aplicação que permite ao usuário uma visualização eficaz dos dados de segurança por meio de mapas e filtros |
-| Auxiliar na denúncia de crimes | Alta | Guiar o usuário na denúncia de crimes | Pesquisar uma delegacia e fazer o boletim de ocorrência | Aplicação que indica e guia o usuário até a delegacia mais próxima, além de fornecer um atalho para realizar o boletim de ocorrência online | 
-| Ser notificado sobre a segurança de um local | Média | Saber dos níveis de segurança do local | Pesquisar manualmente os dados em noticiários | Aplicação notifica o usuário sobre crimes em locais próximos ou perto de locais favoritados | 
 
 ## 9. Referências
 
@@ -130,3 +143,4 @@ MIGUEL, Alexandre; ALVES, Dani; GUEDES, Gabriela; GOULART, Helena; ROBSON, João
 | Data | Versão| Descrição | Autor |
 |----|----|----|----|
 | 19/04/2024 | 1.0 | Versão inicial do documento com topicos adicionais | Brenda e Ana |
+| 23/04/2024 | 2.0 | Ajuste da Introdução, inclusão das soluções comerciais e alteração da instrução de posição do produto | Ana |
