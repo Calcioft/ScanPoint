@@ -25,20 +25,15 @@ O produto tem como principal objetivo facilitar o processo de escaneamento de ob
 
 O Scan3D compreende uma solução completa para o processo de escaneamento e reprodução 3D de objetos físicos. Os recursos e funcionalidades foram cuidadosamente planejados para oferecer uma experiência eficiente e intuitiva aos usuários. Com esse intuito, podem ser apresentados de forma geral as seguintes partes da solução:
 
-* Interação com o usuário
-Sistema para interação com usuário, dando explicações iniciais necessárias, permitindo iniciar o processo, acompanhar aproximadamente quanto tempo falta até o fim do processo, cancelar e pré-visualizar o resultado do que será enviado para impressão.
+> **Interação com o usuário:** Sistema para interação com usuário, dando explicações iniciais necessárias, permitindo iniciar o processo, acompanhar aproximadamente quanto tempo falta até o fim do processo, cancelar e pré-visualizar o resultado do que será enviado para impressão.
 
-* Captura do objeto
-Realiza a captura de imagens do objeto físico a ser escaneado, garantindo uma rotação constante para obter imagens uniformes. As imagens são transmitidas para um computador via cabo USB para processamento adicional.
+> **Captura do objeto:** Realiza a captura de imagens do objeto físico a ser escaneado, garantindo uma rotação constante para obter imagens uniformes. As imagens são transmitidas para um computador via cabo USB para processamento adicional.
 
-* Processamento 
-O sistema processa as imagens capturadas para gerar um arquivo STL para fatiamento em software de impressão 3D. 
+> **Processamento:**  O sistema processa as imagens capturadas para gerar um arquivo STL para fatiamento em software de impressão 3D. 
 
-* Pré visualização do resultado
-Após o processamento das imagens, o sistema oferece uma pré-visualização do resultado final do modelo 3D gerado, permitindo ao usuário revisar e confirmar antes de prosseguir para o download ou a impressão.
+> **Pré visualização do resultado:** Após o processamento das imagens, o sistema oferece uma pré-visualização do resultado final do modelo 3D gerado, permitindo ao usuário revisar e confirmar antes de prosseguir para o download ou a impressão.
 
-* Download do arquivo
-O usuário tem a opção de baixar o arquivo 3D gerado para impressão posterior, garantindo flexibilidade e conveniência no uso do sistema.
+> **Download do arquivo:** O usuário tem a opção de baixar o arquivo 3D gerado para impressão posterior, garantindo flexibilidade e conveniência no uso do sistema.
 
 ## 4. Restrições
 
@@ -48,25 +43,25 @@ As restrições impostas pelo communication-box podem ser críticas para os usu�
 
 Considerando as restrições de implementação para o produto "Mesa de Scanner 3D Giratória", podemos identificar várias áreas que podem influenciar seu desenvolvimento, produção e uso eficaz:
 
-> Recursos financeiros: Desenvolver e fabricar uma mesa de scanner 3D giratória pode exigir investimentos significativos em pesquisa e desenvolvimento, além de custos associados aos materiais para a contrução da mesa. Limitações de orçamento podem influenciar a seleção de materiais, tecnologias e métodos de produção.
+> **Recursos financeiros:** Desenvolver e fabricar uma mesa de scanner 3D giratória pode exigir investimentos significativos em pesquisa e desenvolvimento, além de custos associados aos materiais para a contrução da mesa. Limitações de orçamento podem influenciar a seleção de materiais, tecnologias e métodos de produção.
 
-> Tecnologia disponível: A disponibilidade de tecnologias de digitalização tridimensional e sistemas de rotação de qualidade pode ser uma restrição. Dependendo da tecnologia, o desenvolvimento da mesa de scanner 3D giratória pode ser limitado por restrições técnicas existentes em softwares que tem a capacidade de fazer processamento da imagem.
+> **Tecnologia disponível:** A disponibilidade de tecnologias de digitalização tridimensional e sistemas de rotação de qualidade pode ser uma restrição. Dependendo da tecnologia, o desenvolvimento da mesa de scanner 3D giratória pode ser limitado por restrições técnicas existentes em softwares que tem a capacidade de fazer processamento da imagem.
 
-> Materiais: As restrições relacionadas aos materiais podem incluir a necessidade de selecionar materiais que sejam leves, duráveis e capazes de suportar o peso dos objetos a serem digitalizados. Além disso, os materiais selecionados devem ser compatíveis com as tecnologias de digitalização e não interferir na qualidade dos resultados.
+> **Materiais:** As restrições relacionadas aos materiais podem incluir a necessidade de selecionar materiais que sejam leves, duráveis e capazes de suportar o peso dos objetos a serem digitalizados. Além disso, os materiais selecionados devem ser compatíveis com as tecnologias de digitalização e não interferir na qualidade dos resultados.
 
-> Prazos: Restrições de tempo podem ser impostas por demandas da disciplina para cumprir os prazos estipulados pela ementa e plano de ensino da discplina, podendo influenciar o escopo e a complexidade do projeto.
+> **Prazos:** Restrições de tempo podem ser impostas por demandas da disciplina para cumprir os prazos estipulados pela ementa e plano de ensino da discplina, podendo influenciar o escopo e a complexidade do projeto.
 
 ### 4.2. Restrições de Uso
 
-> Tamanho do objeto: O tamanho máximo do objeto que pode ser testado na mesa de scanner 3D giratória é uma restrição significativa. Objetos muito grandes podem não caber na área de digitalização ou podem exceder a capacidade de carga do sistema de rotação, limitando a versatilidade do equipamento.
+> **Tamanho do objeto:** O tamanho máximo do objeto que pode ser testado na mesa de scanner 3D giratória é uma restrição significativa. Objetos muito grandes podem não caber na área de digitalização ou podem exceder a capacidade de carga do sistema de rotação, limitando a versatilidade do equipamento.
 
-> Espessura do objeto: A espessura máxima do objeto que pode ser digitalizado também é uma restrição importante. Objetos muito finos podem não ser detectados corretamente pelo scanner 3D, resultando em dados imprecisos ou incompletos.
+> **Espessura do objeto:** A espessura máxima do objeto que pode ser digitalizado também é uma restrição importante. Objetos muito finos podem não ser detectados corretamente pelo scanner 3D, resultando em dados imprecisos ou incompletos.
 
-> Peso do objeto: A capacidade de carga da mesa de scanner 3D giratória define o peso máximo do objeto que pode ser colocado sobre ela. Exceder esse limite pode danificar o equipamento ou comprometer a precisão da digitalização.
+> **Peso do objeto:** A capacidade de carga da mesa de scanner 3D giratória define o peso máximo do objeto que pode ser colocado sobre ela. Exceder esse limite pode danificar o equipamento ou comprometer a precisão da digitalização.
 
-> Tipo de material do objeto: O tipo de material do objeto a ser testado também pode ser uma restrição. Alguns materiais podem não refletir corretamente a luz do scanner 3D, resultando em dados de baixa qualidade. Além disso, materiais transparentes ou altamente reflexivos podem apresentar desafios adicionais para a digitalização.
+> **Tipo de material do objeto:** O tipo de material do objeto a ser testado também pode ser uma restrição. Alguns materiais podem não refletir corretamente a luz do scanner 3D, resultando em dados de baixa qualidade. Além disso, materiais transparentes ou altamente reflexivos podem apresentar desafios adicionais para a digitalização.
 
-> Opacidade do objeto: O objeto não pode ser translúcido, pois atrapalharia a obtenção de características essenciais para sua replicação precisa.
+> **Opacidade do objeto:** O objeto não pode ser translúcido, pois atrapalharia a obtenção de características essenciais para sua replicação precisa.
 
 ## 5. Identificação de solução comerciais
 
@@ -110,27 +105,26 @@ O Scan3D é um serviço especializado em escaneamento e reprodução 3D de objet
 
 **Para:** Os cidadãos  
 **Que:**  Desejam ter imagens scaneadas de objetos pequenos 
-**O Stay Safe:**  É um aplicativo mobile  
-**Que:** Permite que a população visualize a imagem completa do objeto scaneado  
+**O Scaner3D:**  É um aplicativo desktop  
+**Que:** Permite que a população visualize a imagem completa do objeto scaneado  e baixe o arquivo gerado
 **Diferente de:** Aplicações similares que não detém de um aplicativo para poder visualizar a imagem  
-**Nosso produto:** Oferece uma visualização com o tempo no qual o objeto está sendo scaneado
+**Nosso produto:** Oferece uma visualização com o tempo no qual o objeto está sendo scaneado e permite que o usário baixe o arquivo no formato correto para enviar a impressora 3D.
 
 ### 8.3. Ambiente do Usuário
 
-A aplicação poderá ser acessada por meio de smartphones com sistema operacional Android, sendo necessário conexão com a internet para uso completo e atualizado do aplicativo.
-(FALTA)
+A aplicação poderá ser acessada por meio de computadores,sendo necessário conexão com a internet apenas para seu download e atualização. Para uso da aplicação não é necessário conexão com a internet, todo o processo de scaneamento, processamento da imagem e geração do arquivo será realizado no Scanner#D e localmento na máquina do usuário.
 
 ### 8.4. Perfil do Usuário
 
 | Representantes | Descrição | Tipo | Responsabilidades | Critério de sucesso | Envolvimento | 
 |---- |---- |---- |---- |---- |---- |
-| População | Público interessado em scannear objetos em 3D | Usuário | Utilizar a aplicação | Visualizar a imagem impressa limpa e clara | Médio |
+| População | Público interessado em scannear objetos em 3D | Usuário | Utilizar a aplicação | Visualizar a imagem do obejto scanneado, de forma limpa e clara. Além disso,  permitir baixar o arquivo gerado no formato esperado pela impressora 3D | Médio |
 
 ### 8.5. Principais Necessidades das Partes Interessadas ou do Usuário
 
 | Necessidade | Prioridade | Interesse | Solução atual | Solução proposta | 
 | ----|----|---- |---- |---- |
-| Visualizar as imagens tiradas pelo communication-box | Alta | Visualizar índices de segurança com maior praticidade | Pesquisar manualmente os dados disponibilizados pela SSP e/ou noticiários | Aplicação que permite ao usuário uma visualização eficaz dos dados de segurança por meio de mapas e filtros |
+| Visualizar as imagens tiradas pelo Scanner3D | Alta | Visualizar a imagem do obejto scanneado, de forma limpa e clara | Abrir o arquivo gerado em outro aplicativo específico para a visualização | Aplicação que permite ao usuário uma visualização do objeto scaneado antes de baixar o arquivo gerado|
 
 ## 9. Referências
 
@@ -144,3 +138,4 @@ MIGUEL, Alexandre; ALVES, Dani; GUEDES, Gabriela; GOULART, Helena; ROBSON, João
 |----|----|----|----|
 | 19/04/2024 | 1.0 | Versão inicial do documento com topicos adicionais | Brenda e Ana |
 | 23/04/2024 | 2.0 | Ajuste da Introdução, inclusão das soluções comerciais e alteração da instrução de posição do produto | Ana |
+| 23/04/2024 | 3.0 | Preenchimento dos tópicos 8.3 ao 8.5, ajustes na formatação e na instrução de posição do produto  | Carla |
