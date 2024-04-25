@@ -117,8 +117,7 @@ proposta**
 [**5.5.1.** **EAP do subsistema 01**
 [12](#eap-do-subsistema-01)](#eap-do-subsistema-01)
 
-[**5.5.2.** **EAP do subsistema 02**
-[12](#eap-do-subsistema-02)](#eap-do-subsistema-02)
+[**5.5.2.** **EAP do subsistema de Estruturas**](https://gitlab.com/fga-pi2/semestre-2024-1/grupo-08/communication-box/-/blob/EAP_do_subsistema_de_Estruturas/docs/estruturas/EAP_estruturas.md)
 
 [**5.6.** **Definição de atividades e cronograma de execução**
 [12](#definição-de-atividades-e-cronograma-de-execução)](#definição-de-atividades-e-cronograma-de-execução)
