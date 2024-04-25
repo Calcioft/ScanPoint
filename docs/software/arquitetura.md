@@ -13,4 +13,4 @@ A relação entre os componentes está elencada no diagrama abaixo:
 
 ## Diagrama de arquitetura de software 
 
-![]( /docs/assets/software/Diagrama-arquitetura-software.png)
+![](/assets/software/Diagrama-arquitetura-software.png)
