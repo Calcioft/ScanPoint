@@ -29,9 +29,11 @@ nav:
       - EAP: geral/eap_geral.md
       - requisitos de arquitetura: geral/requisitos-arquitetura.md
       - visao geral: geral/visaogeral.md
+      
   - Software: 
       - Diagrama de Pacotes: software/diagrama-de-pacotes.md
       - Casos de Uso: software/casos-de-uso.md
+      - Diagrama de Protocolos de Comunicacao de Software: software/protocolos-de-comunicacao-software.md
   - Eletrônica/Energia: 
       - Exemplo: eletronica-energia/exemplo.md
   - Estruturas:
