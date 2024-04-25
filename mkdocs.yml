@@ -30,7 +30,7 @@ nav:
       - requisitos de arquitetura: geral/requisitos-arquitetura.md
       - visao geral: geral/visaogeral.md
   - Software: 
-      - Exemplo: software/exemplo.md
+      - Diagrama de Pacotes: software/diagrama-de-pacotes.md
       - Casos de Uso: software/casos-de-uso.md
   - Eletrônica/Energia: 
       - Exemplo: eletronica-energia/exemplo.md
