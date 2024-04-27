@@ -1,25 +1,28 @@
 <!-- Não abordamos 3D -->
-## Sistema Inteligente de Captura de Dados e Impressão 3D: Requisitos Funcionais e Não Funcionais
+## Sistema Inteligente de Captura de Dados e Escaneamento 3D: Requisitos Funcionais e Não Funcionais
 
 ### **Introdução**
 <!-- Não abordamos 3D -->
-O sistema inteligente de captura de dados e impressão 3D combina a captura de dados em tempo real com a tecnologia de impressão 3D para criar uma solução inovadora para fabricação digital. Este documento apresenta os requisitos funcionais e não funcionais do sistema, descrevendo as funcionalidades essenciais e as características de qualidade que devem ser atendidas para garantir o sucesso do projeto.
+O sistema inteligente de captura de dados e escaneamento 3D combina a captura de dados em tempo real com a tecnologia de escaneamento 3D para criar uma solução inovadora para fabricação digital. Este documento apresenta os requisitos funcionais e não funcionais do sistema, que devem ser atendidas para garantir o sucesso do projeto.
 
 ### **Requisitos Funcionais**
+* **Interface**
+    * Iniciar ScannerPoint 3D
+    * Checar se o scanner está conectado
+    * Visualizar preview do modelo com nuvem de pontos
+    * Visualizar preview do modelo escaneado
 
 * **Captura de Dados em Tempo Real:**
     * Realizar leitura de objetos em alta definição;
     * Scannear os dados através do sensor infravermelho;
     * Processar os dados recebidos através do sensor da maneira mais prática e eficiente possível;
     <!-- A principio não faremos a transmissão de dados para a impressora 3D -->
-    * Transmissão de dados em tempo real para a impressora 3D;
-* **Impressão 3D Automatizada:**
+    * Transmissão de dados em tempo real para a computador;
+* **Escaneamento 3D Automatizado:**
     <!-- A principio não geramos CAD, geramos stl ou g-code -->
-    * Gerar arquivo CAD preciso e detalhado a partir da leitura do sensor infravermelho;
+    * Gerar arquivo STL, ou g-code preciso e detalhado a partir da leitura do sensor infravermelho;
     <!-- A princípio não comunicaremos com a impressora -->
-    * Comunicação eficiente com a impressora, recebendo dados de status da impressão e falhas;
-    <!-- Não cuidamos da impressão, somente escanner -->
-    * Finalização da impressão da melhor maneira possível, gerando um objeto 3D fiel ao original;
+    * Comunicação eficiente com a computador, recebendo dados de status do scanner e falhas;
 
 ### **Requisitos Não Funcionais**
 
