@@ -34,6 +34,7 @@ nav:
       - Casos de Uso: software/casos-de-uso.md
       - Diagrama de Protocolos de Comunicacao de Software: software/protocolos-de-comunicacao-software.md
       - Arquitetura de Software: software/arquitetura.md
+      - EAP: software/eap_software.md
   - Eletrônica/Energia: 
       - Exemplo: eletronica-energia/exemplo.md
   - Estruturas:
