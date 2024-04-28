@@ -27,15 +27,9 @@ O sistema inteligente de captura de dados e escaneamento 3D combina a captura de
 ### **Requisitos Não Funcionais**
 
 * **Desempenho:**
-    * O tempo de captura de um objeto em alta definição deve ser inferior a X segundos;
-    <!-- Não vamos transferir para impressora 3D -->
-    * A taxa de transferência de dados entre o sensor e a impressora 3D deve ser superior a Y megabytes por segundo;
-    <!-- Não entendi o que seria essa precisão, e não fazemos impressão 3D -->
-    * A precisão da impressão 3D deve ser de N por cento.
-    <!-- Não fazemos impressão 3D, e tbm não usamos polegadas -->
-    * A resolução da impressão 3D deve ser de M pontos por polegadas.
-    <!-- Não temos como calibrar os sensores, somente o arduino -->
-    * A precisão dos sensores deve ser mantida ao longo do tempo, com calibração regular para garantir medições confiáveis.
+    * O tempo de captura de um objeto em alta definição deve ser inferior a 1 hora;
+    * A qualidade do arquivo de nuvem de pontos deve ser de alta resolução.
+    * A precisão do arduino deve ser mantida ao longo do tempo, com calibração regular para garantir medições confiáveis.
 * **Usabilidade:**
     * A documentação do sistema deve fornecer instruções claras e concisas para todas as tarefas;
     * A interface do usuário deve ser consistente e de fácil navegação;
