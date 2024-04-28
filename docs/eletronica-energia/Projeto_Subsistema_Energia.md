@@ -41,26 +41,26 @@ Ao analisar a Tabela 42 da norma será considerado 1 para o número de circuitos
 
 Após a determinação dos fatores diante de um cenário que o projeto se encontrará, será feito os cálculos para corrigir a corrente elétrica em função desses fatores.
 
-$I_corrigida=\frac{I_sistema}{F_temperatura×F_agrupameto}$ [I]
+$I_{corrigida}=\frac{I_{sistema}}{F_{temperatura}×F_{agrupameto}}$ [I]
 
 
 
 Onde:
-I_corrigida: corrente elétrica corrigida;
+$I_{corrigida}$: corrente elétrica corrigida;
 
-I_sistema: corrente elétrica do sistema;
+$I_{sistema}$: corrente elétrica do sistema;
 
-F_temperatura: fator de temperatura ambiente;
+$F_{temperatura}$: fator de temperatura ambiente;
 
-F_agrupamento: fator de agrupamento do circuito.
+$F_{agrupamento}$: fator de agrupamento do circuito.
 
 Substituídos em [I] os valores determinados anteriormente:
 
-$I_corrigida=2,41/(0,87×1)=2,77 A$               [II]
+$I_{corrigida} = \frac{2,41}{(0,87×1)}=2,77 A$               [II]
 
 Assim, tem-se uma corrente corrigida de 2,77 A. Será analisado a Tabela 37 a fim de determinar o cabo mais especificado para a corrente elétrica corrigida.
 
 
 **Tabela 37**
 
-Baseado na corrente corrigida de 2,77 A uma seção nominal de 0,5 mm^2 serviria, entretanto, a própria norma determina que para circuitos de força a seção nominal mínima deva ser de 2,5 mm^2. Assim sendo, a seção nominal selecionada será a de 2,5 mm^2.
+Baseado na corrente corrigida de 2,77 A uma seção nominal de 0,5 $mm^2$ serviria, entretanto, a própria norma determina que para circuitos de força a seção nominal mínima deva ser de 2,5 $mm^2$. Assim sendo, a seção nominal selecionada será a de 2,5 $mm^2$.
