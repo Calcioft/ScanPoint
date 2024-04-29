@@ -1,9 +1,9 @@
-site_name: Communication Box
+site_name: ScanPoint
 site_url: "https://fga-pi2.gitlab.io/"
 site_dir: public
 theme:
   name: material
-  favicon: assets/communication-box-logo.png
+  favicon: assets/scanpoint-logo.png
   features:
     - content.code.annotate
     - content.tabs.link

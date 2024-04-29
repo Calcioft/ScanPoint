@@ -1,4 +1,4 @@
-# Communication Box
+# ScanPoint
 
 ## Equipe
 
