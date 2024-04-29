@@ -8,18 +8,20 @@
       
       
       
-        <link rel="canonical" href="https://fga-pi2.gitlab.io/semestre-2024-1/grupo-08/communication-box/software/exemplo/">
+        <link rel="canonical" href="https://fga-pi2.gitlab.io/software/protocolos-de-comunicacao-software/">
       
       
-        <link rel="prev" href="./">
+        <link rel="prev" href="../casos-de-uso/">
       
       
-      <link rel="icon" href="../../assets/communication-box-logo.png">
+        <link rel="next" href="../arquitetura/">
+      
+      <link rel="icon" href="../../assets/scanpoint-logo.png">
       <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.18">
     
     
       
-        <title>Exemplo - Communication Box</title>
+        <title>Diagrama de Protocolos de Comunicacao de Software - ScanPoint</title>
       
     
     
@@ -63,7 +65,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#alo" class="md-skip">
+        <a href="#diagrama-de-protocolos-de-comunicacao-de-software" class="md-skip">
           Skip to content
         </a>
       
@@ -77,7 +79,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="Communication Box" class="md-header__button md-logo" aria-label="Communication Box" data-md-component="logo">
+    <a href="../.." title="ScanPoint" class="md-header__button md-logo" aria-label="ScanPoint" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -90,13 +92,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Communication Box
+            ScanPoint
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Exemplo
+              Diagrama de Protocolos de Comunicacao de Software
             
           </span>
         </div>
@@ -184,13 +186,15 @@
         
   
   
+    
+  
 
 
   
   
   
     <li class="md-tabs__item">
-      <a href="./" class="md-tabs__link">
+      <a href="../diagrama-de-pacotes/" class="md-tabs__link md-tabs__link--active">
         Software
       </a>
     </li>
@@ -206,7 +210,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="./" class="md-tabs__link">
+      <a href="../../eletronica-energia/exemplo/" class="md-tabs__link">
         Eletrônica/Energia
       </a>
     </li>
@@ -216,15 +220,13 @@
         
   
   
-    
-  
 
 
   
   
   
     <li class="md-tabs__item">
-      <a href="./" class="md-tabs__link md-tabs__link--active">
+      <a href="../../estruturas/exemplo/" class="md-tabs__link">
         Estruturas
       </a>
     </li>
@@ -252,13 +254,13 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Communication Box" class="md-nav__button md-logo" aria-label="Communication Box" data-md-component="logo">
+    <a href="../.." title="ScanPoint" class="md-nav__button md-logo" aria-label="ScanPoint" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
 
     </a>
-    Communication Box
+    ScanPoint
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -383,6 +385,20 @@
   
   
     <li class="md-nav__item">
+      <a href="../../geral/FMEA/" class="md-nav__link">
+        levantamento de riscos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../geral/projetos/" class="md-nav__link">
         projetos
       </a>
@@ -399,6 +415,20 @@
     <li class="md-nav__item">
       <a href="../../geral/prova-de-conceito/" class="md-nav__link">
         prova de conceito
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../geral/eap_geral/" class="md-nav__link">
+        EAP
       </a>
     </li>
   
@@ -445,14 +475,16 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
       
       
       
@@ -461,7 +493,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
         <label class="md-nav__title" for="__nav_3">
           <span class="md-nav__icon md-icon"></span>
           Software
@@ -474,6 +506,36 @@
   
   
     <li class="md-nav__item">
+      <a href="../diagrama-de-pacotes/" class="md-nav__link">
+        Diagrama de Pacotes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../casos-de-uso/" class="md-nav__link">
+        Casos de Uso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
       
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
@@ -481,10 +543,55 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Diagrama de Protocolos de Comunicacao de Software
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
-        Exemplo
+        Diagrama de Protocolos de Comunicacao de Software
       </a>
       
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#versionamento" class="md-nav__link">
+    Versionamento
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../arquitetura/" class="md-nav__link">
+        Arquitetura de Software
+      </a>
     </li>
   
 
@@ -531,17 +638,9 @@
   
   
     <li class="md-nav__item">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+      <a href="../../eletronica-energia/exemplo/" class="md-nav__link">
         Exemplo
       </a>
-      
     </li>
   
 
@@ -559,16 +658,14 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
       
       
       
@@ -577,7 +674,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_5">
           <span class="md-nav__icon md-icon"></span>
           Estruturas
@@ -588,21 +685,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../estruturas/exemplo/" class="md-nav__link">
         Exemplo
       </a>
-      
     </li>
   
 
@@ -634,6 +721,21 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#versionamento" class="md-nav__link">
+    Versionamento
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -647,7 +749,28 @@
                   
 
 
-<h1 id="alo">Alo</h1>
+<h1 id="diagrama-de-protocolos-de-comunicacao-de-software">Diagrama de Protocolos de comunicação de software</h1>
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVKSNjbNU=/?moveToViewport=-417,-261,1222,610&embedId=136696295704" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+
+<h2 id="versionamento">Versionamento</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Versão</th>
+<th>Descrição</th>
+<th>Responsável</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>01</td>
+<td>1.0</td>
+<td>Criação do arquivo</td>
+<td>Ciro Costa, Denniel William</td>
+</tr>
+</tbody>
+</table>
 
 
 

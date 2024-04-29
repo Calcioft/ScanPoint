@@ -1,9 +1,9 @@
 .md-header {
-    background-color: #9c3636;
+    background-color: #C11C44;
 }
 
 .md-tabs {
-    background-image: linear-gradient(to bottom, #9c3636, #9c3636);
+    background-image: linear-gradient(to bottom, #C11C44, #C11C44);
 }
 
 
@@ -12,7 +12,7 @@
 }
 
 .md-footer {
-    background-color: #9c3636;
+    background-color: #C11C44;
 }
 
 .md-tabs__item a {
@@ -23,7 +23,7 @@
 
 /* Customização das tabelas */
 .md-typeset table:not([class]) th {
-    background-color: #9c3636;
+    background-color: #C11C44;
 }
 
 tr:nth-child(odd) {
@@ -76,7 +76,7 @@ th {
 }
 
 .legenda {
-    color: #9c3636;
+    color: #C11C44;
     text-align: center;
 }
 
