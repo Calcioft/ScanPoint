@@ -1,6 +1,6 @@
 <div>
   <center>
-  <img class="photo" src="assets/communication-box-logo.png" alt="logo">
+  <img class="photo" src="assets/scanpoint-logo.png" alt="logo">
   <h3 style="color: #000000; text-align: center">
 No mundo contemporâneo, a integração entre dispositivos inteligentes e processos automatizados tem revolucionado diversos setores, impulsionando a eficiência e a produtividade. Nesse contexto, surge a proposta inovadora de desenvolver um sistema que combina a captura de dados em tempo real com a tecnologia de impressão 3D. 
 <br>
@@ -13,28 +13,28 @@ O resultado esperado é que seja um sistema versátil e adaptável, capaz de ate
 <div>
 <h1 style="color: #000000; font-weight: bold; text-align: center"> Documentações e Código fonte </h1>
 <div class="pictures">
-<a href="https://gitlab.com/fga-pi2/semestre-2024-1/grupo-08/communication-box/-/tree/main/docs/geral?ref_type=heads">
+<a href="https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/tree/main/docs?ref_type=heads">
   <div class="repo-border">
 	<img class="photoRepo" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Geral">
   </div>
 	<h4 class="legenda">Geral</h4>
 	<h6 class=legenda>Relatórios e informações gerais</h6>
 </a>
-<a href="https://gitlab.com/fga-pi2/semestre-2024-1/grupo-08/communication-box/-/tree/main/docs/software?ref_type=heads">
+<a href="https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/tree/main/docs/software?ref_type=heads">
   <div class="repo-border">
 	<img class="photoRepo" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Software">
   </div>
 	<h4 class="legenda">Software</h4>
 	<h6 class=legenda>Documentos e código fonte</h6>
 </a>
-<a href="https://gitlab.com/fga-pi2/semestre-2024-1/grupo-08/communication-box/-/tree/main/docs/eletronica-energia?ref_type=heads">
+<a href="https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/tree/main/docs/eletronica-energia?ref_type=heads">
   <div class="repo-border">
 	<img class="photoRepo" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Eletrônica e Energia">
   </div>
 	<h4 class="legenda">Eletrônica/Energia</h4>
 	<h6 class=legenda>Documentos e código fonte</h6>
 </a>
-<a href="https://gitlab.com/fga-pi2/semestre-2024-1/grupo-08/communication-box/-/tree/main/docs/estruturas?ref_type=heads">
+<a href="https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/tree/main/docs/estruturas?ref_type=heads">
   <div class="repo-border">
 	<img class="photoRepo" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Estruturas">
   </div>
@@ -62,43 +62,43 @@ O resultado esperado é que seja um sistema versátil e adaptável, capaz de ate
 </a>
 <a class="pessoa" href="https://gitlab.com/Carlacangussu">
   <div class="photo-border">
-    <img class="photo" src="assets/members/camila_mds.jpeg" alt="Carla">
+    <img class="photo" src="assets/membros/Carla.JPG" alt="Carla">
   </div>
   <h4 class="legenda">Carla Rocha</h4>
 </a>
 <a class="pessoa" href="https://gitlab.com/pemiinem">
   <div class="photo-border">
-    <img class="photo" src="assets/members/daniel_mds.jpeg" alt="Pedro">
+    <img class="photo" src="assets/membros/pedro.png" alt="Pedro">
   </div>
   <h4 class="legenda">Pedro Menezes</h4>
 </a>
 <a class="pessoa" href="https://gitlab.com/AnaCarolinaRodriguesLeite">
   <div class="photo-border">
-    <img class="photo" src="assets/members/davi_mds.jpeg" alt="Ana">
+    <img class="photo" src="assets/membros/Ana.jpg" alt="Ana">
   </div>
   <h4 class="legenda">Ana Carolina</h4>
 </a>
 <a class="pessoa" href="https://gitlab.com/GuilhermeBES">
   <div class="photo-border">
-    <img class="photo" src="assets/members/felipe_mds.jpeg" alt="Guilherme">
+    <img class="photo" src="assets/membros/Guilherme.jpg" alt="Guilherme">
   </div>
   <h4 class="legenda">Guilherme Basílio</h4>
 </a>
 <a class="pessoa" href="https://gitlab.com/art_42">
   <div class="photo-border">
-    <img class="photo" src="assets/members/leo_mds.jpeg" alt="Artur">
+    <img class="photo" src="assets/membros/Artur.png" alt="Artur">
   </div>
   <h4 class="legenda">Artur de Souza</h4>
 </a>
 <a class="pessoa" href="https://gitlab.com/ciro-c">
   <div class="photo-border">
-    <img class="photo" src="assets/members/leo_mds.jpeg" alt="Ciro">
+    <img class="photo" src="https://gitlab.com/uploads/-/system/user/avatar/6454030/avatar.png?width=800" alt="Ciro">
   </div>
   <h4 class="legenda">Ciro Costa</h4>
 </a>
-<a class="pessoa" href="https://gitlab.com/Viniciusvieira00">
+<a class="pessoa" href="https://gitlab.com/viniciusvieira00">
   <div class="photo-border">
-    <img class="photo" src="assets/members/leo_mds.jpeg" alt="Vinicius">
+    <img class="photo" src="assets/membros/vinicius.jpeg" alt="Vinicius">
   </div>
   <h4 class="legenda">Vinicius Vieira</h4>
 </a>
@@ -109,13 +109,13 @@ O resultado esperado é que seja um sistema versátil e adaptável, capaz de ate
 <div class="pictures">
 <a class="pessoa" href="https://gitlab.com/carolinaroliveira02">
   <div class="photo-border">
-    <img class="photo" src="assets/members/brenda_eps.jpeg" alt="Carolina">
+    <img class="photo" src="assets/membros/Carolina.jpg" alt="Carolina">
   </div>
   <h4 class="legenda">Carolina Oliveira</h4>
 </a>
 <a class="pessoa" href="https://gitlab.com/lcs.pantoja.silva">
   <div class="photo-border">
-    <img class="photo" src="assets/members/denniel_eps.jpeg" alt="Lucas">
+    <img class="photo" src="assets/membros/Lucas.jpeg" alt="Lucas">
   </div>
   <h4 class="legenda">Lucas Pantoja</h4>
 </a>
@@ -125,7 +125,7 @@ O resultado esperado é que seja um sistema versátil e adaptável, capaz de ate
 <div class="pictures">
 <a class="pessoa" href="https://gitlab.com/migueleparra">
   <div class="photo-border">
-    <img class="photo" src="assets/members/brenda_eps.jpeg" alt="Miguel">
+    <img class="photo" src="assets/membros/Miguel.jpeg" alt="Miguel">
   </div>
   <h4 class="legenda">Miguel Munoz</h4>
 </a>
@@ -135,13 +135,13 @@ O resultado esperado é que seja um sistema versátil e adaptável, capaz de ate
 <div class="pictures">
 <a class="pessoa" href="https://gitlab.com/mariaclaudialgaspar">
   <div class="photo-border">
-    <img class="photo" src="assets/members/brenda_eps.jpeg" alt="Maria">
+    <img class="photo" src="assets/membros/MariaClaudia.jpeg" alt="Maria">
   </div>
   <h4 class="legenda">Maria Cláudia</h4>
 </a>
 <a class="pessoa" href="https://gitlab.com/">
   <div class="photo-border">
-    <img class="photo" src="assets/members/denniel_eps.jpeg" alt="Cássio">
+    <img class="photo" src="assets/membros/Cassio.jpg" alt="Cássio">
   </div>
   <h4 class="legenda">Cássio Filho</h4>
 </a>
@@ -151,9 +151,10 @@ O resultado esperado é que seja um sistema versátil e adaptável, capaz de ate
 <div class="pictures">
 <a class="pessoa" href="https://gitlab.com/soaressc321">
   <div class="photo-border">
-    <img class="photo" src="assets/members/brenda_eps.jpeg" alt="Diogo">
+    <img class="photo" src="assets/membros/diogo.jpeg" alt="Diogo">
   </div>
   <h4 class="legenda">Diogo Soares</h4>
 </a>
 </div>
 </div>
+

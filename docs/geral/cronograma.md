@@ -24,26 +24,26 @@ Visando garantir que o projeto ocorra como o esperado, foi criado o cronograma d
 |18| Diagrama de pacotes|07 dias| 13/04/2024| 19/04/2024|Vinicius|
 |20| Documento de visão |07 dias|13/07/2024|19/04/2024|Brenda, Carla e Ana |
 |21| Revisão e ajuste dos  artefatos previstos na fase 2 |03 dias|20/04/2024|22/04/2024||
-|22|Escrita do relatório de ponto de controle|07 dias| 23/04/2024 |29/04/2024|Todos|
-|23| Aquisição dos materiais |29/04/2024| 15/05/2024| cada sub grupo|
-|24| Revisão do relatório de ponto de controle 1|02 dias|29/04/2024 | 30/04/2024| Gerência |
-|25| Ajustes do relatório de ponto de controle 1|03 dias|30/04/2024 | 02/05/2024| Todos |
-|26| Entrega do relatório de ponto de controle 1|01 dia| 03/05/2024| 03/05/2024 | Gerência|
-|27| Elaboração da apresentação| 03 dias| 04/05/2024 | 07/05/2024| Todos|
-|28| Apresentação 1 |01 dia|08/05/2024| 08/05/2024|Todos|
-|29| Protótipo de alta fidelidade de software e documento de identidade|
+|22| Protótipo de alta fidelidade de software e documento de identidade|07 dias|23/04/2024| 29/04/2024||
+|23| Escrita do relatório de ponto de controle|07 dias| 23/04/2024 |29/04/2024|Todos|
+|24| Aquisição dos materiais |17 dias|29/04/2024| 15/05/2024| cada sub grupo|
+|25| Revisão do relatório de ponto de controle 1|02 dias|29/04/2024 | 30/04/2024| Gerência |
+|26| Ajustes do relatório de ponto de controle 1|03 dias|30/04/2024 | 02/05/2024| Todos |
+|27| Entrega do relatório de ponto de controle 1|01 dia| 03/05/2024| 03/05/2024 | Gerência|
+|28| Elaboração da apresentação| 03 dias| 04/05/2024 | 07/05/2024| Todos|
+|29| Apresentação 1 |01 dia|08/05/2024| 08/05/2024|Todos|
 |30| Desenvolvimento do software |23 dias|09/05/2024 | 31/05/2024| Equipe de software|
 |31| Cálculo estrutural| 07 dias |09/05/2024| 15/05/2024 |Equipe de estrutura|
 |32| Construção da estrutura |20 dias|16/05/2024 |04/06/2024 |Equipe de Estrutura|
-|33| Construção do subsistema de energia| |09/05/2024|31/05/2024|Equipe de energia|
-|34| Construção do subsistema de eletrônica| |09/05/2024|31/05/2024|Miguel|
+|33| Construção do subsistema de energia| 23 dias |09/05/2024|31/05/2024|Equipe de energia|
+|34| Construção do subsistema de eletrônica|23 dias|09/05/2024|31/05/2024|Miguel|
 |35| Teste do software |05 dias|01/06/2024|05/06/2024|Software| 
 |36| Teste da estrutura|02 dias|05/06/2024|07/06/2024|Estrutura|
 |37| Teste do subsistema de energia e eletrônica|05 dias|01/06/2024|05/06/2024|Equipe energia e eletrônica|
 |38| Avaliar e homologar resultados|02 dias|05/06/2024|06/06/2024|Diretores técnicos|
 |39| Escrita do relatório de ponto de controle|07 dias| 26/05/2024 |01/06/2024|Todos|
-|40| Revisão do relatório de ponto de controle|02 dias|02/06/2024 - 03/06/2024| Gerência|
-|41| Ajustes do relatório de ponto de controle |03 dias|04/06/2024 - 06/06/2024| Todos|
+|40| Revisão do relatório de ponto de controle|02 dias|02/06/2024 | 03/06/2024| Gerência|
+|41| Ajustes do relatório de ponto de controle |03 dias|04/06/2024 | 06/06/2024| Todos|
 |42| Entrega do relatório de ponto de controle |01 dia| 07/06/2024| 07/06/2024 | Gerência|
 |43| Elaboração da apresentação| 04 dias| 08/06/2024 | 11/06/2024| Todos|
 |44| Apresentação 2 |01 dia|12/06/2024| 12/06/2024|Todos|
@@ -58,5 +58,7 @@ Visando garantir que o projeto ocorra como o esperado, foi criado o cronograma d
 Tabela de versionamento
 
 |ID| Versão|Descrição |Responsável|
+|---|------|----------|-----------|
 |01| 0.1|Criação do cronograma de atividades |Carla Rocha Cangussú|
 |02| 1.0| Conclusão do cronograma | Carla Rocha Cangussú|
+|03 | 1.1 | Ajuste de formatação | Carla Rocha Cangussú|
