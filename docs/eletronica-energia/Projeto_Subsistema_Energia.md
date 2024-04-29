@@ -6,17 +6,19 @@ Com o intuito de determinar a quantidade total de energia que será consumida no
 
 Consumo Energético do Projeto
 
-| Componente | Qtd | Corrente [A] |Tensão [V] |Tempo de Operação [h] |Potência [Wh]|
+| :Componente: | :Qtd: | :Corrente [A]: |:Tensão [V]: |:Tempo de Operação [h]: |:Potência [Wh]:|
 | ------ | ------ |------ |------ |------ |------ |
-|ARDUINO UNO|$1$|$0,41$|$5,00$|$0,50$|$1,03$|
-|L$298$N (PONTE H)|$2$|$2,00$|$12,00$|$0,50$|$24,00$|
-|Potência Total [Wh]|||||$25,03$|
-|Potência Total com $20%$ [Wh]|||||$30,03$|
+|:ARDUINO UNO|:$1$:|:$0,41$:|:$5,00$:|:$0,50$:|:$1,03$:|
+|:L$298$N (PONTE H)|:$2$:|:$2,00$:|:$12,00$:|:$0,50$:|:$24,00$:|
+|:Potência Total [Wh]:|||||:$25,03$:|
+|:Potência Total com $20%$ [Wh]:|||||:$30,03$:|
 
 ## **Bateria**
 Para o projeto ScanPoint está estimado em utilizar duas baterias de $12 V$ com uma capacidade de $7 Ah$ cada, caso haja a necessidade de uma maior autonomia no projeto será adicionado mais uma bateria com as mesmas característica, mas em uma configuração em paralelo, visto que na configuração em série aumentaria a tensão e não é o que se deseja visto que os componentes do projeto apresentam uma tensão de alimentação inferior a $12 V$.
 
-  ![Bateria](docs/eletronica-energia/bateria_unipower.jpg)
+<center>![Bateria](docs/eletronica-energia/bateria_unipower.jpg)</center>
+
+<center>Figura: Bateria UP1270SEG</center>
 
 | Marca                             | UNICOBA       |
 |------                             | ------        |
