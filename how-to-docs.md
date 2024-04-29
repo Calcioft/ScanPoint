@@ -22,7 +22,7 @@ Para fazer dowload do repositório é clicar em clone depois no formato desejado
 
 ## Intalando e rodando
 
-Depois de baixado entre na pasta do reositório e execute os seguintes comandos
+Depois de baixado entre na pasta do repositório e execute os seguintes comandos
 
 ```bash
 # Cria um ambiente virtual
