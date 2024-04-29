@@ -12,7 +12,7 @@ O repositório pode ser baixado como um arquivo compatado ou clonado usando git
 Para baixar o repositório usando git é sõ executar essa linha de comando
 
 ```bash
- $ git clone https://gitlab.com/fga-pi2/semestre-2024-1/grupo-08/communication-box.git
+ $ git clone https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint.git
 ```
 
 Para fazer dowload do repositório é clicar em clone depois no formato desejado e depois extrair
