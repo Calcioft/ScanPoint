@@ -1,0 +1,1077 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://fga-pi2.gitlab.io/software/casos-de-uso/">
+      
+      
+        <link rel="prev" href="../diagrama-de-pacotes/">
+      
+      
+        <link rel="next" href="../protocolos-de-comunicacao-software/">
+      
+      <link rel="icon" href="../../assets/scanpoint-logo.png">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.18">
+    
+    
+      
+        <title>Casos de Uso - ScanPoint</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.26e3688c.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/styles.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#diagrama-de-casos-de-uso" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="ScanPoint" class="md-header__button md-logo" aria-label="ScanPoint" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ScanPoint
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Casos de Uso
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Sobre
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../geral/anexo/" class="md-tabs__link">
+        Geral
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../diagrama-de-pacotes/" class="md-tabs__link md-tabs__link--active">
+        Software
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../eletronica-energia/exemplo/" class="md-tabs__link">
+        Eletrônica/Energia
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../estruturas/exemplo/" class="md-tabs__link">
+        Estruturas
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="ScanPoint" class="md-nav__button md-logo" aria-label="ScanPoint" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    ScanPoint
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Sobre
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          Geral
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Geral
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../geral/anexo/" class="md-nav__link">
+        anexo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../geral/apendice1/" class="md-nav__link">
+        apendice
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../geral/arquitetura/" class="md-nav__link">
+        arquitetura
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../geral/bib/" class="md-nav__link">
+        bib
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../geral/integracao/" class="md-nav__link">
+        integracao
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../geral/FMEA/" class="md-nav__link">
+        levantamento de riscos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../geral/projetos/" class="md-nav__link">
+        projetos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../geral/prova-de-conceito/" class="md-nav__link">
+        prova de conceito
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../geral/eap_geral/" class="md-nav__link">
+        EAP
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../geral/requisitos-arquitetura/" class="md-nav__link">
+        requisitos de arquitetura
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../geral/visaogeral/" class="md-nav__link">
+        visao geral
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          Software
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Software
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../diagrama-de-pacotes/" class="md-nav__link">
+        Diagrama de Pacotes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Casos de Uso
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Casos de Uso
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-escanear-objeto" class="md-nav__link">
+    1. Escanear Objeto
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-verificacao-do-escaneamento" class="md-nav__link">
+    2. Verificação do Escaneamento
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-visualizacao-de-erros" class="md-nav__link">
+    3. Visualização de Erros
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-checagem-de-conexao-usb" class="md-nav__link">
+    4. Checagem de Conexão USB
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-validacao-do-processo" class="md-nav__link">
+    5. Validação do Processo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-checagem-de-peso" class="md-nav__link">
+    6. Checagem de peso
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-checagem-do-comprimento" class="md-nav__link">
+    7. Checagem do comprimento
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-checagem-da-posicao" class="md-nav__link">
+    8. Checagem da Posição
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-checagem-do-angulo" class="md-nav__link">
+    9. Checagem do Ângulo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-validacao-do-processo" class="md-nav__link">
+    10. Validação do Processo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-acompanhamento-do-escaneamento" class="md-nav__link">
+    11. Acompanhamento do Escaneamento
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-visualizacao-do-arquivo-3d" class="md-nav__link">
+    12. Visualização do Arquivo 3D
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13-geracao-de-arquivo-de-impressao-3d" class="md-nav__link">
+    13. Geração de Arquivo de Impressão 3D
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#14-download-do-arquivo-3d" class="md-nav__link">
+    14. Download do Arquivo 3D
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagrama-abaixo-mostra-a-relacao-entre-os-casos-de-uso" class="md-nav__link">
+    Diagrama abaixo mostra a relação entre os casos de uso:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    Referências
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../protocolos-de-comunicacao-software/" class="md-nav__link">
+        Diagrama de Protocolos de Comunicacao de Software
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../arquitetura/" class="md-nav__link">
+        Arquitetura de Software
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          Eletrônica/Energia
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Eletrônica/Energia
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../eletronica-energia/exemplo/" class="md-nav__link">
+        Exemplo
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+          Estruturas
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Estruturas
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../estruturas/exemplo/" class="md-nav__link">
+        Exemplo
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-escanear-objeto" class="md-nav__link">
+    1. Escanear Objeto
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-verificacao-do-escaneamento" class="md-nav__link">
+    2. Verificação do Escaneamento
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-visualizacao-de-erros" class="md-nav__link">
+    3. Visualização de Erros
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-checagem-de-conexao-usb" class="md-nav__link">
+    4. Checagem de Conexão USB
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-validacao-do-processo" class="md-nav__link">
+    5. Validação do Processo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-checagem-de-peso" class="md-nav__link">
+    6. Checagem de peso
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-checagem-do-comprimento" class="md-nav__link">
+    7. Checagem do comprimento
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-checagem-da-posicao" class="md-nav__link">
+    8. Checagem da Posição
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-checagem-do-angulo" class="md-nav__link">
+    9. Checagem do Ângulo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-validacao-do-processo" class="md-nav__link">
+    10. Validação do Processo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-acompanhamento-do-escaneamento" class="md-nav__link">
+    11. Acompanhamento do Escaneamento
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-visualizacao-do-arquivo-3d" class="md-nav__link">
+    12. Visualização do Arquivo 3D
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13-geracao-de-arquivo-de-impressao-3d" class="md-nav__link">
+    13. Geração de Arquivo de Impressão 3D
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#14-download-do-arquivo-3d" class="md-nav__link">
+    14. Download do Arquivo 3D
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagrama-abaixo-mostra-a-relacao-entre-os-casos-de-uso" class="md-nav__link">
+    Diagrama abaixo mostra a relação entre os casos de uso:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    Referências
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="diagrama-de-casos-de-uso">Diagrama de Casos de Uso</h1>
+<h2 id="1-escanear-objeto">1. Escanear Objeto</h2>
+<ul>
+<li>O sistema permite que um usuário escaneie um objeto físico utilizando uma mesa inteligente equipada com sensores. Esta funcionalidade converte a forma, tamanho e características do objeto em um modelo digital.</li>
+</ul>
+<h2 id="2-verificacao-do-escaneamento">2. Verificação do Escaneamento</h2>
+<ul>
+<li>Após o escaneamento, o sistema verifica a precisão dos dados capturados comparando-os com parâmetros pré-definidos, garantindo que o modelo digital seja uma representação fiel do objeto físico.</li>
+</ul>
+<h2 id="3-visualizacao-de-erros">3. Visualização de Erros</h2>
+<ul>
+<li>Se erros forem detectados na verificação do escaneamento, o sistema oferece uma interface para que o usuário possa visualizar e corrigir quaisquer discrepâncias antes da impressão.</li>
+</ul>
+<h2 id="4-checagem-de-conexao-usb">4. Checagem de Conexão USB</h2>
+<ul>
+<li>O sistema realiza uma checagem de conexão com a impressora 3D via USB, assegurando que haja uma comunicação estável para transferir os dados do modelo.</li>
+</ul>
+<h2 id="5-validacao-do-processo">5. Validação do Processo</h2>
+<ul>
+<li>Antes de iniciar a checagem do objeto, o sistema verifica se a conexão USB foi validado com sucesso.</li>
+</ul>
+<h2 id="6-checagem-de-peso">6. Checagem de peso</h2>
+<ul>
+<li>Uma balança realiza uma checagem de peso do objeto, assegurando que o peso esteja de acordo com o limite estipulado.</li>
+</ul>
+<h2 id="7-checagem-do-comprimento">7. Checagem do comprimento</h2>
+<ul>
+<li>A Camera junto ao sistema, realiza uma checagem de comprimento do objeto, assegurando que este esteja em conformidade com as dimensões da mesa.</li>
+</ul>
+<h2 id="8-checagem-da-posicao">8. Checagem da Posição</h2>
+<ul>
+<li>O sistema verifica a posição do objeto em relação à mesa. O objeto deve estar posicionado com uma tolerância de ± 2 mm em relação ao centro da mesa.</li>
+</ul>
+<h2 id="9-checagem-do-angulo">9. Checagem do Ângulo</h2>
+<ul>
+<li>O sistema verifica o ângulo do objeto em relação à horizontal e vertical para garantir que o modelo 3D seja capturado com precisão, sem distorções geométricas.</li>
+</ul>
+<h2 id="10-validacao-do-processo">10. Validação do Processo</h2>
+<ul>
+<li>Antes de iniciar a impressão, o sistema verifica se todos os processos anteriores foram validados com sucesso, garantindo que o modelo esteja pronto para ser impresso.</li>
+</ul>
+<h2 id="11-acompanhamento-do-escaneamento">11. Acompanhamento do Escaneamento</h2>
+<ul>
+<li>O usuário pode acompanhar o progresso do escaneamento em tempo real, permitindo uma supervisão detalhada do processo.</li>
+</ul>
+<h2 id="12-visualizacao-do-arquivo-3d">12. Visualização do Arquivo 3D</h2>
+<ul>
+<li>Após a conclusão do escaneamento, o sistema oferece uma pré-visualização do modelo 3D, onde o usuário pode examinar o objeto e aprovar para impressão.</li>
+</ul>
+<h2 id="13-geracao-de-arquivo-de-impressao-3d">13. Geração de Arquivo de Impressão 3D</h2>
+<ul>
+<li>Com a aprovação do usuário, o sistema gera o arquivo de impressão 3D adequado, que é enviado para a impressora 3D.</li>
+</ul>
+<h2 id="14-download-do-arquivo-3d">14. Download do Arquivo 3D</h2>
+<ul>
+<li>O sistema também permite ao usuário efetuar o download do arquivo de impressão 3D para armazenamento ou uso em outro dispositivo ou local.</li>
+</ul>
+<h2 id="diagrama-abaixo-mostra-a-relacao-entre-os-casos-de-uso">Diagrama abaixo mostra a relação entre os casos de uso:</h2>
+<iframe frameborder="0" style="width:100%;height:300px;" src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Diagrama%20de%20Casos%20de%20Uso%20-%20Mesa%20Scanner%20-%20PI2#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1zYgIWynN482pM8h9dsHU6t2AOqzia8oi%26export%3Ddownload"></iframe>
+
+<h2 id="referencias">Referências</h2>
+<ul>
+<li><a href="https://drawio-app.com/blog/uml-use-case-diagrams-with-draw-io/">UML use case diagrams with draw.io, acessado em 12 de abril de 2024.</a></li>
+</ul>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.annotate", "content.tabs.link", "header.autohide", "navigation.instant", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking"], "search": "../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.220ee61c.min.js"></script>
+      
+    
+  </body>
+</html>
