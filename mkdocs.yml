@@ -36,6 +36,7 @@ nav:
       - Diagrama de Protocolos de Comunicacao de Software: software/protocolos-de-comunicacao-software.md
       - Arquitetura de Software: software/arquitetura.md
       - Diagrama BPMN: software/diagrama-bpmn.md
+      - Funcionalidades: software/funcionalidades.md
   - Eletrônica/Energia: 
       - Exemplo: eletronica-energia/exemplo.md
   - Estruturas:
