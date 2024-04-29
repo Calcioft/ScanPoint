@@ -4,14 +4,14 @@
  > O software do ScanPoint é responsável por ser a interface com o usuário  no processo de escaneamento e reprodução 3D de objetos físicos. Além disso, é responsável por receber os pontos coletados, transformá-los em uma malha de pontos e devolver o arquivo stl ao usuário no final do processo.
 
 ## Logo e Identidade Visual
-* ![Logo do PointScan](docs/assets/scanpoint-logo.png)
+* ![Logo do PointScan](docs/assets/identidade/scanpoint-logo.png)
 
 ## Cores
-* ![Cores usadas no PointScan](docs/assets/cores.png)
+* ![Cores usadas no PointScan](docs/assets/identidade/cores.png)
 
 
 ## Tipografia
-* ![Tipografia usada no PointScan](docs/assets/tipografia.png)
+* ![Tipografia usada no PointScan](docs/assets/identidade/tipografia.png)
 
 > No ScanPoint a fonte utilizada é a Nunito Sans. Para título as fontes são negritas e de tamanho 32, para paragráfo e textos comuns o tamanho é 20 e para subtítulos as fontes são semi negrito de tamanho 26.
 
@@ -50,7 +50,7 @@ Para manter o padrão em todas as telas foi utilizado o um grid com 6 linhas e�
 
 ## Navegação
 Com o objetivo de melhorar a experiência do usuário na aplicação foi criada uma barra de navegação no topo da tela para falicitar a transição entre as telas sobre e do processo em si, como demostrado na imagem abaixo:
-* ![Barra de navegação](nav-bar.png)
+* ![Barra de navegação](docs/assets/identidade/nav-bar.png)
 
 ## Microinterações
 Visando fornecer feedback ao usuário e melhorar sua experiência as mensagens de erro serão transmitidas por meio de pop-up, que saltarão em sua tela com o objetivo de atrair sua atenção.
@@ -65,4 +65,5 @@ O ScanPoint deve se adaptar a diferentes tamanhos de telas de computadores. Por 
 | 0.1 | 27/04/2024 | Criação da estrutura do documento | Carla R. Cangussú |
 | 0.2 | 27/04/2024 | Feito até Ícones e Elementos Gráficos | Carla R. Cangussú |
 | 0.3 | 29/04/2024 | Finalização do documento | Carla R. Cangussú |
-| 0.4 | 29/04/2024 |Ajuste de formatação | Carla R. Cangussú |
+| 0.4 | 29/04/2024 | Ajuste de formatação | Carla R. Cangussú |
+| 0.5 | 29/04/2024 | Ajuste no caminho de algumas imagens | Carla R. Cangussú |
