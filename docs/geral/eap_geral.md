@@ -6,6 +6,7 @@
 | 0.1 | 12/04/2024 | Criação do documento | Ana Carolina Rodrigues e Denniel William |
 | 0.2 | 12/04/2024 | Introdução e Metodologia | Ana Carolina Rodrigues e Denniel William |
 | 0.3 | 12/04/2024 | Adição do link do eap | Ana Carolina Rodrigues e Denniel William |
+| 1.0 | 29/04/2024 | Adição da planilha do EAP | Brenda Santos e Denniel William |
 
 
 ## Introdução
@@ -24,11 +25,13 @@ Nível 2: O nível 2 da EAP é composto pelas atividades de nível intermediári
 
 Nível 3: O nível 3 da EAP é composto pelas atividades de baixo nível do projeto. Essas atividades são chamadas de atividades de trabalho. Elas são as atividades que representam as tarefas mais básicas do projeto.
 
+## Planilha EAP
+
+<iframe width="768" height="768" src="https://docs.google.com/spreadsheets/d/1KWgKsgf_MtKPNWU6sujn9LvrJqU3NcNO0QaLYJdHL4Q/edit?usp=sharing" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
 
 ## Resultado
 
 <iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVKVIp7dQ=/?share_link_id=749223997538&moveToViewport=-1364,579,3030,1328&embedId=707518803643" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
-
 
 ## Referências
 

@@ -1,6 +1,6 @@
 <div>
   <center>
-  <img class="photo" src="assets/communication-box-logo.png" alt="logo">
+  <img class="photo" src="assets/scanpoint-logo.png" alt="logo">
   <h3 style="color: #000000; text-align: center">
 No mundo contemporâneo, a integração entre dispositivos inteligentes e processos automatizados tem revolucionado diversos setores, impulsionando a eficiência e a produtividade. Nesse contexto, surge a proposta inovadora de desenvolver um sistema que combina a captura de dados em tempo real com a tecnologia de impressão 3D. 
 <br>
@@ -13,28 +13,28 @@ O resultado esperado é que seja um sistema versátil e adaptável, capaz de ate
 <div>
 <h1 style="color: #000000; font-weight: bold; text-align: center"> Documentações e Código fonte </h1>
 <div class="pictures">
-<a href="https://gitlab.com/fga-pi2/semestre-2024-1/grupo-08/communication-box/-/tree/main/docs/geral?ref_type=heads">
+<a href="https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/tree/main/docs?ref_type=heads">
   <div class="repo-border">
 	<img class="photoRepo" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Geral">
   </div>
 	<h4 class="legenda">Geral</h4>
 	<h6 class=legenda>Relatórios e informações gerais</h6>
 </a>
-<a href="https://gitlab.com/fga-pi2/semestre-2024-1/grupo-08/communication-box/-/tree/main/docs/software?ref_type=heads">
+<a href="https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/tree/main/docs/software?ref_type=heads">
   <div class="repo-border">
 	<img class="photoRepo" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Software">
   </div>
 	<h4 class="legenda">Software</h4>
 	<h6 class=legenda>Documentos e código fonte</h6>
 </a>
-<a href="https://gitlab.com/fga-pi2/semestre-2024-1/grupo-08/communication-box/-/tree/main/docs/eletronica-energia?ref_type=heads">
+<a href="https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/tree/main/docs/eletronica-energia?ref_type=heads">
   <div class="repo-border">
 	<img class="photoRepo" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Eletrônica e Energia">
   </div>
 	<h4 class="legenda">Eletrônica/Energia</h4>
 	<h6 class=legenda>Documentos e código fonte</h6>
 </a>
-<a href="https://gitlab.com/fga-pi2/semestre-2024-1/grupo-08/communication-box/-/tree/main/docs/estruturas?ref_type=heads">
+<a href="https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/tree/main/docs/estruturas?ref_type=heads">
   <div class="repo-border">
 	<img class="photoRepo" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Estruturas">
   </div>
