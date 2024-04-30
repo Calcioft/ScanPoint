@@ -14,7 +14,7 @@ O sistema inteligente de captura de dados e escaneamento 3D combina a captura de
 
 | Código | Descrição do Requisito                           |
 | ------ | ------------------------------------------------ |
-| RF01   | Iniciar ScannerPoint 3D                          |
+| RF01   | Iniciar ScanPoint 3D                          |
 | RF02   | Checar se o scanner está conectado               |
 | RF03   | Visualizar preview do modelo com nuvem de pontos |
 | RF04   | Visualizar preview do modelo escaneado           |
@@ -24,7 +24,7 @@ O sistema inteligente de captura de dados e escaneamento 3D combina a captura de
 | Código | Descrição do Requisito                                            |
 | ------ | ----------------------------------------------------------------- |
 | RF05   | Realizar leitura de objetos em alta definição                     |
-| RF06   | Scannear os dados através do sensor infravermelho                 |
+| RF06   | Escanear os dados através do sensor infravermelho                 |
 | RF07   | Processar os dados recebidos através do sensor de forma eficiente |
 | RF08   | Transmissão de dados em tempo real para o computador              |
 
@@ -68,54 +68,45 @@ O sistema inteligente de captura de dados e escaneamento 3D combina a captura de
 | ------ | -------------------------------------------------------------- |
 | RNF04  | A documentação do sistema deve fornecer instruções claras      |
 | RNF05  | A interface do usuário deve ser consistente e fácil de navegar |
+| RNF06  | Interface do usuário deve ser intuitiva, mesmo para novos usuários sem experiência prévia em escaneamento 3D. |
 
 #### Confiabilidade
 
 | Código | Descrição do Requisito                                                    |
 | ------ | ------------------------------------------------------------------------- |
-| RNF06  | O sistema deve poder voltar ao estado inicial se houver falhas no scan    |
-| RNF07  | O sistema deve sempre gerar um arquivo de nuvem de pontos, se requisitado |
-| RNF08  | O sistema deve sempre gerar um arquivo .stl, se requisitado               |
-| RNF09  | O sistema deve sempre gerar um arquivo G-code, se requisitado             |
+| RNF07  | O sistema deve poder voltar ao estado inicial se houver falhas no scan    |
+| RNF08  | O sistema deve sempre gerar um arquivo de nuvem de pontos, se requisitado |
+| RNF09  | O sistema deve sempre gerar um arquivo .stl, se requisitado               |
+| RNF10  | O sistema deve sempre gerar um arquivo G-code, se requisitado             |
+| RNF11  | O sistema deve ter uma taxa de falha muito baixa em verificações de precisão e checagens de posição. |
+| RNF12  | O sistema deve ser capaz de recuperar-se rapidamente de erros de software ou hardware.               |
 
 #### Compatibilidade
 
 | Código | Descrição do Requisito                                                           |
 | ------ | -------------------------------------------------------------------------------- |
-| RNF10  | O sistema deve ser capaz de ser executado em computadores com arquitetura ARM    |
-| RNF11  | O sistema deve ser capaz de ser executado em computadores com arquitetura AMD64  |
-| RNF12  | O sistema deve ser capaz de ser executado em computadores com arquitetura x86-64 |
+| RNF13  | O sistema deve ser capaz de ser executado em computadores com arquitetura ARM    |
+| RNF14  | O sistema deve ser capaz de ser executado em computadores com arquitetura AMD64  |
+| RNF15  | O sistema deve ser capaz de ser executado em computadores com arquitetura x86-64 |
 
 #### Portabilidade
 
 | Código | Descrição do Requisito                                                                                   |
 | ------ | -------------------------------------------------------------------------------------------------------- |
-| RNF13  | O sistema deve ser capaz de ser executado em ambientes com sistema operacional Windows 10 e 11           |
-| RNF14  | O sistema deve ser capaz de ser executado em ambientes com sistema operacional Windows MacOs 13 e 14     |
-| RNF15  | O sistema deve ser capaz de ser executado em ambientes com sistema operacional linux distribução Ubuntu  |
-| RNF16  | O sistema deve ser capaz de ser executado em ambientes com sistema operacional linux distribução Manjaro |
+| RNF16  | O sistema deve ser capaz de ser executado em ambientes com sistema operacional Windows 10 e 11           |
+| RNF17  | O sistema deve ser capaz de ser executado em ambientes com sistema operacional Windows MacOs 13 e 14     |
+| RNF18  | O sistema deve ser capaz de ser executado em ambientes com sistema operacional linux distribução Ubuntu  |
+| RNF19  | O sistema deve ser capaz de ser executado em ambientes com sistema operacional linux distribução Manjaro |
 
 #### Segurança
 
 | Código | Descrição do Requisito                                                                  |
 | ------ | --------------------------------------------------------------------------------------- |
-| RNF17  | Assegurar a segurança dos dados transmitidos entre o scanner e o computador/impressora. |
+| RNF20  | Assegurar a segurança dos dados transmitidos entre o scanner e o computador/impressora. |
 
 #### Eficiência
 
 | Código | Descrição do Requisito                                                                                                 |
 | ------ | ---------------------------------------------------------------------------------------------------------------------- |
-| RNF18  | O sistema deve processar e verificar os dados capturados de forma eficiente, minimizando o tempo de espera do usuário. |
+| RNF21  | O sistema deve processar e verificar os dados capturados de forma eficiente, minimizando o tempo de espera do usuário. |
 
-#### Confiabilidade
-
-| Código | Descrição do Requisito                                                                               |
-| ------ | ---------------------------------------------------------------------------------------------------- |
-| RNF19  | O sistema deve ter uma taxa de falha muito baixa em verificações de precisão e checagens de posição. |
-| RNF20  | O sistema deve ser capaz de recuperar-se rapidamente de erros de software ou hardware.               |
-
-#### Usabilidade
-
-| Código | Descrição do Requisito                                                                                        |
-| ------ | ------------------------------------------------------------------------------------------------------------- |
-| RNF21  | Interface do usuário deve ser intuitiva, mesmo para novos usuários sem experiência prévia em escaneamento 3D. |
