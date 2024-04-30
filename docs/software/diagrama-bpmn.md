@@ -13,7 +13,6 @@
 
 **4. Processo de Checagem:**
    - Este sub-processo, representado por um retângulo com borda pontilhada, contém várias tarefas de verificação:
-      - Checagem de peso.
       - Checagem do comprimento.
       - Checagem da posição.
       - Checagem do ângulo.
