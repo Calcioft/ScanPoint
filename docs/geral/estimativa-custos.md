@@ -46,12 +46,12 @@ e internacionais. A relação de preços e cenários podem ser encontradas abaix
 
 Dessa forma, tendo como base os cenários apresentados, considerando a compra de todos os materiais: 
 Para o Cenário Base 1, onde todas as paças são compradas no mercado nacional, temos um custo estimado 
-de __R$1.396,74__. Já para o Cenário Base 2, onde todas as peças são compradas no mercado internacional 
-temos um custo estimado de __R$ 1.149,76__, porém, deve-se ter ciência de que alguns componentes não foram 
+de R$1.396,74. Já para o Cenário Base 2, onde todas as peças são compradas no mercado internacional 
+temos um custo estimado de R$ 1.149,76, porém, deve-se ter ciência de que alguns componentes não foram 
 encontrados. Já para os cenários onde serão utilizados os materiais disponíveis em laboratório, temos 
 para os Cenários Derivados 1 e 2, onde serão usados os materiais disponíveis em laboratório, com os 
 materiais em falta sendo comprados no mercado nacional e internacional, respectivamente, obtivemos 
-para a opção 1 um custo estimado de __R$ 641,30__ e para a opção 2 __R$ 504,01.__ 
+para a opção 1 um custo estimado de R$ 641,30 e para a opção 2 R$ 504,01. 
 Por fim, para o Cenário ideal, onde serão compradas as opções mais baratas dentre mercados nacionais e
 internacionais, utilizando os materiais do laboratório, obtivemos um custo estimado de __R$ 494,01.__
 
