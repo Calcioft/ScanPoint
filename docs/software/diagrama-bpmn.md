@@ -1,19 +1,22 @@
-### Diagrama BPMN 
+### Descrição de processos do Diagrama BPMN 
 
-**1. Início do Processo:**
+## **1. Início do Processo:**
+   
    - O processo começa com um evento de início indicado pelo círculo simples.
 
-**2. Checagem de Conexão USB:**
+## **2. Checagem de Conexão USB:**
+   
    - Esta etapa verifica se a conexão USB com o computador está estabelecida. Há dois caminhos possíveis:
       - Se a conexão for bem-sucedida, o processo segue para a "Preparação do Objeto".
       - Se houver problemas de conexão, o processo termina, indicado pelo círculo com borda grossa.
 
-**3. Preparação do Objeto:**
+## **3. Preparação do Objeto:**
+   
    - O objeto é preparado para o escaneamento, o que inclui posicioná-lo na mesa de escaneamento.
 
-**4. Processo de Checagem:**
+## **4. Processo de Checagem:**
+   
    - Este sub-processo, representado por um retângulo com borda pontilhada, contém várias tarefas de verificação:
-      - Checagem de peso.
       - Checagem do comprimento.
       - Checagem da posição.
       - Checagem do ângulo.
@@ -22,28 +25,36 @@
       - Se a checagem for concluída com sucesso, o objeto está preparado, e o processo segue para a etapa "Escanear Objeto".
       - Se houver um problema em alguma das checagens, o processo termina.
 
-**5. Escanear Objeto:**
+## **5. Escanear Objeto:**
+   
    - O sistema executa o escaneamento 3D do objeto.
 
-**6. Verificação do Escaneamento:**
+## **6. Verificação do Escaneamento:**
+   
    - O sistema verifica a precisão do escaneamento 3D. Se a verificação for bem-sucedida, o processo passa para o "Acompanhamento do progresso de escaneamento". Se erros forem detectados, segue para a "Visualização dos erros".
 
-**7. Visualização e Correção de Erros:**
+## **7. Visualização e Correção de Erros:**
+   
    - Os erros identificados podem ser visualizados e corrigidos pelo usuário.
 
-**8. Acompanhamento do Progresso de Escaneamento:**
+## **8. Acompanhamento do Progresso de Escaneamento:**
+   
    - Esta etapa permite ao usuário acompanhar o progresso do escaneamento.
 
-**9. Pré-visualização do Arquivo 3D:**
+## **9. Pré-visualização do Arquivo 3D:**
+   
    - O usuário tem a oportunidade de pré-visualizar o arquivo 3D e, em seguida, aprovar ou não o modelo gerado.
 
-**10. Geração do Arquivo de Impressão 3D:**
+## **10. Geração do Arquivo de Impressão 3D:**
+   
    - Com a aprovação do usuário, o arquivo de impressão 3D é gerado.
 
-**11. Download do Arquivo 3D:**
+## **11. Download do Arquivo 3D:**
+   
    - O arquivo de impressão 3D gerado pode ser baixado pelo usuário.
 
-**12. Fim do Processo:**
+## **12. Fim do Processo:**
+   
    - O evento de fim é representado pelo círculo com borda grossa.
 
 ### Visualização do Diagrama BPMN

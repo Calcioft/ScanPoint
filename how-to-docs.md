@@ -44,6 +44,6 @@ $ mkdocs serve
 **OBS:** Para sair do ambiente virtual do python basta digitar
 ```bash
 
-$ desactivate 
+$ deactivate 
 
 ```
