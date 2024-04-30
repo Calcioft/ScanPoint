@@ -13,19 +13,23 @@ Cada funcionalidade é acompanhada de uma história de usuário correspondente, 
 
 ### Tabela de Funcionalidades
 
-| ID da Funcionalidade | Descrição | Prioridade (MoSCoW) | História de Usuário |
-|----------------------|-----------|---------------------|---------------------|
-| F01 | Conexão USB com o computador que esta instalado o sistema | Must have | Como usuário, quero que o sistema verifique automaticamente a conexão USB com o computador, para que eu possa iniciar o processo de escaneamento. |
-| F02 | Preparação do Objeto | Must have | Como usuário, quero posicionar o objeto na mesa de escaneamento, para que seja escaneado com precisão. |
-| F03 | Checagem de peso do objeto | Should have | Como usuário, preciso que o sistema cheque o peso do objeto, para garantir que ele atenda aos requisitos do escaneamento. |
-| F04 | Checagem de dimensões do objeto | Should have | Como usuário, quero que o sistema verifique as dimensões do objeto, para assegurar que se ajusta à área de escaneamento. |
-| F05 | Escaneamento 3D do objeto | Must have | Como usuário, quero que o sistema escaneie o objeto e crie um modelo digital, para que eu possa utilizá-lo para impressão 3D. |
-| F06 | Verificação do escaneamento 3D | Must have | Como usuário, preciso que o sistema verifique a precisão do modelo 3D, para assegurar que é uma réplica exata do objeto físico. |
-| F07 | Visualização e correção de erros | Must have | Como usuário, quero visualizar e corrigir quaisquer erros no modelo 3D, para garantir a qualidade antes da geração do arquivo 3D que será utilizado para impressão. |
-| F08 | Acompanhamento do escaneamento em tempo real | Should have | Como usuário, quero acompanhar o progresso do escaneamento em tempo real, para monitorar o processo. |
-| F09 | Pré-visualização do modelo 3D | Must have | Como usuário, quero pré-visualizar o modelo 3D, para aprovar antes de gerar o arquivo de impressão. |
-| F10 | Geração do arquivo de impressão 3D | Must have | Como usuário, quero que o sistema gere o arquivo de impressão 3D, para que eu possa imprimir o objeto físico. |
-| F11 | Download do arquivo 3D | Could have | Como usuário, quero ter a opção de baixar o arquivo 3D, para que eu possa armazená-lo ou usá-lo em outro local. |
+| ID da Funcionalidade | Descrição                                                   | Prioridade (MoSCoW) | História de Usuário                                                                                                   |
+|----------------------|-------------------------------------------------------------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
+| F01                  | Iniciar ScannerPoint 3D                                     | Must Have            | Como usuário, quero poder iniciar o ScannerPoint 3D para começar o processo de escaneamento.                          |
+| F02                  | Checar se o scanner está conectado                          | Must Have            | Como usuário, quero receber um aviso se o scanner não estiver conectado para garantir que posso iniciar o escaneamento. |
+| F03                  | Visualizar preview do modelo com nuvem de pontos            | Could Have           | Como usuário, quero poder visualizar uma prévia do modelo em nuvem de pontos para avaliar a qualidade do escaneamento. |
+| F04                  | Visualizar preview do modelo escaneado                      | Must Have            | Como usuário, quero poder visualizar uma prévia do modelo escaneado para confirmar se o escaneamento foi bem-sucedido. |
+| F05                  | Realizar leitura de objetos em alta definição               | Must Have            | Como usuário, quero que o sistema possa realizar a leitura de objetos em alta definição para capturar detalhes precisos. |
+| F06                  | Escanear os dados através do sensor infravermelho           | Must Have            | Como usuário, quero que o sistema possa escanear os dados usando o sensor infravermelho para garantir precisão no escaneamento. |
+| F07                  | Processar os dados recebidos através do sensor de forma eficiente | Must Have       | Como usuário, quero que o sistema processe os dados recebidos de forma eficiente para evitar atrasos no escaneamento. |
+| F08                  | Transmissão de dados em tempo real para o computador        | Must Have            | Como usuário, quero que os dados sejam transmitidos em tempo real para o computador para acompanhar o progresso do escaneamento. |
+| F09                  | Gerar arquivo STL ou G-code preciso e detalhado             | Must Have            | Como usuário, quero que o sistema gere arquivos STL ou G-code precisos e detalhados para garantir qualidade na impressão. |
+| F10                  | Comunicação eficiente com o computador, recebendo dados de status | Must Have     | Como usuário, quero que o sistema se comunique de forma eficiente com o computador, fornecendo dados de status atualizados para acompanhamento. |
+| F11                  | Fornecer uma interface para visualização em tempo real do escaneamento | Could Have | Como usuário, quero ter uma interface para visualizar em tempo real o progresso do escaneamento para monitorar o processo. |
+| F12                  | Permitir o download do arquivo 3D após a conclusão do escaneamento | Must Have  | Como usuário, quero poder fazer o download do arquivo 3D após a conclusão do escaneamento para uso posterior. |
+
+
+
 
 ## Referências
 
