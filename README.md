@@ -22,7 +22,7 @@
 
 ## Site
 
-https://communication-box-fga-pi2-semestre-2024-1-grupo--f7dec8a78ed749.gitlab.io/
+https://lappis-unb.gitlab.io/fga-pi2/semestre-2024-1/grupo-08/scanpoint/
 
 ## Como rodar os documentos
 [Como rodar os documentos](./how-to-docs.md)

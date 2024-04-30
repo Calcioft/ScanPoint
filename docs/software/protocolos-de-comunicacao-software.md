@@ -1,4 +1,4 @@
-# Diagrama de Protocolos de comunicação de software
+# Diagrama de protocolos de comunicação de software
 
 
 
