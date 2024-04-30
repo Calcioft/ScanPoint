@@ -35,6 +35,7 @@ nav:
       - EAP Software: software/eap_software.md
       - Diagrama de pacotes: software/diagrama-de-pacotes.md
       - Casos de uso: software/casos-de-uso.md
+      - Casos de uso: software/casos-de-uso.md
       - Documento de identidade: software/identidade.md
       - Requisitos de software: software/requisitos.md
       - Backlog do produto: software/backlog_produto.md
