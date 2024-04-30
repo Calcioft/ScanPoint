@@ -18,22 +18,21 @@ extra_css:
 nav:
   - Sobre: index.md
   - Geral: 
-      - anexo: geral/anexo.md
-      - apendice: geral/apendice1.md
-      - arquitetura: geral/arquitetura.md
-      - bib: geral/bib.md
-      - integracao: geral/integracao.md
-      - levantamento de riscos: geral/FMEA.md
-      - projetos: geral/projetos.md
-      - prova de conceito: geral/prova-de-conceito.md
-      - EAP: geral/eap_geral.md
-      - requisitos de arquitetura: geral/requisitos-arquitetura.md
-      - visao geral: geral/visaogeral.md
+      - Anexo: geral/anexo.md
+      - Apendice: geral/apendice1.md
+      - Arquitetura: geral/arquitetura.md
+      - Bib: geral/bib.md
+      - Integracao: geral/integracao.md
+      - Levantamento de riscos: geral/FMEA.md
+      - Projetos: geral/projetos.md
+      - Prova de conceito: geral/prova-de-conceito.md
+      - Requisitos de arquitetura: geral/requisitos.md
+      - Visao geral: geral/visaogeral.md
   - Software: 
-      - Diagrama de Pacotes: software/diagrama-de-pacotes.md
-      - Casos de Uso: software/casos-de-uso.md
-      - Diagrama de Protocolos de Comunicacao de Software: software/protocolos-de-comunicacao-software.md
-      - Arquitetura de Software: software/arquitetura.md
+      - Diagrama de pacotes: software/diagrama-de-pacotes.md
+      - Casos de uso: software/casos-de-uso.md
+      - Diagrama de protocolos de comunicacao de software: software/protocolos-de-comunicacao-software.md
+      - Arquitetura de software: software/arquitetura.md
   - Eletrônica/Energia: 
       - Exemplo: eletronica-energia/exemplo.md
   - Estruturas:
