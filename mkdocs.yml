@@ -38,5 +38,6 @@ nav:
       - Documento de identidade: software/identidade.md
   - Eletrônica/Energia: 
       - Exemplo: eletronica-energia/exemplo.md
+      - Subsistema de Energia: eletronica-energia/Projeto_Subsistema_Energia.md
   - Estruturas:
       - Exemplo: estruturas/exemplo.md
