@@ -14,7 +14,7 @@ O sistema inteligente de captura de dados e escaneamento 3D combina a captura de
 
 | Código | Descrição do Requisito                           |
 | ------ | ------------------------------------------------ |
-| RF01   | Iniciar ScannerPoint 3D                          |
+| RF01   | Iniciar ScanPoint 3D                          |
 | RF02   | Checar se o scanner está conectado               |
 | RF03   | Visualizar preview do modelo com nuvem de pontos |
 | RF04   | Visualizar preview do modelo escaneado           |

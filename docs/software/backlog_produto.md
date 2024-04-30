@@ -23,7 +23,7 @@ Desenvolvida por Dai Clegg durante sua atuação na Oracle na década de 1990, a
 ### Épico: Interface (E01)
 | ID   | Eu, como... | Gostaria de...                                   | Para poder...                                | Priorização |
 |------|-------------|--------------------------------------------------|----------------------------------------------|-------------|
-| US01 | Usuário     | Iniciar o ScannerPoint 3D                        | Começar o processo de escaneamento          | Must Have   |
+| US01 | Usuário     | Iniciar o ScanPoint 3D                        | Começar o processo de escaneamento          | Must Have   |
 | US02 | Usuário     | Receber um aviso se o scanner não estiver conectado | Garantir que posso iniciar o escaneamento | Must Have   |
 | US03 | Usuário     | Visualizar uma prévia do modelo em nuvem de pontos | Avaliar a qualidade do escaneamento        | Could Have  |
 | US04 | Usuário     | Visualizar uma prévia do modelo escaneado       | Confirmar se o escaneamento foi bem-sucedido | Must Have |
@@ -47,6 +47,8 @@ Desenvolvida por Dai Clegg durante sua atuação na Oracle na década de 1990, a
 |------|-------------|--------------------------------------------------|----------------------------------------------------|-------------|
 | US11 | Usuário     | Ter uma interface para visualizar em tempo real o progresso do escaneamento | Monitorar o processo                              | Could Have  |
 | US12 | Usuário     | Fazer o download do arquivo 3D após a conclusão do escaneamento | Uso posterior                                  | Must Have   |
+| US13 | Usuário     | Cancelar o escaneamento 3D | Interromper o processo | Must Have  |
+| US14 | Usuário     | Reiniciar o escaneamento 3D | começar novamente o processo | Must Have  |
 
 ## Referências
 * PEREIRA, Paulo; TORREÃO, Paula; MARÇAL, Ana Sofia. Entendendo Scrum para gerenciar projetos de forma ágil. Mundo PM, v. 1, p. 3-11, 2007.

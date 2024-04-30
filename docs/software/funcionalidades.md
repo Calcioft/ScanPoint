@@ -1,6 +1,6 @@
 ### Introdução
 
-O projeto ScannerPoint é projetado para fornecer uma solução integrada de captura de dados e escaneamento 3D que transforma objetos físicos em modelos digitais precisos, prontos para impressão 3D. As funcionalidades centrais do sistema foram cuidadosamente delineadas para assegurar a entrega de um produto que não só atenda às expectativas de desempenho técnico mas também ofereça uma experiência de usuário excepcional. A tabela abaixo apresentará as funcionalidades planejadas, cada uma essencial para a operação holística e eficácia do sistema.
+O projeto ScanPoint é projetado para fornecer uma solução integrada de captura de dados e escaneamento 3D que transforma objetos físicos em modelos digitais precisos, prontos para impressão 3D. As funcionalidades centrais do sistema foram cuidadosamente delineadas para assegurar a entrega de um produto que não só atenda às expectativas de desempenho técnico mas também ofereça uma experiência de usuário excepcional. A tabela abaixo apresentará as funcionalidades planejadas, cada uma essencial para a operação holística e eficácia do sistema.
 
 A priorização das funcionalidades é crítica para o gerenciamento eficiente do desenvolvimento do projeto e alocação de recursos. Para isso, empregamos o método MoSCoW de priorização, que categoriza as funcionalidades em quatro níveis distintos:
 
@@ -15,7 +15,7 @@ Cada funcionalidade é acompanhada de uma história de usuário correspondente, 
 
 | ID da Funcionalidade | Descrição                                                   | Prioridade (MoSCoW) | História de Usuário                                                                                                   |
 |----------------------|-------------------------------------------------------------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
-| F01                  | Iniciar ScannerPoint 3D                                     | Must Have            | Como usuário, quero poder iniciar o ScannerPoint 3D para começar o processo de escaneamento.                          |
+| F01                  | Iniciar ScanPoint 3D                                     | Must Have            | Como usuário, quero poder iniciar o ScanPoint 3D para começar o processo de escaneamento.                          |
 | F02                  | Checar se o scanner está conectado                          | Must Have            | Como usuário, quero receber um aviso se o scanner não estiver conectado para garantir que posso iniciar o escaneamento. |
 | F03                  | Visualizar preview do modelo com nuvem de pontos            | Could Have           | Como usuário, quero poder visualizar uma prévia do modelo em nuvem de pontos para avaliar a qualidade do escaneamento. |
 | F04                  | Visualizar preview do modelo escaneado                      | Must Have            | Como usuário, quero poder visualizar uma prévia do modelo escaneado para confirmar se o escaneamento foi bem-sucedido. |
@@ -27,6 +27,9 @@ Cada funcionalidade é acompanhada de uma história de usuário correspondente, 
 | F10                  | Comunicação eficiente com o computador, recebendo dados de status | Must Have     | Como usuário, quero que o sistema se comunique de forma eficiente com o computador, fornecendo dados de status atualizados para acompanhamento. |
 | F11                  | Fornecer uma interface para visualização em tempo real do escaneamento | Could Have | Como usuário, quero ter uma interface para visualizar em tempo real o progresso do escaneamento para monitorar o processo. |
 | F12                  | Permitir o download do arquivo 3D após a conclusão do escaneamento | Must Have  | Como usuário, quero poder fazer o download do arquivo 3D após a conclusão do escaneamento para uso posterior. |
+| F13                  | Permitir o usuário cancelar o escaneamento | Must Have  | Como usuário, quero poder fazer o cancelamento do escaneamento 3D para conseguir interromper o processo |
+| F14                 | Permitir o usuário reiniciar o escaneamento em caso de falha ou cancelamento | Must Have  | Como usuário, quero poder reiniciar o escaneamento 3D para conseguir começar o processo novamente |
+
 
 
 
