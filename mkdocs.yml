@@ -1,9 +1,9 @@
-site_name: ScanPoint
+site_name: Communication Box
 site_url: "https://fga-pi2.gitlab.io/"
 site_dir: public
 theme:
   name: material
-  favicon: assets/scanpoint-logo.png
+  favicon: assets/communication-box-logo.png
   features:
     - content.code.annotate
     - content.tabs.link
@@ -29,10 +29,11 @@ nav:
       - Requisitos de arquitetura: geral/requisitos.md
       - Visao geral: geral/visaogeral.md
   - Software: 
-      - Diagrama de pacotes: software/diagrama-de-pacotes.md
-      - Casos de uso: software/casos-de-uso.md
-      - Diagrama de protocolos de comunicacao de software: software/protocolos-de-comunicacao-software.md
-      - Arquitetura de software: software/arquitetura.md
+      - Diagrama de Pacotes: software/diagrama-de-pacotes.md
+      - Casos de Uso: software/casos-de-uso.md
+      - Diagrama de Protocolos de Comunicacao de Software: software/protocolos-de-comunicacao-software.md
+      - Arquitetura de Software: software/arquitetura.md
+      - Documento de Identidade: software/identidade.md
   - Eletrônica/Energia: 
       - Exemplo: eletronica-energia/exemplo.md
   - Estruturas:
