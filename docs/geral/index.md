@@ -15,8 +15,7 @@
 
 > [**1.1.** **Detalhamento do problema**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/geral/visaogeral.md?ref_type=heads#2-defini%C3%A7%C3%A3o-do-produto)
 
-> [**1.2.** **Levantamento de normas técnicas relacionadas ao problema**
-[4](#levantamento-de-normas-técnicas-relacionadas-ao-problema)](#levantamento-de-normas-técnicas-relacionadas-ao-problema)
+> [**1.2.** **Levantamento de normas técnicas relacionadas ao problema**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/Revis%C3%A3o-PC1/docs/geral/normas.md)
 
 > [**1.3.** **Identificação de solução comerciais**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/geral/visaogeral.md?ref_type=heads#5-identifica%C3%A7%C3%A3o-de-solu%C3%A7%C3%A3o-comerciais)
 
@@ -29,6 +28,8 @@
 > [**2.1.** **Requisitos gerais**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/geral/requisitos.md)
 
 >> [**2.1.1** **Requisitos de software**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/software/requisitos.md?ref_type=heads)
+
+>> [**2.1.2.** **Requisitos de Eletrônica e Energia**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/Revis%C3%A3o-PC1/docs/eletronica-energia/requisitos-eletronica-energia.md)
 
 > **2.2.** **Arquitetura geral da solução**
 
