@@ -45,16 +45,19 @@ Engloba as fases 1, 2 e 3 do ciclo de vida do projeto, sendo elas: **Problematiz
 - [Diagramas esquemáticos de circuitos eletrônicos](https://gitlab.com)
 - [Diagramas detalhando barramentos de alimentação dos circuitos eletrônicos](https://gitlab.com)
 - [Diagramas com detalhes de lógicas e protocolos de comunicação entre elementos](https://gitlab.com)
-- [Diagramas de classes](https://gitlab.com)
-- [Diagramas de casos de uso](https://gitlab.com)
-- [Diagramas com protocolos de comunicação entre componentes do software](https://gitlab.com)
-- [Requisitos funcionais e não funcionais](https://gitlab.com)
-- [Termo de Abertura do Projeto](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/adicionando_termo_de_abertura_do_projeto/docs/geral/termo_de_abertura_de_projeto.md)
+- [Diagramas de pacotes](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/software/diagrama-de-pacotes.md?ref_type=heads)
+- [Diagramas de casos de uso](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/Revis%C3%A3o-PC1/docs/software/casos-de-uso.md)
+- [Diagramas com protocolos de comunicação entre componentes do software](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/software/protocolos-de-comunicacao-software.md?ref_type=heads)
+- [Diagrama BPMN](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/software/diagrama-bpmn.md?ref_type=heads)
+- [Requisitos funcionais e não funcionais](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/geral/requisitos.md)
+- [Requisitos de software](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/software/requisitos.md?ref_type=heads)
+- [Termo de Abertura do Projeto](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/geral/termo_de_abertura_de_projeto.md?ref_type=heads)
 - [Estrutura Analítica de Projeto](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/geral/eap_geral.md?ref_type=heads)
-- [Definição, sequenciamento e cronograma de atividades;](https://gitlab.com)
+- [Definição, sequenciamento e cronograma de atividades;](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/geral/cronograma.md?ref_type=heads)
 - [Estimativa de custos e orçamentos](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/geral/estimativa-custos.md?ref_type=heads)
-- [Levantamento de riscos e contingência para a execução do projeto e avaliação do impacto](https://gitlab.com)
-- tanana
+- [Levantamento de riscos e contingência para a execução do projeto e avaliação do impacto](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/geral/FMEA.md?ref_type=heads)
+- [Documento de identidade de software](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/software/identidade.md?ref_type=heads)
+- [Backlog do produto de softwre](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/software/backlog_produto.md?ref_type=heads)
 
 ### C2
 
