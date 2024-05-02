@@ -16,7 +16,7 @@ Graças aos pontos de restrição a quantidade de normas e trabalhos em peças e
 
 ![Peça utilizada para o ensaio](imagens/Proj_Subs_Estruturas_Ensaios_Peça_analisada_3D.jpg)
 
-<img src="imagens/Proj_Subs_Estruturas_Ensaios_Peça_analisada_3D.jpg" alt="Peça utilizada para o ensaio" width="120" height="120">
+<!--<img src="imagens/Proj_Subs_Estruturas_Ensaios_Peça_analisada_3D.jpg" alt="Peça utilizada para o ensaio" width="120" height="120">-->
 
 <!--<img width="100" title="Peça utilizada para o ensaio" src="imagens/Proj_Subs_Estruturas_Ensaios_Peça_analisada_3D.jpg"/> -->
 
@@ -25,7 +25,7 @@ Graças aos pontos de restrição a quantidade de normas e trabalhos em peças e
 </div>
 
 
-Com o auxílio de um perfil de alumínio e anilhas, a peça foi fixada e submetida continuamente a cargas cada vez maiores. A carga máxima aplicada à peça foi de XX Kg, por não haver possibilidade de acréscimo a esta, não representando sua capacidade máxima de submissão. 
+Com o auxílio de um perfil de alumínio e anilhas, a peça foi fixada e submetida continuamente a cargas cada vez maiores. A carga máxima aplicada à peça foi de 51,5 Kg, por não haver possibilidade de acréscimo a esta, não representando sua capacidade máxima de submissão suportada. 
 
 <div align="center">
 
@@ -35,11 +35,13 @@ Com o auxílio de um perfil de alumínio e anilhas, a peça foi fixada e submeti
 
 </div>
 
-Como resultado, tem-se que a peça fabricada a partir do material XXXX e com configuração de preenchimento XXX não apresentou nenhum sinal de deformação. Entretanto, foram observadas algumas trincas na estrutura da peça e deformação apenas no parafuso utilizado para fixar as cargas ao final do ensaio a partir de XXXX Kg de carga , que podem ser visualizadas na figura XXX.
+Como resultado, tem-se que a peça fabricada a partir do material PLA (biopolímero ácido poliláctico), com configuração de densidade de preenchimento de 10% do tipo zigue-zague e com 4 paredes de 0,88mm de espessura não apresentou nenhum sinal de deformação. Entretanto, foram observadas algumas trincas na estrutura da peça e deformação apenas no parafuso utilizado para fixar as cargas ao final do ensaio a partir de 32Kg de carga , que podem ser visualizadas nas figuras abaixo.
 
 <div align="center">
 
 ![Estrutura da peça após o ensaio](imagens/Proj_Subs_Estruturas_Ensaios_peça_pós_ensaio.jpeg)
+
+![Parafuso de fixação após o ensaio](imagens/Proj_Subs_Estruturas_Ensaios_parafuso_flambado.jpeg)
 
 </div>
  
