@@ -1,1 +1,0 @@
-![EAP de Eletrônica e Energia](./docs/assets/eletronica-energia/EAP_Eletrônica_Energia.jpg)
