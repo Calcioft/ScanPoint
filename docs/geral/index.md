@@ -104,9 +104,9 @@
 
 >> [**5.5.1.** **EAP de software**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/software/eap_software.md?ref_type=heads)
 
->> [**5.5.2.** **EAP de Estruturas**](https://gitlab.com/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/EAP_do_subsistema_de_Estruturas/docs/estruturas/EAP_estruturas.md)
+>> [**5.5.2.** **EAP de Estruturas**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/Revis%C3%A3o-PC1/docs/estruturas/EAP_estruturas.md)
 
->> [**5.5.3** **EAP de Energia-Eletrônica**[12](#EAP de Energia-Eletrônica)](#EAP de Energia-Eletrônica)
+>> [**5.5.3** **EAP de Energia-Eletrônica**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/Revis%C3%A3o-PC1/docs/eletronica-energia/EAP-eletronica-energia.md)
 
 > [**5.6.** **Definição de atividades e cronograma de execução**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/geral/cronograma.md?ref_type=heads)
 
