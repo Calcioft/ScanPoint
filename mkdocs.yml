@@ -1,9 +1,9 @@
-site_name: Communication Box
+site_name: ScanPoint
 site_url: "https://fga-pi2.gitlab.io/"
 site_dir: public
 theme:
   name: material
-  favicon: assets/communication-box-logo.png
+  favicon: assets/scanpoint-logo.png
   features:
     - content.code.annotate
     - content.tabs.link
@@ -18,23 +18,38 @@ extra_css:
 nav:
   - Sobre: index.md
   - Geral: 
-      - anexo: geral/anexo.md
-      - apendice: geral/apendice1.md
-      - arquitetura: geral/arquitetura.md
-      - bib: geral/bib.md
-      - integracao: geral/integracao.md
-      - levantamento de riscos: geral/FMEA.md
-      - projetos: geral/projetos.md
-      - prova de conceito: geral/prova-de-conceito.md
+      - Anexo: geral/anexo.md
+      - Apendice: geral/apendice1.md
+      - Arquitetura: geral/arquitetura.md
+      - Bib: geral/bib.md
+      - Cronograma: geral/cronograma.md
       - EAP: geral/eap_geral.md
-      - requisitos de arquitetura: geral/requisitos-arquitetura.md
-      - visao geral: geral/visaogeral.md
+      - Estimativa de Custos: geral/estimativa-custos.md
+      - Levantamento de riscos: geral/FMEA.md
+      - Ponto de Controle 1: geral/index.md
+      - Integracao: geral/integracao.md
+      - Projetos: geral/projetos.md
+      - Prova de conceito: geral/prova-de-conceito.md
+      - Requisitos Gerais: geral/requisitos.md
+      - Termo de Abertura: geral/termo_de_abertura_de_projeto.md
+      - Visao geral: geral/visaogeral.md
   - Software: 
-      - Diagrama de Pacotes: software/diagrama-de-pacotes.md
-      - Casos de Uso: software/casos-de-uso.md
-      - Diagrama de Protocolos de Comunicacao de Software: software/protocolos-de-comunicacao-software.md
-      - Arquitetura de Software: software/arquitetura.md
+      - Arquitetura de software: software/arquitetura.md
+      - Backlog do produto: software/backlog_produto.md
+      - Casos de uso: software/casos-de-uso.md
+      - Diagrama BPMN: software/diagrama-bpmn.md
+      - Diagrama de pacotes: software/diagrama-de-pacotes.md
+      - EAP: software/eap_software.md
+      - Funcionalidades: software/funcionalidades.md
+      - Documento de identidade: software/identidade.md
+      - Protocolos de comunicacao: software/protocolos-de-comunicacao-software.md
+      - Prototipo de alta Fidelidade: software/prototipo.md
+      - Requisitos de software: software/requisitos.md
+      - Projeto de subsistema de Software: software/subsistema-software.md
   - Eletrônica/Energia: 
-      - Exemplo: eletronica-energia/exemplo.md
+      - Arquitetura: eletronica-energia/arquitetura_energia.md
+      - Diagramas esquematicos: eletronica-energia/diagrama_esquematico.md
+      - EAP: eletronica-energia/eap.md
+      - Subsistema de Energia: eletronica-energia/Projeto_Subsistema_Energia.md
   - Estruturas:
-      - Exemplo: estruturas/exemplo.md
+      - EAP: estruturas/EAP_estruturas.md
