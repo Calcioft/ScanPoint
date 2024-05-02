@@ -1,7 +1,7 @@
 
 # Arquitetura de Software
 
-Esta sessão elenca todos os itens de arquitetura de software, como os componentes utilizados e sua comunicação e as tecnologias utilizadas.
+Esta sessão elenca todos os itens de arquitetura de software, como os componentes utilizados, sua comunicação e as tecnologias utilizadas.
 
 ## Componentes 
 

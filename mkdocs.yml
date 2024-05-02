@@ -30,12 +30,18 @@ nav:
       - Requisitos de arquitetura: geral/requisitos.md
       - Visao geral: geral/visaogeral.md
   - Software: 
+      - Projeto de subsistema de Software: software/subsistema-software.md
+      - Arquitetura de software: software/arquitetura.md
       - EAP Software: software/eap_software.md
       - Diagrama de pacotes: software/diagrama-de-pacotes.md
       - Casos de uso: software/casos-de-uso.md
-      - Diagrama de protocolos de comunicacao de software: software/protocolos-de-comunicacao-software.md
-      - Arquitetura de software: software/arquitetura.md
+      - Casos de uso: software/casos-de-uso.md
       - Documento de identidade: software/identidade.md
+      - Requisitos de software: software/requisitos.md
+      - Backlog do produto: software/backlog_produto.md
+      - Diagrama de protocolos de comunicacao de software: software/protocolos-de-comunicacao-software.md
+      - Diagrama BPMN: software/diagrama-bpmn.md
+      - Funcionalidades: software/funcionalidades.md
   - Eletrônica/Energia: 
       - Exemplo: eletronica-energia/exemplo.md
       - Subsistema de Energia: eletronica-energia/Projeto_Subsistema_Energia.md
