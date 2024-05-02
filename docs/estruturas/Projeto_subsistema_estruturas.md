@@ -47,20 +47,19 @@ Como resultado, tem-se que a peça fabricada a partir do material PLA (biopolím
  
 Como conclusão, tem-se que a peça atende perfeitamente a sua finalidade, já que a aplicação desejada para a mesma é de apenas XXX Kg, lembrando ainda que a mesma representa 1/4 dos apoios em parte da estrutura. Também vale ressaltar que as trincas e a deformação no parafuso de fixação só foram observadas a partir de uma quantidade de carga muito superior a desejada neste projeto.
 
-Foram observadas deformações consideráveis na estrutura a partir de 35kg, carga que foi
+Apesar de não ter sido observado o colapso estrutural do material, foram observadas deformações consideráveis na estrutura a partir de 35kg, carga que foi
 considerada máxima para o retorno da estrutura a suas condições iniciais. Após a 
-definição de um fator de segurança de 2, como definido assim uma carga total por componente
+definição de um fator de segurança de 2, definindo assim uma carga total por componente
 impresso de 16kg, calculado da seguinte forma:
 
 Fs = Cf/Cmax
 
 Onde Fs é o fator de segurança, Cf é a Carga de fratura e Cmax é a Carga máxima admissível
 considerando o fator de segurança definido.
-Assim, considerando a composição da estrutura com 4 peças estruturais impressas em 3D
+Assim, avaliando a composição da estrutura com 4 peças impressas em 3D,
 a carga máxima admissível para o projeto, já considerando o fator de segurança, seria de
 64Kg no total, satisfazendo de maneira superdimensionada as condições iniciais e de
-requisitos do projeto, dando margem para simplificação e reduções de rigidez/gasto de
-materiais para as próximas análises e dimensionamentos de otimização.
+requisitos do projeto, oque da margem suficiente para simplificação e reduções de rigidez, custos e complexidade dos materiais para as próximas análises de dimensionamentos e de otimização.
 
 
 ### Simulações e Cálculos Estruturais
