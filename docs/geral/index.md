@@ -101,8 +101,7 @@ proposta**
 [**5.** **Apêndice 01 -- Aspectos de gerenciamento do projeto**
 [11](#apêndice-01-aspectos-de-gerenciamento-do-projeto)](#apêndice-01-aspectos-de-gerenciamento-do-projeto)
 
-[**5.1.** **Termo de abertura do projeto**
-[11](#termo-de-abertura-do-projeto)](#termo-de-abertura-do-projeto)
+[**5.1.** **Termo de abertura do projeto**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/adicionando_termo_de_abertura_do_projeto/docs/geral/termo_de_abertura_de_projeto.md)
 
 [**5.2.** **Lista É / Não É** [11](#lista-é-não-é)](#lista-é-não-é)
 
@@ -117,8 +116,7 @@ proposta**
 [**5.5.1.** **EAP do subsistema 01**
 [12](#eap-do-subsistema-01)](#eap-do-subsistema-01)
 
-[**5.5.2.** **EAP do subsistema 02**
-[12](#eap-do-subsistema-02)](#eap-do-subsistema-02)
+[**5.5.2.** **EAP do subsistema de Estruturas**](https://gitlab.com/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/EAP_do_subsistema_de_Estruturas/docs/estruturas/EAP_estruturas.md)
 
 [**5.6.** **Definição de atividades e cronograma de execução**
 [12](#definição-de-atividades-e-cronograma-de-execução)](#definição-de-atividades-e-cronograma-de-execução)
