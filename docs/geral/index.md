@@ -11,74 +11,65 @@
 
 **Sumário**
 
-[**1.** **Introdução** [4](#introdução)](#introdução)
+[**1.** **Introdução**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/geral/visaogeral.md?ref_type=heads#1-introdu%C3%A7%C3%A3o)
 
-[**1.1.** **Detalhamento do problema**
-[4](#detalhamento-do-problema)](#detalhamento-do-problema)
+> [**1.1.** **Detalhamento do problema**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/geral/visaogeral.md?ref_type=heads#2-defini%C3%A7%C3%A3o-do-produto)
 
-[**1.2.** **Levantamento de normas técnicas relacionadas ao problema**
+> [**1.2.** **Levantamento de normas técnicas relacionadas ao problema**
 [4](#levantamento-de-normas-técnicas-relacionadas-ao-problema)](#levantamento-de-normas-técnicas-relacionadas-ao-problema)
 
-[**1.3.** **Identificação de solução comerciais**
-[4](#identificação-de-solução-comerciais)](#identificação-de-solução-comerciais)
+> [**1.3.** **Identificação de solução comerciais**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/geral/visaogeral.md?ref_type=heads#5-identifica%C3%A7%C3%A3o-de-solu%C3%A7%C3%A3o-comerciais)
 
-[**1.4.** **Objetivo geral do projeto**
-[4](#objetivo-geral-do-projeto)](#objetivo-geral-do-projeto)
+> [**1.4.** **Objetivo geral do projeto**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/geral/visaogeral.md?ref_type=heads#6-objetivo-geral-do-projeto)
 
-[**1.5.** **Objetivo específicos do projeto**
-[5](#objetivo-específicos-do-projeto)](#objetivo-específicos-do-projeto)
+> [**1.5.** **Objetivo específicos do projeto**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/geral/visaogeral.md?ref_type=heads#7-objetivo-espec%C3%ADficos-do-projeto)
 
-[**2.** **Concepção e detalhamento da solução**
-[6](#concepção-e-detalhamento-da-solução)](#concepção-e-detalhamento-da-solução)
+**2.** **Concepção e detalhamento da solução**
 
-[**2.1.** **Requisitos gerais**
-[6](#requisitos-gerais)](#requisitos-gerais)
+> [**2.1.** **Requisitos gerais**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/geral/requisitos.md)
 
-[**2.2.** **Arquitetura geral da solução**
-[6](#arquitetura-geral-da-solução)](#arquitetura-geral-da-solução)
+>> [**2.1.1** **Requisitos de software**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/software/requisitos.md?ref_type=heads)
 
-[**2.2.1.** **Arquitetura do subsistema 01**
-[7](#arquitetura-do-subsistema-01)](#arquitetura-do-subsistema-01)
+> **2.2.** **Arquitetura geral da solução**
 
-[**2.2.2.** **Arquitetura do subsistema 02**
-[7](#arquitetura-do-subsistema-02)](#arquitetura-do-subsistema-02)
+>> [**2.2.1.** **Arquitetura de software**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/software/eap_software.md?ref_type=heads)
 
-[**2.2.3.** **Arquitetura do subsistema 03**
+>> [**2.2.2.** **Arquitetura do Energia**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/eletronica-energia/arquitetura_energia.md)
+
+>> [**2.2.3.** **Arquitetura do subsistema 03**
 [7](#arquitetura-do-subsistema-03)](#arquitetura-do-subsistema-03)
 
-[**2.2.4.** **Arquitetura do Software**
-[7](#arquitetura-do-software)](#arquitetura-do-software)
+**3.** **Fase 3: Projeto e construção de subsistemas da solução proposta**
 
-[**3.** **Fase 3: Projeto e construção de subsistemas da solução
-proposta**
-[8](#fase-3-projeto-e-construção-de-subsistemas-da-solução-proposta)](#fase-3-projeto-e-construção-de-subsistemas-da-solução-proposta)
+> [**3.1.** **Projeto do software**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/software/subsistema-software.md?ref_type=heads)
 
-[**3.1.** **Projeto do subsistema 01**
-[8](#projeto-do-subsistema-01)](#projeto-do-subsistema-01)
-
-[**3.1.1.** **Projeto do elemento 01**
+>> [**3.1.1.** **Projeto do elemento 01**
 [8](#projeto-do-elemento-01)](#projeto-do-elemento-01)
 
-[**3.1.2.** **Projeto do elemento 02**
+>> [**3.1.2.** **Projeto do elemento 02**
 [8](#projeto-do-elemento-02)](#projeto-do-elemento-02)
 
-[**3.2.** **Projeto do subsistema 02**
-[8](#projeto-do-subsistema-02)](#projeto-do-subsistema-02)
+> [**3.2.** **Projeto de Energia**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/eletronica-energia/Projeto_Subsistema_Energia.md)
 
-[**3.2.1.** **Projeto do elemento 01**
+>> [**3.2.1.** **Diagramas unifilares/trifilares de sistemas de alimentação**
 [9](#projeto-do-elemento-01-1)](#projeto-do-elemento-01-1)
 
-[**3.2.2.** **Projeto do elemento 02**
-[9](#projeto-do-elemento-02-1)](#projeto-do-elemento-02-1)
-
-[**3.3.** **Projeto do subsistema 03**
+> [**3.3.** **Projeto de Eletrônica**
 [9](#projeto-do-subsistema-03)](#projeto-do-subsistema-03)
 
-[**3.3.1.** **Projeto do elemento 01**
+>> [**3.3.1.** **Diagramas esquemáticos de circuitos eletrônicos**
 [9](#projeto-do-elemento-01-2)](#projeto-do-elemento-01-2)
 
-[**3.3.2.** **Projeto do elemento 02**
+>> [**3.3.2.** **Diagramas detalhando barramentos de alimentação dos circuitos eletrônicos**
 [9](#projeto-do-elemento-02-2)](#projeto-do-elemento-02-2)
+
+> [**3.4.** **Projeto de estrutura** [9](#projeto-do-subsistema-04)]#projeto-do-subsistema-04)
+
+>> [**3.1.1.** **Projeto do elemento 01**
+[10](#projeto-do-elemento-01)](#projeto-do-elemento-01)
+
+>> [**3.1.2.** **Projeto do elemento 02**
+[10](#projeto-do-elemento-02)](#projeto-do-elemento-02)
 
 [**4.** **Integração de subsistemas e finalização do produto**
 [10](#integração-de-subsistemas-e-finalização-do-produto)](#integração-de-subsistemas-e-finalização-do-produto)
@@ -98,80 +89,81 @@ proposta**
 02 e 03**
 [10](#detalhamento-de-atividades-para-integração-entre-subsistema-02-e-03)](#detalhamento-de-atividades-para-integração-entre-subsistema-02-e-03)
 
-[**5.** **Apêndice 01 -- Aspectos de gerenciamento do projeto**
-[11](#apêndice-01-aspectos-de-gerenciamento-do-projeto)](#apêndice-01-aspectos-de-gerenciamento-do-projeto)
+**5.** **Apêndice 01 -- Aspectos de gerenciamento do projeto**
 
-[**5.1.** **Termo de abertura do projeto**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/adicionando_termo_de_abertura_do_projeto/docs/geral/termo_de_abertura_de_projeto.md)
+> [**5.1.** **Termo de abertura do projeto**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/adicionando_termo_de_abertura_do_projeto/docs/geral/termo_de_abertura_de_projeto.md)
 
-[**5.2.** **Lista É / Não É** [11](#lista-é-não-é)](#lista-é-não-é)
+> [**5.2.** **Lista É / Não É** [11](#lista-é-não-é)](#lista-é-não-é)
 
-[**5.3.** **Organização da equipe**
-[11](#organização-da-equipe)](#organização-da-equipe)
+> [**5.3.** **Organização da equipe**
+](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/README.md?ref_type=heads#equipe)
 
-[**5.4.** **Repositórios** [12](#repositórios)](#repositórios)
+> [**5.4.** **Site** ](#https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/README.md?ref_type=heads#site)
 
-[**5.5.** **EAP (Estrutura Analítica de Projeto) Geral do Projeto**
-[12](#eap-estrutura-analítica-de-projeto-geral-do-projeto)](#eap-estrutura-analítica-de-projeto-geral-do-projeto)
+> [**5.5.** **EAP (Estrutura Analítica de Projeto) Geral do Projeto**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/geral/eap_geral.md?ref_type=heads)
 
-[**5.5.1.** **EAP do subsistema 01**
-[12](#eap-do-subsistema-01)](#eap-do-subsistema-01)
+>> [**5.5.1.** **EAP de software**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/software/eap_software.md?ref_type=heads)
 
-[**5.5.2.** **EAP do subsistema de Estruturas**](https://gitlab.com/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/EAP_do_subsistema_de_Estruturas/docs/estruturas/EAP_estruturas.md)
+>> [**5.5.2.** **EAP de Estruturas**](https://gitlab.com/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/EAP_do_subsistema_de_Estruturas/docs/estruturas/EAP_estruturas.md)
 
-[**5.6.** **Definição de atividades e cronograma de execução**
-[12](#definição-de-atividades-e-cronograma-de-execução)](#definição-de-atividades-e-cronograma-de-execução)
+>> [**5.5.3** **EAP de Energia-Eletrônica**[12](#EAP de Energia-Eletrônica)](#EAP de Energia-Eletrônica)
 
-[**5.7.** **Levantamento de riscos**
-[12](#levantamento-de-riscos)](#levantamento-de-riscos)
+> [**5.6.** **Definição de atividades e cronograma de execução**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/geral/cronograma.md?ref_type=heads)
 
-[**5.8.** **Orçamento estimativo**
-[13](#orçamento-estimativo)](#orçamento-estimativo)
+> [**5.7.** **Levantamento de riscos**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/geral/FMEA.md?ref_type=heads)
 
-[**1.** **Apêndice 02 -- Desenhos Técnicos mecânicos**
-[14](#apêndice-02-desenhos-técnicos-mecânicos)](#apêndice-02-desenhos-técnicos-mecânicos)
+> [**5.8.** **Orçamento estimativo**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/geral/estimativa-custos.md?ref_type=heads)
 
-[**2.** **Apêndice 03 -- Diagramas elétricos e eletrônicos**
+[**6.** **Apêndice 02 -- Desenhos Técnicos mecânicos**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/tree/main/docs/estruturas/CAD/Estrutura_CATIA?ref_type=heads)
+
+[**7.** **Apêndice 03 -- Diagramas elétricos e eletrônicos**
 [15](#apêndice-03-diagramas-elétricos-e-eletrônicos)](#apêndice-03-diagramas-elétricos-e-eletrônicos)
 
-[**3.** **Apêndice 04 -- Diagramas de sistemas térmicos e/ou
+[**8.** **Apêndice 04 -- Diagramas de sistemas térmicos e/ou
 hidráulicos**
 [16](#apêndice-04-diagramas-de-sistemas-térmicos-eou-hidráulicos)](#apêndice-04-diagramas-de-sistemas-térmicos-eou-hidráulicos)
 
-[**4.** **Apêndice 05 -- Documentação de software**
-[17](#apêndice-05-documentação-de-software)](#apêndice-05-documentação-de-software)
+**9.** **Apêndice 05 -- Documentação de software**
+> [**9.1.** **Diagrama de Pacotes**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/software/diagrama-de-pacotes.md?ref_type=heads)
 
-[**5.** **Apêndice 06 -- Memorial de cálculo de elementos do projeto**
+> [**9.2.** **Casos de uso**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/Revis%C3%A3o-PC1/docs/software/casos-de-uso.md)
+
+>[**9.3.** **Diagramas com protocolos de comunicação entre componentes do software**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/software/protocolos-de-comunicacao-software.md?ref_type=heads)
+
+>[**9.4.** **Diagrama BPMN**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/software/diagrama-bpmn.md?ref_type=heads)
+
+[**10.** **Apêndice 06 -- Memorial de cálculo de elementos do projeto**
 [18](#apêndice-06-memorial-de-cálculo-de-elementos-do-projeto)](#apêndice-06-memorial-de-cálculo-de-elementos-do-projeto)
 
-[**5.1.** **Detalhar o projeto do elemento 01 do subsistema 01.**
+[**10.1.** **Detalhar o projeto do elemento 01 do subsistema 01.**
 [18](#detalhar-o-projeto-do-elemento-01-do-subsistema-01.)](#detalhar-o-projeto-do-elemento-01-do-subsistema-01.)
 
-[**5.2.** **Detalhar o projeto do elemento 02 do subsistema 01.**
+[**10.2.** **Detalhar o projeto do elemento 02 do subsistema 01.**
 [18](#detalhar-o-projeto-do-elemento-02-do-subsistema-01.)](#detalhar-o-projeto-do-elemento-02-do-subsistema-01.)
 
-[**6.** **Apêndice 07 -- Memorial de decisões de desenvolvimento de
+[**11.** **Apêndice 07 -- Memorial de decisões de desenvolvimento de
 software**
 [19](#apêndice-07-memorial-de-decisões-de-desenvolvimento-de-software)](#apêndice-07-memorial-de-decisões-de-desenvolvimento-de-software)
 
-[**7.** **Apêndice 08 -- Plano de testes funcionais do produto**
+[**12.** **Apêndice 08 -- Plano de testes funcionais do produto**
 [20](#apêndice-08-plano-de-testes-funcionais-do-produto)](#apêndice-08-plano-de-testes-funcionais-do-produto)
 
-[**8.** **Apêndice 09 -- Manual de montagem e uso do produto**
+[**13.** **Apêndice 09 -- Manual de montagem e uso do produto**
 [21](#apêndice-09-manual-de-montagem-e-uso-do-produto)](#apêndice-09-manual-de-montagem-e-uso-do-produto)
 
-[**9.** **Apêndice 10 -- Manual de manutenção do produto**
+[**14.** **Apêndice 10 -- Manual de manutenção do produto**
 [22](#apêndice-10-manual-de-manutenção-do-produto)](#apêndice-10-manual-de-manutenção-do-produto)
 
-[**10.** **Apêndice 11 -- Testes e Manual de instalação do software**
+[**15.** **Apêndice 11 -- Testes e Manual de instalação do software**
 [23](#apêndice-11-testes-e-manual-de-instalação-do-software)](#apêndice-11-testes-e-manual-de-instalação-do-software)
 
-[**11.** **Apêndice 12 -- Autoavaliação dos integrantes**
+[**16.** **Apêndice 12 -- Autoavaliação dos integrantes**
 [24](#apêndice-12-autoavaliação-dos-integrantes)](#apêndice-12-autoavaliação-dos-integrantes)
 
-[**12.** **Referências Bibliográficas**
+[**17.** **Referências Bibliográficas**
 [25](#referências-bibliográficas)](#referências-bibliográficas)
 
-[**13.** **Anexo 01 -- Catálogo de componentes utilizados no projeto**
+[**18.** **Anexo 01 -- Catálogo de componentes utilizados no projeto**
 [26](#anexo-01-catálogo-de-componentes-utilizados-no-projeto)](#anexo-01-catálogo-de-componentes-utilizados-no-projeto)
 
 
