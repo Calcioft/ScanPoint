@@ -10,7 +10,7 @@ texto
 
 ### Ensaios Estruturais
 
-Graças aos pontos de restrição a quantidade de normas e trabalhos em peças em impressão 3D, optou-se pela realização de um ensaio de tração simples onde uma peça de testes foi elaborada e submetida a diversas quantidades de cargas com o intuito de validar seu uso para a aplicação desejada no projeto. Foram avaliados especialmentes aspectos voltados às propriedades mecânicas de limite de resistência a tração e sua resistência à fratura.
+Graças aos pontos de restrição a quantidade de normas e trabalhos em peças em impressão 3D, optou-se pela realização de um ensaio para avaliação de integridade estrutural simples onde uma peça de testes foi elaborada e submetida a diversas quantidades de cargas com o intuito de validar seu uso para a aplicação desejada no projeto. A peça em estudo foi fabricada a partir do material PLA (biopolímero ácido poliláctico), com configuração de densidade de preenchimento de 10% do tipo zigue-zague e com 4 paredes de 0,88mm de espessura.
 
 <div align="center">
 
@@ -35,7 +35,11 @@ Com o auxílio de um perfil de alumínio e anilhas, a peça foi fixada e submeti
 
 </div>
 
-Como resultado, tem-se que a peça fabricada a partir do material PLA (biopolímero ácido poliláctico), com configuração de densidade de preenchimento de 10% do tipo zigue-zague e com 4 paredes de 0,88mm de espessura não apresentou nenhum sinal de deformação. Entretanto, foram observadas algumas trincas na estrutura da peça e deformação apenas no parafuso utilizado para fixar as cargas ao final do ensaio a partir de 32Kg de carga , que podem ser visualizadas nas figuras abaixo.
+Como resultado, tem-se que apesar de não ter sido observado o colapso estrutural do material, foram observadas deformações consideráveis na estrutura a partir de 35kg, carga que foi considerada máxima para o retorno da estrutura a suas condições iniciais. Após a definição de um fator de segurança de 2, definindo assim uma carga total por componente impresso de 16kg, calculado da seguinte forma:
+
+$Fs = Cf/Cmax$
+
+Onde Fs é o fator de segurança, Cf é a Carga de fratura e Cmax é a Carga máxima admissível considerando o fator de segurança definido.
 
 <div align="center">
 
@@ -45,21 +49,7 @@ Como resultado, tem-se que a peça fabricada a partir do material PLA (biopolím
 
 </div>
  
-Como conclusão, tem-se que a peça atende perfeitamente a sua finalidade, já que a aplicação desejada para a mesma é de apenas XXX Kg, lembrando ainda que a mesma representa 1/4 dos apoios em parte da estrutura. Também vale ressaltar que as trincas e a deformação no parafuso de fixação só foram observadas a partir de uma quantidade de carga muito superior a desejada neste projeto.
-
-Apesar de não ter sido observado o colapso estrutural do material, foram observadas deformações consideráveis na estrutura a partir de 35kg, carga que foi
-considerada máxima para o retorno da estrutura a suas condições iniciais. Após a 
-definição de um fator de segurança de 2, definindo assim uma carga total por componente
-impresso de 16kg, calculado da seguinte forma:
-
-Fs = Cf/Cmax
-
-Onde Fs é o fator de segurança, Cf é a Carga de fratura e Cmax é a Carga máxima admissível
-considerando o fator de segurança definido.
-Assim, avaliando a composição da estrutura com 4 peças impressas em 3D,
-a carga máxima admissível para o projeto, já considerando o fator de segurança, seria de
-64Kg no total, satisfazendo de maneira superdimensionada as condições iniciais e de
-requisitos do projeto, oque da margem suficiente para simplificação e reduções de rigidez, custos e complexidade dos materiais para as próximas análises de dimensionamentos e de otimização.
+Assim, avaliando a composição da estrutura com 4 peças impressas em 3D, a carga máxima admissível para o projeto, já considerando o fator de segurança, seria de 64Kg no total, satisfazendo de maneira superdimensionada as condições iniciais e de requisitos do projeto, o que apresenta margem suficiente para simplificação e reduções de rigidez, custos e complexidade dos materiais para as próximas análises de dimensionamentos e de otimização.
 
 
 ### Simulações e Cálculos Estruturais
