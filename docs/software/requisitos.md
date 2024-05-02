@@ -110,3 +110,15 @@ O sistema inteligente de captura de dados e escaneamento 3D combina a captura de
 | ------ | ---------------------------------------------------------------------------------------------------------------------- |
 | RNF21  | O sistema deve processar e verificar os dados capturados de forma eficiente, minimizando o tempo de espera do usuário. |
 
+
+## Tabela de versionamento
+
+| Versão| Data | Descrição | Responsável|
+|-------|------|-----------|------------|
+| 0.1 | 26/04/2024 | Criação do documento | Guilherme Basílio e Pedro Menezes |
+| 0.2 | 27/04/2024 | Adicionando requisitos não funcionais | Ciro Araújo |
+| 0.3 | 27/04/2024 | Adicionando funcionalidades de interface | Denniel William |
+| 0.4 | 28/04/2024 | Correção de requisitos não funcionais | Guilherme Basílio |
+| 0.5 | 28/04/2024 | Adição de requisitos não funcionais | Vinicius Vieira e Ciro Araújo |
+| 1.0 | 29/04/2024 | Formatação das funcionalidades | Denniel William |
+

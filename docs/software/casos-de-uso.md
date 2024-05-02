@@ -47,3 +47,10 @@
 
 ## Referências
 - [UML use case diagrams with draw.io, acessado em 12 de abril de 2024.](https://drawio-app.com/blog/uml-use-case-diagrams-with-draw-io/)
+
+## Tabela de versionamento
+
+| Versão| Data | Descrição | Responsável|
+|-------|------|-----------|------------|
+| 1.0 | 12/04/2024 | Criação do documento | Vinicius Vieira e Guilherme Basílio |
+| 1.1 | 27/04/2024 | Atualização do documento | Guilherme Basílio |
