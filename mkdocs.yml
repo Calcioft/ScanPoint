@@ -43,7 +43,7 @@ nav:
       - Diagrama BPMN: software/diagrama-bpmn.md
       - Funcionalidades: software/funcionalidades.md
   - Eletrônica/Energia: 
-      - Exemplo: eletronica-energia/exemplo.md
+      - EAP: eletronica-energia/eap.md
       - Subsistema de Energia: eletronica-energia/Projeto_Subsistema_Energia.md
   - Estruturas:
       - Exemplo: estruturas/exemplo.md
