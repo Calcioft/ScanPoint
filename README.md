@@ -40,7 +40,7 @@ https://lappis-unb.gitlab.io/fga-pi2/semestre-2024-1/grupo-08/scanpoint/
 
 Engloba as fases 1, 2 e 3 do ciclo de vida do projeto, sendo elas: **Problematização**, **concepção e detalhamento da solução** e **projeto e construção de subsistemas da solução proposta**.
 
-- [Desenhos Mecânicos](https://gitlab.com)
+- [Desenhos Mecânicos](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/tree/main/docs/estruturas/CAD/Estrutura_CATIA?ref_type=heads)
 - [Diagramas unifilares/trifilares de sistemas de alimentação](https://gitlab.com)
 - [Diagramas esquemáticos de circuitos eletrônicos](https://gitlab.com)
 - [Diagramas detalhando barramentos de alimentação dos circuitos eletrônicos](https://gitlab.com)
@@ -50,9 +50,9 @@ Engloba as fases 1, 2 e 3 do ciclo de vida do projeto, sendo elas: **Problematiz
 - [Diagramas com protocolos de comunicação entre componentes do software](https://gitlab.com)
 - [Requisitos funcionais e não funcionais](https://gitlab.com)
 - [Termo de Abertura do Projeto](https://gitlab.com)
-- [Estrutura Analítica de Projeto](https://gitlab.com)
+- [Estrutura Analítica de Projeto](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/geral/eap_geral.md?ref_type=heads)
 - [Definição, sequenciamento e cronograma de atividades;](https://gitlab.com)
-- [Estimativa de custos e orçamentos](https://gitlab.com)
+- [Estimativa de custos e orçamentos](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/geral/estimativa-custos.md?ref_type=heads)
 - [Levantamento de riscos e contingência para a execução do projeto e avaliação do impacto](https://gitlab.com)
 - tanana
 
