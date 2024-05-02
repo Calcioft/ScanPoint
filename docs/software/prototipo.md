@@ -35,3 +35,10 @@ Tela que informa que o processo foi concluído com sucesso. A tela mostra uma br
 Tela informativa sobre a idealização do projeto e sobre a equipe envolvida no desenvolvimento. 
 
 ![tela de sobre](../assets/software/prototipo/sobre.png)
+
+
+## Tabela de versionamento
+
+| Versão| Data | Descrição | Responsável|
+|-------|------|-----------|------------|
+| 1.0 | 02/05/2024 | Criação do documento | Brenda Vitória |

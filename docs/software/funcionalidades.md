@@ -30,12 +30,14 @@ Cada funcionalidade é acompanhada de uma história de usuário correspondente, 
 | F13                  | Permitir o usuário cancelar o escaneamento | Must Have  | Como usuário, quero poder fazer o cancelamento do escaneamento 3D para conseguir interromper o processo |
 | F14                 | Permitir o usuário reiniciar o escaneamento em caso de falha ou cancelamento | Must Have  | Como usuário, quero poder reiniciar o escaneamento 3D para conseguir começar o processo novamente |
 
-
-
-
-
 ## Referências
 
 - [User Stories Applied: For Agile Software Development by Mike Cohn. Acessado em 29 de abril de 2024](https://www.mountaingoatsoftware.com/books/user-stories-applied)
 
 - [Agile Project Management: Creating Innovative Products by Jim Highsmith. Acessado em 29 de abril de 2024](https://www.pearson.com/us/higher-education/program/Highsmith-Agile-Project-Management-Creating-Innovative-Products-2nd-Edition/PGM334840.html)
+
+## Tabela de versionamento
+
+| Versão| Data | Descrição | Responsável|
+|-------|------|-----------|------------|
+| 1.0 | 29/04/2024 | Criação do documento | Denniel William |

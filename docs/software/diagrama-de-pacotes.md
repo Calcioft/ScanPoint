@@ -45,3 +45,9 @@ Pasta destinada aos testes do aplicativo, onde são colocados os arquivos de tes
 
 ## Referências
 - [All about UML package diagrams. Acesso em 24 de abril de 2024.](https://www.lucidchart.com/pages/uml-package-diagram)
+
+## Tabela de versionamento
+
+| Versão| Data | Descrição | Responsável|
+|-------|------|-----------|------------|
+| 1.0 | 24/04/2024 | Criação do documento | Vinicius Vieira |

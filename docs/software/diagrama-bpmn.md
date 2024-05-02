@@ -66,4 +66,10 @@ O diagrama BPMN foi construído seguindo as melhores práticas de modelagem de p
 
 - [Business Process Model And Notation, acessado em 29 de abril de 2024.](https://www.omg.org/spec/BPMN/2.0/)
 
+## Tabela de versionamento
+
+| Versão| Data | Descrição | Responsável|
+|-------|------|-----------|------------|
+| 1.0 | 30/04/2024 | Criação do documento | Vinicius Vieira e Ciro Araújo |
+
 
