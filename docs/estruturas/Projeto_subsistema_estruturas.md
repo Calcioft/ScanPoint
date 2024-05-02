@@ -37,7 +37,11 @@ Com o auxílio de um perfil de alumínio e anilhas, a peça foi fixada e submeti
 
 Como resultado, tem-se que apesar de não ter sido observado o colapso estrutural do material, foram observadas deformações consideráveis na estrutura a partir de 35kg, carga que foi considerada máxima para o retorno da estrutura a suas condições iniciais. Após a definição de um fator de segurança de 2, definindo assim uma carga total por componente impresso de 16kg, calculado da seguinte forma:
 
+<div align="center">
+
 $Fs = Cf/Cmax$
+
+</div>
 
 Onde Fs é o fator de segurança, Cf é a Carga de fratura e Cmax é a Carga máxima admissível considerando o fator de segurança definido.
 
