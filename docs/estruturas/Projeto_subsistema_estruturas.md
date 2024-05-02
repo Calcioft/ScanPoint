@@ -39,7 +39,7 @@ Como resultado, tem-se que apesar de não ter sido observado o colapso estrutura
 
 <div align="center">
 
-$Fs = Cf/Cmax$
+$Fs = \frac{Cf}{Cmax}$
 
 </div>
 
