@@ -4,12 +4,13 @@ O subsistema de energia é responsável pela alimentação dos demais subsistema
 ## Levantamento de carga
 Com o intuito de determinar a quantidade total de energia que será consumida no projeto realizou-se uma análise do consumo estimado dos dispositivos. Nessa análise será estimado um tempo de operação de leitura dos objetos de  30  minutos, um tempo mais preciso será somente possível na fase de testes. Para uma margem de segurança foi adicionado  20%  sobre o consumo do projeto. Assim, temos o consumo energético do projeto:
 
-| Componente | Qtd | Corrente [A]|Tensão [V] |Tempo de Operação [h] |Potência [Wh]|
-| ------ | ------ |------ |------ |------ |------ |
-|ARDUINO UNO|1|0,41|5,00|0,50|1,03|
-|L298N (PONTE H)|2|2,00|12,00|0,50|24,00|
-|Potência Total [Wh]|||||25,03|
-|Potência Total com 20% [Wh]|||||30,03|
+| Componente | Qtd | Corrente [A]|Tensão [V] |Potência [W]|
+| ------ | ------ |------ |------ |------ |
+|ARDUINO UNO|1|0,41|5,00|2,05|
+|L298N (PONTE H)|2|2,00|12,00|48,00|
+|Potência Total [W]||||50,05|
+|Potência Total com 20% [W]||||60,06|
+
 
 ## Bateria
 Para o projeto ScanPoint está estimado em utilizar duas baterias de  12 V  com uma capacidade de 7AH cada, caso haja a necessidade de uma maior autonomia no projeto será adicionado mais uma bateria com as mesmas característica, mas em uma configuração em paralelo, visto que na configuração em série aumentaria a tensão e não é o que se deseja visto que os componentes do projeto apresentam uma tensão de alimentação inferior a 12V.
