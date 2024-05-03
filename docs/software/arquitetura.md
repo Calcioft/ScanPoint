@@ -1,13 +1,13 @@
 
 # Arquitetura de Software
 
-<span style="text-align: justify;"> Esta sessão elenca todos os itens de arquitetura de software, como os componentes utilizados, sua comunicação e as tecnologias utilizadas.
-</span>
+<p style="text-align: justify;"> Esta sessão elenca todos os itens de arquitetura de software, como os componentes utilizados, sua comunicação e as tecnologias utilizadas.
+</p>
 
 ## Componentes 
-<span style="text-align: justify;">
+<p style="text-align: justify;">
 A arquitetura de software está dividida nos seguintes componentes:
-</span>
+</p>
 
 - Aplicação: Desenvolvida em Electron, cuida de toda a interação com usuário e sinais para comunicação com o embarcado. Ela possui um front-end com opções iterativas para o usuário controlar o sistema;
 - Script de conversão: Vai converter o arquivo de texto com as informações espaciais do objeto e transformar em .stl(formato para impressão 3D)
@@ -16,9 +16,9 @@ A arquitetura de software está dividida nos seguintes componentes:
 - Motor de rotação: Irá girar a mesa onde o item está posicionado, possibilitanto a leitura do objeto em 360 graus;
 - Motor de regulação de altura: Irá possibilitar a regulação da altura do sensor infravermelho, assim passando por todo o comprimento do objeto;
 
-<span style="text-align: justify;">
+<p style="text-align: justify;">
 A relação entre os componentes está elencada no diagrama abaixo:
-</span>
+</p>
 
 ## Diagrama de arquitetura de software 
 
@@ -28,14 +28,14 @@ A relação entre os componentes está elencada no diagrama abaixo:
 
 ## Tecnologias
 
-<span style="text-align: justify;">
+<p style="text-align: justify;">
 AS tecnologias de software utilizadas nesse projeto foram:
-</span>
+</p>
 
 
-- Electron: É um framework open-source para criar aplicações Desktop usando tecnologias web para Windows, mac e Linux, com base no Chromium e Node.js [[1]](../software/arquitetura.md#ref1);
+- Electron: É um framework open-source para criar aplicações Desktop usando tecnologias web para Windows, mac e Linux, com base no Chromium e Node.js; <a href="../software/arquitetura.md#ref1">[1]</a>
 
-- Arduino: É uma plataforma open-source com hardware e software com fácil aprendizagem. As placas Arduino tem a capassidade de registrar entradas diferentes, como botões, sinais de sensores, etc. Para programar as placas, existe o Arduino IDE (que é multiplataforma), com sua própria linguagem de programação [[2]](../software/arquitetura.md#ref2).
+- Arduino: É uma plataforma open-source com hardware e software com fácil aprendizagem. As placas Arduino tem a capassidade de registrar entradas diferentes, como botões, sinais de sensores, etc. Para programar as placas, existe o Arduino IDE (que é multiplataforma), com sua própria linguagem de programação. <a href="../software/arquitetura.md#ref2">[2]</a>
 
 
 ## Referências
