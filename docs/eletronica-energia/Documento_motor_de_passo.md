@@ -259,29 +259,46 @@ Da mesma maneira que o motor "A", o motor "B" possui dois pinos de direcionament
 **Figura 15:** Diagrama de blocos do L298M
 Fonte [7]
 
+
+
+## Módulo regular C/LM2596
+
+O circuito precisa de um módulo que permita trabalhar com duas tensões, uma de 12V para alimentar a Ponte H, e um de 5V para alimentar a placa de árduino, para resolver esta situação foi trabalhado com um fonte de 12V e um módulo regular C/LM2596 (ver figura 16 e 17). O Módulo Regulador de Tensão LM2596 trabalha como um conversor DC DC no modo Step Down, sendo capaz de reduzir uma carga de até 3A com ótima eficiência. A tensão de saída pode ser ajustada entre 1,5 a 35v, tendo como entrada 3,2 a 40v. Possui uma velocidade de comutação de 150KHz e pode ser aplicado em circuitos onde a saída de um sensor é superior a 5v, tensão de entrada máxima em um Arduino ou PIC [8].
+
+![alt text](../assets/eletronica-energia/image-18.png)
+
+**Figura 16:** Módulo regular C/LM2596
+
+
+![alt text](../assets/eletronica-energia/image-20.png)
+**Figura 17:** Especificação dos componentes do módulo regulador C/LM2596
+
+Este módulo tem as seguintes carácterísticas:
+![alt text](../assets/eletronica-energia/image-19.png)
+
  
-Assim conhecendo todos os componentes, foi montada uma simulação utilizando programa Proteus, a qual é motrada na figura 16. Já na figura 17, encontra-se a representação do circuito realizada utilizando o Fritzing que permite gerar o diagrama esquemático do circuito na figura 18, e o diagrama de barramento na figura 19.
+Assim conhecendo todos os componentes, foi montada uma simulação utilizando programa Proteus, a qual é motrada na figura 18. Já na figura 19, encontra-se a representação do circuito realizada utilizando o Fritzing que permite gerar o diagrama esquemático do circuito na figura 20, e o diagrama de barramento na figura 21.
  
  ![alt text](../assets/eletronica-energia/image-45.png)
 
-**Figura 16:** Simulação do Proteus do sistema de motores.
+**Figura 18:** Simulação do Proteus do sistema de motores.
 
-A figura 16 apresenta a simulação realizada no proteus para verificar o funcionamento do motor e um preteste do funcionamento dos motores, seguidamente foi feita a simulação utilizando o Fritzing com o objetivo de criar os diagramas esquemáticos.
+A figura 18 apresenta a simulação realizada no proteus para verificar o funcionamento do motor e um preteste do funcionamento dos motores, seguidamente foi feita a simulação utilizando o Fritzing com o objetivo de criar os diagramas esquemáticos.
 
  ![alt text](../assets/eletronica-energia/image-21.png)
 
-**Figura 17:** Simulação Arduino do sistema de motores.
+**Figura 19:** Simulação Arduino do sistema de motores.
 
-Já nas figuras 18 e 19 se apresentam os diagramas de eletrônica de blocos e de barramento respectivamente.
+Já nas figuras 20 e 21 se apresentam os diagramas de eletrônica de blocos e de barramento respectivamente.
 
 
  ![alt text](../assets/eletronica-energia/image-22.png)
 
-**Figura 18** Diagrama de blocos completo do circuito com motores de passo. 
+**Figura 20** Diagrama de blocos completo do circuito com motores de passo. 
  
   ![alt text](../assets/eletronica-energia/image-23.png)
 
-**Figura 19** Diagrama de barramentos completo do circuito com motores de passo. 
+**Figura 21** Diagrama de barramentos completo do circuito com motores de passo. 
 
 
 ## Descrição matemática do MOTOR
@@ -290,18 +307,19 @@ Um motor pode ser modelado utilizando um Resistor, um indutor e uma força contr
 
 ![alt text](../assets/eletronica-energia/image-24.png)
 
-A equação que representa a tensão pode ser modelada aplicando a LKT, representada como mostra a equação 2 e a figura 17:
+A equação que representa a tensão pode ser modelada aplicando a LKT, representada como mostra a equação 2 e a figura 22:
 
 ![alt text](../assets/eletronica-energia/image-25.png)
 
 ![alt text](../assets/eletronica-energia/image.png)
-**Figura 17:** Modelo Elétrico do motor DC
+
+**Figura 22:** Modelo Elétrico do motor DC
 
 O motor pode ser separado em variáveis elétricas e mecânicas, conforme mostra a figura 4, onde a parte ressaltada na cor preto, indica a parte elétrica e a ressaltada na cor vermelho a parte mecânica como.
 
 ![alt text](../assets/eletronica-energia/image-1.png)
 
-**Figura 18:** Modelo elétrico e mecânico do motor DC
+**Figura 23:** Modelo elétrico e mecânico do motor DC
 
 ![alt text](../assets/eletronica-energia/image-26.png)
 
@@ -309,7 +327,7 @@ O campo incidente sobre o motor é chamado campo fixo, esse campo fixo pode ser 
 
 ![alt text](../assets/eletronica-energia/image-42.png)
 
-**Figura 19:** Representação do campo magnético no motor
+**Figura 24:** Representação do campo magnético no motor
 
 ![alt text](../assets/eletronica-energia/image-27.png)
 
@@ -395,9 +413,9 @@ Substituindo na função de transferência mostrada na equação 12, é encontra
 A equação diferencial é representada como:
 ![alt text](../assets/eletronica-energia/image-41.png)
 
-Fazendo uma representação da função de transferência utilizando um degrau unitário, foi encontrado o comportamento mostrado na figura 6.
+Fazendo uma representação da função de transferência utilizando um degrau unitário, foi encontrado o comportamento mostrado na figura 25.
 ![alt text](../assets/eletronica-energia/motor1.png)
-**Figura 20:** Função de transferência do motor de Passo.
+**Figura 25:** Função de transferência do motor de Passo.
 
 É observado que o comporamento matemático do motor passo tem um comportamento de primeira ordem, más, na equação 12, foi mostrado que este era de segunda ordem, o que indica que o efieto de segunda ordem é pouco relevante para este sistema, por esse motivo foi feita uma aproximação para um modelo de primeira ordem, assim, foi feito um procedimento matemático para encontrar essa aproximação considerando que o termo de segunda ordem está em relação ao indutor, e sua contribuição é pequena, este parâmetro foi aproximado a zero, assim a EDO da equação 11 fica como mostra a equação 13
 
@@ -409,46 +427,7 @@ Fazendo uma representação da função de transferência utilizando um degrau u
 Fazendo a representação da equação de transferência proposta na equação 15 e comparando com a função de transferência mostrada na equação 14, é verificado, que efetivamente o sistema pode ser representado como um sistema de primeira ordem, pois as duas respostas são idênticas.
 
 ![alt text](../assets/eletronica-energia/motor2.png)
-**Figura 21:** Compração do sistema de primeira e segunda ordem.
-
-
-
-## Modelo do circuito
-
-O circuito precisa de um módulo que permita trabalhar com duas tensões, uma de 12V para alimentar a Ponte H, e um de 5V para alimentar a placa de árduino, para resolver esta situação foi trabalhado com um fonte de 12V e um módulo regular C/LM2596, Oo Módulo Regulador de Tensão LM2596 trabalha como um conversor DC DC no modo Step Down, sendo capaz de reduzir uma carga de até 3A com ótima eficiência. A tensão de saída pode ser ajustada entre 1,5 a 35v, tendo como entrada 3,2 a 40v. Possui uma velocidade de comutação de 150KHz e pode ser aplicado em circuitos onde a saída de um sensor é superior a 5v, tensão de entrada máxima em um Arduino ou PIC [8].
-
-![alt text](../assets/eletronica-energia/image-18.png)
-
-**Figura 22:** Módulo regular C/LM2596
-
-Já a figura 21, apresenta o regulador especificando como identificar as conexões tanto de entrada como de saída.
-
-![alt text](../assets/eletronica-energia/image-20.png)
-**Figura 23:** Especificação dos componentes do módulo regulador C/LM2596
-
-Este módulo tem as seguintes carácterísticas:
-![alt text](../assets/eletronica-energia/image-19.png)
-
-Já definidos os  módulos e os motores, foi proposto o seguinte modelo circuital apresentado nas figuras 24 e 25, que mostram com são feitas as conexões:
-
-![alt text](../assets/eletronica-energia/image-45.png)
-**Figura 24:** Modelo do circuito a ser implementado.
-
-
-![alt text](../assets/eletronica-energia/image-21.png)
-**Figura 25:** Representação da simulação do circuito com dois motores
-
-## Diagrama Esquemático do circuito Eletrônico
-Após ter finalizado a simulação foi criado utilizando o software Fritzing o diagrama esquemático que representa o circuito, o qual é mostrado na figura 26.
-
-![alt text](../assets/eletronica-energia/image-22.png)
-**Figura 26:** Diagrama esquemático do circuito elétrico
-
-## Diagrama detalahado de Barramentos do Circuito do circuito eletrônico
-Seguidamente foi gerado o diagrama completo de barramentos que especifica como devem ser as conexões na placa que será implementado o circuito, este é mostrado na figura 27
-
-![alt text](../assets/eletronica-energia/image-23.png)
-**Figura 27:** Diagrama completo de Barramentos do circuito.
+**Figura 26:** Compração do sistema de primeira e segunda ordem.
 
 
 ## Diagrama com detalhes dos protocolos de comunicaçãos entre os elementos.
