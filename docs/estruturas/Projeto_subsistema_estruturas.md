@@ -137,12 +137,12 @@ Possuindo as mesmas dimensões, a peça foi submetida as condições de contorno
 
 Como resultado, tem-se a deformação máxima de aproximadamente 4,84E-05m. Pode-se notar que o resultado mostrou-se visualmente bem próximo ao obtido pelo método anterior e que a deformação ocorre próximo a região de apoio onde foi inserido o parafuso e a ruela para apoio das cargas no objeto em questão.
 
-<div align="center">
-
-![Simulação da deformação total](imagens/Proj_Subs_Estruturas_Vídeo_simulação_deformação_total.mp4)
 
 
-</div>
+<!--![Simulação da deformação total](imagens/Proj_Subs_Estruturas_Vídeo_simulação_deformação_total.mp4)-->
+
+
+
 
 # Referências
 
