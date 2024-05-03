@@ -1,24 +1,27 @@
 # Documento de Visão
 
-# 1. Introdução
+## 1. Introdução
 
-A crescente demanda por tecnologias de digitalização tridimensional reflete a necessidade de capturar modelos 3D precisos de maneira acessível e eficiente. Profissionais e empresas enfrentam desafios ao tentar digitalizar objetos ou ambientes de forma completa e detalhada, devido à dificuldade em capturar detalhes de superfícies complexas que requerem visualização de múltiplos ângulos para uma representação fiel.
+No cenário contemporâneo da fabricação digital, a busca por soluções que simplifiquem e otimizem o processo de digitalização 3D tem sido uma prioridade. Nesse contexto, surge a ideia de desenvolver um scanner 3D a partir de um Arduino, utilizando sensores infravermelho para capturar pontos de distância de objetos físicos. Esses pontos são então enviados para um computador, onde são processados para formar uma nuvem de pontos (point cloud), que por sua vez é utilizada para gerar um modelo tridimensional.
 
-Nesse contexto, surge a necessidade de uma abordagem inovadora que possa superar essa limitação e simplificar o processo de digitalização tridimensional. O ScanBox foi idealizado para atender à crescente demanda por ferramentas acessíveis e eficientes de digitalização de objetos do mundo real. Com uma abordagem abrangente, o produto oferece uma solução completa, desde a captura de imagens até a geração do arquivo 3D para impressão. Ao proporcionar uma maneira fácil e intuitiva de transformar objetos físicos em modelos digitais prontos para impressão em 3D, o ScanBox visa democratizar o acesso à tecnologia de impressão 3D e promover a inovação em diversos setores, como design, manufatura, medicina e educação.
+Este projeto representa uma abordagem inovadora e acessível para a digitalização 3D, aproveitando a versatilidade e a capacidade de processamento do Arduino em conjunto com a precisão dos sensores infravermelho. Ao capturar os pontos de distância do objeto em questão, o sistema cria uma representação digital precisa da sua superfície, sem a necessidade de equipamentos complexos ou caros.
 
-Este documento tem como objetivo apresentar o ScanBox em detalhes, destacando seus recursos, benefícios e aplicações. 
+Uma vez que os dados são transferidos para o computador, um processo de processamento é acionado para transformar a nuvem de pontos em um modelo 3D completo. Esse modelo pode ser utilizado em uma variedade de aplicações, desde design e prototipagem rápida até engenharia reversa e análise dimensional.
+
+Ao adotar uma abordagem que combina acessibilidade, simplicidade e eficiência, este projeto tem o potencial de democratizar a digitalização 3D, tornando-a acessível a uma ampla gama de usuários, desde entusiastas e estudantes até profissionais e empresas. Além disso, ao utilizar tecnologias de código aberto, incentiva-se a colaboração e o desenvolvimento contínuo, criando um ecossistema de inovação sustentável e compartilhado. Este documento tem como objetivo apresentar o ScanPoint em detalhes, destacando seus recursos, benefícios e aplicações. 
 
 ## 2. Definição do Produto
 
-O ScanBox é um sistema integrado que visa simplificar o processo de escaneamento e reprodução 3D de objetos físicos. Surgiu da necessidade de digitalizar objetos para impressão em 3D de forma fácil e eficiente. O sistema busca oferecer uma solução abrangente, desde a captura de imagens até a geração do arquivo 3D para impressão.
+O projeto ScanPoint surge como uma resposta à necessidade crescente de simplificar e otimizar o processo de digitalização e reprodução tridimensional de objetos físicos. Propõe-se a desenvolver um sistema integrado que utilize um Arduino e sensores infravermelho para capturar pontos de distância dos objetos, permitindo sua posterior reprodução em 3D. A motivação para este projeto é proporcionar uma solução abrangente e acessível, desde a captura inicial dos dados até a geração do arquivo 3D pronto para impressão. Ao focar na facilidade de uso e eficiência, o ScanPoint visa democratizar o acesso à tecnologia de digitalização 3D, abrindo portas para a criação e inovação em diversos campos, incluindo design, engenharia e fabricação.
 
 ### 2.1. Perspectiva do Produto
 
-O produto tem como principal objetivo facilitar o processo de escaneamento de objetos físicos para impressão em 3D. Ele visa fornecer uma interface intuitiva para captura de imagens, processamento eficiente dessas imagens e geração de arquivos 3D prontos para impressão. Além disso, busca-se oferecer um sistema robusto e confiável, capaz de realizar o escaneamento de forma precisa e reproduzir com fidelidade o objeto físico em formato digital.
+O foco central do projeto é simplificar e agilizar o processo de digitalização de objetos físicos para posterior impressão em 3D. O objetivo primordial é oferecer uma interface intuitiva que permita a captura eficiente de dados, o processamento otimizado desses dados e a geração de arquivos 3D prontos para impressão. Em paralelo, busca-se estabelecer um sistema robusto e confiável, capaz de realizar o escaneamento com precisão e reproduzir fielmente o objeto físico em formato digital. Essa abordagem visa não apenas tornar a tecnologia de digitalização 3D mais acessível, mas também garantir resultados de alta qualidade e confiabilidade para uma ampla gama de aplicações.
 
 ### 2.2. Resumo dos Recursos
 
-O ScanBox compreende uma solução completa para o processo de escaneamento e reprodução 3D de objetos físicos. Os recursos e funcionalidades foram cuidadosamente planejados para oferecer uma experiência eficiente e intuitiva aos usuários. Com esse objetivo, podem ser apresentados de forma geral as seguintes partes da solução:
+O ScanPoint representa uma solução abrangente para o escaneamento e a reprodução 3D de objetos físicos. Sua abordagem inclui a geração de uma nuvem de pontos precisa, capturando com precisão as características do objeto escaneado. Os recursos foram projetados para garantir uma experiência intuitiva e eficiente, desde a captura inicial dos dados até a criação do modelo 3D pronto para impressão. Para isso, destacam-se cinco componentes essenciais da solução: 
+<!-- TODO: [TROCAR AMANHA] -->
 
 * **Interação com o usuário:** Sistema para interação com usuário, dando explicações iniciais necessárias, permitindo iniciar o processo, acompanhar aproximadamente quanto tempo falta até o fim do processo, cancelar e pré-visualizar o resultado do que será enviado para impressão.
 
@@ -32,33 +35,34 @@ O ScanBox compreende uma solução completa para o processo de escaneamento e re
 
 ## 4. Restrições
 
-As restrições impostas pelo ScanBox podem ser críticas para os desenvolvedores e usuários da ScanBox. Essas limitações podem afetar diretamente a eficácia e a utilidade do equipamento, tornando importante entender e gerenciar esses fatores. Algumas das principais observadas são:
+As restrições impostas pelo ScanPoint podem ser críticas para os desenvolvedores e usuários da ScanPoint. Essas limitações podem afetar diretamente a eficácia e a utilidade do equipamento, tornando importante entender e gerenciar esses fatores. Algumas das principais restrições observadas são:
 
 ### 4.1. Restrições de Implementação
 
-Considerando as restrições de implementação para o produto "ScanBox", podemos identificar várias áreas que podem influenciar seu desenvolvimento e produção:
+Considerando as restrições de implementação para o produto "ScanPoint", podemos identificar várias áreas que podem influenciar seu desenvolvimento e produção:
 
-* **Recursos financeiros:** Desenvolver e fabricar uma ScanBox pode exigir investimentos significativos em pesquisa e desenvolvimento, além de custos associados aos materiais para a contrução da mesa. Limitações de orçamento podem influenciar a seleção de materiais, tecnologias e métodos de produção.
+* **Recursos financeiros:** Desenvolver e fabricar uma ScanPoint pode exigir investimentos significativos em pesquisa e desenvolvimento, além de custos associados aos materiais para a construção do scanner. Limitações de orçamento podem influenciar a seleção de materiais, tecnologias e métodos de produção.
 
-* **Tecnologia disponível:** A disponibilidade de tecnologias de digitalização tridimensional e sistemas de rotação de qualidade pode ser uma restrição. Dependendo da tecnologia, o desenvolvimento da ScanBox pode ser limitado por restrições técnicas existentes em softwares que tem a capacidade de fazer processamento da imagem.
+* **Tecnologia disponível:** A qualidade da nuvem de pontos gerada pelo ScanPoint pode ser limitada pela precisão dos sensores e algoritmos utilizados na captura dos dados de distância. Restrições relacionadas à resolução e calibração dos sensores podem afetar diretamente a fidelidade e a completude da nuvem de pontos resultante.
 
 * **Materiais:** As restrições relacionadas aos materiais podem incluir a necessidade de selecionar materiais que sejam leves, duráveis e capazes de suportar o peso dos objetos a serem digitalizados. Além disso, os materiais selecionados devem ser compatíveis com as tecnologias de digitalização e não interferir na qualidade dos resultados.
 
-* **Prazos:** Restrições de tempo podem ser impostas por demandas da disciplina para cumprir os prazos estipulados pela ementa e plano de ensino da discplina, podendo influenciar o escopo e a complexidade do projeto.
+* **Prazos:** Restrições de tempo podem ser impostas por demandas da disciplina para cumprir os prazos estipulados pela ementa e plano de ensino da disciplina, podendo influenciar o escopo e a complexidade do projeto.
 
 ### 4.2. Restrições de Uso
 
 Por fim, em relação às principais restrições de uso, podem ser observadas:
 
-* **Tamanho do objeto:** O tamanho máximo do objeto que pode ser testado na ScanBox é uma restrição significativa. Objetos muito grandes podem não caber na área de digitalização ou podem exceder a capacidade de carga do sistema de rotação, limitando a versatilidade do equipamento.
+* **Tamanho do objeto:** O tamanho máximo do objeto que pode ser testado na ScanPoint é uma restrição significativa. Objetos muito grandes podem não caber na área de digitalização ou podem exceder a capacidade de carga do sistema de rotação, limitando a versatilidade do equipamento.
 
-* **Espessura do objeto:** A espessura máxima do objeto que pode ser digitalizado também é uma restrição importante. Objetos muito finos podem não ser detectados corretamente pelo ScanBox, resultando em dados imprecisos ou incompletos.
+* **Espessura do objeto:** A espessura máxima do objeto que pode ser digitalizado também é uma restrição importante. Objetos muito finos podem não ser detectados corretamente pelo ScanPoint, resultando em dados imprecisos ou incompletos.
 
-* **Peso do objeto:** A capacidade de carga da ScanBox define o peso máximo do objeto que pode ser colocado sobre ela. Exceder esse limite pode danificar o equipamento ou comprometer a precisão da digitalização.
+* **Peso do objeto:** A capacidade de carga da ScanPoint define o peso máximo do objeto que pode ser colocado sobre ela. Exceder esse limite pode danificar o equipamento ou comprometer a precisão da digitalização.
 
-* **Tipo de material do objeto:** O tipo de material do objeto a ser testado também pode ser uma restrição. Alguns materiais podem não refletir corretamente a luz do ScanBox, resultando em dados de baixa qualidade. Além disso, materiais transparentes ou altamente reflexivos podem apresentar desafios adicionais para a digitalização.
+* **Tipo de material do objeto:** O tipo de material do objeto a ser testado também pode ser uma restrição. Alguns materiais podem não refletir corretamente a luz do ScanPoint, resultando em dados de baixa qualidade. Além disso, materiais transparentes ou altamente reflexivos podem apresentar desafios adicionais para a digitalização.
 
 ## 5. Identificação de solução comerciais
+<!-- TODO: [TROCAR AMANHA] -->
 
 | Solução     | Descrição | Principais especificações |
 |:------------|------| :------- | 
@@ -67,40 +71,40 @@ Por fim, em relação às principais restrições de uso, podem ser observadas:
 
 ## 6. Objetivo geral do projeto
 
-O objetivo geral do projeto ScanBox é desenvolver um sistema integrado que simplifique o processo de escaneamento e reprodução 3D de objetos físicos. O sistema visa oferecer uma solução abrangente que permita aos usuários capturar imagens de objetos do mundo real, processar essas imagens para gerar modelos 3D precisos e, em seguida, criar arquivos prontos para impressão 3D. Por meio do ScanBox, pretende-se facilitar e agilizar o processo de digitalização de objetos físicos, tornando-o acessível a uma variedade de usuários, desde entusiastas de tecnologia até profissionais de design e fabricação. O sistema busca eliminar as barreiras técnicas e de custo associadas ao escaneamento 3D tradicional, oferecendo uma solução eficiente e fácil de usar.
+O objetivo geral do projeto ScanPoint é desenvolver um sistema integrado que simplifique o processo de escaneamento e reprodução 3D de objetos físicos. O sistema visa oferecer uma solução abrangente que permita aos usuários capturar imagens de objetos do mundo real, processar essas imagens para gerar modelos 3D precisos e, em seguida, criar arquivos prontos para impressão 3D. Por meio do ScanPoint, pretende-se facilitar e agilizar o processo de digitalização de objetos físicos, tornando-o acessível a uma variedade de usuários, desde entusiastas de tecnologia até profissionais de design e fabricação. O sistema busca eliminar as barreiras técnicas e de custo associadas ao escaneamento 3D tradicional, oferecendo uma solução eficiente e fácil de usar.
 
 ## 7. Objetivo específicos do projeto
 
--  Criação e Aprovação de Protótipo: Desenvolver um protótipo funcional de alta fidelidade do sistema que o usuário terá contato ao iniciar e acompanhar o processamento. Esse protótipo será projetado para oferecer uma experiência de usuário próxima da realidade, permitindo a validação de conceitos, fluxos de trabalho e usabilidade.
+-  **Criação e Aprovação de Protótipo:** Desenvolver um protótipo funcional de alta fidelidade do sistema que o usuário terá contato ao iniciar e acompanhar o processamento. Esse protótipo será projetado para oferecer uma experiência de usuário próxima da realidade, permitindo a validação de conceitos, fluxos de trabalho e usabilidade.
 
-- Definição da Arquitetura dos sistemas: Estabelecer uma arquitetura de software robusta e escalável para o sistema ScanBox, que permita uma integração eficiente de todos os módulos e componentes. Isso inclui a definição de interfaces de comunicação entre os diferentes subsistemas e a escolha das tecnologias adequadas para implementação.
+- **Definição da Arquitetura dos Sistemas**: Estabelecer uma arquitetura de software robusta e escalável para o sistema ScanPoint, que permita uma integração eficiente de todos os módulos e componentes. Isso inclui a definição de interfaces de comunicação entre os diferentes subsistemas e a escolha das tecnologias adequadas para implementação.
 
-- Desenvolvimento dos Sistemas Específicos: Implementar os sistemas específicos necessários para o funcionamento do ScanBox, incluindo o sistema de captura de imagens, o sistema de processamento de imagens, o sistema de controle de hardware e o sistema de interface do usuário. Cada um desses sistemas será projetado e desenvolvido de forma a atender aos requisitos específicos do projeto.
+- **Desenvolvimento dos Sistemas Específicos**: Implementar os sistemas específicos necessários para o funcionamento do ScanPoint, incluindo o sistema de captura de imagens, o sistema de processamento de imagens, o sistema de controle de hardware e o sistema de interface do usuário. Cada um desses sistemas será projetado e desenvolvido de forma a atender aos requisitos específicos do projeto.
 
-- Testes de Integração: Realizar testes de integração para garantir que todos os componentes do sistema ScanBox funcionem harmoniosamente juntos. Isso envolverá a verificação da comunicação entre os diferentes sistemas, a detecção e correção de possíveis conflitos e a garantia de que o sistema como um todo atenda aos requisitos estabelecidos.
+- **Testes de Integração**: Realizar testes de integração para garantir que todos os componentes do sistema ScanPoint funcionem harmoniosamente juntos. Isso envolverá a verificação da comunicação entre os diferentes sistemas, a detecção e correção de possíveis conflitos e a garantia de que o sistema como um todo atenda aos requisitos estabelecidos.
 
-- Validação do Sistema: Submeter o sistema ScanBox a testes de validação para garantir que ele atenda aos objetivos e requisitos estabelecidos. Isso incluirá a verificação da precisão do escaneamento, a confiabilidade do hardware e software, e a usabilidade geral do sistema.
+- **Validação do Sistema**: Submeter o sistema ScanPoint a testes de validação para garantir que ele atenda aos objetivos e requisitos estabelecidos. Isso incluirá a verificação da precisão do escaneamento, a confiabilidade de hardware e software, e a usabilidade geral do sistema.
 
-- Documentação: Preparar documentação detalhada sobre o funcionamento e operação do sistema ScanBox, bem como materiais de treinamento para usuários e técnicos. Isso garantirá que os usuários estejam devidamente capacitados para utilizar o sistema de forma eficaz e segura.
+- **Documentação**: Preparar documentação detalhada sobre o funcionamento e operação do sistema ScanPoint, bem como materiais de treinamento para usuários e técnicos. Isso garantirá que os usuários estejam devidamente capacitados para utilizar o sistema de forma eficaz e segura.
 
 ## 8. Posicionamento
 
 ### 8.1. Oportunidade de Negócio
 
-O ScanBox é um serviço especializado em escaneamento e reprodução 3D de objetos físicos. Nosso objetivo é oferecer uma solução abrangente que simplifique o processo de digitalização de objetos do mundo real. Com tecnologia avançada e expertise em impressão 3D, a ideia é auxiliar clientes a transformar objetos físicos em modelos digitais precisos. Atendemos diversas necessidades, desde a replicação de peças industriais até a criação de protótipos e obras de arte personalizadas.
+O ScanPoint é um serviço especializado em escaneamento e reprodução 3D de objetos físicos. Nosso objetivo é oferecer uma solução abrangente que simplifique o processo de escaneamento de objetos do mundo real. Com tecnologia avançada e expertise em impressão 3D, a ideia é auxiliar clientes a transformar objetos físicos em modelos digitais precisos. Atendemos diversas necessidades, desde a replicação de peças industriais até a criação de protótipos e obras de arte personalizadas.
 
 ### 8.2. Instrução de Posição do Produto
 
-**Para:** Os cidadãos  
-**Que:**  Desejam ter imagens scaneadas de objetos de pequeno porte
-**O Scaner3D:**  É um aplicativo desktop  
-**Que:** Permite que a população visualize a imagem completa do objeto scaneado e baixe o arquivo gerado
-**Diferente de:** Aplicações similares que não detém de um aplicativo para poder visualizar a imagem e exigem alto custo para fornecer produtos similares 
-**Nosso produto:** Oferece uma visualização com o tempo no qual o objeto está sendo scaneado e permite que o usário baixe o arquivo no formato correto para enviar a impressora 3D.
+* **Para:** Os cidadãos  
+* **Que:**  Desejam ter imagens escaneadas de objetos de pequeno porte
+* **O ScanPoint:**  É um aplicativo desktop  
+* **Que:** Permite que a população visualize a imagem completa do objeto escaneado e baixe o arquivo gerado
+* **Diferente de:** Aplicações similares que não detém de um aplicativo para poder visualizar a imagem e exigem alto custo para fornecer produtos similares 
+* **Nosso produto:** Oferece uma visualização com o tempo no qual o objeto está sendo escaneado e permite que o usuário tenha a imagem para enviar a impressora 3D.
 
 ### 8.3. Ambiente do Usuário
 
-A aplicação poderá ser acessada por meio de computadores, sendo necessário conexão com a internet apenas para seu download e atualização. Para uso da aplicação não é necessário conexão com a internet, todo o processo de scaneamento, processamento da imagem e geração do arquivo será realizado no ScanBox e localmente na máquina do usuário.
+A aplicação poderá ser acessada por meio de computadores, sendo necessário conexão com a internet apenas para seu download e atualização. Para uso da aplicação não é necessário conexão com a internet, todo o processo de escaneamento, processamento da imagem e geração do arquivo será realizado no ScanPoint e localmente na máquina do usuário.
 
 ## 9. Referências
 
@@ -116,3 +120,4 @@ MIGUEL, Alexandre; ALVES, Dani; GUEDES, Gabriela; GOULART, Helena; ROBSON, João
 | 23/04/2024 | 2.0 | Ajuste da Introdução, inclusão das soluções comerciais e alteração da instrução de posição do produto | Ana |
 | 23/04/2024 | 3.0 | Preenchimento dos tópicos 8.3 ao 8.5, ajustes na formatação e na instrução de posição do produto  | Carla |
 | 25/04/2024 | 4.0 | Revisão e ajustes do documento  | Brenda |
+| 02/05/2024 | 5.0 | Refatoração dos nomes e explicações  | Ana |
