@@ -73,5 +73,6 @@ O projeto segue um cronograma definido com três marcos principais, conforme apr
 ## Tabela de Versionamento
 
 | Data | Versão| Descrição | Autor |
+|------|-------|-----------|-------|
 |29/03/2024|0.1|Estrutura do Termo de Abertura| Miguel|
 |03/05/2024|1.0|Correções e preenchimento | Carla R. Cangussú|
