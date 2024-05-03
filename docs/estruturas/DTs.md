@@ -4,7 +4,7 @@
 
 <img src="../estruturas/imagens/DTs/Montagem-1.png" class="zoom" alt="Subsistema estrutural" />
 
-![Montagem](../estruturas/imagens/DTs/Montagem-1.png)
+<!--![Montagem](../estruturas/imagens/DTs/Montagem-1.png)-->
 
 
 ## Sistema Explodido
