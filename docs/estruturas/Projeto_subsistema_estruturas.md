@@ -50,7 +50,7 @@ Os materiais com maior probabilidade de apresentar falhas ou problemas em relaç
 
 Cada uma das perguntas realizadas como critério de avaliação dos componentes estruturais principais e seus respectivos pesos estão descritas na tabela abaixo:
 
-|                                                              |          | Perfis de alumínio estrutural | Placa de madeira | Impressão 3D | Motores |
+|         Critério                                             |  Peso    | Perfis de alumínio estrutural | Placa de madeira | Impressão 3D | Motores |
 |--------------------------------------------------------------|----------|-------------------------------|------------------|--------------|---------|
 | Possui normas nacionais para especificar seu uso?            | 4        | 1,0                           | 1,0             | 0            | 1,0     |
 | Possui embasamento literário extenso para os cálculos?       | 4        | 1,0                           | 0,6             | 0,3          | 1       |
@@ -62,15 +62,16 @@ Cada uma das perguntas realizadas como critério de avaliação dos componentes 
 
 Dessa forma como material crítico para a análise foi escolhida a impressão 3D que recebeu nota 3 considerando os pesos e os critérios de cada peso, diante, principalmente, da dificuldade de se encontrar material teórico acerca do assunto e da sua relativa recência em termos de aplicação industrial, quando comparado com os demais componentes do projeto.
 
+A partir de tal definição foram realizados ensaios estruturais e simulações par a validação do componente crítico definido anteriormente. 
 
 
 ### Ensaios Estruturais
 
-Graças aos pontos de restrição a quantidade de normas e trabalhos em peças em impressão 3D, optou-se pela realização de um ensaio para avaliação de integridade estrutural simples onde uma peça de testes foi elaborada e submetida a diversas quantidades de cargas com o intuito de validar seu uso para a aplicação desejada no projeto. A peça em estudo foi fabricada a partir do material PLA (biopolímero ácido poliláctico), com configuração de densidade de preenchimento de 10% do tipo zigue-zague e com 4 paredes de 0,88mm de espessura.
+Graças aos pontos descritos anteriormente, optou-se pela realização de um ensaio para avaliação de integridade estrutural simples onde uma peça de testes foi elaborada e submetida a diversas quantidades de cargas com o intuito de validar seu uso para a aplicação desejada no projeto. A peça de estudo foi fabricada a partir do material PLA (biopolímero ácido poliláctico), com configuração de densidade de preenchimento de 10% do tipo zigue-zague e com 4 paredes de 0,88mm de espessura.
+
 
 <div align="center">
 
-![Peça utilizada para o ensaio](imagens/Proj_Subs_Estruturas_Ensaios_Peça_analisada_3D.jpg)
 
 <!--<img src="imagens/Proj_Subs_Estruturas_Ensaios_Peça_analisada_3D.jpg" alt="Peça utilizada para o ensaio" width="120" height="120">-->
 
@@ -80,12 +81,14 @@ Graças aos pontos de restrição a quantidade de normas e trabalhos em peças e
 
 </div>
 
-
-Com o auxílio de um perfil de alumínio e anilhas, a peça foi fixada e submetida continuamente a cargas cada vez maiores. A carga máxima aplicada à peça foi de 51,5 Kg, por não haver possibilidade de acréscimo a esta, não representando sua capacidade máxima de submissão suportada. 
+Foi realizada uma montagem preliminar de um sistema análogo ao subsistema estrutural, formado por um perfil de alumínio, porcas, arruelas e parafusos e, claro, a peça estrutural de impressão 3D,além disso foi incluido no sistema uma cantoneira de aço para facilitar a aplicação de carga. A simplificação do subsistema de estruturas pode ser visualizada na imagem abaixo:
+ 
 
 <div align="center">
 
 ![Fixação da peça para o ensaio](imagens/Proj_Subs_Estruturas_Ensaios_Fixação_da_peça.jpeg)
+
+Com o auxílio de anilhas, a peça foi fixada e submetida continuamente a cargas cada vez maiores. O objetivo inicial da análise era a aplicação de carga até o colapso da estrutura, porém, a carga máxima aplicada à peça foi de 51,5 Kg, por não haver possibilidade de acréscimo a esta, não representando sua capacidade máxima de submissão suportada, porém fornecendo base suficiente para a análise.
 
 ![Aparato com aplicação de carga](imagens/Proj_Subs_Estruturas_Ensaios_aplicação_carga.jpeg)
 
@@ -95,7 +98,7 @@ Como resultado, tem-se que apesar de não ter sido observado o colapso estrutura
 
 <div align="center">
 
-$Fs = \frac{Cf}{Cmax}$
+Fs = Cf/Cmax
 
 </div>
 
