@@ -70,20 +70,11 @@ A partir de tal definição foram realizados ensaios estruturais e simulações 
 Graças aos pontos descritos anteriormente, optou-se pela realização de um ensaio para avaliação de integridade estrutural simples onde uma peça de testes foi elaborada e submetida a diversas quantidades de cargas com o intuito de validar seu uso para a aplicação desejada no projeto. A peça de estudo foi fabricada a partir do material PLA (biopolímero ácido poliláctico), com configuração de densidade de preenchimento de 10% do tipo zigue-zague e com 4 paredes de 0,88mm de espessura.
 
 
-
-
-
-<!--<center><img src="imagens/Proj_Subs_Estruturas_Ensaios_geometria_.jpeg" alt="Geometria de preenchimento da peça" width="400"></center>-->
-
-<!--<img width="100" title="Peça utilizada para o ensaio" src="imagens/Proj_Subs_Estruturas_Ensaios_Peça_analisada_3D.jpg"/> -->
-
 ![Geometria de preenchimento da peça](imagens/Proj_Subs_Estruturas_Ensaios_geometria_.jpeg)
 
 
 
 Foi realizada uma montagem preliminar de um sistema análogo ao subsistema estrutural, formado por um perfil de alumínio, porcas, arruelas e parafusos e, claro, a peça estrutural de impressão 3D,além disso foi incluido no sistema uma cantoneira de aço para facilitar a aplicação de carga. A simplificação do subsistema de estruturas pode ser visualizada na imagem abaixo:
- 
-
 
 
 ![Fixação da peça para o ensaio](imagens/Proj_Subs_Estruturas_Ensaios_Fixação_da_peça.jpeg)
@@ -93,14 +84,11 @@ Com o auxílio de anilhas, a peça foi fixada e submetida continuamente a cargas
 ![Aparato com aplicação de carga](imagens/Proj_Subs_Estruturas_Ensaios_aplicação_carga.jpeg)
 
 
-
 Como resultado, tem-se que apesar de não ter sido observado o colapso estrutural do material, foram observadas deformações consideráveis na estrutura a partir de 35kg, carga que foi considerada máxima para o retorno da estrutura a suas condições iniciais. Após a definição de um fator de segurança de 2, definindo assim uma carga total por componente impresso de 16kg, calculado da seguinte forma:
 
-<div align="center">
 
 Fs = Cf/Cmax
 
-</div>
 
 Onde Fs é o fator de segurança, Cf é a Carga de fratura e Cmax é a Carga máxima admissível considerando o fator de segurança definido.
 
@@ -139,7 +127,7 @@ Como resultado, tem-se a deformação máxima de aproximadamente 4,84E-05m. Pode
 
 
 
-<!--![Simulação da deformação total](imagens/Proj_Subs_Estruturas_Vídeo_simulação_deformação_total.mp4)-->
+
 
 
 
