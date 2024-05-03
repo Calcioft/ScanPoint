@@ -1,7 +1,6 @@
 # Arquitetura do Subsistema de Software
 
 ## Arquitetura de Software
-
 A arquitetura do software está definida no diagrama abaixo, sendo dividido no aplicativo, no conversor, no embarcado, sensor infravermelho e dois motores:
 
 ![diagrama arquitetura](../assets/software/diagrama-arquitetura.png)
@@ -26,7 +25,7 @@ Com sentido de orientar sobre o formato das telas e disposição de seus element
 Mais detalhes na pagina de [Protótipo de alta fidelidade](prototipo.md)
 
 ### Tecnologia utilizada
-O Electron é um framework open-source para criar aplicações Desktop usando tecnologias web para Windows, mac e Linux, com base no Chromium e Node.js. Seu lançamento completa 10 anos o que já demonstra uma certa robustez, apesar de recente ainda possui material para ser utilizado como base.
+O Electron é um framework open-source para criar aplicações Desktop usando tecnologias web para Windows, mac e Linux, com base no Chromium e Node.js. Seu lançamento completa 10 anos o que já demonstra uma certa robustez, apesar de recente ainda possui material para ser utilizado como base. [[1]](../software/subsistema-software.md#ref1)
 
 ## Script de processamento PointCloud
 
@@ -35,13 +34,15 @@ Após a leitura de todos os pontos de distância feito pelos sensores ligados ao
 No geral ele irá ler todos os valores de distância do arquivo txt e irá processar os dados, aplicando a distância do sensor ao ponto de leitura, transformar em uma matrix de rotação e depois em pontos catesianos. Em seguida elimina todos os pontos fora de alcance do sensor e passa todos os valores para ser convertido em STL.
 
 ## Comunicação com arduíno
+<span style="text-align: justify;">
 A comunicação será feita principalmente, e unicamente, através de um cabo USB. Sendo mandado os sinais por parte da interface para interação com o scanner (exemplo: início do motor, ligar o infravermelho, e etc), como a transmissão, por parte do arduíno, do arquivo .txt contendo os pontos do objeto lidos pelo infravermelho.
 
 ## Software embarcado
 Pela parte embarcada será utilizada a linguagem C. Sendo feito o controle dos motores, leitura do infravermelho, gravação no arquivo .txt e envio.
 
 ## Referências
-- [What is Electron? Acesso em 28 de abril de 2024.](https://www.electronjs.org/docs/latest/)
+<div id="ref1"/>
+>[1][What is Electron? Acesso em 28 de abril de 2024.](https://www.electronjs.org/docs/latest/)
 
 ## Tabela de versionamento
 
