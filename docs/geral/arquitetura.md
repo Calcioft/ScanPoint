@@ -10,6 +10,8 @@ O detalhamento das arquiteturas específicas pode ser encontrado nos documentos 
 
 ## Tabela de versionamento
 
+**Tabela 1:** Tabela de versionamento
+
 | Versão| Data | Descrição | Responsável|
 |-------|------|-----------|------------|
 | 1.0 | 03/04/2024 | Criação do documento de arquitetura geral | Brenda Santos |
