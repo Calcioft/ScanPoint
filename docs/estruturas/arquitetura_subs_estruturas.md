@@ -12,6 +12,7 @@ Para a parte estrutural externa, foi pensado o uso de 12 perfis de alumínio est
 
 <div align="center">
 ![Estrutura de alumínio](imagens/Arquitetura_Estruturas_estrutura_de_alumínio.jpg)
+![Estrutura de alumínio](docs/estruturas/imagens/cantoneiras_estrutura.jpg)
 </div>
 
 ## Caixa para eletrônica
