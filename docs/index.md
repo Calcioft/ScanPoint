@@ -4,7 +4,7 @@
   <h3 style="color: #000000; text-align: center">
 No mundo contemporâneo, a integração entre dispositivos inteligentes e processos automatizados tem revolucionado diversos setores, impulsionando a eficiência e a produtividade. Nesse contexto, surge a proposta inovadora de desenvolver um sistema que combina a captura de dados em tempo real com a tecnologia de impressão 3D. 
 <br>
-Inicialmente concebido como uma caixa equipada com uma Raspberry Pi, o projeto evoluiu para uma mesa inteligente, sob a orientação do professor, que visa integrar um dispositivo capaz de realizar leituras de objetos e enviar essas informações diretamente para uma impressora 3D. Essa solução não apenas simplifica o processo de fabricação, eliminando etapas manuais, mas também agiliza a produção, permitindo a impressão remota de objetos a partir de leituras instantâneas. 
+O projeto visa criar um scanner 3D do zero a partir de um arduíno com sensores infravermelho a fim de realizar leituras de objetos e enviar essas informações para criar um modelo 3D. Essa solução não apenas simplifica o processo de fabricação, eliminando etapas manuais, mas também agiliza a produção, permitindo a modelagem de objetos a partir de leituras instantâneas. 
 <br>
 O resultado esperado é que seja um sistema versátil e adaptável, capaz de atender às demandas de diversos ambientes. Combinando a expertise em computação em nuvem, representada pela integração com serviços como o Azure, com a inovação na fabricação digital, esse projeto representa um passo significativo em direção à automação inteligente e conectada!
   </h3>

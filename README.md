@@ -6,8 +6,7 @@
 | :- | :- | :- | :--: |
 | Software | **Coordenadora geral** | Carla Rocha | 170085023 |
 | Software | **Diretora de qualidade** | Brenda Santos | 180041444 |
-| Software | **Diretor técnico** | Denniel William | 170161871 |
-| Software | **Diretor técnico de software** | Pedro Menezes | 190139323 |
+| Software | **Diretor técnico de Software** | Denniel William | 170161871 |
 | Aeroespacial | **Diretora técnica de Estrutura** | Maria Claudia | 200041193 |
 | Energia | **Diretora técnica de Eletrônica/Energia** | Carolina Oliveira | 190011483 | 
 | Aeroespacial | Desenvolvedor | Cássio Filho | 190011521 |
@@ -19,6 +18,7 @@
 | Software | Desenvolvedor | Artur de Souza | 190010606 |
 | Software | Desenvolvedor | Ciro Costa | 190011611 |
 | Software | Desenvolvedor | Vinicius Vieira | 190118059 |
+| Software | Desenvolvedor | Pedro Menezes | 190139323 |
 
 ## Site
 
@@ -40,21 +40,49 @@ https://lappis-unb.gitlab.io/fga-pi2/semestre-2024-1/grupo-08/scanpoint/
 
 Engloba as fases 1, 2 e 3 do ciclo de vida do projeto, sendo elas: **Problematização**, **concepção e detalhamento da solução** e **projeto e construção de subsistemas da solução proposta**.
 
-- [Desenhos Mecânicos](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/tree/main/docs/estruturas/CAD/Estrutura_CATIA?ref_type=heads)
-- [Diagramas unifilares/trifilares de sistemas de alimentação](https://gitlab.com)
-- [Diagramas esquemáticos de circuitos eletrônicos](https://gitlab.com)
-- [Diagramas detalhando barramentos de alimentação dos circuitos eletrônicos](https://gitlab.com)
-- [Diagramas com detalhes de lógicas e protocolos de comunicação entre elementos](https://gitlab.com)
-- [Diagramas de classes](https://gitlab.com)
-- [Diagramas de casos de uso](https://gitlab.com)
-- [Diagramas com protocolos de comunicação entre componentes do software](https://gitlab.com)
-- [Requisitos funcionais e não funcionais](https://gitlab.com)
-- [Termo de Abertura do Projeto](https://gitlab.com)
-- [Estrutura Analítica de Projeto](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/geral/eap_geral.md?ref_type=heads)
-- [Definição, sequenciamento e cronograma de atividades;](https://gitlab.com)
-- [Estimativa de custos e orçamentos](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/geral/estimativa-custos.md?ref_type=heads)
-- [Levantamento de riscos e contingência para a execução do projeto e avaliação do impacto](https://gitlab.com)
-- tanana
+**Geral**
+- [Anexo](docs/geral/anexo.md)
+- [Apendice](docs/geral/anexo.md)
+- [Arquitetura](docs/geral/anexo.md)
+- [Bib](docs/geral/bib.md)
+- [Cronograma](docs/geral/cronograma.md)
+- [EAP](docs/geral/eap_geral.md)
+- [Estimativa de Custos](docs/geral/estimativa-custos.md)
+- [Levantamento de riscos](docs/geral/FMEA.md)
+- [Ponto de Controle 1](docs/geral/anexo.md)
+- [Integracao](docs/geral/integracao.md)
+- [Projetos](docs/geral/projrtod.md)
+- [Prova de conceito](docs/geral/prova-de-conceito.md)
+- [Requisitos Gerais](docs/geral/requisitos.md)
+- [Termo de Abertura](docs/geral/termo_de_abertura_de_projeto.md)
+- [Visao geral](docs/geral/visaogeral.md)
+
+**Software**
+- [Arquitetura de software](docs/software/arquitetura.md)
+- [Backlog do produto](docs/software/backlog_produto.md)
+- [Casos de uso](docs/software/casos-de-uso.md)
+- [Diagrama BPMN](docs/software/diagrama-bpmn.md)
+- [Diagrama de pacotes](docs/software/diagrama-de-pacotes.md)
+- [EAP](docs/software/eap_software.md)
+- [Funcionalidades](docs/software/funcionalidades.md)
+- [Documento de identidade](docs/software/identidade.md)
+- [Protocolos de comunicacao](docs/software/protocolos-de-comunicacao-software.md)
+- [Prototipo de alta Fidelidade](docs/software/prototipo.md)
+- [Requisitos de software](docs/software/requisitos.md)
+- [Projeto de subsistema de Software](docs/software/subsistema-software.md)
+
+**Eletrônica/Energia**
+- [Arquitetura](docs/eletronica-energia/arquitetura_energia.md)
+- [Diagramas esquematicos](docs/eletronica-energia/diagrama_esquematico.md)
+- [EAP](docs/eletronica-energia/eap.md)
+- [Subsistema de Energia](docs/eletronica-energia/Projeto_Subsistema_Energia.md)
+
+**Estruturas**
+- [Arquitetura](docs/estruturas/arquitetura_subs_estruturas.md)
+- [Desenhos mecânicos](docs/estruturas/)
+- [EAP](docs/estruturas/EAP_estruturas.md)
+- [Subsistema de Estruturas](docs/estruturas/Projeto_subsistema_estruturas.md)
+
 
 ### C2
 

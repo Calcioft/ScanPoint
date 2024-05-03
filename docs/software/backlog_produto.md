@@ -52,3 +52,9 @@ Desenvolvida por Dai Clegg durante sua atuação na Oracle na década de 1990, a
 
 ## Referências
 * PEREIRA, Paulo; TORREÃO, Paula; MARÇAL, Ana Sofia. Entendendo Scrum para gerenciar projetos de forma ágil. Mundo PM, v. 1, p. 3-11, 2007.
+
+## Tabela de versionamento
+
+| Versão| Data | Descrição | Responsável|
+|-------|------|-----------|------------|
+| 1.0 | 28/04/2024 | Criação do documento | Denniel William |
