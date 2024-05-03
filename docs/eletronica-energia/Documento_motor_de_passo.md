@@ -293,6 +293,7 @@ Assim conhecendo todos os componentes, foi montada uma simulação utilizando pr
 Um motor pode ser modelado utilizando um Resistor, um indutor e uma força contra eletromotriz que relaciona o fluxo magnético gerado pelo motor em função do fluxo magnético e do número de espiras que ele tem, sendo assim esta força é modelada pela relação de Faraday como se mostra na equação 1:
 
 ![alt text](../assets/eletronica-energia/image-24.png)
+## miguel
 
 A equação que representa a tensão pode ser modelada aplicando a LKT, representada como mostra a equação 2 e a figura 17:
 
