@@ -103,14 +103,16 @@ Assim, tem-se uma corrente corrigida de  2,77 A . Será analisado a Figura 5  a 
 Figura 5 - Capacidade de condução de corrente. <font size="2"><p style="text-align: center">Fonte: [NBR 2410, 2004](https://edisciplinas.usp.br/pluginfile.php/5810747/mod_resource/content/1/NBR5410%20-%20Instala%C3%A7%C3%B5es%20el%C3%A9tricas%20de%20baixa%20tens%C3%A3o.pdf).</p></font>
 
 <p style="text-alighn: justify;">
-Baseado na corrente corrigida de  2,77 A  uma seção nominal de  $0,5 mm^2$  serviria, entretanto, a própria norma determina que para circuitos de força a seção nominal mínima deva ser de  $2,5 mm^2$ . Assim sendo, a seção nominal selecionada será a de $2,5 mm^2$.
+Baseado na corrente corrigida de  2,77 A  uma seção nominal de
+ $0,5 mm^2$
+ serviria, entretanto, a própria norma determina que para circuitos de força a seção nominal mínima deva ser de  $2,5 mm^2$ . Assim sendo, a seção nominal selecionada será a de $2,5 mm^2$.
 </p>
 
 ## Diagrama Unifilar
 
 ![Dia_Unifilar](docs/assets/eletronica-energia/Diagrama_unifilar_page-0001.jpg)
 
-Figura 5 - Diagrama unifilar.
+Figura 6 - Diagrama unifilar.
 
 
 ## Referências Bibliográficas
