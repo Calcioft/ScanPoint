@@ -2,7 +2,7 @@
 
 ## Materiais
 
-## Definição de critérios de avaliação dos materiais:
+### Definição de critérios de avaliação dos materiais
 
 Partindo dos requisitos, foram definidos critérios de análise que implicam em sua validação, para cada critério foi avaliado o peso, seguindo sua influência para cada um dos requisitos. Por exemplo, o critério de disponibilidade do material no laboratório recebe um ponto para o requisito de viabilidade econômica como sua veracidade ou não afeta diretamente o custo dos protótipos e do projeto final para o grupo, já o critério de embasamento estrutural literário apresenta nota 0 para esse mesmo requisito pois não gera nenhuma influência sobre os custos do projeto e simultaneamente sobre o requisito RN 1.
 
@@ -15,7 +15,7 @@ Abaixo estão listados os os critérios definidos as pontuações para cada requ
 | Objeto disponível no laboratório?           |  0  |  0  |  0  |  0  |  1  |  1  |  2   |
 | Possui vasta aplicação industrial no contexto de estruturas? |  1  |  1  |  1  |  1  |  1  |  1  |  6   |
 
-## Lista e definição de materiais
+### Lista e definição de materiais
 
 Após a análise dos requisitos funcionais e não funcionais foi feito um levantamento de materiais disponíveis no laboratório, resultando na seguinte relação:
 
@@ -70,16 +70,16 @@ A partir de tal definição foram realizados ensaios estruturais e simulações 
 Graças aos pontos descritos anteriormente, optou-se pela realização de um ensaio para avaliação de integridade estrutural simples onde uma peça de testes foi elaborada e submetida a diversas quantidades de cargas com o intuito de validar seu uso para a aplicação desejada no projeto. A peça de estudo foi fabricada a partir do material PLA (biopolímero ácido poliláctico), com configuração de densidade de preenchimento de 10% do tipo zigue-zague e com 4 paredes de 0,88mm de espessura.
 
 
-<div align="center">
 
 
-<!--<img src="imagens/Proj_Subs_Estruturas_Ensaios_Peça_analisada_3D.jpg" alt="Peça utilizada para o ensaio" width="120" height="120">-->
+
+<img src="imagens/Proj_Subs_Estruturas_Ensaios_geometria_.jpeg" alt="Geometria de preenchimento da peça" width="120">
 
 <!--<img width="100" title="Peça utilizada para o ensaio" src="imagens/Proj_Subs_Estruturas_Ensaios_Peça_analisada_3D.jpg"/> -->
 
-![Geometria de preenchimento da peça](imagens/Proj_Subs_Estruturas_Ensaios_geometria_.jpeg)
+<!--![Geometria de preenchimento da peça](imagens/Proj_Subs_Estruturas_Ensaios_geometria_.jpeg)-->
 
-</div>
+
 
 Foi realizada uma montagem preliminar de um sistema análogo ao subsistema estrutural, formado por um perfil de alumínio, porcas, arruelas e parafusos e, claro, a peça estrutural de impressão 3D,além disso foi incluido no sistema uma cantoneira de aço para facilitar a aplicação de carga. A simplificação do subsistema de estruturas pode ser visualizada na imagem abaixo:
  
