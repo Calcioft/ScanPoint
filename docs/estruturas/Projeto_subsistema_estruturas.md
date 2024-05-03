@@ -32,9 +32,37 @@ Após a análise dos requisitos funcionais e não funcionais foi feito um levant
 
 
 
-## Análise Estrutural
+## Análise Estrutural Preliminar
 
-texto
+
+A análise estrutural preliminar foi dividida em duas partes: A análise geral do problema, buscando os parâmetros para atender aos requisitos do projeto e a análise individual, realizada para os componentes elencados como críticos para o projeto.
+
+Para a análise geral foram realizadas simulações preliminares através da simplificação dos modelos, buscando uma noção inicial das cargas, deslocamentos e esforços sobre os quais a estrutura estará submetida.
+
+Para a análise individual foi utilizada a metodologia de matriz de preferência descrita na oitava edição do livro: *Administração de produção e operações*, onde foram atribuídas notas para cada componente da estrutura de acordo com os critérios definidos.
+
+Os materiais com maior probabilidade de apresentar falhas ou problemas em relação aos demais foram chamados de componentes críticos e são, na matriz de preferência, aqueles com as menores notas. As notas foram atribuídas de 0 até 1, sendo as possibilidades:
+
+- 0,0 (Totalmente falso);
+- 0,3 (Parcialmente falso/Pobre de informações);
+- 0,6 (Parcialmente verdadeiro/Aceitável em informação) e
+- 1,0 (Verdadeiro).
+
+Cada uma das perguntas realizadas como critério de avaliação dos componentes estruturais principais e seus respectivos pesos estão descritas na tabela abaixo:
+
+|                                                              |          | Perfis de alumínio estrutural | Placa de madeira | Impressão 3D | Motores |
+|--------------------------------------------------------------|----------|-------------------------------|------------------|--------------|---------|
+| Possui normas nacionais para especificar seu uso?            | 4        | 1,0                           | 1,0             | 0            | 1,0     |
+| Possui embasamento literário extenso para os cálculos?       | 4        | 1,0                           | 0,6             | 0,3          | 1       |
+| Objeto disponível no laboratório?                            | 2        | 0,6                           | 0               | 0            | 1       |
+| Possui vasta aplicação industrial no contexto de estruturas? | 6        | 1,0                           | 1,0             | 0,3          | 1,0     |
+| Total                                                        | 16       | 3,6                           | 2,6             | 0,6          | 4       |
+| Total com pesos                                              | 28       | 15,2                          | 12,4            | 3            | 16      |
+
+
+Dessa forma como material crítico para a análise foi escolhida a impressão 3D que recebeu nota 3 considerando os pesos e os critérios de cada peso, diante, principalmente, da dificuldade de se encontrar material teórico acerca do assunto e da sua relativa recência em termos de aplicação industrial, quando comparado com os demais componentes do projeto.
+
+
 
 ### Ensaios Estruturais
 
