@@ -73,7 +73,7 @@ Graças aos pontos descritos anteriormente, optou-se pela realização de um ens
 
 
 
-<img src="imagens/Proj_Subs_Estruturas_Ensaios_geometria_.jpeg" alt="Geometria de preenchimento da peça" width="400">
+<center><img src="imagens/Proj_Subs_Estruturas_Ensaios_geometria_.jpeg" alt="Geometria de preenchimento da peça" width="400"></center>
 
 <!--<img width="100" title="Peça utilizada para o ensaio" src="imagens/Proj_Subs_Estruturas_Ensaios_Peça_analisada_3D.jpg"/> -->
 
