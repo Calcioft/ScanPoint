@@ -4,6 +4,7 @@ A Estrutura física do projeto ScainPoint foi pensada para comportar, de forma e
 
 <div align="center">
 ![Diagrama de componentes da arquitetura de estruturas](imagens/Arquitetura_Estruturas_Diagrama.png)
+
 Figura 1 - Diagrama de componentes da arquitetura de estruturas
 </div>
 
