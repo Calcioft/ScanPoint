@@ -3,6 +3,7 @@
 ## Sistema Montado
 ![Montagem](../estruturas/imagens/DTs/Montagem-1.png)
 
+<img src="../estruturas/imagens/DTs/Montagem-1.png" class="zoom" alt="Subsistema estrutural" />
 ## Sistema Explodido
 ![Vista Explodida](../estruturas/imagens/DTs/Vista_explodida-1.png)
 
