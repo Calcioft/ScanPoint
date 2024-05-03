@@ -23,7 +23,7 @@ Para a parte estrutural externa, foi pensado o uso de 12 perfis de alumínio est
 
 Figura 2 - Estrutura externa de alumínio
 
-![Cantoneiras](Arquitetura_Estruturas_cantoneira.jpeg)
+![Cantoneiras](imagens/Arquitetura_Estruturas_cantoneira.jpeg)
 
 Figura 3 - Cantoneiras utilizadas na fixação de estruturas
 
