@@ -84,7 +84,7 @@ Assim, tem-se uma corrente corrigida de  2,77 A . Será analisado a Figura 5  a 
 
 Figura 5 - Capacidade de condução de corrente. <font size="2"><p style="text-align: center">Fonte: [NBR 2410, 2004](https://edisciplinas.usp.br/pluginfile.php/5810747/mod_resource/content/1/NBR5410%20-%20Instala%C3%A7%C3%B5es%20el%C3%A9tricas%20de%20baixa%20tens%C3%A3o.pdf).</p></font>
 
-Baseado na corrente corrigida de  2,77 A  uma seção nominal de  0,5 mm^2  serviria, entretanto, a própria norma determina que para circuitos de força a seção nominal mínima deva ser de  2,5 mm^2 . Assim sendo, a seção nominal selecionada será a de 2,5 mm^2.
+Baseado na corrente corrigida de  2,77 A  uma seção nominal de  $0,5 mm^2$  serviria, entretanto, a própria norma determina que para circuitos de força a seção nominal mínima deva ser de  $2,5 mm^2$ . Assim sendo, a seção nominal selecionada será a de $2,5 mm^2$.
 
 
 ## Referências Bibliográficas
@@ -97,5 +97,7 @@ Baseado na corrente corrigida de  2,77 A  uma seção nominal de  0,5 mm^2  serv
 
 | Versão| Data | Descrição | Responsável|
 |-------|------|-----------|------------|
-| 1.0 | 03/05/2024 | Criação do documento | Lucas Pantoja |
-
+| 1.0 | 28/04/2024 | Criação do documento | Lucas Pantoja |
+| 1.1 | 29/04/2024 | Edição de textos, tabelas e imagens | Lucas Pantoja |
+| 1.2 | 01/05/2024 | Modificação da tebela 1 | Lucas Pantoja |
+| 1.3 | 03/05/2024 | Modificação de texto para padronização | Lucas Pantoja |
