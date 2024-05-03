@@ -4,13 +4,13 @@
 A Estrutura física do projeto **ScainPoint** foi pensada para comportar, de forma eficiente, todos os componentes eletrônicos do sistema. Para isso, o protótipo foi dividido em quatro subsistemas: estrutura de alumínio, prato giratório, elevação do sensor e a caixa da eletrônica (empacotamento da eletrônica). 
 
 
-<div align="center">
+
 
 ![Diagrama de componentes da arquitetura de estruturas](imagens/Arquitetura_Estruturas_Diagrama.png)
 
 Figura 1 - Diagrama de componentes da arquitetura de estruturas
 
-</div>
+
 
 
 ## Estrutura de alumínio
