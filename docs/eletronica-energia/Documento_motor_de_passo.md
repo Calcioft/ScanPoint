@@ -2,17 +2,18 @@
 
 ## Motor de Passo
 
-O Motor de Passo é um motor elétrico utilizado para controle de movimentos de forma precisa, este controle é feito através de passos ou graus, com isso é controlar o motor de forma precisa sem o uso de sensores para determinar a posição do motor. Os motores desse tipo são controlados através de sinais digitais enviados para as suas bobinas, possibilitando a rotação fracionada do eixo, sem a necessidade de escovas internas [1].
+O Motor de Passo é um motor elétrico utilizado para controle de movimentos de forma precisa, este controle é feito através de passos ou graus, com isso é controlar o motor de forma precisa sem o uso de sensores para determinar a posição do motor. Os motores desse tipo são controlados através de sinais digitais enviados para as suas bobinas, possibilitando a rotação fracionada do eixo, sem a necessidade de escovas internas <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-1“> [1] </a>.
+
 
 ## Estrutura do Motor de Passo
 As características do Motor de Passo, no que diz respeito à velocidade, torque e resolução serão definidas primeiramente pela estrutura do motor, então é importante conhecer os aspectos internos e a função das peças que compõem o motor.
 
 ![alt text](../assets/eletronica-energia/image-3.png)
 
-**Figura 1:** Estrutura interna do motor de passo [1].
+**Figura 1:** Estrutura interna do motor de passo <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-1“> [1] </a>..
 
 ## Rotor
-Uma das partes mais importantes do motor de passo é o rotor, na figura 1, é mostrado  um motor com rotor híbrido, o corpo que representa o rotor híbrido é composto pelos dois rotores e o imã entre eles, utilizado para a polarização do rotor frontal e o traseiro [1].
+Uma das partes mais importantes do motor de passo é o rotor, na figura 1, é mostrado  um motor com rotor híbrido, o corpo que representa o rotor híbrido é composto pelos dois rotores e o imã entre eles, utilizado para a polarização do rotor frontal e o traseiro <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-1“> [1] </a>..
 Existem três configurações possíveis de montagem para o rotor: rotor de imã permanente, rotor de relutância variávele rotor híbrido, o tipo híbrido é o mais comumente utilizado, estas diferenças são apresentadas na tabela 1.
 
 **Tabela 1:** Diferenças entre os rotores
@@ -34,7 +35,7 @@ O eixo do motor híbrido é construído com dois grupos dentados de rotores, um 
 
 ![alt text](../assets/eletronica-energia/image-7.png)
 
-**Figura 4:** Modelo do eixo do motor [1].
+**Figura 4:** Modelo do eixo do motor <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-1“> [1] </a>.
 
 ## Tipos de Polos
 Existem dois modelos de acordo com os polos, o bipolar e o unipolar, os termos surgiram de conformidade com os drivers que são utilizados para acionamento desses motores. O polar do termo representa “polaridade” e se refere ao driver utilizado para controle desses motores, utilizaremos as expressões “motor unipolar” e “motor bipolar” por convenção social [1].
@@ -44,40 +45,40 @@ O modelo utilizado com o driver Unipolar conta com duas bobinas por fase, forman
 
 ![alt text](../assets/eletronica-energia/image-8.png)
 
-**Figura 5:** Driver unipolar [1].
+**Figura 5:** Driver unipolar <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-1“> [1] </a>.
 
 Com o fio central é possível controlar a direção da corrente, no entanto apenas metade da bobina pode ser utilizada, isso faz com que o motor seja menos eficiente se comparado ao bipolar. O fio central é conectado ao Vin do circuito, sendo que se o Mosfet 1 estiver ativo, a corrente fluirá de Am para A+, se o Mosfet ativo for o 2, a corrente fluirá de Am para A-.
 
 ![alt text](../assets/eletronica-energia/image-9.png)
-**Figura 5:** Diagrama circuito unipolar [1].
+**Figura 5:** Diagrama circuito unipolar <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-1“> [1] </a>.
 
 ## Bipolar
 No motor do tipo bipolar, cada bobina é composta por dois fios apenas, sem derivações centrais como as do tipo unipolar, de forma que são motores mais fáceis de serem produzidos.
 
 ![alt text](../assets/eletronica-energia/image-10.png)
 
-**Figura 7:** Dirver bipolar [1].
+**Figura 7:** Dirver bipolar <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-1“> [1] </a>.
 
-Como não há a derivação central, para controle de direção é necessário utilizar uma ponte H, exigindo um circuito de acionamento mais complexo. Para os motores desse tipo, temos que a corrente flui de A- para A+ quando os Mofets 2 e 3 estão ativos, e flui de A+ para A- quando 1 e 4 estão ativos. Apesar de possuir um acionamento mais complexo, os motores do tipo bipolar são mais comuns, pois permitem que o motor atinja maior torque[1].
+Como não há a derivação central, para controle de direção é necessário utilizar uma ponte H, exigindo um circuito de acionamento mais complexo. Para os motores desse tipo, temos que a corrente flui de A- para A+ quando os Mofets 2 e 3 estão ativos, e flui de A+ para A- quando 1 e 4 estão ativos. Apesar de possuir um acionamento mais complexo, os motores do tipo bipolar são mais comuns, pois permitem que o motor atinja maior torque <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-1“> [1] </a>.
  
 ![alt text](../assets/eletronica-energia/image-11.png)
 
-**Figura 8:** Diagrama circuito bipolar [1].
+**Figura 8:** Diagrama circuito bipolar <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-1“> [1] </a>.
 
 ## Funcionamento de um motor de passo:
 
-O motor de passo é um dispositivo eletromecânico composto por bobinas (indutores) e um rotor magnético (ímã permanente ou imantado). As bobinas convertem energia elétrica em campo magnético, alinhando o rotor a esse campo. A excitação correta das bobinas faz o rotor, que gira em torno de seu eixo, mover-se no sentido desejado, convertendo energia magnética em movimento (energia mecânica). O rotor é rotacionado em pequenos incrementos angulares, chamados de "passos" [2].
+O motor de passo é um dispositivo eletromecânico composto por bobinas (indutores) e um rotor magnético (ímã permanente ou imantado). As bobinas convertem energia elétrica em campo magnético, alinhando o rotor a esse campo. A excitação correta das bobinas faz o rotor, que gira em torno de seu eixo, mover-se no sentido desejado, convertendo energia magnética em movimento (energia mecânica). O rotor é rotacionado em pequenos incrementos angulares, chamados de "passos" <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-2“> [2] </a>.
 
-O funcionamento básico do motor de passo envolve o uso de bobinas alinhadas dois a dois. Quando energizadas, elas atraem o rotor, alinhando-o com o campo magnético gerado, resultando em uma variação angular pequena, chamada de passo. A velocidade e o sentido de movimento são determinados pela forma como cada bobina é ativada, incluindo a ordem e a velocidade entre cada processo de ativação [2]..
+O funcionamento básico do motor de passo envolve o uso de bobinas alinhadas dois a dois. Quando energizadas, elas atraem o rotor, alinhando-o com o campo magnético gerado, resultando em uma variação angular pequena, chamada de passo. A velocidade e o sentido de movimento são determinados pela forma como cada bobina é ativada, incluindo a ordem e a velocidade entre cada processo de ativação <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-2“> [2] </a>.
 
-As vantagens do motor de passo incluem sua precisão de posicionamento e torque aplicado, além de ter uma resposta excelente na aceleração e desaceleração, devido à sua lógica digital. No entanto, ele pode apresentar baixo desempenho em alta velocidade, requer um certo grau de complexidade para operação e pode sofrer ressonância devido a um controle inadequado [2].
+As vantagens do motor de passo incluem sua precisão de posicionamento e torque aplicado, além de ter uma resposta excelente na aceleração e desaceleração, devido à sua lógica digital. No entanto, ele pode apresentar baixo desempenho em alta velocidade, requer um certo grau de complexidade para operação e pode sofrer ressonância devido a um controle inadequado <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-2“> [2] </a>.
 
-Complementando com o banco de dados, o motor de passo é frequentemente utilizado em aplicações que exigem precisão de posicionamento, como impressoras 3D, máquinas CNC e robótica industrial. Ele oferece um controle preciso sobre o movimento, o que é essencial em muitas aplicações. Além disso, o motor de passo pode ser facilmente controlado por microcontroladores, o que o torna uma escolha popular em projetos eletrônicos e de automação [2].
+Complementando com o banco de dados, o motor de passo é frequentemente utilizado em aplicações que exigem precisão de posicionamento, como impressoras 3D, máquinas CNC e robótica industrial. Ele oferece um controle preciso sobre o movimento, o que é essencial em muitas aplicações. Além disso, o motor de passo pode ser facilmente controlado por microcontroladores, o que o torna uma escolha popular em projetos eletrônicos e de automação <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-2“> [2] </a>.
 
 A figura a seguir mostra como um motor de passo pode ser controlado mediante lógica binária
  
 ![alt text](../assets/eletronica-energia/image-12.png)
-**Figura 9:** Motor de passo controlado pelas entradas To até T3 [2].
+**Figura 9:** Motor de passo controlado pelas entradas To até T3 <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-2“> [2] </a>.
 
 ## Placa Arduino Uno
 
@@ -91,7 +92,7 @@ A placa conta com um chip ATmega328 que é um microcontrolador único desenvolvi
 
 ![alt text](../assets/eletronica-energia/image-14.png)
 
-**Figura 11:** Diagrama de pinos da placa Arduino Uno [3]
+**Figura 11:** Diagrama de pinos da placa Arduino Uno <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-3“> [3] </a>.
 
 
  
@@ -125,70 +126,70 @@ A seguir se faz a descrição de cada um deles.
 
 ## Fonte de Alimentação
 
-Esta placa conta com uma grande vantagem e é poder ligar ela de forma externa com ajuda de um cabo USB ou uma fonte de alimentação externa, além disso, as fontes de alimentação externas incluem principalmente um conversor AC para DC, caso contrário, uma bateria. A fonte deve ser inserida no conector de alimentação da placa Arduino. Suas faxas de tensão estão entre 7 e 12 Volts,  conta com um pino GND e conector POWER.[3]
+Esta placa conta com uma grande vantagem e é poder ligar ela de forma externa com ajuda de um cabo USB ou uma fonte de alimentação externa, além disso, as fontes de alimentação externas incluem principalmente um conversor AC para DC, caso contrário, uma bateria. A fonte deve ser inserida no conector de alimentação da placa Arduino. Suas faxas de tensão estão entre 7 e 12 Volts,  conta com um pino GND e conector POWER <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-3“> [3] </a>.
 
  
 
 ## Entradas e saídas digitais
 
-O Arduino Uno possui 14 pinos que podem ser usados como entrada ou saída a depender da necessidade do programador. Com a ajuda de funções como pinMode(), digitalWrite() e Digital Read() é possível definir como os pinos serão utilizados [3].
+O Arduino Uno possui 14 pinos que podem ser usados como entrada ou saída a depender da necessidade do programador. Com a ajuda de funções como pinMode(), digitalWrite() e Digital Read() é possível definir como os pinos serão utilizados <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-3“> [3] </a>.
 
  
 
 ## Entradas analógicas
 
-A placa Arduino UNO conta com 6 canais de conversor analógico para digital, nomeadas de A0 a A5. Sendo que a resolução do conversor analógico digital é de 10Bits. Isso significa que este irá mapear tensões entre 0 e a tensão operacional (5V ou 3.3V) para valores inteiros entre 0 e 1023. No Arduino UNO, isso permite uma resolução entre leituras de: 5 volts / 1024 unidades, ou .0049 volts (4.9 mV) por unidade. Essas entradas são nomeadas de A0 a A5. A função analogRead() lê o valor de um pino analógico especificado [3].
+A placa Arduino UNO conta com 6 canais de conversor analógico para digital, nomeadas de A0 a A5. Sendo que a resolução do conversor analógico digital é de 10Bits. Isso significa que este irá mapear tensões entre 0 e a tensão operacional (5V ou 3.3V) para valores inteiros entre 0 e 1023. No Arduino UNO, isso permite uma resolução entre leituras de: 5 volts / 1024 unidades, ou .0049 volts (4.9 mV) por unidade. Essas entradas são nomeadas de A0 a A5. A função analogRead() lê o valor de um pino analógico especificado <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-3“> [3] </a>.
 
  
 
 ## Pino (TX) e Pino (RX) (Serial):
 
-Os pinos 0 e 1 são usados para transmitir e receber dados seriais TTL, e estes são conectados aos pinos equivalentes do chip ATmega8U2 USB para TTL Serial [3].
+Os pinos 0 e 1 são usados para transmitir e receber dados seriais TTL, e estes são conectados aos pinos equivalentes do chip ATmega8U2 USB para TTL Serial <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-3“> [3] </a>.
 
  
 
 ## Pinos externos de interrupção:
 
-Os pinos 2 e 3 do Arduino Uno podem desempenhar a função de entrada de sinal para interrupção externa tais funções são nomeadas de INT0 e INT1, respectivamente [3].
+Os pinos 2 e 3 do Arduino Uno podem desempenhar a função de entrada de sinal para interrupção externa tais funções são nomeadas de INT0 e INT1, respectivamente <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-3“> [3] </a>.
 
  
 
 ## Pinos 3, 5, 6, 9, 10 e 11 (PWM):
 
-O Arduino Uno possui 6 pinos para saída PWM, são estes os pinos 3,5,6,9,10 e 11. Para auxiliar na manipulação desses pinos a plataforma possui uma função que auxilia na escrita de valores chamada de “duty cycle” facilitando a utilização do PWM do Arduino Uno, o qual pode ser acoplado com módulos externos [3].
+O Arduino Uno possui 6 pinos para saída PWM, são estes os pinos 3,5,6,9,10 e 11. Para auxiliar na manipulação desses pinos a plataforma possui uma função que auxilia na escrita de valores chamada de “duty cycle” facilitando a utilização do PWM do Arduino Uno, o qual pode ser acoplado com módulos externos <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-3“> [3] </a>.
 
  
 
 ## Pinos SPI (Pino-10 (SS), Pino-11 (MOSI), Pino-12 (MISO), Pino-13 (SCK):
 
-SPI (Serial Peripheral Interface) é um protocolo de comunicação serial, a SPI possui uma conexão full duplex, o que significa que os dados são enviados e recebidos simultaneamente. O SPI pode ser utilizado para a comunicação entre dois arduinos [3].
+SPI (Serial Peripheral Interface) é um protocolo de comunicação serial, a SPI possui uma conexão full duplex, o que significa que os dados são enviados e recebidos simultaneamente. O SPI pode ser utilizado para a comunicação entre dois arduinos <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-3“> [3] </a>.
 
  
 
 ## LED Interno Pino 13
 
-A placa do Arduino Uno possui um Led interno conectado ao pino 13(pino digital). Como pino de valor ALTO, o diodo emissor de luz é ativado, sempre que o pino estiver em nível BAIXO [3].
+A placa do Arduino Uno possui um Led interno conectado ao pino 13(pino digital). Como pino de valor ALTO, o diodo emissor de luz é ativado, sempre que o pino estiver em nível BAIXO <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-3“> [3] </a>.
 
  
 
 ## Pino-4 (SDA) e Pino-5 (SCL) (I2C):
 
-Permite comunicação TWI (Two Wire Interface) com a ajuda da biblioteca Wire [3].
+Permite comunicação TWI (Two Wire Interface) com a ajuda da biblioteca Wire <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-3“> [3] </a>.
 
  
 
 ## AREF (Tensão de Referência):
 
-AREF significa Referência Analógica. Ele permite alimentar o Arduino com uma tensão de referência de uma fonte de alimentação externa para configurar a tensão de referência usada para entrada analógica (ou seja, o valor usado como o topo da faixa de entrada) [3].
+AREF significa Referência Analógica. Ele permite alimentar o Arduino com uma tensão de referência de uma fonte de alimentação externa para configurar a tensão de referência usada para entrada analógica (ou seja, o valor usado como o topo da faixa de entrada) <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-3“> [3] </a>.
 
 ## Pino de Reset:
 
-Este pino é usado para resetar (RST) o microcontrolador [3].
+Este pino é usado para resetar (RST) o microcontrolador <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-3“> [3] </a>.
 
  
 ## Memória
 
-A memória do microcontrolador Atmega328 do Arduino Uno inclui memória flash de 32 KB para armazenamento de código, SRAM-2 KB e EEPROM-1 KB [3].
+A memória do microcontrolador Atmega328 do Arduino Uno inclui memória flash de 32 KB para armazenamento de código, SRAM-2 KB e EEPROM-1 KB <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-3“> [3] </a>.
 
  
 
@@ -198,19 +199,19 @@ O Arduino Uno ATmega328 oferece comunicação serial UART TTL e é acessível em
 
  
 
-A biblioteca SoftwareSerial permite a comunicação serial nos pinos digitais do Arduino Uno e o ATmega328P suporta TWI (I2C), bem como comunicação SPI. O software Arduino contém uma biblioteca cabeada para simplificar a utilização do barramento I2C [3].
+A biblioteca SoftwareSerial permite a comunicação serial nos pinos digitais do Arduino Uno e o ATmega328P suporta TWI (I2C), bem como comunicação SPI. O software Arduino contém uma biblioteca cabeada para simplificar a utilização do barramento I2C <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-3“> [3] </a>.
 
  
 
 ## Proteção de alta tensão do USB
 
-A placa Arduino Uno possui um fusível que protege a porta USB do PC de sobretensão. Embora a maioria dos PCs tenha sua própria proteção interna, o fusível oferece uma proteção adicional de segurança [3].
+A placa Arduino Uno possui um fusível que protege a porta USB do PC de sobretensão. Embora a maioria dos PCs tenha sua própria proteção interna, o fusível oferece uma proteção adicional de segurança <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-3“> [3] </a>.
 
  
 
 ## Características físicas
 
-As características físicas de uma placa Arduino incluem principalmente comprimento e largura. O comprimento e a largura da placa de circuito impresso do Arduino Uno são 2,7 X 2,1 polegadas, mas o conector de alimentação e o conector USB se estenderão além dessa medida. A placa pode ser fixada na superfície, caso contrário, com os orifícios dos parafusos [3].
+As características físicas de uma placa Arduino incluem principalmente comprimento e largura. O comprimento e a largura da placa de circuito impresso do Arduino Uno são 2,7 X 2,1 polegadas, mas o conector de alimentação e o conector USB se estenderão além dessa medida. A placa pode ser fixada na superfície, caso contrário, com os orifícios dos parafusos <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-3“> [3] </a>.
 
 
 ## Ponte H, Driver L298N:
@@ -231,24 +232,24 @@ Este componente facilita o projeto do controle PWM, por nele encontra-se toda a 
 
 As pontes H  utilizam quatro transistores que, ao receber um sinal vindo do microcontrolador, permitem a passagem de corrente para os terminais do motor, fazendo com que ele rotacione no sentido desejado, esta ponde encontra-se no driver L298N utiliza duas pontes H para controlar separadamente dois motores. Porém, além de controlar o sentido de rotação do motor, o driver também é capaz de controlar a velocidade do motor. Utiliza-se um sinal PWM para regular o nível de rotação do eixo. 
 
-A modulação por largura de pulso (PWM) é uma técnica fundamental que envolve a variação da largura dos pulsos em um sinal elétrico para transmitir informações. Em vez de manter um sinal em níveis constantes, o PWM altera a largura dos pulsos, controlando o tempo em que a chave fica ligada e desligada. Isso permite administrar a quantidade média de energia que chega à carga e, consequentemente, a potência elétrica [4].
+A modulação por largura de pulso (PWM) é uma técnica fundamental que envolve a variação da largura dos pulsos em um sinal elétrico para transmitir informações. Em vez de manter um sinal em níveis constantes, o PWM altera a largura dos pulsos, controlando o tempo em que a chave fica ligada e desligada. Isso permite administrar a quantidade média de energia que chega à carga e, consequentemente, a potência elétrica <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-4“> [4] </a>.
 
-Essa técnica é amplamente utilizada em diversos equipamentos eletrônicos de potência, como drivers de LED, inversores de frequência e controle de velocidade de motores. No cotidiano, o PWM é encontrado em carregadores, sistemas fotovoltaicos, servo-motores e carros elétricos, entre outros [7].
+Essa técnica é amplamente utilizada em diversos equipamentos eletrônicos de potência, como drivers de LED, inversores de frequência e controle de velocidade de motores. No cotidiano, o PWM é encontrado em carregadores, sistemas fotovoltaicos, servo-motores e carros elétricos, entre outros <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-7“> [7] </a>.
 
 O ciclo de trabalho, ou Duty Cycle mostrado na figura, é um parâmetro crucial para controlar um sinal PWM. Ele representa a relação entre a largura do pulso e o período, informando o tempo em que o sinal está em nível alto (ligado) e o tempo em que está em nível baixo (desligado). 
 
-O Duty Cycle é expresso em porcentagem e calculado pela fórmula D = (PW / T) x 100%, onde PW é a largura do pulso e T é o período [7]. Deste modo, o sinal 255 da placa é convertido para um sinal PWM de 100%, e o sinal 0 da placa é convertido para um sinal PWM de 0%. Portanto um sinal de 127 da placa será convertido para um sinal PWM de 50%. Consequentemente, para um motor, o sinal 0 seria o motor parado, já o sinal 255 seria a sua rotação máxima. Abaixo é possível ver um exemplo com o sinal PWM sendo aplicado em um LED [5].
+O Duty Cycle é expresso em porcentagem e calculado pela fórmula D = (PW / T) x 100%, onde PW é a largura do pulso e T é o período <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-5“> [5] </a>. Deste modo, o sinal 255 da placa é convertido para um sinal PWM de 100%, e o sinal 0 da placa é convertido para um sinal PWM de 0%. Portanto um sinal de 127 da placa será convertido para um sinal PWM de 50%. Consequentemente, para um motor, o sinal 0 seria o motor parado, já o sinal 255 seria a sua rotação máxima. Abaixo é possível ver um exemplo com o sinal PWM sendo aplicado em um LED <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-5“> [5] </a>.
 
 ![alt text](../assets/eletronica-energia/image-16.png)
 
 **Figura 13:** Representação do comportamento do controle PWM
 
-Uma das principais vantagens do PWM é a manutenção do sinal digital em todo o percurso, o que minimiza os efeitos de ruído. Além disso, o PWM oferece maior imunidade ao ruído em comparação ao controle analógico, o que torna essa técnica ideal para comunicações. Em sistemas de freios controlados por modulação, por exemplo, o PWM é utilizado para controlar a pressão exercida pelo freio de acordo com a quantidade de tensão ou corrente aplicada [4].
+Uma das principais vantagens do PWM é a manutenção do sinal digital em todo o percurso, o que minimiza os efeitos de ruído. Além disso, o PWM oferece maior imunidade ao ruído em comparação ao controle analógico, o que torna essa técnica ideal para comunicações. Em sistemas de freios controlados por modulação, por exemplo, o PWM é utilizado para controlar a pressão exercida pelo freio de acordo com a quantidade de tensão ou corrente aplicada <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-4“> [4] </a>.
 
 ![alt text](../assets/eletronica-energia/image-17.png)
 
 **Figura 14:** Funcionamento do PWM num led.
-Fonte [5]
+Fonte <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-5“> [5] </a>.
 
 ## Funcionamento do Driver L298N
 
@@ -259,13 +260,13 @@ Da mesma maneira que o motor "A", o motor "B" possui dois pinos de direcionament
  ![alt text](../assets/eletronica-energia/image-a.png)
 
 **Figura 15:** Diagrama de blocos do L298M
-Fonte [7]
+Fonte <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-7“> [7] </a>.
 
 
 
 ## Módulo Regulador C/LM2596
 
-O circuito precisa de um módulo que permita trabalhar com duas tensões, uma de 12V para alimentar a Ponte H, e um de 5V para alimentar a placa de árduino, para resolver esta situação foi trabalhado com um fonte de 12V e um módulo regular C/LM2596 (ver figura 16 e 17). O Módulo Regulador de Tensão LM2596 trabalha como um conversor DC DC no modo Step Down, sendo capaz de reduzir uma carga de até 3A com ótima eficiência. A tensão de saída pode ser ajustada entre 1,5 a 35v, tendo como entrada 3,2 a 40v. Possui uma velocidade de comutação de 150KHz e pode ser aplicado em circuitos onde a saída de um sensor é superior a 5v, tensão de entrada máxima em um Arduino ou PIC [8].
+O circuito precisa de um módulo que permita trabalhar com duas tensões, uma de 12V para alimentar a Ponte H, e um de 5V para alimentar a placa de árduino, para resolver esta situação foi trabalhado com um fonte de 12V e um módulo regular C/LM2596 (ver figura 16 e 17). O Módulo Regulador de Tensão LM2596 trabalha como um conversor DC DC no modo Step Down, sendo capaz de reduzir uma carga de até 3A com ótima eficiência. A tensão de saída pode ser ajustada entre 1,5 a 35v, tendo como entrada 3,2 a 40v. Possui uma velocidade de comutação de 150KHz e pode ser aplicado em circuitos onde a saída de um sensor é superior a 5v, tensão de entrada máxima em um Arduino ou PIC <a href=“../eletronica-energia/Projeto_do_Subsistema_de_Energia.md#ref-8“> [8] </a>.
 
 ![alt text](../assets/eletronica-energia/image-18.png)
 
@@ -437,38 +438,31 @@ Até o momento no desenvolvimento da pesquisa, no circuito simulado e testado n�
 
 
 ## REFERÊNCIAS BIBLIOGRÁFICAS:
-<a href=“caminho do arquivo#id-da-referência“>
+
+<div id="ref-1" />
 [1]curto circuito, introdução ao motor de passo, https://curtocircuito.com.br/blog/motor-de-passo/introducao-ao-motor-de-passo,acesso 19:04 hora: 13:17
-</a>
 
-<a href=“caminho do arquivo#id-da-referência“>
+<div id="ref-2" />
 [2] fpg Paratodos, Controle de motor de passo,http://fpgaparatodos.com.br/2012/03/30/controle-de-um-motor-de-passo/ acesso 19/04/2024 hora 13:16
-</a>
 
-<a href=“caminho do arquivo#id-da-referência“>
+<div id="ref-3" />
 [3] STA, Sistema de Tecnología aplicada, Ronteck,CARACTERÍSTICAS PRINCIPAIS DO ARDUINO UNO,https://www.sta-eletronica.com.br/artigos/arduinos/caracteristicas-principais-do-arduino-uno, Acesso, 12/04/2024 hora 16:00
-</a>
 
-<a href=“caminho do arquivo#id-da-referência“>
+<div id="ref-4" />
 [4] O que é PWM e Para que Serve?,  Cristiano Bertulucci Silveira, publicado: novembro 26th, 2016, citisystems, acesso 16/04, hora 13:28, https://www.citisystems.com.br/pwm/
 </a>
 
-<a href=“caminho do arquivo#id-da-referência“>
+<div id="ref-5" />
 [5] Robocore, PonteH,https://www.robocore.net/tutoriais/motor-dc-arduino-ponte-h-l298n, Acesso 16/04/2024, hora 13:33.
-</a>
 
-<a href=“caminho do arquivo#id-da-referência“>
+<div id="ref-6" />
 [6] Datasheet - L298 - Dual full-bridge driver, https://www.st.com/resource/en/datasheet/l298.pdf
-</a>
 
-<a href=“caminho do arquivo#id-da-referência“>
+<div id="ref-7" />
 [7] Smart kits blog,https://blog.smartkits.com.br/pwm-como-usar/#:~:text=O%20PWM%20opera%20controlando%20o,%2C%20consequentemente%2C%20a%20pot%C3%AAncia%20el%C3%A9trica, Acesso, 16/04/2024, hora 13:26 
-</a>
 
-<a href=“caminho do arquivo#id-da-referência“>
+<div id="ref-8" />
 [8] Casa da Robótica, egulador de Tensão Step Down - Buck Conversor DC DC LM2596 3A, https://www.casadarobotica.com/fonte-e-conversores/conversores-dc-dc/step-down/
-</a>
-
 
 
 
