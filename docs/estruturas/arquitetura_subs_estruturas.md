@@ -1,6 +1,6 @@
 # Arquitetura do Subsistema de Estruturas
 
-A Estrutura do projeto Scain Point é dividida em quatro partes, sendo elas a estrutura de alumínio, o prato giratório, o suporte para o sensor e a caixa de eletrônica. 
+A Estrutura física do projeto ScainPoint foi pensada para comportar, de forma eficiente, todos os componentes eletrônicos do sistema. Para isso, o protótipo foi dividido em quatro subsistemas: estrutura de alumínio, prato giratório, elevação do sensor e a caixa da eletrônica (empacotamento da eletrônica). 
 
 <div align="center">
 ![Diagrama de componentes da arquitetura de estruturas](imagens/Arquitetura_Estruturas_Diagrama.png)
@@ -8,7 +8,7 @@ A Estrutura do projeto Scain Point é dividida em quatro partes, sendo elas a es
 
 ## Estrutura de alumínio
 
-A parte estrutural externa é composta de perfis de alumínio que abrangerão todos os componentes físicos do projeto. 
+Para a parte estrutural externa, foi pensado o uso de 12 perfis de alumínio estrutural, com dimensões de 20mmx20mm e comprimento de 700mm, ligados entre si por meio de cantoneiras e conjuntos de parafusos M4 com o auxílio de porca martelo. Assim formando uma estrutura em formato cuco, sendo os perfil as arestas, dando o apoio necessário para os demais subsistemas. 
 
 <div align="center">
 ![Estrutura de alumínio](imagens/Arquitetura_Estruturas_estrutura_de_alumínio.jpg)
@@ -16,7 +16,7 @@ A parte estrutural externa é composta de perfis de alumínio que abrangerão to
 
 ## Caixa para eletrônica
 
-A caixa de eletrônica serivirá para armazenar os componentes de eletrônica como bateria, motores, arduino, que serão essenciais para o controle do prato e do sensor. Ela foi pensada de forma a otimizar o espaço de acordo com os componentes que estarão nela, assim como deixar espaço para possíveis atualizações de eletrônica/energia ou software.
+A Caixa da eletrônica foi pensada para armazenar todos os componentes eletrônicos do projeto como bateria, motor, componentes de controle como o Arduino, PCBs, cabos e demais equipamentos. Ela foi pensada de forma a otimizar o espaço de acordo com os componentes preliminares, esconder componentes cimo cabos e fios, dando melhor acabamento ao projeto, assim como deixar espaço suficiente para possíveis atualizações de eletrônica, energia ou software.
 
 <div align="center">
 ![Caixa de eletrônica](imagens/Arquitetura_Estruturas_caixa_eletronica.jpg)
@@ -24,7 +24,7 @@ A caixa de eletrônica serivirá para armazenar os componentes de eletrônica co
 
 ## Elevação do sensor
 
-A elevação do sensor acontece através de dois eixos guias e sua movimentação ocorre a partir de um encaixe para o sensor em um fuso ligado ao motor. Aqui serão utilizadas algumas peças em Impressão 3D para auxiliar na fabricação das partes de fixação dos fusos e do sensor.
+O subsistema de elevação do sensor é feito com o auxilio de peças em impressão 3D, uma barra roscada fuso, barras guias, motor de passo, e o sensor de distância. Tais peças em impressão 3D são feitas em PLA, facilitando sua fabricação e servem como suportes para os demais componentes do subsistema. A elevação do sensor acontece através uma peça guiada por 2 eixos e sua movimentação ocorre a partir da barra fuso ligado ao motor de passo. 
 
 <div align="center">
 ![Trilho do sensor](imagens/Arquitetura_Estruturas_trilho_do_sensor.jpg)
@@ -32,7 +32,7 @@ A elevação do sensor acontece através de dois eixos guias e sua movimentaçã
 
 ## Prato giratório
 
-O prato giratório servirá para auxiliar na movimentação da peça em questão que estará sendo escaneada. Ele foi projetado de acordo com os requisitos de tamanho da peça e peso máximo, além de possuir suporte para fixação do motor e apoio com rodinhas para aumento de estabilidade durante a movimentação.
+O prato giratório servirá para auxiliar na movimentação da peça em questão que estará sendo escaneada. Ele foi projetado de acordo com os requisitos de tamanho da peça e peso máximo, além de possuir suporte para fixação do motor e apoio com roldanas para aumento de estabilidade durante a sua movimentação.
 
 <div align="center">
 ![Prato](imagens/Arquitetura_Estruturas_prato.jpg)
