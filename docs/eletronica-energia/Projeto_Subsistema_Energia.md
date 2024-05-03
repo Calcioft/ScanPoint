@@ -114,7 +114,7 @@ Baseado na corrente corrigida de 2,77 A uma seção nominal de 0,5 mm^2 serviria
 A Figura 6 apresenta o diagrama unifilar do projeto, com as características de fluxo de energia, no qual cada componente está identificado com suas respectivas características elétricas, como também as características da bitola do cabo.
 </p>
 
-![Dia_Unifilar](docs/assets/eletronica-energia/Diagrama_unifilar_page-0001.jpg)
+![Dia_Unifilar](../assets/eletronica-energia/Diagrama_unifilar_page-0001.jpg)
 
 Figura 6 - Diagrama unifilar.
 
