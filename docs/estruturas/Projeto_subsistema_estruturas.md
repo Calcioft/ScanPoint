@@ -85,4 +85,16 @@ Como resultado, tem-se a deformação máxima de aproximadamente 4,84E-05m. Pode
 
 </div>
 
+# Referências
+
+* KRAJEWSKI, Lee J.; RITZMAN, Larry P.; MALHOTRA, Manoj K. Administração de produção e operações. 8. ed. São Paulo: Pearson, 2012. xiv, 615 p. ISBN 9788576051725.
+
+* ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. ABNT NBR 08403: Aplicação de linhas em desenhos - Tipos de linhas - Larguras das linhas Rio de Janeiro, 1984.
+
+* ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. ABNT NBR 10067 - Princípios Gerais de Representação em Desenho Técnico, 1995
+
+* ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. ABNT NBR 10068 - Folha de Desenho - Leiaute e Dimensões, 1987
+ 
+* ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. ABNT NBR 10126 - Cotagem em Desenho Técnico, 1987
+
 
