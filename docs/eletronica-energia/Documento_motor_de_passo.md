@@ -1,4 +1,6 @@
-## MOTOR DE PASSO
+## PROJETO DO SUBSISTEMA DE ELETRÔNICA.
+
+## Motor de Passo
 
 O Motor de Passo é um motor elétrico utilizado para controle de movimentos de forma precisa, este controle é feito através de passos ou graus, com isso é controlar o motor de forma precisa sem o uso de sensores para determinar a posição do motor. Os motores desse tipo são controlados através de sinais digitais enviados para as suas bobinas, possibilitando a rotação fracionada do eixo, sem a necessidade de escovas internas [1].
 
@@ -77,7 +79,7 @@ A figura a seguir mostra como um motor de passo pode ser controlado mediante ló
 ![alt text](../assets/eletronica-energia/image-12.png)
 **Figura 9:** Motor de passo controlado pelas entradas To até T3 [2].
 
-## PLACA ARDUINO
+## Placa Arduino Uno
 
 O Arduino Uno é uma placa microcontrolada baseada no chip ATmega328. Esta placa é muito utilizada no desenvolvimento de projetos embarcados, é hoje em dia é a mais utilizada e documentada da família Arduino.
 
@@ -261,7 +263,7 @@ Fonte [7]
 
 
 
-## Módulo regular C/LM2596
+## Módulo Regulador C/LM2596
 
 O circuito precisa de um módulo que permita trabalhar com duas tensões, uma de 12V para alimentar a Ponte H, e um de 5V para alimentar a placa de árduino, para resolver esta situação foi trabalhado com um fonte de 12V e um módulo regular C/LM2596 (ver figura 16 e 17). O Módulo Regulador de Tensão LM2596 trabalha como um conversor DC DC no modo Step Down, sendo capaz de reduzir uma carga de até 3A com ótima eficiência. A tensão de saída pode ser ajustada entre 1,5 a 35v, tendo como entrada 3,2 a 40v. Possui uma velocidade de comutação de 150KHz e pode ser aplicado em circuitos onde a saída de um sensor é superior a 5v, tensão de entrada máxima em um Arduino ou PIC [8].
 
@@ -301,7 +303,7 @@ Já nas figuras 20 e 21 se apresentam os diagramas de eletrônica de blocos e de
 **Figura 21** Diagrama de barramentos completo do circuito com motores de passo. 
 
 
-## Descrição matemática do MOTOR
+## Descrição Matemática do Motor
 
 Um motor pode ser modelado utilizando um Resistor, um indutor e uma força contra eletromotriz que relaciona o fluxo magnético gerado pelo motor em função do fluxo magnético e do número de espiras que ele tem, sendo assim esta força é modelada pela relação de Faraday como se mostra na equação 1:
 
@@ -435,19 +437,47 @@ Até o momento no desenvolvimento da pesquisa, no circuito simulado e testado n�
 
 
 ## REFERÊNCIAS BIBLIOGRÁFICAS:
-
+<a href=“caminho do arquivo#id-da-referência“>
 [1]curto circuito, introdução ao motor de passo, https://curtocircuito.com.br/blog/motor-de-passo/introducao-ao-motor-de-passo,acesso 19:04 hora: 13:17
+</a>
 
+<a href=“caminho do arquivo#id-da-referência“>
 [2] fpg Paratodos, Controle de motor de passo,http://fpgaparatodos.com.br/2012/03/30/controle-de-um-motor-de-passo/ acesso 19/04/2024 hora 13:16
+</a>
 
+<a href=“caminho do arquivo#id-da-referência“>
 [3] STA, Sistema de Tecnología aplicada, Ronteck,CARACTERÍSTICAS PRINCIPAIS DO ARDUINO UNO,https://www.sta-eletronica.com.br/artigos/arduinos/caracteristicas-principais-do-arduino-uno, Acesso, 12/04/2024 hora 16:00
+</a>
 
+<a href=“caminho do arquivo#id-da-referência“>
 [4] O que é PWM e Para que Serve?,  Cristiano Bertulucci Silveira, publicado: novembro 26th, 2016, citisystems, acesso 16/04, hora 13:28, https://www.citisystems.com.br/pwm/
+</a>
 
+<a href=“caminho do arquivo#id-da-referência“>
 [5] Robocore, PonteH,https://www.robocore.net/tutoriais/motor-dc-arduino-ponte-h-l298n, Acesso 16/04/2024, hora 13:33.
+</a>
 
+<a href=“caminho do arquivo#id-da-referência“>
 [6] Datasheet - L298 - Dual full-bridge driver, https://www.st.com/resource/en/datasheet/l298.pdf
+</a>
 
+<a href=“caminho do arquivo#id-da-referência“>
 [7] Smart kits blog,https://blog.smartkits.com.br/pwm-como-usar/#:~:text=O%20PWM%20opera%20controlando%20o,%2C%20consequentemente%2C%20a%20pot%C3%AAncia%20el%C3%A9trica, Acesso, 16/04/2024, hora 13:26 
+</a>
 
-[8] Casa da Robótica, egulador de Tensão Step Down - Buck Conversor DC DC LM2596 3A, https://www.casadarobotica.com/fonte-e-conversores/conversores-dc-dc/step-down/regulador-de-tensao-step-down-buck-conversor-dc-dc-lm2596-3a, acesso 26/04/2024, hora: 20:25
+<a href=“caminho do arquivo#id-da-referência“>
+[8] Casa da Robótica, egulador de Tensão Step Down - Buck Conversor DC DC LM2596 3A, https://www.casadarobotica.com/fonte-e-conversores/conversores-dc-dc/step-down/
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+regulador-de-tensao-step-down-buck-conversor-dc-dc-lm2596-3a, acesso 26/04/2024, hora: 20:25
