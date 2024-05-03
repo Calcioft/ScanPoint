@@ -72,7 +72,7 @@ Possuindo as mesmas dimensões, a peça foi submetida as condições de contorno
 
 ![Simulação da deformação da peça](imagens/Proj_Subs_Estruturas_Simulação_deformação.png)
 
-![Face superior da peça real após o ensaio](imagens/Proj_Subs_Estruturas_Ensaios_peça_pós_ensaio.jpeg)
+![Face superior da peça real após o ensaio](imagens/Proj_Subs_Estruturas_Ensaios_deformação_face_superior.jpeg)
 
 </div>
 
