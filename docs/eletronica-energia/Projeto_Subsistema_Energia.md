@@ -81,13 +81,13 @@ Após a determinação dos fatores diante de um cenário que o projeto se encont
 
 Onde:
 
- $I_{corrigida} : corrente elétrica corrigida;$
+ $I_{corrigida} :$ corrente elétrica corrigida;
 
- $I_{sistema} : corrente elétrica do sistema;$
+ $I_{sistema} :$ corrente elétrica do sistema;
 
- $F_{temperatura} : fator de temperatura ambiente;$
+ $F_{temperatura} :$ fator de temperatura ambiente;
 
- $F_{agrupamento} : fator de agrupamento do circuito.$
+ $F_{agrupamento} :$ fator de agrupamento do circuito.
 
 Substituídos em [I] os valores determinados anteriormente:
 
