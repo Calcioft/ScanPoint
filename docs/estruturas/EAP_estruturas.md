@@ -1,6 +1,5 @@
 # Estrutura Analítica do Projeto - EAP 
 
-## Estruturas
 
 A Estrutura Analítica do Projeto (EAP) da área de Estruturas irá descrever as atividades a serem desenvolvidas em ordem de execução e a partir das entregas espituladas nos pontos de controle, como é possível visualizar na figura 1.
 
