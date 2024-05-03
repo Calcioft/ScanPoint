@@ -2,7 +2,35 @@
 
 ## Materiais
 
-texto
+## Definição de critérios de avaliação dos materiais:
+
+Partindo dos requisitos, foram definidos critérios de análise que implicam em sua validação, para cada critério foi avaliado o peso, seguindo sua influência para cada um dos requisitos. Por exemplo, o critério de disponibilidade do material no laboratório recebe um ponto para o requisito de viabilidade econômica como sua veracidade ou não afeta diretamente o custo dos protótipos e do projeto final para o grupo, já o critério de embasamento estrutural literário apresenta nota 0 para esse mesmo requisito pois não gera nenhuma influência sobre os custos do projeto e simultaneamente sobre o requisito RN 1.
+
+Abaixo estão listados os os critérios definidos as pontuações para cada requisito e por fim o peso definido pela soma das pontuações:
+
+| Critério                                    | RF1 | RF2 | RF3 | RF4 | RN1 | RN2 | Peso |
+|---------------------------------------------|-----|-----|-----|-----|-----|-----|------|
+| Possui normas nacionais para especificar seu uso? |  1  |  1  |  1  |  1  |  0  |  0  |  4   |
+| Possui embasamento literário extenso para os cálculos? |  1  |  1  |  1  |  1  |  0  |  0  |  4   |
+| Objeto disponível no laboratório?           |  0  |  0  |  0  |  0  |  1  |  1  |  2   |
+| Possui vasta aplicação industrial no contexto de estruturas? |  1  |  1  |  1  |  1  |  1  |  1  |  6   |
+
+## Lista e definição de materiais
+
+Após a análise dos requisitos funcionais e não funcionais foi feito um levantamento de materiais disponíveis no laboratório, resultando na seguinte relação:
+
+| Material                                       | Qtd. Disponível |
+|------------------------------------------------|-----------------|
+| Perfil de alumínio estrutural 20x20mm          |        12       |
+| Fuso 8x480mm                                   |        1        |
+| Motores de passo                               |        4        |
+| Acoplador do motor de passo                    |       ~10       |
+| Cantoneiras de alumínio                        |       ~70       |
+| Guias de aço 8x600mm                           |        2        |
+| Rolamento linear 8mm                           |        2        |
+| Suporte de alumínio para eixo linear           |       ~10       |
+
+
 
 ## Análise Estrutural
 
