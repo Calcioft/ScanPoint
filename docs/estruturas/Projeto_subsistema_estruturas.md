@@ -56,6 +56,33 @@ Onde Fs é o fator de segurança, Cf é a Carga de fratura e Cmax é a Carga má
 Assim, avaliando a composição da estrutura com 4 peças impressas em 3D, a carga máxima admissível para o projeto, já considerando o fator de segurança, seria de 64Kg no total, satisfazendo de maneira superdimensionada as condições iniciais e de requisitos do projeto, o que apresenta margem suficiente para simplificação e reduções de rigidez, custos e complexidade dos materiais para as próximas análises de dimensionamentos e de otimização.
 
 
-### Simulações e Cálculos Estruturais
+### Simulações numéricas
 
-texto
+Para complementação e representação do apresentado até então através do ensaio prático estrutural, foi realizada através do software Ansys Workbench uma simulação numérica da peça. 
+
+<div align="center">
+
+![Malha de elementos](imagens/Proj_Subs_Estruturas_Simulação_malha.png)
+
+</div>
+
+Possuindo as mesmas dimensões, a peça foi submetida as condições de contorno de força e apoio, sendo aplicada uma carga de 500N na direção do eixo z e apoios onde a peça foi fixada, considerando as faces em contato com o perfil de alumínio que foi utilizado. Foi determinado, pela limitação do software, um tamanho de malha de 5mm, e foram utilizados 10765 nós e 6447 elementos na mesma.
+
+<div align="center">
+
+![Simulação da deformação da peça](imagens/Proj_Subs_Estruturas_Simulação_deformação.png)
+
+![Face superior da peça real após o ensaio](imagens/Proj_Subs_Estruturas_Ensaios_peça_pós_ensaio.jpeg)
+
+</div>
+
+Como resultado, tem-se a deformação máxima de aproximadamente 4,84E-05m. Pode-se notar que o resultado mostrou-se visualmente bem próximo ao obtido pelo método anterior e que a deformação ocorre próximo a região de apoio onde foi inserido o parafuso e a ruela para apoio das cargas no objeto em questão.
+
+<div align="center">
+
+![Simulação da deformação total](imagens/Proj_Subs_Estruturas_Vídeo_simulação_deformação_total.mp4)
+
+
+</div>
+
+
