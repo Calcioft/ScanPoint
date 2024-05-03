@@ -54,6 +54,6 @@ nav:
   - Estruturas:
       - Arquitetura: estruturas/arquitetura_subs_estruturas.md
       - EAP: estruturas/EAP_estruturas.md
-      - Desenhos mecânicos: estruturas/
+      # - Desenhos mecânicos: estruturas/
       - Subsistema de Estruturas: estruturas/Projeto_subsistema_estruturas.md
 
