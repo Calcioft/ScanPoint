@@ -62,7 +62,7 @@ Ao consultar a Figura 2 será considerado o Método de referência  B1 .
 Figura 3 - Fatores de correção para a temperatura. <font size="2"><p style="text-align: center">Fonte: [NBR 2410, 2004](https://edisciplinas.usp.br/pluginfile.php/5810747/mod_resource/content/1/NBR5410%20-%20Instala%C3%A7%C3%B5es%20el%C3%A9tricas%20de%20baixa%20tens%C3%A3o.pdf).</p></font>
 
 <p style="text-alighn: justify;">
-Ao analisar a Figura 3  será considerado uma temperatura ambiente de  25°C , visto que segundo o site do Instituto Nacional de Meteorologia (INMET) <a href="docs/eletronica-energia/Projeto_Subsistema_Energia.md#ref-2">[2]<\a> as temperaturas no Distrito Federal para o mês de julho apresentam ma média que varia entre  20°C  e  25°C . Logo, para uma isolação de PVC seu fator de correção será de  1,06 .
+Ao analisar a Figura 3  será considerado uma temperatura ambiente de  25°C , visto que segundo o site do Instituto Nacional de Meteorologia (INMET) as temperaturas no Distrito Federal para o mês de julho apresentam ma média que varia entre  20°C  e  25°C . Logo, para uma isolação de PVC seu fator de correção será de  1,06 .
 </p>
 
 ![Tabela42](../assets/eletronica-energia/Tabela42.jpg)
@@ -108,7 +108,9 @@ Baseado na corrente corrigida de  2,77 A  uma seção nominal de  $0,5 mm^2$  se
 
 ## Diagrama Unifilar
 
+![Dia_Unifilar](docs/assets/eletronica-energia/Diagrama_unifilar_page-0001.jpg)
 
+Figura 5 - Diagrama unifilar.
 
 
 ## Referências Bibliográficas
