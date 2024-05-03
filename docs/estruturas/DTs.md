@@ -8,9 +8,9 @@
 
 
 ## Subsistema Estrutural
-<img src="../estruturas/imagens/DTs/Subsistemas/Subsistema_estrutural-1.png" />
+<img src="../estruturas/imagens/DTs/Subsistemas/Subsistema_estrutural-1.png"  class="zoom" />
 
-![Subsistema estrutural](../estruturas/imagens/DTs/Subsistemas/Subsistema_estrutural-1.png)
+<!--![Subsistema estrutural](../estruturas/imagens/DTs/Subsistemas/Subsistema_estrutural-1.png)-->
 
 ## Subsistema elevação do sensor 
 
