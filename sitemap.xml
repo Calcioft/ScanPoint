@@ -2,112 +2,192 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://fga-pi2.gitlab.io/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://fga-pi2.gitlab.io/eletronica-energia/exemplo/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <loc>https://fga-pi2.gitlab.io/eletronica-energia/EAP-eletronica-energia/</loc>
+         <lastmod>2024-05-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fga-pi2.gitlab.io/eletronica-energia/Projeto_Subsistema_Energia/</loc>
+         <lastmod>2024-05-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fga-pi2.gitlab.io/eletronica-energia/arquitetura_energia/</loc>
+         <lastmod>2024-05-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fga-pi2.gitlab.io/eletronica-energia/diagrama_esquematico/</loc>
+         <lastmod>2024-05-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fga-pi2.gitlab.io/eletronica-energia/eap/</loc>
+         <lastmod>2024-05-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fga-pi2.gitlab.io/eletronica-energia/requisitos-eletronica-energia/</loc>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fga-pi2.gitlab.io/estruturas/EAP_estruturas/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://fga-pi2.gitlab.io/estruturas/exemplo/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <loc>https://fga-pi2.gitlab.io/estruturas/Projeto_subsistema_estruturas/</loc>
+         <lastmod>2024-05-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fga-pi2.gitlab.io/estruturas/arquitetura_subs_estruturas/</loc>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fga-pi2.gitlab.io/geral/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fga-pi2.gitlab.io/geral/FMEA/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fga-pi2.gitlab.io/geral/anexo/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fga-pi2.gitlab.io/geral/apendice1/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fga-pi2.gitlab.io/geral/arquitetura/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fga-pi2.gitlab.io/geral/bib/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fga-pi2.gitlab.io/geral/cronograma/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fga-pi2.gitlab.io/geral/eap_geral/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fga-pi2.gitlab.io/geral/estimativa-custos/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fga-pi2.gitlab.io/geral/integracao/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fga-pi2.gitlab.io/geral/normas/</loc>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fga-pi2.gitlab.io/geral/projetos/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fga-pi2.gitlab.io/geral/prova-de-conceito/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://fga-pi2.gitlab.io/geral/requisitos-arquitetura/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <loc>https://fga-pi2.gitlab.io/geral/requisitos/</loc>
+         <lastmod>2024-05-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fga-pi2.gitlab.io/geral/termo_de_abertura_de_projeto/</loc>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fga-pi2.gitlab.io/geral/visaogeral/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fga-pi2.gitlab.io/software/arquitetura/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fga-pi2.gitlab.io/software/backlog_produto/</loc>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fga-pi2.gitlab.io/software/casos-de-uso/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fga-pi2.gitlab.io/software/diagrama-bpmn/</loc>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fga-pi2.gitlab.io/software/diagrama-de-pacotes/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fga-pi2.gitlab.io/software/eap_software/</loc>
+         <lastmod>2024-05-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fga-pi2.gitlab.io/software/funcionalidades/</loc>
+         <lastmod>2024-05-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fga-pi2.gitlab.io/software/identidade/</loc>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fga-pi2.gitlab.io/software/protocolos-de-comunicacao-software/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fga-pi2.gitlab.io/software/prototipo/</loc>
+         <lastmod>2024-05-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fga-pi2.gitlab.io/software/requisitos/</loc>
+         <lastmod>2024-05-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fga-pi2.gitlab.io/software/subsistema-software/</loc>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
