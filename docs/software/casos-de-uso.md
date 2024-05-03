@@ -1,5 +1,13 @@
 # Diagrama de Casos de Uso
 
+## O que são casos de uso ?
+<p style="text-align:justify;">
+Os diagramas de casos de uso em UML são usados durante a fase de requisitos do desenvolvimento de software – eles geralmente colocam os requisitos do sistema em um formato de diagrama, e é fácil ver de relance quais ações um sistema deve suportar. Claro, haverá muitos casos de uso para o seu sistema, e por isso você geralmente precisará desenhar vários diagramas de casos de uso!
+<br/>
+Junto com outros diagramas UML, como os diagramas de atividade, sequência e componente, os diagramas de casos de uso ajudam você a visualizar seu software e requisitos, antes de mergulhar e começar a programar.
+<a href="/software/casos-de-uso#ref-1">[1]</a>
+</p>
+
 ## 1. Escanear Objeto
 - O sistema permite que um usuário escaneie um objeto físico utilizando uma mesa inteligente equipada com sensores. Esta funcionalidade converte a forma, tamanho e características do objeto em um modelo digital.
 
@@ -44,9 +52,11 @@
 
 ## Diagrama abaixo mostra a relação entre os casos de uso:
 <iframe frameborder="0" style="width:100%;height:300px;" src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Diagrama%20de%20Casos%20de%20Uso%20-%20Mesa%20Scanner%20-%20PI2#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1zYgIWynN482pM8h9dsHU6t2AOqzia8oi%26export%3Ddownload"></iframe>
+<font size="2"><p style="text-align: center">Figura 1: [Diagrama Casos de Uso](https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Diagrama%20de%20Casos%20de%20Uso%20-%20Mesa%20Scanner%20-%20PI2#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1zYgIWynN482pM8h9dsHU6t2AOqzia8oi%26export%3Ddownload).</p></font>
 
 ## Referências
-- [UML use case diagrams with draw.io, acessado em 12 de abril de 2024.](https://drawio-app.com/blog/uml-use-case-diagrams-with-draw-io/)
+<div id="ref-1"/>
+- [1][UML use case diagrams with draw.io, acessado em 12 de abril de 2024.](https://drawio-app.com/blog/uml-use-case-diagrams-with-draw-io/)
 
 ## Tabela de versionamento
 
@@ -54,3 +64,5 @@
 |-------|------|-----------|------------|
 | 1.0 | 12/04/2024 | Criação do documento | Vinicius Vieira e Guilherme Basílio |
 | 1.1 | 27/04/2024 | Atualização do documento | Guilherme Basílio |
+| 1.2 | 03/05/2024 | Organização de fontes e referências | Vinicius Vieira e Ciro Araújo |
+
