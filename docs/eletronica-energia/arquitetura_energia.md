@@ -8,3 +8,13 @@ A energia elétrica necessária para a operação do produto ScanPoint será for
 
 ![Diagrama_Energia](../assets/eletronica-energia/Arquitetura_de_Subs_Energia.jpeg)
 Figura 1 - Arquitetura de Energia. Fonte: Autoria própria
+
+## Tabela de versionamento
+
+| Versão| Data | Descrição | Responsável|
+|-------|------|-----------|------------|
+| 1.0 | 28/04/2024 | Criação do documento | Lucas Pantoja |
+| 1.1 | 29/04/2024 | Edição de texto e imagem | Lucas Pantoja |
+| 1.2 | 03/05/2024 | Atualização para padronização do documento| Lucas Pantoja |
+
+
