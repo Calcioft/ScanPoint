@@ -251,22 +251,38 @@ Fonte [5]
 ## Funcionamento do Driver L298N
 
 O módulo L298N utiliza as portas In1, In2 e EnA para controlar o motor "A" (lado esquerdo do diagrama de blocos da imagem da figura 11). Os pinos In1 e In2 são responsáveis pelo direcionamento do sentido do motor, e o pino EnA é responsável pela regulação de velocidade do motor "A", portanto o pino de saída da BlackBoard para o pino EnA do módulo deverá permitir um sinal PWM. 
+
 Da mesma maneira que o motor "A", o motor "B" possui dois pinos de direcionamento de sentido, porém ao invés de serem os pinos In1 e In2, são os pinos In3 e In4. O pino que determina a velocidade do motor "B" é o EnB, que também deve permitir um sinal PWM vindo da BlackBoard. É possível observar o diagrama de blocos do funcionamento do chip L298N figura 15.
  
- ![alt text](../assets/eletronica-energia/image-14.png)
-
+ ![alt text](../assets/eletronica-energia/image-a.png)
 
 **Figura 15:** Diagrama de blocos do L298M
 Fonte [7]
 
-Rampa de Aceleração e Desaceleração
-É utilizada uma rampa de aceleração e desaceleração para fazer com que o motor gire. A rampa de aceleração irá aumentar a velocidade do motor gradativamente até que ele atinja a sua velocidade máxima. Já a rampa de desaceleração fará o oposto com o motor, desacelerando gradativamente, na mesma proporção acelerada. Essa rampa de aceleração é utilizada para evitar que o motor atinja um pico de corrente ao ser partido [5]. 
  
- ![alt text](../assets/eletronica-energia/image-15.png)
-**Figura 16:** Rampa de aceleração de desaceleração do drive L298N
-Fonte [5]
+Assim conhecendo todos os componentes, foi montada uma simulação utilizando programa Proteus, a qual é motrada na figura 16. Já na figura 17, encontra-se a representação do circuito realizada utilizando o Fritzing que permite gerar o diagrama esquemático do circuito na figura 18, e o diagrama de barramento na figura 19.
+ 
+ ![alt text](../assets/eletronica-energia/image-45.png)
 
-Assim conhecendo todos os componentes, foi montada uma simulação utilizando programa Proteus, a qual é motrada na figura 13. A figura 14 representa o mesmo circuito montado no software Fritzing, com a finalidade de mostrar como ele seria montado de forma real na protoboard, a figura 15  mostra o diagrama de barramentos, e a figura 16 o diamgrama esquemático do circuito.
+**Figura 16:** Simulação do Proteus do sistema de motores.
+
+A figura 16 apresenta a simulação realizada no proteus para verificar o funcionamento do motor e um preteste do funcionamento dos motores, seguidamente foi feita a simulação utilizando o Fritzing com o objetivo de criar os diagramas esquemáticos.
+
+ ![alt text](../assets/eletronica-energia/image-21.png)
+
+**Figura 17:** Simulação Arduino do sistema de motores.
+
+Já nas figuras 18 e 19 se apresentam os diagramas de eletrônica de blocos e de barramento respectivamente.
+
+
+ ![alt text](../assets/eletronica-energia/image-22.png)
+
+**Figura 18** Diagrama de blocos completo do circuito com motores de passo. 
+ 
+  ![alt text](../assets/eletronica-energia/image-23.png)
+
+**Figura 19** Diagrama de barramentos completo do circuito com motores de passo. 
+
 
 ## Descrição matemática do MOTOR
 
