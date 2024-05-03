@@ -1,24 +1,26 @@
 # Estimativa de custos
-
-Para a estimativa de custos foram pensados 5 cenários possíveis sendo dois cenários de base, 2 cenários
-complementáres e por fim um cenário ideal.
-
+<p aling="justify">
+Para a estimativa de custos foram pensados 5 cenários possíveis sendo dois cenários de base, 2 cenários complementáres e por fim um cenário ideal.
+</p>
 Para os cenários de base foram escolhidos:
 
 * Cenário Base 1: Compras realizadas no mercado nacional; 
 * Cenário Base 2: Compras realizadas no mercado internacional.
 
-A partir desses cenários foram desenvolvidos outros dois, derivados dos cenários iniciais, e
-considerando os materiais disponíveis no laboratório de estruturas.
+<p aling="justify">
+A partir desses cenários foram desenvolvidos outros dois, derivados dos cenários iniciais, e considerando os materiais disponíveis no laboratório de estruturas.
+</p>
 
 * Cenário Derivado 1: Itens do laboratório com compras no mercado nacional;
 * Cenário Derivado 2: Itens do laboratório com compras no mercado internacional.
 
-Por fim, tendo como base essas possibilidades foi definido um cenário ideal, onde foram considerados os
-materiais disponíveis em laboratório e os materiais mais baratos encontrados dentre as opções nacionais
-e internacionais. A relação de preços e cenários podem ser encontradas abaixo:
+<p aling="justify">
+Por fim, tendo como base essas possibilidades foi definido um cenário ideal, onde foram considerados os materiais disponíveis em laboratório e os materiais mais baratos encontrados dentre as opções nacionais e internacionais. A relação de preços e cenários podem ser encontradas abaixo:
+</p>
 
+### Tabela de estimativa de custos
 
+**Tabela 1:** Tabela de estimativa de custos
 
 | Item                                         | Quantidade | Disponível | Preço Unitário Nacional | Preço Unitário Internacional | Cenário Base 1 | Cenário Base 2 | Cenário Derivado 1 | Cenário Derivado 2 | Cenário Ideal | Links Nacional                                                                                                                                                                                                                                                           | Links Internacional                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |----------------------------------------------|------------|------------|-------------------------|------------------------------|----------------|----------------|--------------------|--------------------|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -56,9 +58,10 @@ Por fim, para o Cenário ideal, onde serão compradas as opções mais baratas d
 internacionais, utilizando os materiais do laboratório, obtivemos um custo estimado de __R$ 494,01.__
 
 ## Versionamento
-| ID | Versão | Descrição                                                       |Responsável|
-|----|--------|-----------------------------------------------------------------| ----- |
-| 01 | 1.0    | Criação do arquivo                                              | Artur de Sousa, Cássio Filho |
-| 02 | 1.1    | Adição componentes de eletrônica                                | Artur de Sousa, Cássio Filho |
-| 03 | 1.1    | Retirado frete do preço de partes eletrônicas internacionais    | Artur de Sousa, Cássio Filho |
-| 04 | 1.2    | Expicação dos casos propostos  e alteração do nome dos cenários | Artur de Sousa, Cássio Filho |
+| Versão | Descrição                                                       |Responsável|
+|--------|-----------------------------------------------------------------| ----- |
+| 1.0    | Criação do arquivo                                              | Artur de Sousa, Cássio Filho |
+| 1.1    | Adição componentes de eletrônica                                | Artur de Sousa, Cássio Filho |
+| 1.1    | Retirado frete do preço de partes eletrônicas internacionais    | Artur de Sousa, Cássio Filho |
+| 1.2    | Expicação dos casos propostos  e alteração do nome dos cenários | Artur de Sousa, Cássio Filho |
+| 1.3 | Refatoração do arquivo | Pedro Menezes Rodiguero |
