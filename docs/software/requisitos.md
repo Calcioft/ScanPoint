@@ -5,8 +5,9 @@
 ### **Introdução**
 
 <!-- Não abordamos 3D -->
-
+<p align="justify">
 O sistema inteligente de captura de dados e escaneamento 3D combina a captura de dados em tempo real com a tecnologia de escaneamento 3D para criar uma solução inovadora para fabricação digital. Este documento apresenta os requisitos funcionais e não funcionais do sistema, que devem ser atendidas para garantir o sucesso do projeto.
+</p>
 
 ### Requisitos Funcionais
 
@@ -121,4 +122,4 @@ O sistema inteligente de captura de dados e escaneamento 3D combina a captura de
 | 0.4 | 28/04/2024 | Correção de requisitos não funcionais | Guilherme Basílio |
 | 0.5 | 28/04/2024 | Adição de requisitos não funcionais | Vinicius Vieira e Ciro Araújo |
 | 1.0 | 29/04/2024 | Formatação das funcionalidades | Denniel William |
-
+| 1.1 | 03/05/2024 | Formatação do documento | Pedro Menezes Rodiguero|
