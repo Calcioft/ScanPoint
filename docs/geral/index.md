@@ -31,6 +31,8 @@
 
 >> [**2.1.2.** **Requisitos de Eletrônica e Energia**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/Revis%C3%A3o-PC1/docs/eletronica-energia/requisitos-eletronica-energia.md)
 
+>> [**2.1.3.** **Requisitos de Estruturas**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/estruturas/Requisitos_estruturas.md?ref_type=heads)
+
 > **2.2.** **Arquitetura geral da solução**
 
 >> [**2.2.1.** **Arquitetura de software**](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/blob/main/docs/software/eap_software.md?ref_type=heads)
