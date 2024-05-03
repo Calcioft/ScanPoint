@@ -33,6 +33,7 @@ nav:
       - Requisitos Gerais: geral/requisitos.md
       - Termo de Abertura: geral/termo_de_abertura_de_projeto.md
       - Visao geral: geral/visaogeral.md
+      - Normas: geral/normas.md
   - Software: 
       - Arquitetura de software: software/arquitetura.md
       - Backlog do produto: software/backlog_produto.md
@@ -51,9 +52,11 @@ nav:
       - Diagramas esquematicos: eletronica-energia/diagrama_esquematico.md
       - EAP: eletronica-energia/eap.md
       - Subsistema de Energia: eletronica-energia/Projeto_Subsistema_Energia.md
+      - EAP: eletronica-energia/EAP-eletronica-energia.md
+      - Requisitos: eletronica-energia/requisitos-eletronica-energia.md
   - Estruturas:
       - Arquitetura: estruturas/arquitetura_subs_estruturas.md
       - EAP: estruturas/EAP_estruturas.md
       - Subsistema de Estruturas: estruturas/Projeto_subsistema_estruturas.md
-      - Desenhos mecânicos: estruturas/DTs.md
+      - Requisitos: estruturas/Requisitos_estruturas.md
 
