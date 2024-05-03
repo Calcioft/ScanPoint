@@ -42,7 +42,6 @@ nav:
       - EAP: software/eap_software.md
       - Funcionalidades: software/funcionalidades.md
       - Documento de identidade: software/identidade.md
-      - Protocolos de comunicacao: software/protocolos-de-comunicacao-software.md
       - Prototipo de alta fidelidade: software/prototipo.md
       - Requisitos de software: software/requisitos.md
       - Projeto de subsistema de software: software/subsistema-software.md
