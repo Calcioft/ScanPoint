@@ -139,7 +139,7 @@ O resultado esperado é que seja um sistema versátil e adaptável, capaz de ate
   </div>
   <h4 class="legenda">Maria Cláudia</h4>
 </a>
-<a class="pessoa" href="https://gitlab.com/">
+<a class="pessoa" href="https://gitlab.com/Calcioft">
   <div class="photo-border">
     <img class="photo" src="assets/membros/Cassio.jpg" alt="Cássio">
   </div>
