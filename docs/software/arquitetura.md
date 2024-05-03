@@ -22,7 +22,9 @@ A relação entre os componentes está elencada no diagrama abaixo:
 
 ## Diagrama de arquitetura de software 
 
-![](../assets/software/diagrama-arquitetura.png)
+![3](../assets/software/diagrama-arquitetura.png)
+
+<font size="2"><p style="text-align: center">Fonte: [Diagrama de Arquitetura de Software](https://app.diagrams.net/#G152ySAVfwL1QUKcdnSeAaXdJ9Q1nRN_6T#%7B"pageId"%3A"C2fSY1v2SiZeoUbDoYyL"%7D).</p></font>
 
 ## Tecnologias
 
@@ -43,12 +45,17 @@ AS tecnologias de software utilizadas nesse projeto foram:
 <div id="ref2"/>
 >[2] [What is Arduino? Acesso em 28 de abril de 2024.](https://docs.arduino.cc/learn/starting-guide/whats-arduino/?_gl=1*23ysxj*_ga*MTE4MTM4NjIyMS4xNzE0MzI5NTA3*_ga_NEXN8H46L5*MTcxNDMyOTUwNi4xLjEuMTcxNDMyOTU0MS4wLjAuMTI1MzcwNzA4Mw..*_fplc*cTIzWiUyRjhGOVMlMkZVbUlwOXY4U2ptYnJXUEJXUER4ODFoZUg3c1g3QkNVT3djVkpoRTF5MEE0dVBIYlVWRmI3RGlZVHJXNHZlMm5KUmhhcVJHSTc5RW5CSWtCVDFSRGd1SjVhR08wNXlWSW1EZGVKTHZORm5mTzJVajk3QWFtdyUzRCUzRA..)
 
+<div id="ref3"/>
+>[3] [Diagrama de arquitetura de software. Acesso em 03 de abril de 2024.](https://app.diagrams.net/#G152ySAVfwL1QUKcdnSeAaXdJ9Q1nRN_6T#%7B"pageId"%3A"C2fSY1v2SiZeoUbDoYyL"%7D..)
+
+
 ## Tabela de versionamento
 
 | Versão| Data | Descrição | Responsável|
 |-------|------|-----------|------------|
 | 1.0 | 28/04/2024 | Criação da estrutura do documento | Artur de Souza |
 | 1.1 | 03/05/2024 | Corrigido Formatação | Artur de Souza |
+| 1.2 | 03/05/2024 | Adicionando referencia e legenda ao diagrama | Guilherme Basilio |
 
 
 
