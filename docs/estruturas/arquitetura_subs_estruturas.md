@@ -4,7 +4,9 @@ A Estrutura física do projeto ScainPoint foi pensada para comportar, de forma e
 
 <div align="center">
 ![Diagrama de componentes da arquitetura de estruturas](imagens/Arquitetura_Estruturas_Diagrama.png)
+Figura 1 - Diagrama de componentes da arquitetura de estruturas
 </div>
+
 
 ## Estrutura de alumínio
 
@@ -12,7 +14,10 @@ Para a parte estrutural externa, foi pensado o uso de 12 perfis de alumínio est
 
 <div align="center">
 ![Estrutura de alumínio](imagens/Arquitetura_Estruturas_estrutura_de_alumínio.jpg)
-![Estrutura de alumínio](docs/estruturas/imagens/cantoneiras_estrutura.jpg)
+Figura 2 - Estrutura externa de alumínio
+
+![Cantoneiras](docs/estruturas/imagens/cantoneiras_estrutura.jpg)
+Figura 3 - Cantoneiras utilizadas na fixação de estruturas
 </div>
 
 ## Caixa para eletrônica
@@ -21,6 +26,7 @@ A Caixa da eletrônica foi pensada para armazenar todos os componentes eletrôni
 
 <div align="center">
 ![Caixa de eletrônica](imagens/Arquitetura_Estruturas_caixa_eletronica.jpg)
+Figura 4 - Caixa utilizada para o armazenamento dos componentes de eletrônica
 </div>
 
 ## Elevação do sensor
@@ -29,6 +35,7 @@ O subsistema de elevação do sensor é feito com o auxilio de peças em impress
 
 <div align="center">
 ![Trilho do sensor](imagens/Arquitetura_Estruturas_trilho_do_sensor.jpg)
+Figura 5 - Trilho para movimentação do sensor
 </div>
 
 ## Prato giratório
@@ -37,4 +44,5 @@ O prato giratório servirá para auxiliar na movimentação da peça em questão
 
 <div align="center">
 ![Prato](imagens/Arquitetura_Estruturas_prato.jpg)
+Figura 6 - Prato utilizado para a rotação do objeto a ser escaneado
 </div>
