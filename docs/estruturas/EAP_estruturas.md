@@ -8,7 +8,7 @@ A Estrutura Analítica do Projeto (EAP) da área de Estruturas irá descrever as
 <iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVKPCjfcY=/?moveToViewport=-528,-1191,2108,966&embedId=338951566821" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
 
 <p style="text-align:center;">
-    Figura 1 - EAP de Estruturas <br/>
+    Figura 1 - EAP de Estruturas <br />
     Fonte: Autores.
 </p>
 
