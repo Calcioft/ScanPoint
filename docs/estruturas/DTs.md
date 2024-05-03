@@ -8,7 +8,7 @@
 
 
 ## Subsistema Estrutural
-<img src="../estruturas/imagens/DTs/Subsistemas/Subsistema_estrutural-1.png" class="zoom" />
+<img src="../estruturas/imagens/DTs/Subsistemas/Subsistema_estrutural-1.png" />
 
 ![Subsistema estrutural](../estruturas/imagens/DTs/Subsistemas/Subsistema_estrutural-1.png)
 
@@ -28,11 +28,9 @@
 
 ![3](../estruturas/imagens/DTs/Part/estrutura_cantoneira_20x20-1.png)
 
-![4](../estruturas/imagens/DTs/Part/Caixa_eletronica_tampa-1.png)
+![4](../estruturas/imagens/DTs/Part/Prato_acoplamento-1.png)
 
-![5](../estruturas/imagens/DTs/Part/Prato_acoplamento-1.png)
-
-![6](../estruturas/imagens/DTs/Part/prato_suporte-1.png)
+![5](../estruturas/imagens/DTs/Part/prato_suporte-1.png)
 
 ![6](../estruturas/imagens/DTs/Part/prato_suporte_motor-1.png)
 
