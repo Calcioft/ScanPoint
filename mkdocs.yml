@@ -45,6 +45,7 @@ nav:
       - Protocolos de comunicacao: software/protocolos-de-comunicacao-software.md
       - Prototipo de alta fidelidade: software/prototipo.md
       - Requisitos de software: software/requisitos.md
+      - Identidade: software/identidade.md
       - Projeto de subsistema de software: software/subsistema-software.md
   - Eletrônica/Energia: 
       - Arquitetura: eletronica-energia/arquitetura_energia.md
