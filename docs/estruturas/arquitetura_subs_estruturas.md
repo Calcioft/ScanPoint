@@ -1,6 +1,8 @@
 # Arquitetura do Subsistema de Estruturas
 
-A Estrutura física do projeto ScainPoint foi pensada para comportar, de forma eficiente, todos os componentes eletrônicos do sistema. Para isso, o protótipo foi dividido em quatro subsistemas: estrutura de alumínio, prato giratório, elevação do sensor e a caixa da eletrônica (empacotamento da eletrônica). 
+
+A Estrutura física do projeto **ScainPoint** foi pensada para comportar, de forma eficiente, todos os componentes eletrônicos do sistema. Para isso, o protótipo foi dividido em quatro subsistemas: estrutura de alumínio, prato giratório, elevação do sensor e a caixa da eletrônica (empacotamento da eletrônica). 
+
 
 <div align="center">
 
@@ -21,7 +23,7 @@ Para a parte estrutural externa, foi pensado o uso de 12 perfis de alumínio est
 
 Figura 2 - Estrutura externa de alumínio
 
-![Cantoneiras](docs/estruturas/imagens/cantoneiras_estrutura.jpg)
+![Cantoneiras](Arquitetura_Estruturas_cantoneira.jpeg)
 
 Figura 3 - Cantoneiras utilizadas na fixação de estruturas
 
@@ -62,3 +64,10 @@ O prato giratório servirá para auxiliar na movimentação da peça em questão
 Figura 6 - Prato utilizado para a rotação do objeto a ser escaneado
 
 </div>
+
+## Versionamento
+| Versão | Data | Modificação | Autor |
+|--|--|--|--|
+| 0.1 | 25/04/2024 | Criação do documento | Maria Claudia |
+| 0.2 | 30/04/2024 | Adicionando textos e imagens | Maria Claudia e Diogo|
+| 1.0 | 30/04/2024 | Atualização de drawings |Diogo|
