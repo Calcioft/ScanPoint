@@ -14,7 +14,7 @@ Mais detalhes na pagina de [Arquitetura de Software](arquitetura.md)
 
 * **Aplicação ScanPoint:** A aplicação desktop será responsável pelo controle do processo de criação do STL. Ela que será responsável por chamar o software de processamento do pointcloud para a conversão para STL e interagir com o usuário final.
 
-* **Arduino:** responsável por receber dados provenientes dos sensores, realizando o processamento necessário e transmitindo essas informações para a aplicação Electron. Além disso, assume o controle dos motores, gerenciando seu funcionamento e movimentação de acordo com as instruções fornecidas pela aplicação. No âmbito operacional, o Arduino opera como uma unidade mestra, coordenando e controlando o fluxo de dados entre os diferentes componentes do sistema.
+* **Arduino:** responsável por receber dados provenientes dos sensores, realizando o processamento necessário e transmitindo essas informações para a aplicação Electron. Além disso, assume o controle dos motores, gerenciando seu funcionamento e movimentação de acordo com as instruções fornecidas pela aplicação. No âmbito operacional, o Arduino opera como uma unidade mestra, coordenando e controlando o fluxo de dados entre os diferentes componentes do sistema. O Arduíno foi selecionado por conta da versatilidade da placa, atendendo todas as necessidades com baixo custo e curva de aprendizado.
 
 * **Script para processamento de pointcloud:** Responsável pela leitura dos pontos do objeto devolvidos pelo arduíno fazendo a modelagem do objeto através desses pontos, sendo assim, por fim, gerando o arquivo STL ou g-code.
 
@@ -34,12 +34,12 @@ Mais detalhes na pagina de [Protótipo de alta fidelidade](prototipo.md)
 
 ### Tecnologia utilizada
 <p style="text-align: justify;">
-O Electron é um framework open-source para criar aplicações Desktop usando tecnologias web para Windows, mac e Linux, com base no Chromium e Node.js. Seu lançamento completa 10 anos o que já demonstra uma certa robustez, apesar de recente ainda possui material para ser utilizado como base. <a href="../software/subsistema-software.md#ref1">[1]</a>
+O Electron é um framework open-source para criar aplicações Desktop usando tecnologias web para Windows, mac e Linux, com base no Chromium e Node.js, com isso ele é um framework que utiliza linguagem e estrutura de mais fácil curva de aprendizado. Seu lançamento completa 10 anos o que já demonstra uma certa robustez, apesar de recente,ainda possui material para ser utilizado como base. <a href="../software/subsistema-software.md#ref1">[1]</a>
 </p>
 
 ## Script de processamento PointCloud
 <p style="text-align: justify;">
-Após a leitura de todos os pontos de distância feito pelos sensores ligados ao arduíno, o arquivo .txt gerado deve ser passado por um script de conversão desenvolvido em Python, usando a biblioteca NumPy.
+Após a leitura de todos os pontos de distância feito pelos sensores ligados ao arduíno, o arquivo .txt gerado deve ser passado por um script de conversão desenvolvido em Python, usando a biblioteca NumPy, escolhido pela confiabilidade do python para as operações matemáticas.
 
 No geral ele irá ler todos os valores de distância do arquivo txt e irá processar os dados, aplicando a distância do sensor ao ponto de leitura, transformar em uma matrix de rotação e depois em pontos catesianos. Em seguida elimina todos os pontos fora de alcance do sensor e passa todos os valores para ser convertido em STL.
 </p>
