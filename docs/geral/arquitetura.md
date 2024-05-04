@@ -1,10 +1,10 @@
 # **Arquitetura geral da solução**
 
 <p style="text-align: justify;">
-Baseado na compreensão do problema e nos requisitos levantados para o produto, esta seção apresenta e detalha a arquitetura geral da solução a ser utilizada no projeto, envolvendo as cinco engenharias do campus UnB-FGA: Engenharia Aeroespacia, Engenharia Automotiva, Engenharia de Energia, Engenharia de Software e Engenharia Eletrônica.
+Baseado na compreensão do problema e nos requisitos levantados para o produto, este documento apresenta e detalha a arquitetura geral da solução a ser utilizada no projeto, envolvendo as cinco engenharias do campus UnB-FGA: Engenharia Aeroespacial, Engenharia Automotiva, Engenharia de Energia, Engenharia de Software e Engenharia Eletrônica.
 </p>
 
-<p style="text-align: justify;"> O detalhamento das arquiteturas específicas pode ser encontrado nos documentos abaixo: </p>
+<p style="text-align: justify;"> O detalhamento das arquiteturas específicas podem ser encontrados nos documentos abaixo: </p>
 
   1. [Software](../software/arquitetura.md);
   2. [Eletrônica](../eletronica-energia/arquitetura_eletronica.md);
