@@ -18,15 +18,11 @@ extra_css:
 nav:
   - Sobre: index.md
   - Geral: 
-      - Anexo: geral/anexo.md
-      - Apendice: geral/apendice1.md
       - Arquitetura: geral/arquitetura.md
-      - Bib: geral/bib.md
       - Cronograma: geral/cronograma.md
       - EAP: geral/eap_geral.md
       - Estimativa de Custos: geral/estimativa-custos.md
       - Levantamento de riscos: geral/FMEA.md
-      - Ponto de Controle 1: geral/index.md
       - Integracao: geral/integracao.md
       - Projetos: geral/projetos.md
       - Prova de conceito: geral/prova-de-conceito.md
@@ -59,5 +55,5 @@ nav:
       - EAP: estruturas/EAP_estruturas.md
       - Requisitos: estruturas/Requisitos_estruturas.md
       - Subsistema de Estruturas: estruturas/Projeto_subsistema_estruturas.md
-      - Desenhos mecânicos: estruturas/DTs.md
+      - Desenhos mecanicos: estruturas/DTs.md
 
