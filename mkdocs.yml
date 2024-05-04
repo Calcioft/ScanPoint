@@ -53,7 +53,11 @@ nav:
       - Diagramas esquematicos: eletronica-energia/diagrama_esquematico.md
       - EAP energia: eletronica-energia/eap.md
       - Subsistema de Energia: eletronica-energia/Projeto_Subsistema_Energia.md
+<<<<<<< HEAD
       - EAP eletronica: eletronica-energia/EAP-eletronica-energia.md
+=======
+      - EAP: eletronica-energia/EAP-eletronica-energia.md
+>>>>>>> b9310b17b703063b59fac0deea6c765536d7bc9e
       - Requisitos: eletronica-energia/requisitos-eletronica-energia.md
   - Estruturas:
       - Arquitetura: estruturas/arquitetura_subs_estruturas.md
