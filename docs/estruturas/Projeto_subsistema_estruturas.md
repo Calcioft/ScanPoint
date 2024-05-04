@@ -143,18 +143,6 @@ Fonte: Autores.
 Possuindo as mesmas dimensões, a peça foi submetida as condições de contorno de força e apoio, sendo aplicada uma carga de 500N na direção do eixo z e apoios onde a peça foi fixada, considerando as faces em contato com o perfil de alumínio que foi utilizado. Foi determinado, pela limitação do software, um tamanho de malha de 2mm, e foram utilizados 116744 nós e 79896 elementos na mesma.
 
 
-![Face superior da peça real após o ensaio](imagens/Proj_Subs_Estruturas_Ensaios_deformação_face_superior.jpeg)
-
-<p style="text-align:center;">
-Figura 8 - Face superior da peça real após o ensaio<br />
-Fonte: Autores.
-</p>
-
-
-
-Como pode ser observado nas imagens das simulações de tensão normal e de cisalhamento e nos pontos de interesse representados pelas setas azuis, as regiões analisadas representam possíveis regiões de fratura para a peça em questão. Apesar de as simulações não representarem a situação obtida no ensaio estrutural , visto que a peça utilizada tem características difíceis de se simular, como preenchimento não maciço e camadas de filamento sobrepostas, as análises computacionais servem de boa base para identificação de possíveis pontos críticos da estrutura e, posteriormente, realizar comparações entre os materiais pretendidos para cada componente.
-
-
 ![Simulação tensão normal](imagens/Proj_Subs_Estruturas_Simulação_tensão_normal.png)
 
 <p style="text-align:center;">
@@ -166,6 +154,16 @@ Fonte: Autores.
 
 <p style="text-align:center;">
 Figura 10 - Tensão de cisalhamento<br />
+Fonte: Autores.
+</p>
+
+Como pode ser observado nas imagens das simulações de tensão normal e de cisalhamento e nos pontos de interesse representados pelas setas azuis, as regiões analisadas representam possíveis regiões de fratura para a peça em questão. Apesar de as simulações não representarem a situação obtida no ensaio estrutural , visto que a peça utilizada tem características difíceis de se simular, como preenchimento não maciço e camadas de filamento sobrepostas, as análises computacionais servem de boa base para identificação de possíveis pontos críticos da estrutura e, posteriormente, realizar comparações entre os materiais pretendidos para cada componente.
+
+
+![Face superior da peça real após o ensaio](imagens/Proj_Subs_Estruturas_Ensaios_deformação_face_superior.jpeg)
+
+<p style="text-align:center;">
+Figura 8 - Face superior da peça real após o ensaio<br />
 Fonte: Autores.
 </p>
 
