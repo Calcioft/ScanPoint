@@ -6,7 +6,7 @@
 
 Partindo dos requisitos, foram definidos critérios de análise que implicam em sua validação, para cada critério foi avaliado o peso, seguindo sua influência para cada um dos requisitos. Por exemplo, o critério de disponibilidade do material no laboratório recebe um ponto para o requisito de viabilidade econômica como sua veracidade ou não afeta diretamente o custo dos protótipos e do projeto final para o grupo, já o critério de embasamento estrutural literário apresenta nota 0 para esse mesmo requisito pois não gera nenhuma influência sobre os custos do projeto e simultaneamente sobre o requisito RN 1.
 
-Abaixo estão listados os os critérios definidos as pontuações para cada requisito e por fim o peso definido pela soma das pontuações:
+Abaixo estão listados os critérios definidos as pontuações para cada requisito e por fim o peso definido pela soma das pontuações:
 
 | Critério                                    | RF1 | RF2 | RF3 | RF4 | RN1 | RN2 | Peso |
 |---------------------------------------------|-----|-----|-----|-----|-----|-----|------|
