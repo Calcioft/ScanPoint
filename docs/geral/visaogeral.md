@@ -94,6 +94,8 @@
 
 ![É/Não é e Faz/Não faz](../assets/eounaoe.png)
 
+<font size="2"><p style="text-align: center">Fonte: Autoria Própria.</p></font>
+
 ## 8. Posicionamento
 
 ### 8.1. Oportunidade de Negócio
@@ -130,6 +132,6 @@ Souza, P. (2014). Lean Inception: Como Alinhar Pessoas e Construir o Produto Cer
 | 3.0 | 23/04/2024 | Preenchimento dos tópicos 8.3 ao 8.5, ajustes na formatação e na instrução de posição do produto  | Carla |
 | 4.0 | 25/04/2024 | Revisão e ajustes do documento  | Brenda |
 | 5.0 | 02/05/2024 | Refatoração dos nomes e explicações  | Ana |
-| 6.0 | 03/05/2024 | Refatoração total do documento  | Ana, Brenda, Carla |
+| 6.0 | 03/05/2024 | Refatoração total do documento  | Ana Carolina, Brenda, Carla |
 | 7.0 | 03/05/2024 | Inclusão do É/Não é e Faz/Não faz, feito pelo Ciro| Carla |
-| 8.0 | 04/05/2024 | Ajuste de alinhamento, padronização do histórico e inclusão da definição do É/Não é e Faz/Não faz| Ana |
+| 8.0 | 04/05/2024 | Ajuste de alinhamento, padronização do histórico e inclusão da definição do É/Não é e Faz/Não faz| Ana Carolina |
