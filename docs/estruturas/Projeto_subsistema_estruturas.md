@@ -192,4 +192,9 @@ Fonte: Autores.
  
 * ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. ABNT NBR 10126 - Cotagem em Desenho Técnico, 1987
 
-
+## Versionamento
+| Versão | Data | Modificação | Autor |
+|--|--|--|--|
+| 0.1 | 30/04/2024 | Criação do documento | Cássio Filho; Diogo Soares e Maria Claudia |
+| 0.2 | 02/05/2024 | Adicionando arquivos de simulação | Cássio Filho; Diogo Soares e Maria Claudia|
+| 1.0 | 03/05/2024 | Atualizações finais |Cássio Filho; Diogo Soares e Maria Claudia|
