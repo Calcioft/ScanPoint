@@ -18,6 +18,7 @@ extra_css:
 nav:
   - Sobre: index.md
   - Geral: 
+      - PC1: geral/index.md
       - Arquitetura: geral/arquitetura.md
       - Cronograma: geral/cronograma.md
       - EAP: geral/eap_geral.md
@@ -43,10 +44,10 @@ nav:
       - Requisitos de software: software/requisitos.md
       - Projeto de subsistema de software: software/subsistema-software.md
   - Eletrônica/Energia: 
-      - Arquitetura de eletronica: eletronica-energia/arquitetura_subsist_eletronica.md
+      - Arquitetura de eletronica: eletronica-energia/Projeto_subsistema_eletronica.md
       - Arquitetura de energia: eletronica-energia/arquitetura_energia.md
       - EAP: eletronica-energia/eap.md
-      - Subsistema de eletronica: eletronica-energia/arquitetura_subsist_eletronica.md
+      - Subsistema de eletronica: eletronica-energia/arquitetura_eletronica.md
       - Subsistema de energia: eletronica-energia/Projeto_Subsistema_Energia.md
       - Requisitos: eletronica-energia/requisitos-eletronica-energia.md
   - Estruturas:
