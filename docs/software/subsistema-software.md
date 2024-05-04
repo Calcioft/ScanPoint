@@ -34,7 +34,7 @@ Mais detalhes na pagina de [Protótipo de alta fidelidade](prototipo.md)
 
 ### Tecnologia utilizada
 <p style="text-align: justify;">
-O Electron é um framework open-source para criar aplicações Desktop usando tecnologias web para Windows, mac e Linux, com base no Chromium e Node.js, com isso ele é um framework que utiliza linguagem e estrutura de mais fácil curva de aprendizado. Seu lançamento completa 10 anos o que já demonstra uma certa robustez, apesar de recente,ainda possui material para ser utilizado como base. <a href="../software/subsistema-software.md#ref1">[1]</a>
+O Electron é um framework open-source para criar aplicações Desktop usando tecnologias web para Windows, mac e Linux, com base no Chromium e Node.js, com isso ele é um framework que utiliza linguagem e estrutura de mais fácil curva de aprendizado. Seu lançamento completa 10 anos o que já demonstra uma certa robustez, apesar de recente,ainda possui material para ser utilizado como base. <a href="#ref1">[1]</a>
 </p>
 
 ## Script de processamento PointCloud

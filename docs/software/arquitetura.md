@@ -33,9 +33,9 @@ AS tecnologias de software utilizadas nesse projeto foram:
 </p>
 
 
-- Electron: É um framework open-source para criar aplicações Desktop usando tecnologias web para Windows, mac e Linux, com base no Chromium e Node.js; <a href="../software/arquitetura.md#ref1">[1]</a>
+- Electron: É um framework open-source para criar aplicações Desktop usando tecnologias web para Windows, mac e Linux, com base no Chromium e Node.js; <a href="#ref1">[1]</a>
 
-- Arduino: É uma plataforma open-source com hardware e software com fácil aprendizagem. As placas Arduino tem a capassidade de registrar entradas diferentes, como botões, sinais de sensores, etc. Para programar as placas, existe o Arduino IDE (que é multiplataforma), com sua própria linguagem de programação. <a href="../software/arquitetura.md#ref2">[2]</a>
+- Arduino: É uma plataforma open-source com hardware e software com fácil aprendizagem. As placas Arduino tem a capassidade de registrar entradas diferentes, como botões, sinais de sensores, etc. Para programar as placas, existe o Arduino IDE (que é multiplataforma), com sua própria linguagem de programação. <a href="#ref2">[2]</a>
 
 
 ## Referências
