@@ -1,16 +1,16 @@
 # Desenho Técnicos
 
+Os desenhos técnicos estão apresentados nesta seção a partir de subsistemas. Para visualização dos arquivos de draftings e possível download, basta acessar o repositório em https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/tree/main/docs/estruturas/Draftings?ref_type=heads, assim como também para todos os CADs, que podem ser acessados no repositório de estruturas em https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/tree/main/docs/estruturas/CAD/Estrutura_CATIA?ref_type=heads.
+
 ## Sistema Montado
 ![Montagem](../estruturas/imagens/DTs/Montagem-1.png)
 
 ## Sistema Explodido
 ![Vista Explodida](../estruturas/imagens/DTs/Vista_explodida-1.png)
 
-
 ## Subsistema Estrutural
-<img src="../estruturas/imagens/DTs/Subsistemas/Subsistema_estrutural-1.png"  class="zoom" />
 
-<!--![Subsistema estrutural](../estruturas/imagens/DTs/Subsistemas/Subsistema_estrutural-1.png)-->
+![Subsistema estrutural](../estruturas/imagens/DTs/Subsistemas/Subsistema_estrutural-1.png)
 
 ## Subsistema elevação do sensor 
 
