@@ -87,7 +87,7 @@
 - **Documentação**: Preparar documentação detalhada sobre o funcionamento e operação do sistema ScanPoint, bem como materiais de treinamento para usuários e técnicos. Isso garantirá que os usuários estejam devidamente capacitados para utilizar o sistema de forma eficaz e segura.
 
 ## 7. É/Não é e Faz/Não faz
-![É/Não é e Faz/Não faz](docs/assets/eounaoe.png)
+![É/Não é e Faz/Não faz](../assets/eounaoe.png)
 
 ## 8. Posicionamento
 
