@@ -69,10 +69,13 @@ Os riscos podem ser encontrados no documento de [Levantamento de riscos](../gera
 |Apresentação do ponto de Controle 2| 12/06/2024|  
 |Apresentação| 03/07/2024|  
 | FIT | 10/07/2024|  
+
+<font size="2"><p style="text-align: center">Tabela 1: Cronograma geral do projeto</p></font>
  
 ## Tabela de Versionamento
 
 | Data | Versão| Descrição | Autor |   
 |------|-------|-----------|-------|   
 |29/03/2024|0.1|Estrutura do Termo de Abertura| Miguel|   
-|03/05/2024|1.0|Correções e preenchimento | Carla R. Cangussú|  
+|03/05/2024|1.0|Correções e preenchimento | Carla R. Cangussú|
+|04/05/2024|2.0| Inserção de fonte da tabela | Ana Carolina|  
