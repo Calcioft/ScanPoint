@@ -24,12 +24,12 @@ nav:
       - Estimativa de Custos: geral/estimativa-custos.md
       - Levantamento de riscos: geral/FMEA.md
       - Integracao: geral/integracao.md
+      - Normas: geral/normas.md
       - Projetos: geral/projetos.md
       - Prova de conceito: geral/prova-de-conceito.md
       - Requisitos Gerais: geral/requisitos.md
       - Termo de Abertura: geral/termo_de_abertura_de_projeto.md
       - Visao geral: geral/visaogeral.md
-      - Normas: geral/normas.md
   - Software: 
       - Arquitetura de software: software/arquitetura.md
       - Backlog do produto: software/backlog_produto.md
@@ -41,18 +41,18 @@ nav:
       - Documento de identidade: software/identidade.md
       - Prototipo de alta fidelidade: software/prototipo.md
       - Requisitos de software: software/requisitos.md
-      - Identidade: software/identidade.md
       - Projeto de subsistema de software: software/subsistema-software.md
   - Eletrônica/Energia: 
+      - Arquitetura de eletronica: eletronica-energia/arquitetura_subsist_eletronica.md
       - Arquitetura de energia: eletronica-energia/arquitetura_energia.md
       - EAP: eletronica-energia/eap.md
+      - Subsistema de eletronica: eletronica-energia/arquitetura_subsist_eletronica.md
       - Subsistema de energia: eletronica-energia/Projeto_Subsistema_Energia.md
-      - Substistema de eletronica: eletronica-energia/Documento_motor_de_passo.md
-      - Arquitetura de eletronica: eletronica-energia/arquitetura_subsist_eletronica.md
+      - Requisitos: eletronica-energia/requisitos-eletronica-energia.md
   - Estruturas:
       - Arquitetura: estruturas/arquitetura_subs_estruturas.md
-      - EAP: estruturas/EAP_estruturas.md
-      - Requisitos: estruturas/Requisitos_estruturas.md
-      - Subsistema de Estruturas: estruturas/Projeto_subsistema_estruturas.md
       - Desenhos mecanicos: estruturas/DTs.md
+      - EAP: estruturas/EAP_estruturas.md
+      - Subsistema de Estruturas: estruturas/Projeto_subsistema_estruturas.md
+      - Requisitos: estruturas/Requisitos_estruturas.md
 
