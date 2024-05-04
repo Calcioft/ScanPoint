@@ -46,6 +46,7 @@ nav:
       - Protocolos de comunicacao: software/protocolos-de-comunicacao-software.md
       - Prototipo de alta fidelidade: software/prototipo.md
       - Requisitos de software: software/requisitos.md
+      - Identidade: software/identidade.md
       - Projeto de subsistema de software: software/subsistema-software.md
   - Eletrônica/Energia: 
       - Arquitetura de energia: eletronica-energia/arquitetura_energia.md
@@ -56,6 +57,7 @@ nav:
   - Estruturas:
       - Arquitetura: estruturas/arquitetura_subs_estruturas.md
       - EAP: estruturas/EAP_estruturas.md
-      - Subsistema de Estruturas: estruturas/Projeto_subsistema_estruturas.md
       - Requisitos: estruturas/Requisitos_estruturas.md
+      - Subsistema de Estruturas: estruturas/Projeto_subsistema_estruturas.md
+      - Desenhos mecânicos: estruturas/DTs.md
 

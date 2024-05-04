@@ -22,6 +22,7 @@ materiais disponíveis em laboratório e os materiais mais baratos encontrados d
 e internacionais. A relação de preços e cenários podem ser encontradas abaixo:
 </p>
 
+**Tabela 1:** Tabela de estimativa de custos
 
 | Item                                         | Quantidade | Disponível | Preço Unitário Nacional | Preço Unitário Internacional | Cenário Base 1 | Cenário Base 2 | Cenário Derivado 1 | Cenário Derivado 2 | Cenário Ideal | Links Nacional                                                                                                                                                                                                                                                           | Links Internacional                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |----------------------------------------------|------------|------------|-------------------------|------------------------------|----------------|----------------|--------------------|--------------------|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -60,10 +61,10 @@ internacionais, utilizando os materiais do laboratório, obtivemos um custo esti
 </p>
 
 ## Versionamento
-| ID | Versão | Descrição                                                       |Responsável|
-|----|--------|-----------------------------------------------------------------| ----- |
-| 01 | 1.0    | Criação do arquivo                                              | Artur de Sousa, Cássio Filho |
-| 02 | 1.1    | Adição componentes de eletrônica                                | Artur de Sousa, Cássio Filho |
-| 03 | 1.1    | Retirado frete do preço de partes eletrônicas internacionais    | Artur de Sousa, Cássio Filho |
-| 04 | 1.2    | Expicação dos casos propostos  e alteração do nome dos cenários | Artur de Sousa, Cássio Filho |
-| 04 | 1.3    | Corrigir formatação                                             | Artur de Sousa               |
+| Versão | Descrição                                                       |Responsável|
+|--------|-----------------------------------------------------------------| ----- |
+| 1.0    | Criação do arquivo                                              | Artur de Sousa, Cássio Filho |
+| 1.1    | Adição componentes de eletrônica                                | Artur de Sousa, Cássio Filho |
+| 1.1    | Retirado frete do preço de partes eletrônicas internacionais    | Artur de Sousa, Cássio Filho |
+| 1.2    | Expicação dos casos propostos  e alteração do nome dos cenários | Artur de Sousa, Cássio Filho |
+| 1.3    | Refatoração do arquivo                                          | Pedro Menezes Rodiguero, Artur de Sousa |
