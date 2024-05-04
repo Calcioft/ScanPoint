@@ -12,21 +12,19 @@ Este documento tem como objetivo apresentar uma representação detalhada do pro
 Telas desenhadas para fornecer uma breve introdução ao usuário sobre o produto e permitir que inicie o processo de escaneamento da forma correta.
 </p>
 
-<figure>
-  <img src="../assets/software/prototipo/inicial-1.png" alt="Tela inicial 1">
-  <figcaption>
-  
-  **Figura 1:** Tela inicial 1
-  Fonte: Autoria própria</figcaption>
-</figure>
+![Tela inicial 1](../assets/software/prototipo/inicial-1.png)
 
-<figure>
-  <img src="../assets/software/prototipo/inicial-2.png" alt="Tela inicial 2">
-  <figcaption>
-  
-  **Figura 2:** Tela inicial 2
-  Fonte: Autoria própria</figcaption>
-</figure>
+<p style="text-align:center;">
+Figura 1: Tela inicial 1<br />
+Fonte: Autoria própria
+</p>
+
+![Tela inicial 2](../assets/software/prototipo/inicial-2.png)
+
+<p style="text-align:center;">
+Figura 2: Tela inicial 2<br />
+Fonte: Autoria própria
+</p>
 
 ## Tela de processamento
 
@@ -34,13 +32,12 @@ Telas desenhadas para fornecer uma breve introdução ao usuário sobre o produt
 Tela idealizada para manter o usuário atualizado em relação ao tempo restante para finalizar o processamento e permitir que o processo seja interrompido ou re-iniciado, caso seja detectado algum problema no momento do processamento.
 </p>
 
-<figure>
-  <img src="../assets/software/prototipo/processamento.png" alt="Tela de processamento">
-  <figcaption>
-  
-  **Figura 3:** Tela de processamento
-  Fonte: Autoria própria</figcaption>
-</figure>
+![Tela de processamento](../assets/software/prototipo/processamento.png)
+
+<p style="text-align:center;">
+Figura 3: Tela de processamento<br />
+Fonte: Autoria própria
+</p>
 
 ## Tela de erro
 
@@ -48,13 +45,12 @@ Tela idealizada para manter o usuário atualizado em relação ao tempo restante
 Tela desenhada para indicar que houve algum erro durante o processamento, indicando possíveis ações para que o processamento possa ser realizado apesar do erro e a causa provável. 
 </p>
 
-<figure>
-  <img src="../assets/software/prototipo/erro.png" alt="Tela de erro">
-  <figcaption>
-  
-  **Figura 4:** Tela de erro
-  Fonte: Autoria própria</figcaption>
-</figure>
+![Tela de erro](../assets/software/prototipo/erro.png)
+
+<p style="text-align:center;">
+Figura 4: Tela de erro <br />
+Fonte: Autoria própria
+</p>
 
 ## Tela de conclusão
 
@@ -62,13 +58,12 @@ Tela desenhada para indicar que houve algum erro durante o processamento, indica
 Tela que informa que o processo foi concluído com sucesso. A tela mostra uma breve pré-visualização do esquema escaneado e permite que o usuário reinicie o processo, caso não esteja satisfeito com o resultado, baixe o arquivo resultante ou volte à tela inicial da aplicação.
 </p>
 
-<figure>
-  <img src="../assets/software/prototipo/concluido.png" alt="Tela de conclusão">
-  <figcaption>
-  
-  **Figura 5:** Tela de conclusão
-  Fonte: Autoria própria</figcaption>
-</figure>
+![Tela de conclusão](../assets/software/prototipo/concluido.png)
+
+<p style="text-align:center;">
+Figura 5: Tela de conclusão <br />
+Fonte: Autoria própria
+</p>
 
 ## Sobre
 
@@ -76,13 +71,12 @@ Tela que informa que o processo foi concluído com sucesso. A tela mostra uma br
 Tela informativa sobre a idealização do projeto e sobre a equipe envolvida no desenvolvimento. 
 </p>
 
-<figure>
-  <img src="../assets/software/prototipo/sobre.png" alt="Tela de sobre">
-  <figcaption>
-  
-  **Figura 6:** Tela de sobre
-  Fonte: Autoria própria</figcaption>
-</figure>
+![Tela de sobre](../assets/software/prototipo/sobre.png)
+
+<p style="text-align:center;">
+Figura 6: Tela de sobre <br />
+Fonte: Autoria própria
+</p>
 
 ## Tabela de versionamento
 
@@ -92,3 +86,4 @@ Tela informativa sobre a idealização do projeto e sobre a equipe envolvida no 
 |-------|------|-----------|------------|
 | 1.0 | 02/05/2024 | Criação do documento | Brenda Vitória |
 | 1.1| 03/05/2024 | Refatoração do documento| Pedro Menezes Rodiguero |
+| 1.2 | 03/05/2024 | Ajustando links | Brenda Santos |
