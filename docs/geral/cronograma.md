@@ -57,6 +57,8 @@
 |50| Apresentação 2 |01 dia|03/07/2024| 03/07/2024|Todos|
 |51| FIT |01 dia| 10/07/2024| 10/07/2014|Todos|
 
+<font size="2"><p style="text-align: center">Fonte: Autoria Própria.</p></font>
+
 ## Tabela de versionamento
 
 | Versão | Versão | Descrição |Responsável|
