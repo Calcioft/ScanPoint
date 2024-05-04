@@ -132,7 +132,6 @@ Assim, avaliando a composição da estrutura com 4 peças impressas em 3D, a car
 Para complementação e representação do apresentado até então através do ensaio prático estrutural, foi realizada através do software Ansys Workbench uma simulação numérica da peça. 
 
 
-
 ![Malha de elementos](imagens/Proj_Subs_Estruturas_Simulação_malha.png)
 
 <p style="text-align:center;">
@@ -141,16 +140,8 @@ Fonte: Autores.
 </p>
 
 
-Possuindo as mesmas dimensões, a peça foi submetida as condições de contorno de força e apoio, sendo aplicada uma carga de 500N na direção do eixo z e apoios onde a peça foi fixada, considerando as faces em contato com o perfil de alumínio que foi utilizado. Foi determinado, pela limitação do software, um tamanho de malha de 5mm, e foram utilizados 10765 nós e 6447 elementos na mesma.
+Possuindo as mesmas dimensões, a peça foi submetida as condições de contorno de força e apoio, sendo aplicada uma carga de 500N na direção do eixo z e apoios onde a peça foi fixada, considerando as faces em contato com o perfil de alumínio que foi utilizado. Foi determinado, pela limitação do software, um tamanho de malha de 2mm, e foram utilizados 116744 nós e 79896 elementos na mesma.
 
-
-
-![Simulação da deformação da peça](imagens/Proj_Subs_Estruturas_Simulação_deformação.png)
-
-<p style="text-align:center;">
-Figura 7 - Simulação da deformação da peça<br />
-Fonte: Autores.
-</p>
 
 ![Face superior da peça real após o ensaio](imagens/Proj_Subs_Estruturas_Ensaio_face_superior.png)
 
@@ -161,9 +152,7 @@ Fonte: Autores.
 
 
 
-Como resultado, tem-se a deformação máxima de aproximadamente 4,84E-05m. A tensão de cisalhamento máxima de 2,35E06 Pa, a mínima de 1,74E06 Pa. Por fim, também pôde-se obter a tensão normal, sendo a máxima de 3,50E06 Pa e a mínima de -5,67E06 Pa.
-
-Pode-se notar que o resultado mostrou-se visualmente bem próximo ao obtido pelo método anterior e que a deformação ocorre próximo a região de apoio onde foi inserido o parafuso e a ruela para apoio das cargas no objeto em questão, local que também apresenta a máxima tensão de cisalhamento e menor ponto de tensão normal. Além disso, próximo ao local de engaste onde a peça foi fixada, pode-se visualizar os pontos máximos de tensão normal, o que também pôde ser observado no ensaio prático com a peça.
+Como pode ser observado nas imagens das simulações de tensão normal e de cisalhamento e nos pontos de interesse representados pelas setas azuis, as regiões analisadas representam possíveis regiões de fratura para a peça em questão. Apesar de as simulações não representarem a situação obtida no ensaio estrutural , visto que a peça utilizada tem características difíceis de se simular, como preenchimento não maciço e camadas de filamento sobrepostas, as análises computacionais servem de boa base para identificação de possíveis pontos críticos da estrutura e, posteriormente, realizar comparações entre os materiais pretendidos para cada componente.
 
 
 ![Simulação tensão normal](imagens/Proj_Subs_Estruturas_Simulação_tensão_normal.png)
@@ -179,6 +168,8 @@ Fonte: Autores.
 Figura 10 - Tensão de cisalhamento<br />
 Fonte: Autores.
 </p>
+
+Por fim, realizando a comparação entre o material simulado e o ensaio estrutural podemos verificar que as condições estabelecidas pelo Ansys para pontos críticos da estrutura foram validadas, já que, como observado na figura abaixo, os pontos críticos representados pelo Ansys condizem com os pontos de ruptura e deformação da peça durante ensaio estrutural.
 
 # Referências
 
