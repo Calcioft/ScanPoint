@@ -6,7 +6,7 @@ Os desenhos técnicos estão apresentados nesta seção a partir de subsistemas.
 ![Montagem](../estruturas/imagens/DTs/Montagem-1.png)
 
 ## Sistema Explodido
-![Vista Explodida](../estruturas/imagens/DTs/Vista_explodida-1.png)
+![Vista Explodida](../estruturas/imagens/DTs/Subsistemas/Subsistema_estrutural-1.png)
 
 ## Subsistema Estrutural
 
