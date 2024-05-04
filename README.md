@@ -41,15 +41,11 @@ https://lappis-unb.gitlab.io/fga-pi2/semestre-2024-1/grupo-08/scanpoint/
 Engloba as fases 1, 2 e 3 do ciclo de vida do projeto, sendo elas: **Problematização**, **concepção e detalhamento da solução** e **projeto e construção de subsistemas da solução proposta**.
 
 **Geral**
-- [Anexo](docs/geral/anexo.md)
-- [Apendice](docs/geral/anexo.md)
 - [Arquitetura](docs/geral/anexo.md)
-- [Bib](docs/geral/bib.md)
 - [Cronograma](docs/geral/cronograma.md)
 - [EAP](docs/geral/eap_geral.md)
 - [Estimativa de Custos](docs/geral/estimativa-custos.md)
 - [Levantamento de riscos](docs/geral/FMEA.md)
-- [Ponto de Controle 1](docs/geral/anexo.md)
 - [Integracao](docs/geral/integracao.md)
 - [Projetos](docs/geral/projrtod.md)
 - [Prova de conceito](docs/geral/prova-de-conceito.md)
@@ -66,22 +62,24 @@ Engloba as fases 1, 2 e 3 do ciclo de vida do projeto, sendo elas: **Problematiz
 - [EAP](docs/software/eap_software.md)
 - [Funcionalidades](docs/software/funcionalidades.md)
 - [Documento de identidade](docs/software/identidade.md)
-- [Protocolos de comunicacao](docs/software/protocolos-de-comunicacao-software.md)
 - [Prototipo de alta Fidelidade](docs/software/prototipo.md)
 - [Requisitos de software](docs/software/requisitos.md)
 - [Projeto de subsistema de Software](docs/software/subsistema-software.md)
 
 **Eletrônica/Energia**
-- [Arquitetura](docs/eletronica-energia/arquitetura_energia.md)
-- [Diagramas esquematicos](docs/eletronica-energia/diagrama_esquematico.md)
+- [Arquitetura de Eletrônica](docs/eletronica-energia/arquitetura_eletronica.md)
+- [Arquitetura de Energia](docs/eletronica-energia/arquitetura_energia.md)
 - [EAP](docs/eletronica-energia/eap.md)
+- [Subsistema de Eletrônica](docs/eletronica-energia/Projeto_subsistema_eletronica.md)
 - [Subsistema de Energia](docs/eletronica-energia/Projeto_Subsistema_Energia.md)
+- [Requisitos](docs/eletronica-energia/requisitos-eletronica-energia.md)
 
 **Estruturas**
 - [Arquitetura](docs/estruturas/arquitetura_subs_estruturas.md)
-- [Desenhos mecânicos](docs/estruturas/)
+- [Desenhos técnicos](docs/estruturas/DTs.md)
 - [EAP](docs/estruturas/EAP_estruturas.md)
 - [Subsistema de Estruturas](docs/estruturas/Projeto_subsistema_estruturas.md)
+- [Requisitos](docs/estruturas/Requisitos_estruturas.md)
 
 
 ### C2
