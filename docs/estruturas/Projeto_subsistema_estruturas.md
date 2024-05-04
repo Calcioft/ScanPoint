@@ -143,7 +143,7 @@ Fonte: Autores.
 Possuindo as mesmas dimensões, a peça foi submetida as condições de contorno de força e apoio, sendo aplicada uma carga de 500N na direção do eixo z e apoios onde a peça foi fixada, considerando as faces em contato com o perfil de alumínio que foi utilizado. Foi determinado, pela limitação do software, um tamanho de malha de 2mm, e foram utilizados 116744 nós e 79896 elementos na mesma.
 
 
-![Face superior da peça real após o ensaio](imagens/Proj_Subs_Estruturas_Ensaio_face_superior.png)
+![Face superior da peça real após o ensaio](imagens/Proj_Subs_Estruturas_Ensaios_deformação_face_superior.jpeg)
 
 <p style="text-align:center;">
 Figura 8 - Face superior da peça real após o ensaio<br />
