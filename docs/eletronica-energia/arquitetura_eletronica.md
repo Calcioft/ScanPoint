@@ -11,3 +11,10 @@ Dado que o sistema possui dois motores de passo que necessitam de uma alimentaç
 Posteriormente, após a identificação dos componentes que serão utilizados, é feita a descrição matemática do motor de passo, gerando uma função de transferência para conhecer o comportamento da velocidade de giro em função do tempo. Esta caracterização do motor foi feita utilizando as características técnicas fornecidas pelo fabricante.
 
 O capítulo é finalizado mostrando imagens de simulação dos circuitos utilizando Proteus e Fritzing, e a geração dos diagramas de blocos do circuito e o diagrama de barramento para a parte dos motores.
+
+## Versionamento
+
+| Versão | Data       | Modificação             | Autor       |
+| ------ | ---------- | ----------------------- | ----------- |
+| 0.1    | 03/05/2024 | Criação do documento    | Carolina Oliveira, Miguel Munoz |
+| 0.2    | 03/05/2024 | Adição de versionamento | Ciro Costa  |

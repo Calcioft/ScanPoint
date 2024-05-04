@@ -3,7 +3,7 @@
 ## O que é BPMN ?
 <p style="text-align:justify;">
 O Business Process Model and Notation (BPMN) tornou-se o padrão de-fato para diagramas de processos de negócios. Ele é destinado ao uso direto pelos stakeholders que projetam, gerenciam e realizam processos de negócios, mas ao mesmo tempo é preciso o suficiente para permitir que os diagramas BPMN sejam traduzidos em componentes de processos de software. O BPMN possui uma notação semelhante a um fluxograma, fácil de usar e independente de qualquer ambiente de implementação específico.
-<a href="/software/diagrama-bpmn#ref-1">[1]</a>
+<a href="#ref-1">[1]</a>
 </p>
 
 ## 1. Início do Processo:

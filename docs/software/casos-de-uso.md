@@ -5,7 +5,7 @@
 Os diagramas de casos de uso em UML são usados durante a fase de requisitos do desenvolvimento de software – eles geralmente colocam os requisitos do sistema em um formato de diagrama, e é fácil ver de relance quais ações um sistema deve suportar. 
 <br/>
 Junto com outros diagramas UML, como os diagramas de atividade, sequência e componente, os diagramas de casos de uso ajudam a visualizar o software e seus requisitos, antes de mergulhar e começar a programar de fato.
-<a href="/software/casos-de-uso#ref-1">[1]</a>
+<a href="#ref-1">[1]</a>
 </p>
 
 ## 1. Escanear Objeto

@@ -1,11 +1,5 @@
 # Estrutura Analítica do Projeto - EAP
 
-## Versionamento
-| Versão | Data | Modificação | Autor |
-|--|--|--|--|
-| 0.1 | 02/04/2024 | Criação do documento | Brenda Santos, Carolina Oliveira |
-
-
 ## Introdução
 
 A Estrutura Analítica do Projeto (EAP) é uma ferramenta essencial para o gerenciamento de projetos, oferecendo uma abordagem organizada e hierárquica para decompor as entregas e tarefas de um projeto em componentes menores e mais gerenciáveis. Por meio de um diagrama hierárquico, a EAP apresenta os principais entregáveis do projeto, desdobrando-os em sub-entregas e tarefas detalhadas. Além disso, a EAP desempenha um papel crucial na definição do escopo do projeto, na atribuição de responsabilidades e na definição de marcos e entregas importantes.
@@ -27,3 +21,11 @@ Nível 3: No nível mais baixo da EAP, encontram-se as atividades de baixo níve
 ## Referências
 
 > EUAX. EAP (Estrutura Analítica do Projeto): o que é, como fazer e qual a diferença entre EAP e Cronograma. Disponível em: https://www.euax.com.br/2018/12/eap-estrutura-analitica-projeto/. Acesso em: 12 de Abril de 2024.
+
+## Versionamento
+
+| Versão | Data       | Modificação              | Autor         |
+| ------ | ---------- | ------------------------ | ------------- |
+| 0.1    | 02/05/2024 | Criação do documento     | Brenda Santos |
+| 0.2    | 03/05/2024 | Atualização dos desenhos | Diogo Soares  |
+| 0.3    | 03/05/2024 | Adição de versionamento  | Ciro Costa    |
