@@ -29,3 +29,12 @@ Uma distinção comum dentro do escopo dos requisitos é entre **requisitos func
 | RNF05 | Eficiência de processamento  | O software deve ser eficiente no processamento dos pontos para garantir tempos de resposta aceitáveis durante o escaneamento.  |             |
 | RNF06 | Durabilidade e resistência  | Os componentes eletrônicos devem ser selecionados levando em consideração sua durabilidade e resistência às condições ambientais adversas, garantindo uma vida útil prolongada do sistema. | Resistência ao calor e umidade. |
 | RNF07 | Design da base | A base deve ser circular, com um diâmetro de 32cm, para acomodar o objeto de forma estável durante o escaneamento. |     |
+
+## Tabela de versionamento
+
+| Versão| Data | Descrição | Responsável|
+|-------|------|-----------|------------|
+| 1.0 | 10/04/2024 | Criação do documento | Brenda |
+| 1.1 | 30/04/2024 | Atualização dos requisitos gerais| Denniel William |
+| 1.2 | 03/05/2024 | Adição do versionamento| Ciro Costa |
+
