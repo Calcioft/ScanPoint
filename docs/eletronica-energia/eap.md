@@ -1,10 +1,10 @@
 # Estrutura Analítica do Projeto - EAP
 
 ## Versionamento
-| Versão | Data | Modificação | Autor |
-|--|--|--|--|
-| 0.1 | 02/04/2024 | Criação do documento | Brenda Santos, Carolina Oliveira |
 
+| Versão | Data       | Modificação          | Autor                            |
+| ------ | ---------- | -------------------- | -------------------------------- |
+| 0.1    | 02/04/2024 | Criação do documento | Brenda Santos, Carolina Oliveira |
 
 ## Introdução
 
@@ -27,3 +27,11 @@ Nível 3: No nível mais baixo da EAP, encontram-se as atividades de baixo níve
 ## Referências
 
 > EUAX. EAP (Estrutura Analítica do Projeto): o que é, como fazer e qual a diferença entre EAP e Cronograma. Disponível em: https://www.euax.com.br/2018/12/eap-estrutura-analitica-projeto/. Acesso em: 12 de Abril de 2024.
+
+## Versionamento
+
+| Versão | Data       | Modificação              | Autor         |
+| ------ | ---------- | ------------------------ | ------------- |
+| 0.1    | 02/05/2024 | Criação do documento     | Brenda Santos |
+| 0.2    | 03/05/2024 | Atualização dos desenhos | Diogo Soares  |
+| 0.3    | 03/05/2024 | Adição de versionamento  | Ciro Costa    |
