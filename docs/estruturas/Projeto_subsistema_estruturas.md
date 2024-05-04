@@ -159,6 +159,7 @@ Fonte: Autores.
 
 Como pode ser observado nas imagens das simulações de tensão normal e de cisalhamento e nos pontos de interesse representados pelas setas azuis, as regiões analisadas representam possíveis regiões de fratura para a peça em questão. Apesar de as simulações não representarem a situação obtida no ensaio estrutural , visto que a peça utilizada tem características difíceis de se simular, como preenchimento não maciço e camadas de filamento sobrepostas, as análises computacionais servem de boa base para identificação de possíveis pontos críticos da estrutura e, posteriormente, realizar comparações entre os materiais pretendidos para cada componente.
 
+Por fim, realizando a comparação entre o material simulado e o ensaio estrutural podemos verificar que as condições estabelecidas pelo Ansys para pontos críticos da estrutura foram validadas, já que, como observado na figura abaixo, os pontos críticos representados pelo Ansys condizem com os pontos de ruptura e deformação da peça durante ensaio estrutural.
 
 ![Face superior da peça real após o ensaio](imagens/Proj_Subs_Estruturas_Ensaios_deformação_face_superior.jpeg)
 
@@ -166,8 +167,6 @@ Como pode ser observado nas imagens das simulações de tensão normal e de cisa
 Figura 8 - Face superior da peça real após o ensaio<br />
 Fonte: Autores.
 </p>
-
-Por fim, realizando a comparação entre o material simulado e o ensaio estrutural podemos verificar que as condições estabelecidas pelo Ansys para pontos críticos da estrutura foram validadas, já que, como observado na figura abaixo, os pontos críticos representados pelo Ansys condizem com os pontos de ruptura e deformação da peça durante ensaio estrutural.
 
 # Referências
 
