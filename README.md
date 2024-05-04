@@ -6,8 +6,7 @@
 | :- | :- | :- | :--: |
 | Software | **Coordenadora geral** | Carla Rocha | 170085023 |
 | Software | **Diretora de qualidade** | Brenda Santos | 180041444 |
-| Software | **Diretor técnico** | Denniel William | 170161871 |
-| Software | **Diretor técnico de software** | Pedro Menezes | 190139323 |
+| Software | **Diretor técnico de Software** | Denniel William | 170161871 |
 | Aeroespacial | **Diretora técnica de Estrutura** | Maria Claudia | 200041193 |
 | Energia | **Diretora técnica de Eletrônica/Energia** | Carolina Oliveira | 190011483 | 
 | Aeroespacial | Desenvolvedor | Cássio Filho | 190011521 |
@@ -19,6 +18,7 @@
 | Software | Desenvolvedor | Artur de Souza | 190010606 |
 | Software | Desenvolvedor | Ciro Costa | 190011611 |
 | Software | Desenvolvedor | Vinicius Vieira | 190118059 |
+| Software | Desenvolvedor | Pedro Menezes | 190139323 |
 
 ## Site
 
@@ -44,18 +44,18 @@ Engloba as fases 1, 2 e 3 do ciclo de vida do projeto, sendo elas: **Problematiz
 - [Anexo](docs/geral/anexo.md)
 - [Apendice](docs/geral/anexo.md)
 - [Arquitetura](docs/geral/anexo.md)
-- [Bib](docs/geral/anexo.md)
-- [Cronograma](docs/geral/anexo.md)
-- [EAP](docs/geral/anexo.md)
-- [Estimativa de Custos](docs/geral/anexo.md)
-- [Levantamento de riscos](docs/geral/anexo.md)
+- [Bib](docs/geral/bib.md)
+- [Cronograma](docs/geral/cronograma.md)
+- [EAP](docs/geral/eap_geral.md)
+- [Estimativa de Custos](docs/geral/estimativa-custos.md)
+- [Levantamento de riscos](docs/geral/FMEA.md)
 - [Ponto de Controle 1](docs/geral/anexo.md)
-- [Integracao](docs/geral/anexo.md)
-- [Projetos](docs/geral/anexo.md)
-- [Prova de conceito](docs/geral/anexo.md)
-- [Requisitos Gerais](docs/geral/anexo.md)
-- [Termo de Abertura](docs/geral/anexo.md)
-- [Visao geral](docs/geral/anexo.md)
+- [Integracao](docs/geral/integracao.md)
+- [Projetos](docs/geral/projrtod.md)
+- [Prova de conceito](docs/geral/prova-de-conceito.md)
+- [Requisitos Gerais](docs/geral/requisitos.md)
+- [Termo de Abertura](docs/geral/termo_de_abertura_de_projeto.md)
+- [Visao geral](docs/geral/visaogeral.md)
 
 **Software**
 - [Arquitetura de software](docs/software/arquitetura.md)
@@ -78,7 +78,11 @@ Engloba as fases 1, 2 e 3 do ciclo de vida do projeto, sendo elas: **Problematiz
 - [Subsistema de Energia](docs/eletronica-energia/Projeto_Subsistema_Energia.md)
 
 **Estruturas**
+- [Arquitetura](docs/estruturas/arquitetura_subs_estruturas.md)
+- [Desenhos mecânicos](docs/estruturas/)
 - [EAP](docs/estruturas/EAP_estruturas.md)
+- [Subsistema de Estruturas](docs/estruturas/Projeto_subsistema_estruturas.md)
+
 
 ### C2
 
