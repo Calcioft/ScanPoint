@@ -32,7 +32,7 @@
 <p style="text-align: justify;">Os graduandos de engenharia formam a equipe executora deste projeto. Eles têm a responsabilidade de implementar as soluções propostas, desenvolver o sistema, integrar os componentes e garantir sua funcionalidade adequada. Sua dedicação, habilidades técnicas e colaboração são fundamentais para alcançar com sucesso os objetivos e entregas deste projeto.</p>
 
 ### Usuários Finais:
-<p style="text-align: justify;">Os usuários finais deste projeto são pessoas que desejam replicar objetos em 3D, que se beneficiarão diretamente do escaneamento e da geração dos arquivos prontos para impressão tridimensional. Sua experiência e feedback desempenham um papel crucial na validação e aprimoramento contínuo do sistema. Uma interação próxima e contínua com esses usuários é essencial para garantir que o sistema atenda plenamente às suas necessidades e otimize sua experiência de interação com o sistema.<p>
+<p style="text-align: justify;">Os usuários finais deste projeto são pessoas que desejam replicar objetos em 3D, que se beneficiarão diretamente do escaneamento e da geração dos arquivos prontos para impressão tridimensional. Sua experiência e feedback desempenham um papel crucial na validação e aprimoramento contínuo do sistema. Uma interação próxima e contínua com esses usuários é essencial para garantir que o sistema atenda plenamente às suas necessidades e otimize sua experiência de interação com o sistema.</p>
 
 ##  Descrição do produto do projeto
 
@@ -59,7 +59,7 @@
 <p style="text-align: justify;">Os riscos podem ser encontrados no documento [Levantamento de riscos](docs/geral/FMEA.md).</p>
 
 ## Cronograma dos marcos do projeto
-O projeto segue um cronograma definido com três marcos principais, conforme apresentado na tabela abaixo. O primeiro marco está agendado para 03/05/2024, seguido pelo marco 2 em 07/06/2024 e o marco 3 em 03/07/2024. É fundamental destacar que a documentação correspondente a cada marco deve ser entregue com cinco dias de antecedência em relação à data de apresentação correspondente.
+<p style="text-align: justify;">O projeto segue um cronograma definido com três marcos principais, conforme apresentado na tabela abaixo. O primeiro marco está agendado para 03/05/2024, seguido pelo marco 2 em 07/06/2024 e o marco 3 em 03/07/2024. É fundamental destacar que a documentação correspondente a cada marco deve ser entregue com cinco dias de antecedência em relação à data de apresentação correspondente.</p>
 
 |Marco |Data|
 |------|----|
