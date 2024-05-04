@@ -49,16 +49,11 @@ nav:
       - Identidade: software/identidade.md
       - Projeto de subsistema de software: software/subsistema-software.md
   - Eletrônica/Energia: 
-      - Arquitetura: eletronica-energia/arquitetura_energia.md
-      - Diagramas esquematicos: eletronica-energia/diagrama_esquematico.md
-      - EAP energia: eletronica-energia/eap.md
-      - Subsistema de Energia: eletronica-energia/Projeto_Subsistema_Energia.md
-<<<<<<< HEAD
-      - EAP eletronica: eletronica-energia/EAP-eletronica-energia.md
-=======
-      - EAP: eletronica-energia/EAP-eletronica-energia.md
->>>>>>> b9310b17b703063b59fac0deea6c765536d7bc9e
-      - Requisitos: eletronica-energia/requisitos-eletronica-energia.md
+      - Arquitetura de energia: eletronica-energia/arquitetura_energia.md
+      - EAP: eletronica-energia/eap.md
+      - Subsistema de energia: eletronica-energia/Projeto_Subsistema_Energia.md
+      - Substistema de eletronica: eletronica-energia/Documento_motor_de_passo.md
+      - Arquitetura de eletronica: eletronica-energia/arquitetura_subsist_eletronica.md
   - Estruturas:
       - Arquitetura: estruturas/arquitetura_subs_estruturas.md
       - EAP: estruturas/EAP_estruturas.md

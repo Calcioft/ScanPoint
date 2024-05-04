@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Termo de abertura de projeto
 
 ## Dados do projeto 
@@ -9,75 +8,71 @@
 - **Patrocinador**: Universidade de Brasília (UnB) 
 - **Gerente/Coordenadora Geral**: Carla Rocha 
 
-## Objetivos 
+## Descrição do projeto 
 
-O presente projeto, intitulado ScanPoint, encontrasse inserido no âmbito da disciplina de Projeto Integrador 2 e tem como objetivo a aplicação dos conhecimentos adquiridos nas áreas de engenharia aeroespacial, automotiva, software, eletrônica e energia. A relevância deste projeto é fundamentada em múltiplos aspectos sendo estes:
+<p style="text-align: justify;"> O presente projeto, intitulado ScanPoint, encontrasse inserido no âmbito da disciplina de Projeto Integrador 2 e surge como uma resposta à necessidade crescente de simplificar e otimizar o processo de digitalização e reprodução tridimensional de objetos físicos. O projeto é formado por uma mesa escaner e um aplicativo desktop. A mesa escaner é composta por um Arduino e sensores infravermelho que realizam a captura pontos de distância dos objetos. O aplicativo desktop é responsável pela interação com o usuário e por processar os pontos enviados pela mesa, de modo que gere um arquivo em stl que permite o objeto ser reproduzido por uma impressora 3D. </p>
 
-> ### 1. Aplicação Interdisciplinar 
-> 
-> O projeto visa integrar conceitos e práticas das disciplinas de engenharia aeroespacial, automotiva, software, eletrônica e energia, proporcionando aos estudantes uma visão abrangente e interdisciplinar do processo de desenvolvimento de projetos complexos, criado metodologias de trabalho que podem ser usadas na vida profissional do engenheiro.
-> 
-> ### 2. Desenvolvimento de Competências Técnicas
-> 
-> Participar ativamente na construção de uma mesa giratória com velocidade controlável, capaz de escanear um objeto e posteriormente gerar um arquivo slt que pode ser utilizado para impressão em 3D, é um desafio empolgante. No entanto, para garantir que o projeto seja viável, estabelecemos alguns limites: o objeto a ser escaneado e impresso não pode exceder as dimensões de 30x30x30 cm ou pesar mais de 2 kg, incluindo a mesa.
-> 
-> Para alcançar esse objetivo, serão necessários conhecimentos em cálculos estruturais e de resistência dos materiais, eletrônica embarcada e sistemas de controle, análise de dados, priorização e modelagem de requisitos, e desenvolvimento de software embarcado. Além disso, será fundamental desenvolver habilidades de gestão de pessoas para enfrentar os desafios futuros na área da engenharia.
-> 
-> ### 3. Desenvolvimento de Soluções Inovadoras
-> 
-> O desafio adicional do projeto é coletar informações precisas de um objeto em movimento em uma mesa rotatória. É essencial que esses dados sejam capturados e analisados de forma eficiente para garantir que a impressão em 3D reproduza fielmente o objeto original. A base plana do objeto apresenta uma vantagem, facilitando a análise e o escaneamento.
-> Para superar esse desafio, será necessário desenvolver um sistema de sensoriamento preciso e confiável, capaz de capturar os dados do objeto em movimento com rapidez e precisão. Além disso, será fundamental implementar algoritmos de processamento de dados eficientes para analisar as informações coletadas e gerar um modelo tridimensional preciso do objeto. Essas etapas são essenciais para garantir que a impressão em 3D reproduza fielmente o objeto original, atendendo aos requisitos do projeto.
-> 
-> ## 4. Estímulo à Colaboração
-> 
->  O projeto promove ativamente a colaboração entre estudantes de diversas especializações, proporcionando uma experiência similar ao ambiente de trabalho real, no qual equipes multidisciplinares são frequentes e a habilidade de trabalhar em conjunto é essencial.
-> 
-> ## 5. Demonstração de Resultados Tangíveis
-> 
-> O sucesso do projeto reside em identificar com precisão a velocidade de rotação da mesa giratória, levando em consideração o tempo necessário para que as câmeras realizem a coleta de imagens. Isso é crucial para evitar imagens borradas ou distorcidas que possam resultar em informações imprecisas. Além disso, é fundamental relacionar essas imagens de forma adequada para criar um arquivo tridimensional do objeto, que possa ser utilizado para reproduzi-lo em uma impressora 3D.
-> 
-> Para desenvolver o projeto, é crucial entender o tipo de motor mais adequado para controlar a velocidade de rotação da mesa giratória, levando em consideração o peso do objeto e o tempo necessário para a coleta de imagens. É necessário também considerar como o sistema de motor será alimentado e realizar uma análise energética para compreender sua interação com o problema.
-> 
-> Além disso, é fundamental entender como processar as imagens, incluindo os tipos de componentes, como câmeras, software e hardware, necessários para processar os dados das imagens. É preciso criar um arquivo compatível com a impressora 3D e capaz de produzir uma impressão de qualidade, pois a qualidade do arquivo influencia diretamente na qualidade da impressão final.
-=======
-# Termo de abertura de projeto
-
-## Dados do projeto 
-
-- **Nome do Projeto**: ScanPoint
-- **Data de abertura**: 29/03/2024
-- **Código**: 1-A
-- **Patrocinador**: Universidade de Brasília (UnB) 
-- **Gerente/Coordenadora Geral**: Carla Rocha 
+## Justificativa do projeto 
+<p style="text-align: justify;"> A tecnologia de impressão 3D tem ganhado cada vez mais espaço no mercado, tanto no âmbito industrial quanto no pessoal. Para realizar a impressão de um objeto em 3D é indispensável um arquivo stl, no entanto, o conhecimento necessário para gerar este arquivo não é comum. Visando simplificar e agilizar o processo de reprodução de objetos tridimensionais surgiu o presente projeto.</p>
 
 ## Objetivos 
 
-O presente projeto, intitulado ScanPoint, encontrasse inserido no âmbito da disciplina de Projeto Integrador 2 e tem como objetivo a aplicação dos conhecimentos adquiridos nas áreas de engenharia aeroespacial, automotiva, software, eletrônica e energia. A relevância deste projeto é fundamentada em múltiplos aspectos sendo estes:
+<p style="text-align: justify;"> O projeto ScanPoint tem como objetivo principal desenvolver um sistema que simplifique o processo de escaneamento e reprodução tridimensional de objetos físicos. A proposta visa fornecer uma solução completa, acessível e intuitiva, permitindo aos usuários a digitalização de objetos para a geração de modelos 3D e a subsequente criação de arquivos prontos para impressão tridimensional.</p>
 
-> ### 1. Aplicação Interdisciplinar 
-> 
-> O projeto visa integrar conceitos e práticas das disciplinas de engenharia aeroespacial, automotiva, software, eletrônica e energia, proporcionando aos estudantes uma visão abrangente e interdisciplinar do processo de desenvolvimento de projetos complexos, criado metodologias de trabalho que podem ser usadas na vida profissional do engenheiro.
-> 
-> ### 2. Desenvolvimento de Competências Técnicas
-> 
-> Participar ativamente na construção de uma mesa giratória com velocidade controlável, capaz de escanear um objeto e posteriormente gerar um arquivo slt que pode ser utilizado para impressão em 3D, é um desafio empolgante. No entanto, para garantir que o projeto seja viável, estabelecemos alguns limites: o objeto a ser escaneado e impresso não pode exceder as dimensões de 30x30x30 cm ou pesar mais de 2 kg, incluindo a mesa.
-> 
-> Para alcançar esse objetivo, serão necessários conhecimentos em cálculos estruturais e de resistência dos materiais, eletrônica embarcada e sistemas de controle, análise de dados, priorização e modelagem de requisitos, e desenvolvimento de software embarcado. Além disso, será fundamental desenvolver habilidades de gestão de pessoas para enfrentar os desafios futuros na área da engenharia.
-> 
-> ### 3. Desenvolvimento de Soluções Inovadoras
-> 
-> O desafio adicional do projeto é coletar informações precisas de um objeto em movimento em uma mesa rotatória. É essencial que esses dados sejam capturados e analisados de forma eficiente para garantir que a impressão em 3D reproduza fielmente o objeto original. A base plana do objeto apresenta uma vantagem, facilitando a análise e o escaneamento.
-> Para superar esse desafio, será necessário desenvolver um sistema de sensoriamento preciso e confiável, capaz de capturar os dados do objeto em movimento com rapidez e precisão. Além disso, será fundamental implementar algoritmos de processamento de dados eficientes para analisar as informações coletadas e gerar um modelo tridimensional preciso do objeto. Essas etapas são essenciais para garantir que a impressão em 3D reproduza fielmente o objeto original, atendendo aos requisitos do projeto.
-> 
-> ## 4. Estímulo à Colaboração
-> 
->  O projeto promove ativamente a colaboração entre estudantes de diversas especializações, proporcionando uma experiência similar ao ambiente de trabalho real, no qual equipes multidisciplinares são frequentes e a habilidade de trabalhar em conjunto é essencial.
-> 
-> ## 5. Demonstração de Resultados Tangíveis
-> 
-> O sucesso do projeto reside em identificar com precisão a velocidade de rotação da mesa giratória, levando em consideração o tempo necessário para que as câmeras realizem a coleta de imagens. Isso é crucial para evitar imagens borradas ou distorcidas que possam resultar em informações imprecisas. Além disso, é fundamental relacionar essas imagens de forma adequada para criar um arquivo tridimensional do objeto, que possa ser utilizado para reproduzi-lo em uma impressora 3D.
-> 
-> Para desenvolver o projeto, é crucial entender o tipo de motor mais adequado para controlar a velocidade de rotação da mesa giratória, levando em consideração o peso do objeto e o tempo necessário para a coleta de imagens. É necessário também considerar como o sistema de motor será alimentado e realizar uma análise energética para compreender sua interação com o problema.
-> 
-> Além disso, é fundamental entender como processar as imagens, incluindo os tipos de componentes, como câmeras, software e hardware, necessários para processar os dados das imagens. É preciso criar um arquivo compatível com a impressora 3D e capaz de produzir uma impressão de qualidade, pois a qualidade do arquivo influencia diretamente na qualidade da impressão final.
->>>>>>> 999e7e36ed6d5ed6973a10b87a68ab451a58c6e0
+## Gerente de projeto - responsabilidades e autoridades
+
+<p style="text-align: justify;"> Carla Rocha Cangussú desempenha o papel de Coordenadora Geral no projeto, assumindo uma série de responsabilidades essenciais. Isso inclui liderar a equipe, assegurar o cumprimento integral do escopo, prazos e orçamento. Além disso, ela coordena todas as atividades do projeto, identificando e mitigando riscos, e mantendo uma comunicação eficiente entre todas as partes envolvidas. Possuindo autoridade para tomar decisões que impactam diretamente o progresso e o sucesso do projeto, Carla também atua como representante da equipe diante das partes interessadas, garantindo uma colaboração fluida e produtiva.</p>
+
+## Partes Interessadas
+
+###  Professores Orientadores:
+<p style="text-align: justify;">Os professores orientadores desempenham um papel crucial na supervisão e orientação deste projeto. Sua contribuição envolve o acompanhamento detalhado do progresso, fornecimento de orientações técnicas, insights estratégicos e avaliação crítica. Sua vasta expertise é essencial para garantir a qualidade e eficácia do projeto de escamento de objetos 3D, fornecendo orientações valiosas à equipe.</p>
+
+### Graduandos de Engenharia:
+<p style="text-align: justify;">Os graduandos de engenharia formam a equipe executora deste projeto. Eles têm a responsabilidade de implementar as soluções propostas, desenvolver o sistema, integrar os componentes e garantir sua funcionalidade adequada. Sua dedicação, habilidades técnicas e colaboração são fundamentais para alcançar com sucesso os objetivos e entregas deste projeto.</p>
+
+### Usuários Finais:
+<p style="text-align: justify;">Os usuários finais deste projeto são pessoas que desejam replicar objetos em 3D, que se beneficiarão diretamente do escaneamento e da geração dos arquivos prontos para impressão tridimensional. Sua experiência e feedback desempenham um papel crucial na validação e aprimoramento contínuo do sistema. Uma interação próxima e contínua com esses usuários é essencial para garantir que o sistema atenda plenamente às suas necessidades e otimize sua experiência de interação com o sistema.<p>
+
+##  Descrição do produto do projeto
+
+### Subproduto de Software
+<p style="text-align: justify;">O subproduto de software é um aplicativo desktop e um sistema embarcado. O sistema embarcado tem como atribuição a coleta de pontos de distância do objeto. O aplicativo é responsável pela interação com o usuário e por processar os pontos coletados, de modo que gere um arquivo em stl que permite o objeto ser reproduzido por uma impressora 3D. </p>
+
+### Subproduto de Eletrônica
+<p style="text-align: justify;">Este subproduto envolve a seleção e integração dos motores, do arduino, do Módulo regular C/LM2596 e o driver L298N.</p>
+
+### Subproduto de Estrutura
+<p style="text-align: justify;">O subproduto de Estrutura  é composto por uma estrutura de alumínio que delimita o tamanho do objetos e facilita seu transporte ,  uma caixa para abrigar os componentes eletrônicos e fontes de energia, uma estrutura  para elevar o sensor e um prato giratório.</p>
+
+### Subproduto Energia
+<p style="text-align: justify;">O subproduto de energia desempenha um papel vital ao alimentar os demais subsistemas, assegurando eficiência energética e operacional. É neste subproduto que é dimensinado o consumo energético, selecionados os componentes de baixo consumo e implementadas as estratégias de gerenciamento de energia em conformidade com as normas de segurança pertinentes.</p>
+
+## Orçamento inicial 
+
+<p style="text-align: justify;">Durante a fase inicial de planejamento orçamentário, o grupo conduziu uma pesquisa para identificar todos os elementos essenciais para a execução do projeto. É relevante destacar que determinados itens, como o Fuso 8mm x 450mm, a castanha 8mm, as extrusões de alumínio (20mmx20mmx500mm e 20mmx40mmx500mm), Arduino UNO, Chave botão, Resistor de filme de carbono 1R - 1/4W, motor DC com engrenagem de redução 6, Módulo Ponte Duplo H Hg7881 para motor DC, Passo, Transistor BJT, diodo (Schottky), Protoboard de 400 pontos, Motor de Passo e uma bateria, já estão disponíveis, o que elimina a necessidade de aquisição e contribui consideravelmente para a redução dos custos totais do projeto. O orçamento inicial, levando em conta apenas os equipamentos e serviços que precisam ser adquiridos, foi estimado em aproximadamente R$ 494,01. Ao dividir esse valor entre os membros do grupo, resultou em uma quantia aproximada de R$ 33,00 para cada integrante.</p>
+
+<p style="text-align: justify;">Para mais detalhes acesse o documento de[Estimativa de Custos](docs/geral/estimativa-custos.md). </p>
+
+## Restrições e riscos
+
+<p style="text-align: justify;">Os riscos podem ser encontrados no documento [Levantamento de riscos](docs/geral/FMEA.md).</p>
+
+## Cronograma dos marcos do projeto
+O projeto segue um cronograma definido com três marcos principais, conforme apresentado na tabela abaixo. O primeiro marco está agendado para 03/05/2024, seguido pelo marco 2 em 07/06/2024 e o marco 3 em 03/07/2024. É fundamental destacar que a documentação correspondente a cada marco deve ser entregue com cinco dias de antecedência em relação à data de apresentação correspondente.
+
+|Marco |Data|
+|------|----|
+|Ponto de controle 1| 03/05/2024|
+|Apresentação do ponto de Controle 1| 08/05/2024|
+|Ponto de controle 2| 07/06/2024|
+|Apresentação do ponto de Controle 2| 12/06/2024|
+|Apresentação| 03/07/2024|
+| FIT | 10/07/2024|
+
+## Tabela de Versionamento
+
+| Data | Versão| Descrição | Autor |
+|------|-------|-----------|-------|
+|29/03/2024|0.1|Estrutura do Termo de Abertura| Miguel|
+|03/05/2024|1.0|Correções e preenchimento | Carla R. Cangussú|
