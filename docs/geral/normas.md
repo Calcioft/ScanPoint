@@ -18,12 +18,33 @@ Essa norma estabelece os requisitos para projeto de instalação, montagem e car
 
 Esta norma regulamentadora estabelece os requisitos e condições mínimas objetivando a implementação de medidas de controle e sistemas preventivos, de forma a garantir a segurança e a saúde dos trabalhadores que, direta ou indiretamente, interajam em instalações elétricas e serviços com eletricidade. 
 
+* **ABNT NBR 08403: Aplicação de linhas em desenhos.**
+
+
+
+* **ABNT NBR 10067 - Princípios Gerais de Representação em Desenho Técnico.**
+
+
+
+* **ABNT NBR 10068 - Folha de Desenho.**
+
+
+
+* **ABNT NBR 10126 - Cotagem em Desenho Técnico.**
+
+
+
+
 **Referências em ABNT:**
 
 * ABNT NBR ISO 9001:2008. Sistemas de gestão da qualidade - requisitos. 
 * ABNT NBR 5410:2004. Instalações elétricas de baixa tensão.
 * ABNT NBR 16404:2015. Bateria chumbo-ácida estacionária ventilada: Requisitos de instalação e montagem.
 * NR 10: Segurança em instalações e serviços em eletricidade. 2004.
+* ABNT NBR 08403: Aplicação de linhas em desenhos - Tipos de linhas - Larguras das linhas Rio de Janeiro, 1984.
+* ABNT NBR 10067 - Princípios Gerais de Representação em Desenho Técnico, 1995
+* ABNT NBR 10068 - Folha de Desenho - Leiaute e Dimensões, 1987
+* ABNT NBR 10126 - Cotagem em Desenho Técnico, 1987
 
 ## Histórico de Revisão
 
