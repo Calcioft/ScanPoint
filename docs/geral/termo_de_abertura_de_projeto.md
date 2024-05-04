@@ -52,11 +52,11 @@
 
 <p style="text-align: justify;">Durante a fase inicial de planejamento orçamentário, o grupo conduziu uma pesquisa para identificar todos os elementos essenciais para a execução do projeto. É relevante destacar que determinados itens, como o Fuso 8mm x 450mm, a castanha 8mm, as extrusões de alumínio (20mmx20mmx500mm e 20mmx40mmx500mm), Arduino UNO, Chave botão, Resistor de filme de carbono 1R - 1/4W, motor DC com engrenagem de redução 6, Módulo Ponte Duplo H Hg7881 para motor DC, Passo, Transistor BJT, diodo (Schottky), Protoboard de 400 pontos, Motor de Passo e uma bateria, já estão disponíveis, o que elimina a necessidade de aquisição e contribui consideravelmente para a redução dos custos totais do projeto. O orçamento inicial, levando em conta apenas os equipamentos e serviços que precisam ser adquiridos, foi estimado em aproximadamente R$ 494,01. Ao dividir esse valor entre os membros do grupo, resultou em uma quantia aproximada de R$ 33,00 para cada integrante.</p>
 
-Para mais detalhes acesse o documento de [Estimativa de Custos](docs/geral/estimativa-custos.md).
+Para mais detalhes acesse o documento de [Estimativa de Custos](../geral/estimativa-custos.md)
 
 ## Restrições e riscos
 
-Os riscos podem ser encontrados no documento de [Levantamento de riscos](docs/geral/FMEA.md).
+Os riscos podem ser encontrados no documento de [Levantamento de riscos](../geral/FMEA.md)
 
 ## Cronograma dos marcos do projeto
 <p style="text-align: justify;">O projeto segue um cronograma definido com três marcos principais, conforme apresentado na tabela abaixo. O primeiro marco está agendado para 03/05/2024, seguido pelo marco 2 em 07/06/2024 e o marco 3 em 03/07/2024. É fundamental destacar que a documentação correspondente a cada marco deve ser entregue com cinco dias de antecedência em relação à data de apresentação correspondente.</p>
