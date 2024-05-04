@@ -5,12 +5,15 @@
 ### **Introdução**
 
 <!-- Não abordamos 3D -->
-
+<p align="justify">
 O sistema inteligente de captura de dados e escaneamento 3D combina a captura de dados em tempo real com a tecnologia de escaneamento 3D para criar uma solução inovadora para fabricação digital. Este documento apresenta os requisitos funcionais e não funcionais do sistema, que devem ser atendidas para garantir o sucesso do projeto.
+</p>
 
 ### Requisitos Funcionais
 
 #### Interface
+
+**Tabela 1:** Requisitos funcionais - Interface
 
 | Código | Descrição do Requisito                           |
 | ------ | ------------------------------------------------ |
@@ -19,7 +22,11 @@ O sistema inteligente de captura de dados e escaneamento 3D combina a captura de
 | RF03   | Visualizar preview do modelo com nuvem de pontos |
 | RF04   | Visualizar preview do modelo escaneado           |
 
+Fonte: Autoria própria
+
 #### Captura de Dados em Tempo Real
+
+**Tabela 2:** Requisitos funcionais - Captura de Dados em Tempo Real
 
 | Código | Descrição do Requisito                                            |
 | ------ | ----------------------------------------------------------------- |
@@ -28,14 +35,22 @@ O sistema inteligente de captura de dados e escaneamento 3D combina a captura de
 | RF07   | Processar os dados recebidos através do sensor de forma eficiente |
 | RF08   | Transmissão de dados em tempo real para o computador              |
 
+Fonte: Autoria própria
+
 #### Escaneamento 3D Automatizado
+
+**Tabela 3:** Requisitos funcionais - Escaneamento 3D Automatizado
 
 | Código | Descrição do Requisito                                            |
 | ------ | ----------------------------------------------------------------- |
 | RF09   | Gerar arquivo STL ou G-code preciso e detalhado                   |
 | RF10   | Comunicação eficiente com o computador, recebendo dados de status |
 
+Fonte: Autoria própria
+
 #### Controle de Qualidade
+
+**Tabela 4:** Requisitos funcionais - Controle de Qualidade
 
 | Código | Descrição do Requisito                                                                 |
 | ------ | -------------------------------------------------------------------------------------- |
@@ -44,7 +59,11 @@ O sistema inteligente de captura de dados e escaneamento 3D combina a captura de
 | RF13   | Verificar o ângulo do objeto para prevenir distorções no modelo 3D.                    |
 | RF14   | Validar todos os processos de escaneamento antes de permitir a impressão do modelo 3D. |
 
+Fonte: Autoria própria
+
 #### Interação do Usuário
+
+**Tabela 5:** Requisitos funcionais - Interação do Usuário
 
 | Código | Descrição do Requisito                                                  |
 | ------ | ----------------------------------------------------------------------- |
@@ -52,9 +71,13 @@ O sistema inteligente de captura de dados e escaneamento 3D combina a captura de
 | RF16   | Oferecer uma pré-visualização do modelo 3D para aprovação do usuário.   |
 | RF17   | Permitir o download do arquivo 3D após a conclusão do escaneamento.     |
 
+Fonte: Autoria própria
+
 ### Requisitos Não Funcionais
 
 #### Desempenho
+
+**Tabela 6:** Requisitos não funcionais - Desempenho
 
 | Código | Descrição do Requisito                                                       |
 | ------ | ---------------------------------------------------------------------------- |
@@ -62,7 +85,11 @@ O sistema inteligente de captura de dados e escaneamento 3D combina a captura de
 | RNF02  | A qualidade do arquivo de nuvem de pontos deve ser de alta resolução         |
 | RNF03  | A precisão do arduino deve ser mantida, com calibrações regulares            |
 
+Fonte: Autoria própria
+
 #### Usabilidade
+
+**Tabela 7:** Requisitos não funcionais - Usabilidade
 
 | Código | Descrição do Requisito                                         |
 | ------ | -------------------------------------------------------------- |
@@ -70,7 +97,11 @@ O sistema inteligente de captura de dados e escaneamento 3D combina a captura de
 | RNF05  | A interface do usuário deve ser consistente e fácil de navegar |
 | RNF06  | Interface do usuário deve ser intuitiva, mesmo para novos usuários sem experiência prévia em escaneamento 3D. |
 
+Fonte: Autoria própria
+
 #### Confiabilidade
+
+**Tabela 8:** Requisitos não funcionais - Confiabilidade
 
 | Código | Descrição do Requisito                                                    |
 | ------ | ------------------------------------------------------------------------- |
@@ -81,7 +112,11 @@ O sistema inteligente de captura de dados e escaneamento 3D combina a captura de
 | RNF11  | O sistema deve ter uma taxa de falha muito baixa em verificações de precisão e checagens de posição. |
 | RNF12  | O sistema deve ser capaz de recuperar-se rapidamente de erros de software ou hardware.               |
 
+Fonte: Autoria própria
+
 #### Compatibilidade
+
+**Tabela 9:** Requisitos não funcionais - Compatibilidade
 
 | Código | Descrição do Requisito                                                           |
 | ------ | -------------------------------------------------------------------------------- |
@@ -89,7 +124,11 @@ O sistema inteligente de captura de dados e escaneamento 3D combina a captura de
 | RNF14  | O sistema deve ser capaz de ser executado em computadores com arquitetura AMD64  |
 | RNF15  | O sistema deve ser capaz de ser executado em computadores com arquitetura x86-64 |
 
+Fonte: Autoria própria
+
 #### Portabilidade
+
+**Tabela 10:** Requisitos não funcionais - Portabilidade
 
 | Código | Descrição do Requisito                                                                                   |
 | ------ | -------------------------------------------------------------------------------------------------------- |
@@ -98,20 +137,32 @@ O sistema inteligente de captura de dados e escaneamento 3D combina a captura de
 | RNF18  | O sistema deve ser capaz de ser executado em ambientes com sistema operacional linux distribução Ubuntu  |
 | RNF19  | O sistema deve ser capaz de ser executado em ambientes com sistema operacional linux distribução Manjaro |
 
+Fonte: Autoria própria
+
 #### Segurança
+
+**Tabela 11:** Requisitos não funcionais - Segurança
 
 | Código | Descrição do Requisito                                                                  |
 | ------ | --------------------------------------------------------------------------------------- |
 | RNF20  | Assegurar a segurança dos dados transmitidos entre o scanner e o computador/impressora. |
 
+Fonte: Autoria própria
+
 #### Eficiência
+
+**Tabela 12:** Requisitos não funcionais - Eficiência
 
 | Código | Descrição do Requisito                                                                                                 |
 | ------ | ---------------------------------------------------------------------------------------------------------------------- |
 | RNF21  | O sistema deve processar e verificar os dados capturados de forma eficiente, minimizando o tempo de espera do usuário. |
 
+Fonte: Autoria própria
+
 
 ## Tabela de versionamento
+
+**Tabela 13:** Tabela de versionamento
 
 | Versão| Data | Descrição | Responsável|
 |-------|------|-----------|------------|
@@ -121,4 +172,4 @@ O sistema inteligente de captura de dados e escaneamento 3D combina a captura de
 | 0.4 | 28/04/2024 | Correção de requisitos não funcionais | Guilherme Basílio |
 | 0.5 | 28/04/2024 | Adição de requisitos não funcionais | Vinicius Vieira e Ciro Araújo |
 | 1.0 | 29/04/2024 | Formatação das funcionalidades | Denniel William |
-
+| 1.1 | 03/05/2024 | Formatação do documento | Pedro Menezes Rodiguero|

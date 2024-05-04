@@ -1,11 +1,13 @@
 
 # Arquitetura de Software
 
-Esta sessão elenca todos os itens de arquitetura de software, como os componentes utilizados, sua comunicação e as tecnologias utilizadas.
+<p style="text-align: justify;"> Esta sessão elenca todos os itens de arquitetura de software, como os componentes utilizados, sua comunicação e as tecnologias utilizadas.
+</p>
 
 ## Componentes 
-
+<p style="text-align: justify;">
 A arquitetura de software está dividida nos seguintes componentes:
+</p>
 
 - Aplicação: Desenvolvida em Electron, cuida de toda a interação com usuário e sinais para comunicação com o embarcado. Ela possui um front-end com opções iterativas para o usuário controlar o sistema;
 - Script de conversão: Vai converter o arquivo de texto com as informações espaciais do objeto e transformar em .stl(formato para impressão 3D)
@@ -14,7 +16,9 @@ A arquitetura de software está dividida nos seguintes componentes:
 - Motor de rotação: Irá girar a mesa onde o item está posicionado, possibilitanto a leitura do objeto em 360 graus;
 - Motor de regulação de altura: Irá possibilitar a regulação da altura do sensor infravermelho, assim passando por todo o comprimento do objeto;
 
+<p style="text-align: justify;">
 A relação entre os componentes está elencada no diagrama abaixo:
+</p>
 
 ## Metas e Restrições Arquiteturais
 ### Metas
@@ -31,15 +35,21 @@ A relação entre os componentes está elencada no diagrama abaixo:
 
 ## Diagrama de arquitetura de software 
 
-![](../assets/software/diagrama-arquitetura.png)
+![3](../assets/software/diagrama-arquitetura.png)
+
+<font size="2"><p style="text-align: center">Fonte: [Diagrama de Arquitetura de Software](https://app.diagrams.net/#G152ySAVfwL1QUKcdnSeAaXdJ9Q1nRN_6T#%7B"pageId"%3A"C2fSY1v2SiZeoUbDoYyL"%7D).</p></font>
 
 ## Tecnologias
 
+<p style="text-align: justify;">
 AS tecnologias de software utilizadas nesse projeto foram:
+</p>
 
-- Electron: É um framework open-source para criar aplicações Desktop usando tecnologias web para Windows, mac e Linux, com base no Chromium e Node.js;
 
-- Arduino: É uma plataforma open-source com hardware e software com fácil aprendizagem. As placas Arduino tem a capassidade de registrar entradas diferentes, como botões, sinais de sensores, etc. Para programar as placas, existe o Arduino IDE (que é multiplataforma), com sua própria linguagem de programação.
+- Electron: É um framework open-source para criar aplicações Desktop usando tecnologias web para Windows, mac e Linux, com base no Chromium e Node.js; <a href="../software/arquitetura.md#ref1">[1]</a>
+
+- Arduino: É uma plataforma open-source com hardware e software com fácil aprendizagem. As placas Arduino tem a capassidade de registrar entradas diferentes, como botões, sinais de sensores, etc. Para programar as placas, existe o Arduino IDE (que é multiplataforma), com sua própria linguagem de programação. <a href="../software/arquitetura.md#ref2">[2]</a>
+
 
 ## Visão de caso de uso
 
@@ -59,9 +69,15 @@ O diagrama de pacotes descreve a estrutura de pastas e módulos divididos para i
 <font size="2"><p style="text-align: center">Figura 1: [Diagrama de Pacotes](https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&layers=1&nav=1&title=Diagrama%20de%20Pacotes.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1OZjpVScP9D7Csr7_BQcHX6EjR7xMO650%26export%3Ddownload).</p></font>
 
 ## Referências
-- [What is Electron? Acesso em 28 de abril de 2024.](https://www.electronjs.org/docs/latest/)
+<div id="ref1"/>
+>[1][What is Electron? Acesso em 28 de abril de 2024.](https://www.electronjs.org/docs/latest/)
 
-- [What is Arduino? Acesso em 28 de abril de 2024.](https://docs.arduino.cc/learn/starting-guide/whats-arduino/?_gl=1*23ysxj*_ga*MTE4MTM4NjIyMS4xNzE0MzI5NTA3*_ga_NEXN8H46L5*MTcxNDMyOTUwNi4xLjEuMTcxNDMyOTU0MS4wLjAuMTI1MzcwNzA4Mw..*_fplc*cTIzWiUyRjhGOVMlMkZVbUlwOXY4U2ptYnJXUEJXUER4ODFoZUg3c1g3QkNVT3djVkpoRTF5MEE0dVBIYlVWRmI3RGlZVHJXNHZlMm5KUmhhcVJHSTc5RW5CSWtCVDFSRGd1SjVhR08wNXlWSW1EZGVKTHZORm5mTzJVajk3QWFtdyUzRCUzRA..)
+<div id="ref2"/>
+>[2] [What is Arduino? Acesso em 28 de abril de 2024.](https://docs.arduino.cc/learn/starting-guide/whats-arduino/?_gl=1*23ysxj*_ga*MTE4MTM4NjIyMS4xNzE0MzI5NTA3*_ga_NEXN8H46L5*MTcxNDMyOTUwNi4xLjEuMTcxNDMyOTU0MS4wLjAuMTI1MzcwNzA4Mw..*_fplc*cTIzWiUyRjhGOVMlMkZVbUlwOXY4U2ptYnJXUEJXUER4ODFoZUg3c1g3QkNVT3djVkpoRTF5MEE0dVBIYlVWRmI3RGlZVHJXNHZlMm5KUmhhcVJHSTc5RW5CSWtCVDFSRGd1SjVhR08wNXlWSW1EZGVKTHZORm5mTzJVajk3QWFtdyUzRCUzRA..)
+
+<div id="ref3"/>
+>[3] [Diagrama de arquitetura de software. Acesso em 03 de abril de 2024.](https://app.diagrams.net/#G152ySAVfwL1QUKcdnSeAaXdJ9Q1nRN_6T#%7B"pageId"%3A"C2fSY1v2SiZeoUbDoYyL"%7D..)
+
 
 ## Tabela de versionamento
 
@@ -69,6 +85,9 @@ O diagrama de pacotes descreve a estrutura de pastas e módulos divididos para i
 |-------|------|-----------|------------|
 | 1.0 | 28/04/2024 | Criação da estrutura do documento | Artur de Souza |
 | 1.1 | 03/05/2024 | Atualização do documento | Denniel William |
+| 1.2 | 03/05/2024 | Corrigido Formatação | Artur de Souza |
+| 1.3 | 03/05/2024 | Adicionando referencia e legenda ao diagrama | Guilherme Basilio |
+
 
 
 

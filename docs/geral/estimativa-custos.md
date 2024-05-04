@@ -1,24 +1,28 @@
 # Estimativa de custos
-
+<p style="text-align:justify;">
 Para a estimativa de custos foram pensados 5 cenários possíveis sendo dois cenários de base, 2 cenários
 complementáres e por fim um cenário ideal.
 
 Para os cenários de base foram escolhidos:
+</p>
 
 * Cenário Base 1: Compras realizadas no mercado nacional; 
 * Cenário Base 2: Compras realizadas no mercado internacional.
 
+<p style="text-align:justify;">
 A partir desses cenários foram desenvolvidos outros dois, derivados dos cenários iniciais, e
 considerando os materiais disponíveis no laboratório de estruturas.
-
+</p>
 * Cenário Derivado 1: Itens do laboratório com compras no mercado nacional;
 * Cenário Derivado 2: Itens do laboratório com compras no mercado internacional.
 
+<p style="text-align:justify;">
 Por fim, tendo como base essas possibilidades foi definido um cenário ideal, onde foram considerados os
 materiais disponíveis em laboratório e os materiais mais baratos encontrados dentre as opções nacionais
 e internacionais. A relação de preços e cenários podem ser encontradas abaixo:
+</p>
 
-
+**Tabela 1:** Tabela de estimativa de custos
 
 | Item                                         | Quantidade | Disponível | Preço Unitário Nacional | Preço Unitário Internacional | Cenário Base 1 | Cenário Base 2 | Cenário Derivado 1 | Cenário Derivado 2 | Cenário Ideal | Links Nacional                                                                                                                                                                                                                                                           | Links Internacional                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |----------------------------------------------|------------|------------|-------------------------|------------------------------|----------------|----------------|--------------------|--------------------|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -42,8 +46,8 @@ e internacionais. A relação de preços e cenários podem ser encontradas abaix
 | Chapa de MDF CRU 6mm (Kit com 5 unidades)    | 1          | NÃO        | R$ 198,97               | -                            | R$ 198,97      | -              | R$ 198,97          | -                  | R$ 198,97     | https://produto.mercadolivre.com.br/MLB-3175030094-kit-5-chapas-mdf-cru-80x70-6mm-todos-os-tamanhos--_JM                                                                                                                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | Baterias                                     | 2          | SIM (1 UN) | R$ 95,70                | -                            | R$ 95,70       | -              | R$ 95,70           | -                  | R$ 95,70      | https://www.amazon.com.br/dp/B075X3GVQS?ref_=cm_sw_r_cso_wa_apin_dp_PSWKX8TX5KSZ31Q6XSW4&starsLeft=1                                                                                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |                                              |            |            |                         |                              |                |                |                    |                    |               |                                                                                                                                                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| Total                                        |            |            |                         |                              | R$ 1.102,07    | R$ 1.149,76    | R$ 346,63          | R$ 209,34          | R$ 199,34     |                                                                                                                                                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-
+| Total                                        |            |            |                         |                              | R$ 1.102,07    | R$ 1.149,76    | R$ 346,63          | R$ 209,34          | R$ 199,34     |                                                                                                                                                                                                                                                                          |                                                                                                                                                                                                                                                                                   <font size="2"><p style="text-align: center">Fonte: Tabela de Custo - Autoria Própria.</p></font>                                                                                                                                                                                                                                              |
+<p style="text-align:justify;">
 Dessa forma, tendo como base os cenários apresentados, considerando a compra de todos os materiais: 
 Para o Cenário Base 1, onde todas as paças são compradas no mercado nacional, temos um custo estimado 
 de R$1.396,74. Já para o Cenário Base 2, onde todas as peças são compradas no mercado internacional 
@@ -53,12 +57,14 @@ para os Cenários Derivados 1 e 2, onde serão usados os materiais disponíveis 
 materiais em falta sendo comprados no mercado nacional e internacional, respectivamente, obtivemos 
 para a opção 1 um custo estimado de R$ 641,30 e para a opção 2 R$ 504,01. 
 Por fim, para o Cenário ideal, onde serão compradas as opções mais baratas dentre mercados nacionais e
-internacionais, utilizando os materiais do laboratório, obtivemos um custo estimado de __R$ 494,01.__
+internacionais, utilizando os materiais do laboratório, obtivemos um custo estimado de R$ 494,01.
+</p>
 
 ## Versionamento
-| ID | Versão | Descrição                                                       |Responsável|
-|----|--------|-----------------------------------------------------------------| ----- |
-| 01 | 1.0    | Criação do arquivo                                              | Artur de Sousa, Cássio Filho |
-| 02 | 1.1    | Adição componentes de eletrônica                                | Artur de Sousa, Cássio Filho |
-| 03 | 1.1    | Retirado frete do preço de partes eletrônicas internacionais    | Artur de Sousa, Cássio Filho |
-| 04 | 1.2    | Expicação dos casos propostos  e alteração do nome dos cenários | Artur de Sousa, Cássio Filho |
+| Versão | Descrição                                                       |Responsável|
+|--------|-----------------------------------------------------------------| ----- |
+| 1.0    | Criação do arquivo                                              | Artur de Sousa, Cássio Filho |
+| 1.1    | Adição componentes de eletrônica                                | Artur de Sousa, Cássio Filho |
+| 1.1    | Retirado frete do preço de partes eletrônicas internacionais    | Artur de Sousa, Cássio Filho |
+| 1.2    | Expicação dos casos propostos  e alteração do nome dos cenários | Artur de Sousa, Cássio Filho |
+| 1.3    | Refatoração do arquivo                                          | Pedro Menezes Rodiguero, Artur de Sousa |
