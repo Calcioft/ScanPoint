@@ -166,7 +166,7 @@ Como resultado, tem-se a deformação máxima de aproximadamente 4,84E-05m. A te
 Pode-se notar que o resultado mostrou-se visualmente bem próximo ao obtido pelo método anterior e que a deformação ocorre próximo a região de apoio onde foi inserido o parafuso e a ruela para apoio das cargas no objeto em questão, local que também apresenta a máxima tensão de cisalhamento e menor ponto de tensão normal. Além disso, próximo ao local de engaste onde a peça foi fixada, pode-se visualizar os pontos máximos de tensão normal, o que também pôde ser observado no ensaio prático com a peça.
 
 
-![Simulação tensão normal](imagens/Proj_Subs_Estruturas_Simulação_tensão_normal.png)
+![Simulação tensão normal](imagens/Proj_Subs_Estruturas_Ensaio_face_superior.png)
 
 <p style="text-align:center;">
 Figura 9 - Tensão normal<br />
