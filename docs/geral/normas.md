@@ -19,18 +19,22 @@ Essa norma estabelece os requisitos para projeto de instalação, montagem e car
 Esta norma regulamentadora estabelece os requisitos e condições mínimas objetivando a implementação de medidas de controle e sistemas preventivos, de forma a garantir a segurança e a saúde dos trabalhadores que, direta ou indiretamente, interajam em instalações elétricas e serviços com eletricidade. 
 
 * **ABNT NBR 08403: Aplicação de linhas em desenhos.**
+
 Esta norma estabelece os padrões para a aplicação de linhas em desenhos técnicos. Define os tipos de linhas a serem utilizados para representar diferentes elementos, como contornos, cortes, eixos, entre outros. Também aborda questões como espessura e estilo das linhas, garantindo a clareza e a uniformidade nos desenhos técnicos.
 
 
 * **ABNT NBR 10067 - Princípios Gerais de Representação em Desenho Técnico.**
+
 Esta norma estabelece os princípios gerais para a representação de objetos em desenhos técnicos. Define os tipos de projeções (ortográfica, isométrica, etc.), convenções de representação (vistas, cortes, seções), e critérios para a disposição dos elementos em uma folha de desenho. Seu objetivo é garantir a precisão, clareza e interpretação correta dos desenhos técnicos.
 
 
 * **ABNT NBR 10068 - Folha de Desenho.**
+
 Esta norma especifica as características das folhas de desenho a serem utilizadas em desenhos técnicos. Define dimensões, margens, formatos, tipos de papel e informações a serem incluídas no cabeçalho das folhas de desenho. Isso assegura a padronização e a interoperabilidade entre diferentes desenhos técnicos, facilitando sua interpretação e manuseio.
 
 
 * **ABNT NBR 10126 - Cotagem em Desenho Técnico.**
+
 Esta norma estabelece os princípios e as convenções para a realização de cotagens em desenhos técnicos. Define os tipos de cotas (linear, angular, etc.), suas representações gráficas, e critérios para sua aplicação e dimensionamento. Seu objetivo é garantir a precisão e a clareza na indicação das dimensões dos objetos representados nos desenhos técnicos, facilitando sua compreensão e fabricação.
 
 
