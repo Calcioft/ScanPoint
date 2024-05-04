@@ -2,25 +2,30 @@
 
 ## Introdução
 
-A Estrutura Analítica do Projeto (EAP) é uma ferramenta essencial para o gerenciamento de projetos, oferecendo uma abordagem organizada e hierárquica para decompor as entregas e tarefas de um projeto em componentes menores e mais gerenciáveis. Por meio de um diagrama hierárquico, a EAP apresenta os principais entregáveis do projeto, desdobrando-os em sub-entregas e tarefas detalhadas. Além disso, a EAP desempenha um papel crucial na definição do escopo do projeto, na atribuição de responsabilidades e na definição de marcos e entregas importantes.
+<p style="text-align:justify;"> A Estrutura Analítica do Projeto (EAP) é uma ferramenta essencial para o gerenciamento de projetos, oferecendo uma abordagem organizada e hierárquica para decompor as entregas e tarefas de um projeto em componentes menores e mais gerenciáveis. </p>
+
+<p style="text-align:justify;"> Por meio de um diagrama hierárquico, a EAP apresenta os principais entregáveis do projeto, desdobrando-os em sub-entregas e tarefas detalhadas. Além disso, a EAP desempenha um papel crucial na definição do escopo do projeto, na atribuição de responsabilidades e na definição de marcos e entregas importantes. </p>
 
 ## Estrutura
 
-A Estrutura Analítica do Projeto (EAP) é um modelo organizacional em forma de árvore com três níveis distintos:
+<p style="text-align:justify;"> A Estrutura Analítica do Projeto (EAP) é um modelo organizacional em forma de árvore com três níveis distintos: </p>
 
-Nível 1: Este é o nível mais alto da EAP e engloba as atividades de alto nível do projeto, conhecidas como atividades do projeto. Essas atividades representam o projeto como um todo, delineando suas metas e objetivos principais.
+- Nível 1: Este é o nível mais alto da EAP e engloba as atividades de alto nível do projeto, conhecidas como atividades do projeto. Essas atividades representam o projeto como um todo, delineando suas metas e objetivos principais.
 
-Nível 2: O segundo nível da EAP é composto por atividades de nível intermediário, chamadas de atividades de pacote. Aqui, agrupam-se conjuntos de atividades mais específicas e detalhadas, que contribuem para o alcance das metas definidas no nível superior.
+- Nível 2: O segundo nível da EAP é composto por atividades de nível intermediário, chamadas de atividades de pacote. Aqui, agrupam-se conjuntos de atividades mais específicas e detalhadas, que contribuem para o alcance das metas definidas no nível superior.
 
-Nível 3: No nível mais baixo da EAP, encontram-se as atividades de baixo nível, também conhecidas como atividades de trabalho. Essas atividades representam as tarefas mais granulares e fundamentais do projeto, sendo essenciais para sua execução e conclusão bem-sucedidas.
+- Nível 3: No nível mais baixo da EAP, encontram-se as atividades de baixo nível, também conhecidas como atividades de trabalho. Essas atividades representam as tarefas mais granulares e fundamentais do projeto, sendo essenciais para sua execução e conclusão bem-sucedidas.
 
 ## EAP
 
 <iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVKPCjfcY=/?moveToViewport=-1332,392,1982,1149&embedId=653482143341" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
 
+<font size="2"><p style="text-align: center">    Figura 1: EAP de Energia.</p></font>
+<font size="2"><p style="text-align: center">    Fonte: Autoria própria.</p></font>
+
 ## Referências
 
-> EUAX. EAP (Estrutura Analítica do Projeto): o que é, como fazer e qual a diferença entre EAP e Cronograma. Disponível em: https://www.euax.com.br/2018/12/eap-estrutura-analitica-projeto/. Acesso em: 12 de Abril de 2024.
+* EUAX. EAP (Estrutura Analítica do Projeto): o que é, como fazer e qual a diferença entre EAP e Cronograma. Disponível em: https://www.euax.com.br/2018/12/eap-estrutura-analitica-projeto/. Acesso em: 12 de Abril de 2024.
 
 ## Versionamento
 
@@ -29,3 +34,4 @@ Nível 3: No nível mais baixo da EAP, encontram-se as atividades de baixo níve
 | 0.1    | 02/05/2024 | Criação do documento     | Brenda Santos |
 | 0.2    | 03/05/2024 | Atualização dos desenhos | Diogo Soares  |
 | 0.3    | 03/05/2024 | Adição de versionamento  | Ciro Costa    |
+| 0.4    | 04/05/2024 | Ajustes de alinhamento e fontes | Ana Carolina    |

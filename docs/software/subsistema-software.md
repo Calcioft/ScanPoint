@@ -1,4 +1,4 @@
-# Arquitetura do Subsistema de Software
+# Projeto de Subsistema de Software
 
 ## Arquitetura de Software
 <p style="text-align: justify;">
@@ -14,7 +14,7 @@ Mais detalhes na pagina de [Arquitetura de Software](arquitetura.md)
 
 * **Aplicação ScanPoint:** A aplicação desktop será responsável pelo controle do processo de criação do STL. Ela que será responsável por chamar o software de processamento do pointcloud para a conversão para STL e interagir com o usuário final.
 
-* **Arduino:** responsável por receber dados provenientes dos sensores, realizando o processamento necessário e transmitindo essas informações para a aplicação Electron. Além disso, assume o controle dos motores, gerenciando seu funcionamento e movimentação de acordo com as instruções fornecidas pela aplicação. No âmbito operacional, o Arduino opera como uma unidade mestra, coordenando e controlando o fluxo de dados entre os diferentes componentes do sistema. O Arduíno foi selecionado por conta da versatilidade da placa, atendendo todas as necessidades com baixo custo e curva de aprendizado.
+* **Arduino:** responsável por receber dados provenientes dos sensores, realizando o processamento necessário e transmitindo essas informações para a aplicação Electron. Além disso, assume o controle dos motores, gerenciando seu funcionamento e movimentação de acordo com as instruções fornecidas pela aplicação. No âmbito operacional, o Arduino opera como uma unidade mestra, coordenando e controlando o fluxo de dados entre os diferentes componentes do sistema. O arduíno foi selecionado por conta da versatilidade da placa, atendendo todas as necessidades com baixo custo e curva de aprendizado.
 
 * **Script para processamento de pointcloud:** Responsável pela leitura dos pontos do objeto devolvidos pelo arduíno fazendo a modelagem do objeto através desses pontos, sendo assim, por fim, gerando o arquivo STL ou g-code.
 
@@ -22,7 +22,7 @@ Mais detalhes na pagina de [Arquitetura de Software](arquitetura.md)
 
 ### Guia de estilo
 <p style="text-align: justify;">
-Foi desenvolvido um guia de estilo que irá elucidar sobre os padrões e a estilagem da interface principal da aplicação que será desenvolvida em Electron.
+Foi desenvolvido um guia de estilo que irá elucidar sobre os padrões e no estilo da interface principal da aplicação que será desenvolvida em Electron.
 Mais detalhes na pagina de [Documento de identidade](identidade.md)
 </p>
 
@@ -41,8 +41,9 @@ O Electron é um framework open-source para criar aplicações Desktop usando te
 <p style="text-align: justify;">
 Após a leitura de todos os pontos de distância feito pelos sensores ligados ao arduíno, o arquivo .txt gerado deve ser passado por um script de conversão desenvolvido em Python, usando a biblioteca NumPy, escolhido pela confiabilidade do python para as operações matemáticas.
 
-No geral ele irá ler todos os valores de distância do arquivo txt e irá processar os dados, aplicando a distância do sensor ao ponto de leitura, transformar em uma matrix de rotação e depois em pontos catesianos. Em seguida elimina todos os pontos fora de alcance do sensor e passa todos os valores para ser convertido em STL.
+No geral ele irá ler todos os valores de distância do arquivo txt e irá processar os dados, aplicando a distância do sensor ao ponto de leitura, transformar em uma matrix de rotação e depois em pontos cartesianos. Em seguida elimina todos os pontos fora de alcance do sensor e passa todos os valores para ser convertido em STL.
 </p>
+
 ## Comunicação com arduíno
 <p style="text-align: justify;">
 A comunicação será feita principalmente, e unicamente, através de um cabo USB. Sendo mandado os sinais por parte da interface para interação com o scanner (exemplo: início do motor, ligar o infravermelho, e etc), como a transmissão, por parte do arduíno, do arquivo .txt contendo os pontos do objeto lidos pelo infravermelho.
@@ -52,6 +53,7 @@ A comunicação será feita principalmente, e unicamente, através de um cabo US
 <p style="text-align: justify;">
 Pela parte embarcada será utilizada a linguagem C. Sendo feito o controle dos motores, leitura do infravermelho, gravação no arquivo .txt e envio.
 </p>
+
 ## Referências
 <div id="ref1"/>
 >[1][What is Electron? Acesso em 28 de abril de 2024.](https://www.electronjs.org/docs/latest/)
@@ -66,4 +68,5 @@ Pela parte embarcada será utilizada a linguagem C. Sendo feito o controle dos m
 | 0.1 | 29/04/2024 | Criação do documento | Artur Vieira |
 | 0.2 | 30/04/2024 | Adição da comunicação com arduíno | Guilherme Basílio |
 | 0.3 | 30/04/2024 | Adição da tecnologia utilizada | Ciro Araújo |
-| 1.0 | 02/05/2024 | Formatação e adição do software embarcado | Denniel William |
+| 0.4 | 02/05/2024 | Formatação e adição do software embarcado | Denniel William |
+| 0.5 | 04/05/2024 | Mudança de titulo do documento e erros de portugues | Ana Carolina |

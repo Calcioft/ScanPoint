@@ -2,15 +2,17 @@
 
 ## 1. Introdução
 
-<span style="text-align: justify;"> No contexto atual da fabricação digital, a demanda por soluções que simplifiquem e aprimorem o processo de digitalização 3D está em constante crescimento. No âmbito da disciplina de Projeto Integrador 2 da Universidade de Brasília, cujo objetivo é integrar as engenharias eletrônica, energia, aeroespacial, automotiva e de software do campus Gama, surgiu a iniciativa de desenvolver um projeto que viabilize a construção de um scanner. A abordagem escolhida é baseada na utilização de sensores infravermelhos para capturar pontos de distância de objetos físicos, concentrando o controle dos sensores e motores em apenas um Arduino. Posteriormente, os pontos identificados são enviados para um computador, onde são processados para formar uma nuvem de pontos (point cloud), que, por sua vez, é utilizada para gerar um modelo tridimensional.</span>
+<p style="text-align: justify;"> No contexto atual da fabricação digital, a demanda por soluções que simplifiquem e aprimorem o processo de digitalização 3D está em constante crescimento. No âmbito da disciplina de Projeto Integrador 2 da Universidade de Brasília, cujo objetivo é integrar as engenharias eletrônica, energia, aeroespacial, automotiva e de software do campus Gama, surgiu a iniciativa de desenvolver um projeto que viabilize a construção de um scanner. A abordagem escolhida é baseada na utilização de sensores infravermelhos para capturar pontos de distância de objetos físicos, concentrando o controle dos sensores e motores em apenas um Arduino. Posteriormente, os pontos identificados são enviados para um computador, onde são processados para formar uma nuvem de pontos (point cloud), que, por sua vez, é utilizada para gerar um modelo tridimensional.</p>
 
-<span style="text-align: justify;"> Este projeto representa uma abordagem inovadora, devido à sua abordagem que utiliza tecnologia de ponta, como o Arduino e sensores infravermelhos, e acessível, uma vez que o uso de hardware de baixo custo, como o Arduino, torna essa tecnologia disponível para uma gama mais ampla de usuários, reduzindo as barreiras de entrada para a digitalização 3D. A versatilidade e a capacidade de processamento do Arduino em conjunto com a precisão dos sensores infravermelho são responsáveis pela captura dos pontos de distância do objeto em questão, e, assim, o sistema cria uma representação digital precisa da sua superfície, sem a necessidade de equipamentos complexos ou de alto custo. </span>
+<p style="text-align: justify;"> Este projeto representa uma abordagem inovadora, devido à sua abordagem que utiliza tecnologia de ponta, como o Arduino e sensores infravermelhos, e acessível, uma vez que o uso de hardware de baixo custo, como o Arduino, torna essa tecnologia disponível para uma gama mais ampla de usuários, reduzindo as barreiras de entrada para a digitalização 3D. A versatilidade e a capacidade de processamento do Arduino em conjunto com a precisão dos sensores infravermelho são responsáveis pela captura dos pontos de distância do objeto em questão, e, assim, o sistema cria uma representação digital precisa da sua superfície, sem a necessidade de equipamentos complexos ou de alto custo. </p>
 
-<span style="text-align: justify;"> Ao adotar uma abordagem que combina acessibilidade, simplicidade e, futuramente, eficiência ao realizar o escaneamento e digitalização 3D, este projeto tem o potencial de democratizar esse processo e torná-lo utilizável a uma ampla gama de usuários, desde entusiastas e estudantes até profissionais e empresas. Além disso, ao utilizar tecnologias de código aberto, incentiva-se a colaboração e o desenvolvimento contínuo, criando um ecossistema de inovação compartilhado. Este documento tem como objetivo apresentar o ScanPoint em detalhes, destacando seus recursos, benefícios e aplicações. </span> 
+<p style="text-align: justify;"> Ao adotar uma abordagem que combina acessibilidade, simplicidade e, futuramente, eficiência ao realizar o escaneamento e digitalização 3D, este projeto tem o potencial de democratizar esse processo e torná-lo utilizável a uma ampla gama de usuários, desde entusiastas e estudantes até profissionais e empresas. Além disso, ao utilizar tecnologias de código aberto, incentiva-se a colaboração e o desenvolvimento contínuo, criando um ecossistema de inovação compartilhado. Este documento tem como objetivo apresentar o ScanPoint em detalhes, destacando seus recursos, benefícios e aplicações. </p> 
 
 ## 2. Definição do Produto
 
-<p style="text-align: justify;"> O projeto ScanPoint surge como uma resposta à necessidade crescente por soluções que simplifiquem e aprimorem o processo de digitalização 3D e reprodução tridimensional de objetos físicos. O projeto é formado por uma mesa escaner e um aplicativo desktop. A mesa escaner é composta por um Arduino e sensores infravermelho que realizam a captura pontos de distância dos objetos. O aplicativo desktop é responsável pela interação com o usuário e por processar os pontos enviados pela mesa, de modo que gere um arquivo em stl que permite o objeto ser reproduzido por uma impressora 3D. </p>
+<p style="text-align: justify;"> O projeto ScanPoint surge como uma resposta à necessidade crescente por soluções que simplifiquem e aprimorem o processo de digitalização 3D e reprodução tridimensional de objetos físicos. O projeto é formado por uma mesa escaner e um aplicativo desktop. </p>
+
+<p style="text-align: justify;"> A mesa escaner é composta por um Arduino e sensores infravermelho que realizam a captura pontos de distância dos objetos. O aplicativo desktop é responsável pela interação com o usuário e por processar os pontos enviados pela mesa, de modo que gere um arquivo em stl que permite o objeto ser reproduzido por uma impressora 3D. </p>
 
 ### 2.1. Perspectiva do Produto
 
@@ -87,7 +89,12 @@
 - **Documentação**: Preparar documentação detalhada sobre o funcionamento e operação do sistema ScanPoint, bem como materiais de treinamento para usuários e técnicos. Isso garantirá que os usuários estejam devidamente capacitados para utilizar o sistema de forma eficaz e segura.
 
 ## 7. É/Não é e Faz/Não faz
+
+<p style="text-align: justify;"> O "É/Não é e Faz/Não faz" são conceitos que ajudam a delinear limites e características de determinado tema, objeto ou situação. Enquanto o "É/Não é" se refere à identificação do que algo é ou não é, o "Faz/Não faz" diz respeito às ações que estão associadas ou não àquilo em questão. Ambos são ferramentas de análise que proporcionam clareza e precisão na compreensão de diversos projetos.</p>
+
 ![É/Não é e Faz/Não faz](../assets/eounaoe.png)
+
+<font size="2"><p style="text-align: center">Fonte: Autoria Própria.</p></font>
 
 ## 8. Posicionamento
 
@@ -110,18 +117,21 @@
 
 ## 9. Referências
 
-> IBM Knowledge Center - Documento de Visão: A estrutura de tópicos do documento de visão. Disponível em: https://www.ibm.com/support/knowledgecenter/pt-br/SSWMEQ_3.0.1/com.ibm.rational.rrm.help.doc/topics/r_vision_doc.htm. Acesso em: 19 mar. 2020;
+IBM Knowledge Center - Documento de Visão: A estrutura de tópicos do documento de visão. Disponível em: https://www.ibm.com/support/knowledgecenter/pt-br/SSWMEQ_3.0.1/com.ibm.rational.rrm.help.doc/topics/r_vision_doc.htm. Acesso em: 23 abr. 2024;
 
-> MIGUEL, Alexandre; ALVES, Dani; GUEDES, Gabriela; GOULART, Helena; ROBSON, João; MENEZES, Leticia; GUILHERME, Luiz; SCHADT, Renan; VINICIUS, Rômulo; HUGO, Victor. Projeto translate.me: Documento de Visão. Disponível em: https://translate-me.github.io/docs/documentos/projeto/doc_de_visao/. Acesso em: 19 mar. 2020;
+MIGUEL, Alexandre; ALVES, Dani; GUEDES, Gabriela; GOULART, Helena; ROBSON, João; MENEZES, Leticia; GUILHERME, Luiz; SCHADT, Renan; VINICIUS, Rômulo; HUGO, Victor. Projeto translate.me: Documento de Visão. Disponível em: https://translate-me.github.io/docs/documentos/projeto/doc_de_visao/. Acesso em: 23 abr. 2024;
+
+Souza, P. (2014). Lean Inception: Como Alinhar Pessoas e Construir o Produto Certo. São Paulo: Editora Casa do Código. Acesso em: 04 mai. 2024;
 
 ## 9. Histórico de Revisão
 
-| Data | Versão| Descrição | Autor |
+| Versão | Data | Descrição | Autor |
 |----|----|----|----|
-| 19/04/2024 | 1.0 | Versão inicial do documento com topicos adicionais | Brenda e Ana |
-| 23/04/2024 | 2.0 | Ajuste da Introdução, inclusão das soluções comerciais e alteração da instrução de posição do produto | Ana |
-| 23/04/2024 | 3.0 | Preenchimento dos tópicos 8.3 ao 8.5, ajustes na formatação e na instrução de posição do produto  | Carla |
-| 25/04/2024 | 4.0 | Revisão e ajustes do documento  | Brenda |
-| 02/05/2024 | 5.0 | Refatoração dos nomes e explicações  | Ana |
-| 03/05/2024 | 6.0 | Refatoração total do documento  | Ana, Brenda, Carla |
-| 03/05/2024 | 7.0 | Inclusão do É/Não é e Faz/Não faz, feito pelo Ciro| Carla |
+| 1.0 | 19/04/2024 | Versão inicial do documento com topicos adicionais | Brenda e Ana |
+| 2.0 | 23/04/2024 | Ajuste da Introdução, inclusão das soluções comerciais e alteração da instrução de posição do produto | Ana |
+| 3.0 | 23/04/2024 | Preenchimento dos tópicos 8.3 ao 8.5, ajustes na formatação e na instrução de posição do produto  | Carla |
+| 4.0 | 25/04/2024 | Revisão e ajustes do documento  | Brenda |
+| 5.0 | 02/05/2024 | Refatoração dos nomes e explicações  | Ana |
+| 6.0 | 03/05/2024 | Refatoração total do documento  | Ana Carolina, Brenda, Carla |
+| 7.0 | 03/05/2024 | Inclusão do É/Não é e Faz/Não faz, feito pelo Ciro| Carla |
+| 8.0 | 04/05/2024 | Ajuste de alinhamento, padronização do histórico e inclusão da definição do É/Não é e Faz/Não faz| Ana Carolina |

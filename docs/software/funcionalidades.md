@@ -1,11 +1,14 @@
-### Introdução
+# Funcinalidades
+
+## Introdução
+
 <p align="justify">
 O projeto ScanPoint é projetado para fornecer uma solução integrada de captura de dados e escaneamento 3D que transforma objetos físicos em modelos digitais precisos, prontos para impressão 3D. As funcionalidades centrais do sistema foram cuidadosamente delineadas para assegurar a entrega de um produto que não só atenda às expectativas de desempenho técnico mas também ofereça uma experiência de usuário excepcional. A tabela abaixo apresentará as funcionalidades planejadas, cada uma essencial para a operação holística e eficácia do sistema.
 </p>
 
 <p align="justify">
 A priorização das funcionalidades é crítica para o gerenciamento eficiente do desenvolvimento do projeto e alocação de recursos. Para isso, empregamos o método MoSCoW de priorização, que categoriza as funcionalidades em quatro níveis distintos:
-<p>
+</p>
 
 - **Must have**: Funcionalidades cruciais sem as quais o sistema não pode ser considerado operacional.
 - **Should have**: Funcionalidades importantes que agregam valor significativo ao sistema, mas cuja ausência não impede a operação básica.
@@ -16,9 +19,9 @@ A priorização das funcionalidades é crítica para o gerenciamento eficiente d
 Cada funcionalidade é acompanhada de uma história de usuário correspondente, expressando os requisitos do ponto de vista do usuário final. Essas histórias guiam nossa equipe de desenvolvimento na criação de soluções que são não apenas tecnicamente sólidas, mas também alinhadas com as expectativas e necessidades reais dos usuários. A tabela de funcionalidades, portanto, serve como um mapa para o desenvolvimento e entrega do projeto.
 </p>
 
-### Tabela de Funcionalidades
+## Tabela de Funcionalidades
 
-**Tabela 1:** Funcionalidades do sistema ScanPoint 3D
+<font size="2"><p style="text-align: center">Tabela 1: Funcionalidades do sistema ScanPoint 3D</p></font>
 
 | ID da Funcionalidade | Descrição                                                   | Prioridade (MoSCoW) | História de Usuário                                                                                                   |
 |----------------------|-------------------------------------------------------------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
@@ -37,7 +40,7 @@ Cada funcionalidade é acompanhada de uma história de usuário correspondente, 
 | F13                  | Permitir o usuário cancelar o escaneamento | Must Have  | Como usuário, quero poder fazer o cancelamento do escaneamento 3D para conseguir interromper o processo |
 | F14                 | Permitir o usuário reiniciar o escaneamento em caso de falha ou cancelamento | Must Have  | Como usuário, quero poder reiniciar o escaneamento 3D para conseguir começar o processo novamente |
 
-Fonte: Autoria própria
+<font size="2"><p style="text-align: center">Fonte: Autoria Própria.</p></font>
 
 ## Referências
 
@@ -49,9 +52,8 @@ Fonte: Autoria própria
 
 ## Tabela de versionamento
 
-**Tabela 2:** Tabela de versionamento
-
 | Versão| Data | Descrição | Responsável|
 |-------|------|-----------|------------|
 | 1.0 | 29/04/2024 | Criação do documento | Denniel William |
 | 1.1| 03/05/2024 | Refatoração do documento | Pedro Menezes Rodiguero|
+| 1.2| 04/05/2024 | Ajuste de alinhamento e fonte | Ana Carolina |

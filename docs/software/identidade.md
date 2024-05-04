@@ -1,30 +1,32 @@
 # Documento de Identidade
 
 ## Visão geral do produto
-O software do ScanPoint é responsável por ser a interface com o usuário  no processo de escaneamento e reprodução 3D de objetos físicos. Além disso, é responsável por receber os pontos coletados, transformá-los em uma malha de pontos e devolver o arquivo stl ao usuário no final do processo.
+<p style="text-align: justify;"> O software do ScanPoint é responsável por ser a interface com o usuário  no processo de escaneamento e reprodução 3D de objetos físicos. Além disso, é responsável por receber os pontos coletados, transformá-los em uma malha de pontos e devolver o arquivo stl ao usuário no final do processo. </p>
 
 ## Logo e Identidade Visual
-A identidade visual do ScanPoint é representada por sua logo distintiva, que encapsula a essência do produto. O design da logo reflete a ideia do produto, que seria uma solução compacta para escanear e disponibilizar escaneamentos.
+<p style="text-align: justify;"> A identidade visual do ScanPoint é representada por sua logo distintiva, que encapsula a essência do produto. O design da logo reflete a ideia do produto, que seria uma solução compacta para escanear e disponibilizar os escaneamentos. </p>
 
 ![Logo do PointScan](../assets/identidade/scanpoint-logo.png)
 <font size="2"><p style="text-align: center">Fonte: [Logo do PointScan](https://www.canva.com).</p></font>
 
 ## Cores
-As cores escolhidas para o ScanPoint foram cuidadosamente selecionadas para harmonizar com a logo e trazer uma experiência contínua e homogênea ao experimentar as interfaces do produto. Para isso, foram selecionadas:
+<p style="text-align: justify;"> As cores escolhidas para o ScanPoint foram cuidadosamente selecionadas para harmonizar com a logo e trazer uma experiência contínua e homogênea ao experimentar as interfaces do produto. Para isso, foram selecionadas: </p>
 
 ![Cores usadas no PointScan](../assets/identidade/cores.png)
 <font size="2"><p style="text-align: center">Fonte: Autoria, 2024.</p></font>
 
 ## Tipografia
-A tipografia desempenha um papel fundamental na comunicação visual do ScanPoint. A escolha da fonte Nunito Sans reflete o compromisso com a clareza e a legibilidade, garantindo uma experiência de usuário agradável e intuitiva.
+<p style="text-align: justify;"> A tipografia desempenha um papel fundamental na comunicação visual do ScanPoint. A escolha da fonte Nunito Sans reflete o compromisso com a clareza e a legibilidade, garantindo uma experiência de usuário agradável e intuitiva. </p>
 
 ![Tipografia usada no PointScan](../assets/identidade/tipografia.png)
 <font size="2"><p style="text-align: center">Fonte: Autores, 2024.</p></font>
 
-No ScanPoint a fonte utilizada é a Nunito Sans. Para título as fontes são negritas e de tamanho 32, para paragráfo e textos comuns o tamanho é 20 e para subtítulos as fontes são semi negrito de tamanho 26.
+<p style="text-align: justify;"> No ScanPoint a fonte utilizada é a Nunito Sans. Para título as fontes são negritas e de tamanho 32, para parágrafo e textos comuns o tamanho é 20 e para subtítulos as fontes são semi negrito de tamanho 26. </p>
 
 ## Ícones e Elementos Gráficos
-Os ícones e elementos gráficos utilizados no ScanPoint são projetados para facilitar a compreensão e a navegação do usuário. Cada ícone foi cuidadosamente escolhido para representar uma função específica, garantindo uma experiência de usuário coesa e intuitiva.
+<p style="text-align: justify;"> Os ícones e elementos gráficos utilizados no ScanPoint são projetados para facilitar a compreensão e a navegação do usuário. Cada ícone foi cuidadosamente escolhido para representar uma função específica, garantindo uma experiência de usuário coesa e intuitiva. </p>
+
+<font size="2"><p style="text-align: center">Tabela 1 : Descrição dos ícones</p></font>
 
 | Ícone | Descrição |
 | --- | --- |
@@ -39,6 +41,8 @@ Os ícones e elementos gráficos utilizados no ScanPoint são projetados para fa
 
 <font size="2"><p style="text-align: center">Fonte: Autoria, 2024.</p></font>
 
+
+<font size="2"><p style="text-align: center">Tabela 2 : Descrição dos elementos</p></font>
 | Elemento | Descrição |
 | --- | --- |
 | ![Elemento 1](../assets/identidade/elemento1.png) | Descrição do Elemento 1 |
@@ -50,7 +54,7 @@ Os ícones e elementos gráficos utilizados no ScanPoint são projetados para fa
 
 ## Layout e Grid:
 
-Para manter o padrão em todas as telas foi utilizado o um grid com 6 linhas e 11 colunas.
+<p style="text-align: justify;"> Para manter o padrão em todas as telas foi utilizado o um grid com 6 linhas e 11 colunas. </p>
 
 ![Grid](../assets/identidade/grid.png)
 
@@ -59,6 +63,8 @@ Para manter o padrão em todas as telas foi utilizado o um grid com 6 linhas e�
 ## Componentes de Interface do Usuário
 
 ### Botões
+
+<font size="2"><p style="text-align: center">Tabela 3: Descrição de botões.</p></font>
 
 | Botão | Descrição |
 | --- | --- |
@@ -79,7 +85,7 @@ Para manter o padrão em todas as telas foi utilizado o um grid com 6 linhas e�
 
 ## Navegação
 
-Com o objetivo de melhorar a experiência do usuário na aplicação foi criada uma barra de navegação no topo da tela para falicitar a transição entre as telas sobre e do processo em si, como demostrado na imagem abaixo:
+<p style="text-align: justify;"> Com o objetivo de melhorar a experiência do usuário na aplicação foi criada uma barra de navegação no topo da tela para facilitar a transição entre as telas sobre e do processo em si, como demonstrado na imagem abaixo: </p>
 
 ![Barra de navegação](../assets/identidade/nav-bar.png)
 
@@ -87,7 +93,7 @@ Com o objetivo de melhorar a experiência do usuário na aplicação foi criada 
 
 ## Responsividade
 
-A responsividade é uma característica fundamental do ScanPoint, garantindo uma experiência consistente e otimizada em uma variedade de tamanhos de tela. A interface do usuário foi projetada para se adaptar dinamicamente às diferentes resoluções e proporções, garantindo que os usuários possam acessar e utilizar o ScanPoint de forma eficaz, apesar de não poder utilizar em dispositivos diferentes de desktop.
+<p style="text-align: justify;"> A responsividade é uma característica fundamental do ScanPoint, garantindo uma experiência consistente e otimizada em uma variedade de tamanhos de tela. A interface do usuário foi projetada para se adaptar dinamicamente às diferentes resoluções e proporções, garantindo que os usuários possam acessar e utilizar o ScanPoint de forma eficaz, apesar de não poder utilizar em dispositivos diferentes de desktop. </p>
 
 ## Tabela de versionamento
 
@@ -100,3 +106,4 @@ A responsividade é uma característica fundamental do ScanPoint, garantindo uma
 | 0.5 | 29/04/2024 | Ajuste no caminho de algumas imagens | Carla R. Cangussú |
 | 1.0 | 29/04/2024 | Arrumando paths, imagens, textos e formatação | Brenda Santos |
 | 1.1 | 03/05/2024 | Adicionando tabela e legenda nas imagens | Guilherme Basilio |
+| 1.2 | 04/05/2024 | Ajuste de alinhamento, fonte, erros de português | Ana Carolina |

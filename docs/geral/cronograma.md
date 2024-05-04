@@ -1,4 +1,6 @@
-Visando garantir que o projeto ocorra como o esperado, foi criado o cronograma do projeto, contendo as atividades a serem desenvolvidas,a quem está designada, o tempo de duração, o início e a conclusão programada. As atividades foram planejadas para que haja um tempo de teste e correção antes de cada ponto de controle.
+# Cronograma
+
+<p style="text-align: justify;"> Visando garantir que o projeto ocorra como o esperado, foi criado o cronograma do projeto, contendo as atividades a serem desenvolvidas,a quem está designada, o tempo de duração, o início e a conclusão programada. As atividades foram planejadas para que haja um tempo de teste e correção antes de cada ponto de controle. </p>
 
 
 
@@ -55,10 +57,13 @@ Visando garantir que o projeto ocorra como o esperado, foi criado o cronograma d
 |50| Apresentação 2 |01 dia|03/07/2024| 03/07/2024|Todos|
 |51| FIT |01 dia| 10/07/2024| 10/07/2014|Todos|
 
-Tabela de versionamento
+<font size="2"><p style="text-align: center">Fonte: Autoria Própria.</p></font>
 
-|ID| Versão|Descrição |Responsável|
+## Tabela de versionamento
+
+| Versão | Versão | Descrição |Responsável|
 |---|------|----------|-----------|
-|01| 0.1|Criação do cronograma de atividades |Carla Rocha Cangussú|
-|02| 1.0| Conclusão do cronograma | Carla Rocha Cangussú|
-|03 | 1.1 | Ajuste de formatação | Carla Rocha Cangussú|
+| 1.0 | 12/04/2024 |Criação do cronograma de atividades |Carla Rocha Cangussú|
+| 2.0 | 12/04/2024 | Conclusão do cronograma | Carla Rocha Cangussú|
+| 3.0 | 19/04/2024 | Ajuste de formatação | Carla Rocha Cangussú |
+| 4.0 | 04/05/2024 | Ajuste de formatação e tabela de versionamento | Ana |

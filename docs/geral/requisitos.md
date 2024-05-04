@@ -1,8 +1,10 @@
 # Requisitos gerais
 
-Os requisitos são peças-chave em qualquer empreendimento, independentemente do campo de atuação, seja ele na área de estruturas, software ou eletroeletrônica. São responsáveis por representar as necessidades, expectativas e limitações a serem consideradas para atingir os objetivos estabelecidos nos projetos.
+<p style="text-align:justify;"> Os requisitos são peças-chave em qualquer empreendimento, independentemente do campo de atuação, seja ele na área de estruturas, software ou eletroeletrônica. São responsáveis por representar as necessidades, expectativas e limitações a serem consideradas para atingir os objetivos estabelecidos nos projetos. </p>
 
-Uma distinção comum dentro do escopo dos requisitos é entre **requisitos funcionais** e **requisitos não funcionais**. Os requisitos funcionais descrevem as funcionalidades específicas que o sistema, produto ou serviço deve oferecer. Eles definem as ações que o sistema deve executar, os serviços que ele deve prestar e como ele deve responder às entradas dos usuários. Já os requisitos não funcionais dizem respeito às características e qualidades do sistema que não estão diretamente relacionadas às funcionalidades específicas, mas que têm um impacto significativo em sua qualidade global. Isso inclui aspectos como desempenho, segurança, usabilidade, confiabilidade e escalabilidade.
+<p style="text-align:justify;"> Uma distinção comum dentro do escopo dos requisitos é entre **requisitos funcionais** e **requisitos não funcionais**. Os requisitos funcionais descrevem as funcionalidades específicas que o sistema, produto ou serviço deve oferecer. Eles definem as ações que o sistema deve executar, os serviços que ele deve prestar e como ele deve responder às entradas dos usuários. </p>
+
+<p style="text-align:justify;"> Já os requisitos não funcionais dizem respeito às características e qualidades do sistema que não estão diretamente relacionadas às funcionalidades específicas, mas que têm um impacto significativo em sua qualidade global. Isso inclui aspectos como desempenho, segurança, usabilidade, confiabilidade e escalabilidade. </p>
 
 **Requisitos funcionais para o produto**
 
@@ -18,6 +20,8 @@ Uma distinção comum dentro do escopo dos requisitos é entre **requisitos func
 | RF08 | Download arquivo 3D  | O usuário deve ser capaz de baixar (ao terminar o escaneamento) o modelo 3D gerado a partir do objeto |             |
 | RF09 | Controle de rotação baseado no peso do objeto  | O usuário deve poder escolher entre 3 velocidades de rotação pré-estabelecidas, mantendo um valor constante de rotação | Deve ser de no máximo 2kg considerando o peso da base e do objeto |
 
+<font size="2"><p style="text-align: center">Tabela 1: Requisitos funcionais</p></font>
+
 **Requisitos não funcionais para o produto**
 
 | Requisito | Nome | Descrição | Observações |
@@ -30,6 +34,8 @@ Uma distinção comum dentro do escopo dos requisitos é entre **requisitos func
 | RNF06 | Durabilidade e resistência  | Os componentes eletrônicos devem ser selecionados levando em consideração sua durabilidade e resistência às condições ambientais adversas, garantindo uma vida útil prolongada do sistema. | Resistência ao calor e umidade. |
 | RNF07 | Design da base | A base deve ser circular, com um diâmetro de 32cm, para acomodar o objeto de forma estável durante o escaneamento. |     |
 
+<font size="2"><p style="text-align: center">Tabela 2: Requisitos não funcionais</p></font>
+
 ## Tabela de versionamento
 
 | Versão| Data | Descrição | Responsável|
@@ -37,4 +43,5 @@ Uma distinção comum dentro do escopo dos requisitos é entre **requisitos func
 | 1.0 | 10/04/2024 | Criação do documento | Brenda |
 | 1.1 | 30/04/2024 | Atualização dos requisitos gerais| Denniel William |
 | 1.2 | 03/05/2024 | Adição do versionamento| Ciro Costa |
+| 1.3 | 04/05/2024 | Alteração de alinhamento e fonte | Ana Carolina |
 

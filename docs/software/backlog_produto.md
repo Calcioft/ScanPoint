@@ -1,16 +1,24 @@
 # Backlog do Produto
 
 <p align="justify">
-O backlog do produto de software pode ser visto como uma lista priorizada de todas as funcionalidades, melhorias e tarefas relacionadas a um produto. Dessa forma, serve como um repositório central para todas as ideias e requisitos do produto, permitindo que a equipe de desenvolvimento e os demais envolvidos gerenciem e planejem o trabalho de forma eficaz. Para isso, o backlog utilizará três principais conceitos: <strong>Épicos</strong> (São itens de alto nível no backlog que representam funcionalidades ou metas de grande escala do produto. São, geralmente, muito amplos e podem não ser facilmente implementados em uma única iteração), <strong>Histórias de usuário</strong> (São unidades menores de trabalho que descrevem funcionalidades ou requisitos específicos do ponto de vista do usuário. Costumam ser mais detalhadas do que épicos e geralmente seguem uma estrutura como "Eu, como [tipo de usuário], quero [realizar uma ação] para poder [atingir um objetivo]") e <strong>Priorização</strong> (Como as histórias e épicos são priorizadas para que o desenvolvimento considere a importância que o cliente dá para cada tópico).
+O backlog do produto de software pode ser visto como uma lista priorizada de todas as funcionalidades, melhorias e tarefas relacionadas a um produto. Dessa forma, serve como um repositório central para todas as ideias e requisitos do produto, permitindo que a equipe de desenvolvimento e os demais envolvidos gerenciem e planejem o trabalho de forma eficaz. 
+Para isso, o backlog utilizará três principais conceitos: <strong>Épicos</strong> (São itens de alto nível no backlog que representam funcionalidades ou metas de grande escala do produto. 
+</p>
+
+<p align="justify">
+São, geralmente, muito amplos e podem não ser facilmente implementados em uma única iteração), <strong>Histórias de usuário</strong> (São unidades menores de trabalho que descrevem funcionalidades ou requisitos específicos do ponto de vista do usuário. Costumam ser mais detalhadas do que épicos e geralmente seguem uma estrutura como "Eu, como [tipo de usuário], quero [realizar uma ação] para poder [atingir um objetivo]") e <strong>Priorização</strong> (Como as histórias e épicos são priorizadas para que o desenvolvimento considere a importância que o cliente dá para cada tópico).
 </p>
 
 ## Priorização - Método MoSCow
 
 <p align="justify">
-Desenvolvida por Dai Clegg durante sua atuação na Oracle na década de 1990, a técnica MoSCoW originou-se no contexto da gestão e dos negócios para aprimorar o processo de desenvolvimento de software. O termo MoSCoW é um acrônimo formado pelas iniciais das categorias "Must Have" (Deve Ter), "Should Have" (Deveria Ter), "Could Have" (Poderia Ter) e "Won't Have" (Não Terá), as quais são utilizadas para segmentar nossas tarefas e determinar suas prioridades. A escolha do método MoSCoW para a priorização se deu pela sua simplicidade e eficácia em categorizar as tarefas de acordo com a sua importância para o projeto, permitindo uma melhor organização e planejamento do trabalho a ser realizado.
+Desenvolvida por Dai Clegg durante sua atuação na Oracle na década de 1990, a técnica MoSCoW originou-se no contexto da gestão e dos negócios para aprimorar o processo de desenvolvimento de software. O termo MoSCoW é um acrônimo formado pelas iniciais das categorias "Must Have" (Deve Ter), "Should Have" (Deveria Ter), "Could Have" (Poderia Ter) e "Won't Have" (Não Terá), as quais são utilizadas para segmentar nossas tarefas e determinar suas prioridades. 
 </p>
 
-**Tabela 1:** Descrição das categorias de priorização do método MoSCoW
+<p align="justify"> A escolha do método MoSCoW para a priorização se deu pela sua simplicidade e eficácia em categorizar as tarefas de acordo com a sua importância para o projeto, permitindo uma melhor organização e planejamento do trabalho a ser realizado.
+</p>
+
+<font size="2"><p style="text-align: center">Tabela 1: Descrição das categorias de priorização do método MoSCoW</p></font>
 
 | Tipo | Descrição |
 | :--- | :-------  | 
@@ -19,7 +27,9 @@ Desenvolvida por Dai Clegg durante sua atuação na Oracle na década de 1990, a
 | Could Have | “Poderia ter”, tarefas desejáveis, mas que também não necessárias, ou seja, a serem priorizadas apenas se as tarefas das categorias anteriores forem completadas.|
 | Won`t Have  | “Não será feito”, tarefas que envolvem muito esforço e têm baixo impacto. Não devem ser priorizadas no momento.|
 
-Fonte: Autoria própria
+<font size="2"><p style="text-align: center">Fonte: Autoria própria</p></font>
+
+
 
 ## Épicos
 
@@ -30,7 +40,7 @@ Fonte: Autoria própria
 
 ### Épico: Interface (E01)
 
-**Tabela 2:** Histórias de usuário para o épico "Interface"
+<font size="2"><p style="text-align: center">Tabela 2: Histórias de usuário para o épico "Interface"</p></font>
 
 | ID   | Eu, como... | Gostaria de...                                   | Para poder...                                | Priorização |
 |------|-------------|--------------------------------------------------|----------------------------------------------|-------------|
@@ -39,11 +49,11 @@ Fonte: Autoria própria
 | US03 | Usuário     | Visualizar uma prévia do modelo em nuvem de pontos | Avaliar a qualidade do escaneamento        | Could Have  |
 | US04 | Usuário     | Visualizar uma prévia do modelo escaneado       | Confirmar se o escaneamento foi bem-sucedido | Must Have |
 
-Fonte: Autoria própria
+<font size="2"><p style="text-align: center">Fonte: Autoria própria</p></font>
 
 ### Épico: Captura de Dados em Tempo Real (E02)
 
-**Tabela 3:** Histórias de usuário para o épico "Captura de Dados em Tempo Real"
+<font size="2"><p style="text-align: center">Tabela 3: Histórias de usuário para o épico "Captura de Dados em Tempo Real"</p></font>
 
 | ID   | Eu, como... | Gostaria de...                                   | Para poder...                                      | Priorização |
 |------|-------------|--------------------------------------------------|----------------------------------------------------|-------------|
@@ -52,22 +62,22 @@ Fonte: Autoria própria
 | US07 | Usuário     | Processar os dados recebidos de forma eficiente | Evitar atrasos no escaneamento                    | Must Have   |
 | US08 | Usuário     | Transmitir os dados em tempo real para o computador | Acompanhar o progresso do escaneamento         | Must Have   |
 
-Fonte: Autoria própria
+<font size="2"><p style="text-align: center">Fonte: Autoria própria</p></font>
 
 ### Épico: Escaneamento 3D Automatizado (E03)
 
-**Tabela 4:** Histórias de usuário para o épico "Escaneamento 3D Automatizado"
+<font size="2"><p style="text-align: center">Tabela 4: Histórias de usuário para o épico "Escaneamento 3D Automatizado"</p></font>
 
 | ID   | Eu, como... | Gostaria de...                                   | Para poder...                                      | Priorização |
 |------|-------------|--------------------------------------------------|----------------------------------------------------|-------------|
 | US09 | Usuário     | Gerar arquivos STL ou G-code precisos e detalhados | Garantir qualidade na impressão                  | Must Have   |
 | US10 | Usuário     | Comunicar de forma eficiente com o computador, recebendo dados de status | Acompanhar o progresso do escaneamento | Must Have   |
 
-Fonte: Autoria própria
+<font size="2"><p style="text-align: center">Fonte: Autoria própria</p></font>
 
 ### Épico: Interação do Usuário (E04)
 
-**Tabela 5:** Histórias de usuário para o épico "Interação do Usuário"
+<font size="2"><p style="text-align: center">Tabela 5: Histórias de usuário para o épico "Interação do Usuário"</p></font>
 
 | ID   | Eu, como... | Gostaria de...                                   | Para poder...                                      | Priorização |
 |------|-------------|--------------------------------------------------|----------------------------------------------------|-------------|
@@ -76,7 +86,7 @@ Fonte: Autoria própria
 | US13 | Usuário     | Cancelar o escaneamento 3D | Interromper o processo | Must Have  |
 | US14 | Usuário     | Reiniciar o escaneamento 3D | começar novamente o processo | Must Have  |
 
-Fonte: Autoria própria
+<font size="2"><p style="text-align: center">Fonte: Autoria própria</p></font>
 
 ## Referências
 
@@ -84,9 +94,8 @@ Fonte: Autoria própria
 
 ## Tabela de versionamento
 
-**Tabela 6:** Tabela de versionamento do documento Backlog do Produto
-
 | Versão| Data | Descrição | Responsável|
 |-------|------|-----------|------------|
 | 1.0 | 28/04/2024 | Criação do documento | Denniel William |
 | 1.1 | 03/05/2024 | Refatoração do documento | Pedro Menezes Rodiguero |
+| 1.2 | 04/05/2024 | Ajuste no alinhamento e fontes | Ana |
