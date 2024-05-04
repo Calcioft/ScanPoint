@@ -1,9 +1,10 @@
 # Projeto do Subsistema de Energia
+
 <p style="text-alighn: justify;">
 O subsistema de energia é responsável pela alimentação dos demais subsistemas, garantindo eficiência energética e capacidade de operação. Portanto, o foco da equipe consistiu em dimensionar os gastos energéticos, selecionar componentes eficazes, de baixo consumo e implementar estratégias de gerenciamento de energia em conformidade com as normas de segurança aplicáveis, assegurando a proteção dos usuários e a conformidade com os padrões de qualidade e regulamentações pertinentes.
 </p>
 
-## Levantamento de carga
+## 1. Levantamento de carga
 <p style="text-alighn: justify;">
 Com o intuito de determinar as características energéticas do projeto realizou-se uma análise do consumo estimado dos dispositivos. Para uma margem de segurança foi adicionado  20%  sobre a potência total do projeto.
 </p>
@@ -19,7 +20,7 @@ Com o intuito de determinar as características energéticas do projeto realizou
 |Potência Total com 20% [W]||||60,06|
 
 
-## Bateria
+## 2. Bateria
 <p style="text-alighn: justify;">
 Para o projeto ScanPoint está estimado em utilizar duas baterias de  12 V de 7Ah, cada.
 </p>
@@ -42,11 +43,14 @@ Para o projeto ScanPoint está estimado em utilizar duas baterias de  12 V de 7A
 
 <p style="text-alighn: justify;">
 Nesse cenário o projeto apresenta uma autonomia de 2 horas e 48 minutos. Devido ao fato de não se ter o conhecimento real da leitura das peças não é possível determinar se o tempo de autonomia é suficiente ou não, assim,  caso haja a necessidade de uma maior autonomia no projeto, serão adicionadas baterias com as mesmas característica a fim de atender o tempo estipulado para a apresentação.
+</p>
+
+<p style="text-align:justify;">
 As baterias estarão configuradas em paralelo, visto que na configuração em série a tensão sofreria um aumento, o que não é o desejado, pois os componentes do projeto apresentam uma tensão de alimentação inferior a 12V.
 </p>
 
 
-## Cabo
+## 3. Cabos
 <p style="text-alighn: justify;">
 A corrente elétrica solicitada pelo sistema é de  2,41A. A NBR  5410 foi consultada a fim de levar em consideração alguns fatores para o dimensionamento dos cabos elétricos.
 </p>
@@ -55,7 +59,9 @@ A corrente elétrica solicitada pelo sistema é de  2,41A. A NBR  5410 foi consu
 
 <font size="2"><p style="text-align: center">Figura 2 - Tipos de linhas elétricas.<font size="2"><p style="text-align: center">Fonte: [NBR 2410, 2004](https://edisciplinas.usp.br/pluginfile.php/5810747/mod_resource/content/1/NBR5410%20-%20Instala%C3%A7%C3%B5es%20el%C3%A9tricas%20de%20baixa%20tens%C3%A3o.pdf).</p></font></p></font>
 
+<p style="text-align:justify;">
 Ao consultar a Figura 2 foi considerado o Método de Referência B1.
+</p>
 
 ![Tabela40](../assets/eletronica-energia/Tabela40.jpg)
 
@@ -108,7 +114,7 @@ Assim, tem-se uma corrente corrigida de 2,77 A. A Figura 5 foi analisada para de
 Baseado na corrente corrigida de 2,77 A uma seção nominal de 0,5 mm^2 serviria, entretanto, a própria norma determina que para circuitos de força a seção nominal mínima deva ser de 2,5 mm^2. Assim sendo, a seção nominal selecionada será a de 2,5 mm^2.
 </p>
 
-## Diagrama Unifilar
+## 4. Diagrama Unifilar
 
 <p style="text-alighn: justify;">
 A Figura 6 apresenta o diagrama unifilar do projeto, com as características de fluxo de energia, no qual cada componente está identificado com suas respectivas características elétricas, como também as características da bitola do cabo.
