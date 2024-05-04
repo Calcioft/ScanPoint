@@ -1,8 +1,8 @@
 # Desenho Técnicos
 
-Os desenhos técnicos estão apresentados nesta seção a partir de subsistemas. Para visualização dos arquivos de draftings basta acessar o repositório em https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/tree/main/docs/estruturas/Draftings?ref_type=heads, assim como também para todos os CADs, que podem ser acessados no repositório de estruturas em https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/tree/main/docs/estruturas/CAD/Estrutura_CATIA?ref_type=heads.
+Os desenhos técnicos estão apresentados nesta seção a partir de subsistemas. Para visualização dos arquivos de draftings basta acessar o repositório em [repositório de estruturas - draftings](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/tree/main/docs/estruturas/Draftings), assim como também para todos os CADs, que podem ser acessados no [repositório de estruturas - CAD](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/tree/main/docs/estruturas/CAD/Estrutura_CATIA?ref_type=heads).
 
-Os draftings também podem ser facilmente visualizados através do download do documento através do link https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/raw/main/docs/estruturas/Draftings/00-Montagem_merged.pdf?inline=false .
+Os draftings também podem ser facilmente visualizados através do [download deste documento](https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/raw/main/docs/estruturas/Draftings/00-Montagem_merged.pdf?inline=false).
 
 ## Sistema Montado
 ![Montagem](../estruturas/imagens/DTs/Montagem-1.png)
