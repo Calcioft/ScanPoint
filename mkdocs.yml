@@ -18,16 +18,12 @@ extra_css:
 nav:
   - Sobre: index.md
   - Geral: 
-      - PC1: geral/index.md
       - Arquitetura: geral/arquitetura.md
       - Cronograma: geral/cronograma.md
       - EAP: geral/eap_geral.md
       - Estimativa de Custos: geral/estimativa-custos.md
       - Levantamento de riscos: geral/FMEA.md
-      - Integracao: geral/integracao.md
       - Normas: geral/normas.md
-      - Projetos: geral/projetos.md
-      - Prova de conceito: geral/prova-de-conceito.md
       - Requisitos Gerais: geral/requisitos.md
       - Termo de Abertura: geral/termo_de_abertura_de_projeto.md
       - Visao geral: geral/visaogeral.md
