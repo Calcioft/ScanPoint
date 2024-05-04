@@ -1,4 +1,4 @@
-# Arquitetura do Subsistema de Eletrônica
+# Projeto do Subsistema de Eletrônica
 
 <p style="text-align:justify;">
 O subsistema eletrônico desempenha o papel de controle sobre os motores, comunicação com o software, integração dos sensores. Nesse contexto, o foco da equipe consistiu na seleção dos componentes eletrônicos e na implementação de estratégias de gerenciamento em conformidade estrita com as normas de segurança elétrica pertinentes.
