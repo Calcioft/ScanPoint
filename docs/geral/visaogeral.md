@@ -86,13 +86,14 @@
 
 - **Documentação**: Preparar documentação detalhada sobre o funcionamento e operação do sistema ScanPoint, bem como materiais de treinamento para usuários e técnicos. Isso garantirá que os usuários estejam devidamente capacitados para utilizar o sistema de forma eficaz e segura.
 
-## 7. Posicionamento
+## 7. É/Não é e Faz/Não faz
+[É/Não é e Faz/Não faz](../assets/eounaoe.png)7. Posicionamento
 
-### 7.1. Oportunidade de Negócio
+### 8.1. Oportunidade de Negócio
 
 <p style="text-align: justify;"> O ScanPoint é um serviço especializado em escaneamento por point cloud de objetos físicos. Nosso objetivo é oferecer uma solução abrangente que simplifique o processo de escaneamento de objetos de cad. Com essa tecnologia, a ideia é auxiliar usuários de cad a transformar objetos físicos em modelos digitais precisos. </p>
 
-### 7.2. Instrução de Posição do Produto
+### 8.2. Instrução de Posição do Produto
 
 * **Para:** Pessoas interessadas em reprodução CAD ou impressões 3D
 * **Que:**  Desejam reproduzir objetos de pequeno porte
@@ -101,11 +102,11 @@
 * **Diferente de:** Aplicações similares que não possuem um aplicativo e exigem alto custo para fornecer produtos similares 
 * **Nosso produto:** Oferece uma interface amigável para iniciar e acompanhar o processamento do objeto a um baixo custo, além de permitir re-iniciar e cancelar o processo, possibilita o download do arquivo gerado para ser utilizado em impressões 3D. 
 
-### 7.3. Ambiente do Usuário
+### 8.3. Ambiente do Usuário
 
 <p style="text-align: justify;"> A aplicação poderá ser acessada por meio de computadores, sendo necessário conexão com a internet apenas para seu download e atualização. Para uso da aplicação não é necessário conexão com a internet, todo o processo de escaneamento e geração do arquivo será realizado no ScanPoint e localmente na máquina do usuário. </p>
 
-## 8. Referências
+## 9. Referências
 
 > IBM Knowledge Center - Documento de Visão: A estrutura de tópicos do documento de visão. Disponível em: https://www.ibm.com/support/knowledgecenter/pt-br/SSWMEQ_3.0.1/com.ibm.rational.rrm.help.doc/topics/r_vision_doc.htm. Acesso em: 19 mar. 2020;
 
@@ -121,3 +122,4 @@
 | 25/04/2024 | 4.0 | Revisão e ajustes do documento  | Brenda |
 | 02/05/2024 | 5.0 | Refatoração dos nomes e explicações  | Ana |
 | 03/05/2024 | 6.0 | Refatoração total do documento  | Ana, Brenda, Carla |
+| 03/05/2024 | 7.0 | Inclusão do É/Não é e Faz/Não faz, feito pelo Ciro| Carla |
