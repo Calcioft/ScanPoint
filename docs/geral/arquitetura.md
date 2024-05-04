@@ -5,9 +5,10 @@ Baseado na compreensão do problema e nos requisitos levantados para o produto, 
 
 O detalhamento das arquiteturas específicas pode ser encontrado nos documentos abaixo:
 
-  1. [Software](https://lappis-unb.gitlab.io/fga-pi2/semestre-2024-1/grupo-08/scanpoint/software/arquitetura/);
-  2. [Eletrônica/Energia](https://lappis-unb.gitlab.io/fga-pi2/semestre-2024-1/grupo-08/scanpoint/eletronica-energia/arquitetura_energia/);
-  3. [Estruturas](https://lappis-unb.gitlab.io/fga-pi2/semestre-2024-1/grupo-08/scanpoint/estruturas/arquitetura_subs_estruturas/);
+  1. [Software](../software/arquitetura.md);
+  2. [Eletrônica](../eletronica-energia/arquitetura_eletronica.md);
+  3. [Energia](../eletronica-energia/arquitetura_energia.md)
+  3. [Estruturas](../estruturas/arquitetura_subs_estruturas.md);
 
 ## Tabela de versionamento
 
@@ -16,4 +17,5 @@ O detalhamento das arquiteturas específicas pode ser encontrado nos documentos 
 | Versão| Data | Descrição | Responsável|
 |-------|------|-----------|------------|
 | 1.0 | 03/04/2024 | Criação do documento de arquitetura geral | Brenda Santos |
-1.1 | 03/05/2024 | Adição do documento de arquitetura de todas áreas | Pedro Menezes Rodiguero
+|1.1 | 03/05/2024 | Adição do documento de arquitetura de todas áreas | Pedro Menezes Rodiguero |
+|1.2 | 03/05/2024 | Adicionando arquitetura de energia e eletronica | Brenda Santos |
