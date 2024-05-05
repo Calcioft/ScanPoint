@@ -4,9 +4,9 @@
 
 ### Definição de critérios de avaliação dos materiais
 
-Partindo dos requisitos, foram definidos critérios de análise que implicam em sua validação, para cada critério foi avaliado o peso, seguindo sua influência para cada um dos requisitos. Por exemplo, o critério de disponibilidade do material no laboratório recebe um ponto para o requisito de viabilidade econômica como sua veracidade ou não afeta diretamente o custo dos protótipos e do projeto final para o grupo, já o critério de embasamento estrutural literário apresenta nota 0 para esse mesmo requisito pois não gera nenhuma influência sobre os custos do projeto e simultaneamente sobre o requisito RN 1.
+Partindo dos [requisitos](docs/estruturas/Requisitos_estruturas.md), foram definidos critérios de análise que implicam em sua validação, para cada critério foi avaliado o peso, seguindo sua influência para cada um dos requisitos. Por exemplo, o critério de disponibilidade do material no laboratório recebe um ponto para o requisito de viabilidade econômica, já que sua veracidade ou não afeta diretamente o custo dos protótipos e do projeto final para o grupo. Em contrapartida, o critério de embasamento estrutural literário apresenta nota 0 para esse mesmo requisito, pois não gera nenhuma influência sobre os custos do projeto e simultaneamente sobre o requisito RN 1.
 
-Abaixo estão listados os critérios definidos as pontuações para cada requisito e por fim o peso definido pela soma das pontuações:
+Na tabela abaixo, estão listados os critérios definidos as pontuações para cada requisito e por fim o peso definido pela soma das pontuações:
 
 | Critério                                    | RF1 | RF2 | RF3 | RF4 | RN1 | RN2 | Peso |
 |---------------------------------------------|-----|-----|-----|-----|-----|-----|------|
@@ -15,9 +15,15 @@ Abaixo estão listados os critérios definidos as pontuações para cada requisi
 | Objeto disponível no laboratório?           |  0  |  0  |  0  |  0  |  1  |  1  |  2   |
 | Possui vasta aplicação industrial no contexto de estruturas? |  1  |  1  |  1  |  1  |  1  |  1  |  6   |
 
+<div align="center">
+    Tabela 1 - Critérios para cada requisito de estruturas<br />
+    Fonte: Autores. 
+</div>
+<br />
+
 ### Lista e definição de materiais
 
-Após a análise dos requisitos funcionais e não funcionais foi feito um levantamento de materiais disponíveis no laboratório, resultando na seguinte relação:
+Após a análise dos [requisitos funcionais e não funcionais](docs/estruturas/Requisitos_estruturas.md), foi realizado um levantamento dos materiais disponíveis no laboratório, resultando na seguinte relação que pode ser visualizada na tabela 2.
 
 | Material                                       | Qtd. Disponível |
 |------------------------------------------------|-----------------|
@@ -30,16 +36,20 @@ Após a análise dos requisitos funcionais e não funcionais foi feito um levant
 | Rolamento linear 8mm                           |        2        |
 | Suporte de alumínio para eixo linear           |       ~10       |
 
-
+<div align="center">
+    Tabela 2 - Materiais disponíveis para uso no laboratório<br />
+    Fonte: Autores.
+</div>
+<br />
 
 ## Análise Estrutural Preliminar
 
 
-A análise estrutural preliminar foi dividida em duas partes: A análise geral do problema, buscando os parâmetros para atender aos requisitos do projeto e a análise individual, realizada para os componentes elencados como críticos para o projeto.
+A análise estrutural preliminar foi dividida em duas partes: A **análise geral do problema**, buscando os parâmetros para atender aos requisitos do projeto e a **análise individual**, realizada para os componentes elencados como críticos para o projeto.
 
 Para a análise geral foram realizadas simulações preliminares através da simplificação dos modelos, buscando uma noção inicial das cargas, deslocamentos e esforços sobre os quais a estrutura estará submetida.
 
-Para a análise individual foi utilizada a metodologia de matriz de preferência descrita na oitava edição do livro: *Administração de produção e operações*, onde foram atribuídas notas para cada componente da estrutura de acordo com os critérios definidos.
+Para a análise individual foi utilizada a metodologia de matriz de preferência descrita na oitava edição do livro: *Administração de produção e operações*, onde foram atribuídas notas para cada componente da estrutura de acordo com os critérios definidos (KRAJEWSKI; RITZMAN; MALHOTRA; K,2012).
 
 Os materiais com maior probabilidade de apresentar falhas ou problemas em relação aos demais foram chamados de componentes críticos e são, na matriz de preferência, aqueles com as menores notas. As notas foram atribuídas de 0 até 1, sendo as possibilidades:
 
@@ -59,15 +69,20 @@ Cada uma das perguntas realizadas como critério de avaliação dos componentes 
 | Total                                                        | 16       | 3,6                           | 2,6             | 0,6          | 4       |
 | Total com pesos                                              | 28       | 15,2                          | 12,4            | 3            | 16      |
 
+<div align="center">
+    Tabela 3 - Matriz de preferência dos componentes<br />
+    Fonte: Autores.
+</div>
+<br />
 
-Dessa forma como material crítico para a análise foi escolhida a impressão 3D que recebeu nota 3 considerando os pesos e os critérios de cada peso, diante, principalmente, da dificuldade de se encontrar material teórico acerca do assunto e da sua relativa recência em termos de aplicação industrial, quando comparado com os demais componentes do projeto.
+Dessa forma, como material crítico para a análise, foi escolhida a impressão 3D que recebeu nota 3 considerando os pesos e os critérios de cada peso, diante, principalmente, da dificuldade de se encontrar material teórico acerca do assunto e da sua relativa recência em termos de aplicação industrial, quando comparado com os demais componentes do projeto.
 
 A partir de tal definição foram realizados ensaios estruturais e simulações par a validação do componente crítico definido anteriormente. 
 
 
 ### Ensaios Estruturais
 
-Graças aos pontos descritos anteriormente, optou-se pela realização de um ensaio para avaliação de integridade estrutural simples onde uma peça de testes foi elaborada e submetida a diversas quantidades de cargas com o intuito de validar seu uso para a aplicação desejada no projeto. A peça de estudo foi fabricada a partir do material PLA (biopolímero ácido poliláctico), com configuração de densidade de preenchimento de 10% do tipo zigue-zague e com 4 paredes de 0,88mm de espessura.
+Graças aos pontos descritos nos tópicos anteriores, optou-se pela realização de um ensaio para avaliação de integridade estrutural simples, onde uma peça de testes foi elaborada e submetida a diversas quantidades de cargas com o intuito de validar seu uso para a aplicação desejada no projeto. A peça de estudo foi fabricada a partir do material PLA (biopolímero ácido poliláctico), com configuração de densidade de preenchimento de 10% do tipo zigue-zague e com 4 paredes de 0,88mm de espessura.
 
 
 ![Geometria de preenchimento da peça](imagens/Proj_Subs_Estruturas_Ensaios_geometria_.jpeg)
@@ -78,7 +93,7 @@ Fonte: Autores.
 </p>
 
 
-Foi realizada uma montagem preliminar de um sistema análogo ao subsistema estrutural, formado por um perfil de alumínio, porcas, arruelas e parafusos e, claro, a peça estrutural de impressão 3D,além disso foi incluido no sistema uma cantoneira de aço para facilitar a aplicação de carga. A simplificação do subsistema de estruturas pode ser visualizada na imagem abaixo:
+Foi realizada a montagem preliminar de um sistema análogo ao subsistema estrutural, formado por um perfil de alumínio, porcas, arruelas, parafusos e, claro, a peça estrutural de impressão 3D. Além disso foi incluido no sistema uma cantoneira de aço para facilitar a aplicação de carga. A simplificação do subsistema de estruturas pode ser visualizada na imagem abaixo:
 
 
 ![Fixação da peça para o ensaio](imagens/Proj_Subs_Estruturas_Ensaios_Fixação_da_peça.jpeg)
@@ -89,7 +104,7 @@ Fonte: Autores.
 </p>
 
 
-Com o auxílio de anilhas, a peça foi fixada e submetida continuamente a cargas cada vez maiores. O objetivo inicial da análise era a aplicação de carga até o colapso da estrutura, porém, a carga máxima aplicada à peça foi de 51,5 Kg, por não haver possibilidade de acréscimo a esta, não representando sua capacidade máxima de submissão suportada, porém fornecendo base suficiente para a análise.
+Com o auxílio de anilhas, a peça foi fixada e submetida continuamente a cargas cada vez maiores. O objetivo inicial da análise era a aplicação de carga até o colapso da estrutura, porém, a carga máxima aplicada à peça foi de 51,5 Kg. Não houve a possibilidade de acréscimo a esta, não representando sua capacidade máxima de submissão de carga suportada, porém fornecendo base suficiente para a análise.
 
 ![Aparato com aplicação de carga](imagens/Proj_Subs_Estruturas_Ensaios_aplicação_carga.jpeg)
 
@@ -100,10 +115,14 @@ Fonte: Autores.
 
 
 
-Como resultado, tem-se que apesar de não ter sido observado o colapso estrutural do material, foram observadas deformações consideráveis na estrutura a partir de 35kg, carga que foi considerada máxima para o retorno da estrutura a suas condições iniciais. Após a definição de um fator de segurança de 2, definindo assim uma carga total por componente impresso de 16kg, calculado da seguinte forma:
+Como resultado, tem-se que apesar de não ter ocorrido o colapso estrutural do material, foram observadas deformações consideráveis na estrutura a partir de 35Kg, carga que foi considerada máxima para o retorno da estrutura a suas condições iniciais. 
 
+Após a definição de um fator de segurança de 2, foi definida assim uma carga total por componente impresso de 16Kg, obtido pela fórmula:
 
-Fs = Cf/Cmax
+<p style="text-align:center;">
+    Fs = Cf/Cmax
+</p>
+
 
 
 Onde Fs é o fator de segurança, Cf é a Carga de fratura e Cmax é a Carga máxima admissível considerando o fator de segurança definido.
@@ -124,7 +143,7 @@ Figura 5 - Parafuso de fixação após o ensaio<br />
 Fonte: Autores.
 </p>
  
-Assim, avaliando a composição da estrutura com 4 peças impressas em 3D, a carga máxima admissível para o projeto, já considerando o fator de segurança, seria de 64Kg no total, satisfazendo de maneira superdimensionada as condições iniciais e de requisitos do projeto, o que apresenta margem suficiente para simplificação e reduções de rigidez, custos e complexidade dos materiais para as próximas análises de dimensionamentos e de otimização.
+Assim, avaliando a composição da estrutura com 4 peças impressas em 3D, a carga máxima admissível para o projeto, já considerando o fator de segurança, seria de 64Kg no total, satisfazendo de maneira superdimensionada as condições iniciais e de requisitos do projeto. Tem-se assim que os resultados apresentam margem suficiente para simplificação e reduções de rigidez, custos e complexidade dos materiais para as próximas análises de dimensionamentos e de otimização.
 
 
 ### Simulações numéricas
