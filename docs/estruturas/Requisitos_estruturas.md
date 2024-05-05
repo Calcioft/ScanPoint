@@ -32,3 +32,10 @@ Os requisitos listados foram pensados não só para um projeto, mas para um prod
 <div align="center">
 Tabela 2 - Requisitos não-funcionais
 </div>
+
+## Versionamento
+| Versão | Data | Modificação | Autor |
+|--|--|--|--|
+| 0.1 | 19/04/2024 | Criação do documento | Cássio Filho; Diogo Soares e Maria Claudia|
+| 0.2 | 26/04/2024 | Atualizações | Cássio Filho; Diogo Soares e Maria Claudia|
+| 1.0 | 03/05/2024 | Entrega | Cássio Filho; Diogo Soares e Maria Claudia|
