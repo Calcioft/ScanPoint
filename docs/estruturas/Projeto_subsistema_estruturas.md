@@ -31,16 +31,16 @@ Na tabela abaixo, estão listados os critérios definidos as pontuações para c
 Após a análise dos requisitos funcionais e não funcionais, foi realizado um levantamento dos materiais disponíveis no laboratório, resultando na seguinte relação que pode ser visualizada na tabela 2.
 </p>
 
-| Material                                       | Qtd. Disponível |
-|------------------------------------------------|-----------------|
-| Perfil de alumínio estrutural 20x20mm          |        12       |
-| Fuso 8x480mm                                   |        1        |
-| Motores de passo                               |        4        |
-| Acoplador do motor de passo                    |       ~10       |
-| Cantoneiras de alumínio                        |       ~70       |
-| Guias de aço 8x600mm                           |        2        |
-| Rolamento linear 8mm                           |        2        |
-| Suporte de alumínio para eixo linear           |       ~10       |
+| Material                                                 | Qtd. Disponível |
+|----------------------------------------------------------|-----------------|
+| Perfil de alumínio estrutural 20x20mm                    |        12       |
+| Fuso 8x480mm                                             |        1        |
+| Motores de passo                                         |        4        |
+| Acoplador do motor de passo                              |       ~10       |
+| Cantoneiras de alumínio                                  |       ~70       |
+| Guias de aço 8x600mm                                     |        2        |
+| Rolamento linear 8mm                                     |        2        |
+| Suporte de alumínio para eixo linear                     |       ~10       |
 
 <div align="center">
     Tabela 2 - Materiais disponíveis para uso no laboratório<br />
