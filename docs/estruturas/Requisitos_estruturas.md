@@ -2,7 +2,9 @@
 
 ## Requisitos Funcionais (RF)
 
-Os **requisitos funcionais** da área de estruturas abrangem os aspectos físicos e mecânicos do projeto. Entre eles, tem-se aspectos relacionados a carga do objeto que será escaneado, a movimentação de partes móveis e exigências quanto a sua mobilidade e propriedades mecânicas.
+<p style="text-align: justify;">
+Os requisitos funcionais da área de estruturas abrangem os aspectos físicos e mecânicos do projeto. Entre eles, tem-se aspectos relacionados a carga do objeto que será escaneado, a movimentação de partes móveis e exigências quanto a sua mobilidade e propriedades mecânicas.
+</p>
 
 | Requisito | Nome | Descrição |
 |:---------:| :--- |:------------:|
@@ -18,10 +20,13 @@ Os **requisitos funcionais** da área de estruturas abrangem os aspectos físico
 
 ## Requisitos Não Funcionais (RNF)
 
-Os **requisitos não funcionais** abragem aspectos relacionados a características do projeto quanto a sua estrutura, podendo ser visualizados na tabela 2. Foram analisados pontos como dificuldade de montagem, fornecimento e acessibilidade do material e segurança do usuário. 
+<p style="text-align: justify;">
+Os requisitos não funcionais abragem aspectos relacionados a características do projeto quanto a sua estrutura, podendo ser visualizados na tabela 2. Foram analisados pontos como dificuldade de montagem, fornecimento e acessibilidade do material e segurança do usuário. 
+</p>
 
+<p style="text-align: justify;">
 Os requisitos listados foram pensados não só para um projeto, mas para um produto final que poderá ser comercializado e replicado posteriormente.
-
+</p>
 
 | Requisito | Nome | Descrição |
 |:---------:| :--- |:------------:|
