@@ -4,7 +4,9 @@
 
 ### Definição de critérios de avaliação dos materiais
 
-Partindo dos [requisitos](/docs/estruturas/Requisitos_estruturas.md), foram definidos critérios de análise que implicam em sua validação, para cada critério foi avaliado o peso, seguindo sua influência para cada um dos requisitos. Por exemplo, o critério de disponibilidade do material no laboratório recebe um ponto para o requisito de viabilidade econômica, já que sua veracidade ou não afeta diretamente o custo dos protótipos e do projeto final para o grupo. Em contrapartida, o critério de embasamento estrutural literário apresenta nota 0 para esse mesmo requisito, pois não gera nenhuma influência sobre os custos do projeto e simultaneamente sobre o requisito RN 1.
+<p style="text-align: justify;">
+Partindo dos requisitos, foram definidos critérios de análise que implicam em sua validação.Para cada critério foi avaliado o peso, seguindo sua influência para cada um dos requisitos. Por exemplo, o critério de disponibilidade do material no laboratório recebe um ponto para o requisito de viabilidade econômica, já que sua veracidade ou não afeta diretamente o custo dos protótipos e do projeto final para o grupo. Em contrapartida, o critério de embasamento estrutural literário apresenta nota 0 para esse mesmo requisito, pois não gera nenhuma influência sobre os custos do projeto e simultaneamente sobre o requisito RN 1.
+</p>
 
 Na tabela abaixo, estão listados os critérios definidos as pontuações para cada requisito e por fim o peso definido pela soma das pontuações:
 
