@@ -72,11 +72,11 @@ Engloba as fases 1, 2 e 3 do ciclo de vida do projeto, sendo elas: **Problematiz
 - [Requisitos](docs/eletronica-energia/requisitos-eletronica-energia.md)
 
 **Estruturas**
-- [Arquitetura](docs/estruturas/arquitetura_subs_estruturas.md)
-- [Desenhos técnicos](docs/estruturas/DTs.md)
 - [EAP](docs/estruturas/EAP_estruturas.md)
-- [Subsistema de Estruturas](docs/estruturas/Projeto_subsistema_estruturas.md)
 - [Requisitos](docs/estruturas/Requisitos_estruturas.md)
+- [Arquitetura](docs/estruturas/arquitetura_subs_estruturas.md)
+- [Subsistema](docs/estruturas/Projeto_subsistema_estruturas.md)
+- [Desenhos técnicos](docs/estruturas/DTs.md)
 
 
 ### C2
