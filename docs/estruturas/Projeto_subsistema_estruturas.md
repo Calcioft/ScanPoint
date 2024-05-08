@@ -8,7 +8,9 @@
 Partindo dos requisitos, foram definidos critérios de análise que implicam em sua validação.Para cada critério foi avaliado o peso, seguindo sua influência para cada um dos requisitos. Por exemplo, o critério de disponibilidade do material no laboratório recebe um ponto para o requisito de viabilidade econômica, já que sua veracidade ou não afeta diretamente o custo dos protótipos e do projeto final para o grupo. Em contrapartida, o critério de embasamento estrutural literário apresenta nota 0 para esse mesmo requisito, pois não gera nenhuma influência sobre os custos do projeto e simultaneamente sobre o requisito RN 1.
 </p>
 
+<p style="text-align: justify;">
 Na tabela abaixo, estão listados os critérios definidos as pontuações para cada requisito e por fim o peso definido pela soma das pontuações:
+</p>
 
 | Critério                                    | RF1 | RF2 | RF3 | RF4 | RN1 | RN2 | Peso |
 |---------------------------------------------|-----|-----|-----|-----|-----|-----|------|
@@ -25,7 +27,9 @@ Na tabela abaixo, estão listados os critérios definidos as pontuações para c
 
 ### Lista e definição de materiais
 
+<p style="text-align: justify;">
 Após a análise dos [requisitos funcionais e não funcionais](/docs/estruturas/Requisitos_estruturas.md), foi realizado um levantamento dos materiais disponíveis no laboratório, resultando na seguinte relação que pode ser visualizada na tabela 2.
+</p>
 
 | Material                                       | Qtd. Disponível |
 |------------------------------------------------|-----------------|
@@ -46,21 +50,24 @@ Após a análise dos [requisitos funcionais e não funcionais](/docs/estruturas/
 
 ## Análise Estrutural Preliminar
 
-
-A análise estrutural preliminar foi dividida em duas partes: A **análise geral do problema**, buscando os parâmetros para atender aos requisitos do projeto e a **análise individual**, realizada para os componentes elencados como críticos para o projeto.
+<p style="text-align: justify;">
+A análise estrutural preliminar foi dividida em duas partes: A análise geral do problema, buscando os parâmetros para atender aos requisitos do projeto e a análise individual, realizada para os componentes elencados como críticos para o projeto.
 
 Para a análise geral foram realizadas simulações preliminares através da simplificação dos modelos, buscando uma noção inicial das cargas, deslocamentos e esforços sobre os quais a estrutura estará submetida.
 
-Para a análise individual foi utilizada a metodologia de matriz de preferência descrita na oitava edição do livro: *Administração de produção e operações*, onde foram atribuídas notas para cada componente da estrutura de acordo com os critérios definidos (KRAJEWSKI; RITZMAN; MALHOTRA; K,2012).
+Para a análise individual foi utilizada a metodologia de matriz de preferência descrita na oitava edição do livro "Administração de produção e operações", onde foram atribuídas notas para cada componente da estrutura de acordo com os critérios definidos (KRAJEWSKI; RITZMAN; MALHOTRA; K,2012).
 
 Os materiais com maior probabilidade de apresentar falhas ou problemas em relação aos demais foram chamados de componentes críticos e são, na matriz de preferência, aqueles com as menores notas. As notas foram atribuídas de 0 até 1, sendo as possibilidades:
+</p>
 
 - 0,0 (Totalmente falso);
 - 0,3 (Parcialmente falso/Pobre de informações);
 - 0,6 (Parcialmente verdadeiro/Aceitável em informação) e
 - 1,0 (Verdadeiro).
 
+<p style="text-align: justify;">
 Cada uma das perguntas realizadas como critério de avaliação dos componentes estruturais principais e seus respectivos pesos estão descritas na tabela abaixo:
+</p>
 
 |         Critério                                             |  Peso    | Perfis de alumínio estrutural | Placa de madeira | Impressão 3D | Motores |
 |--------------------------------------------------------------|----------|-------------------------------|------------------|--------------|---------|
@@ -77,15 +84,17 @@ Cada uma das perguntas realizadas como critério de avaliação dos componentes 
 </div>
 <br />
 
+<p style="text-align: justify;">
 Dessa forma, como material crítico para a análise, foi escolhida a impressão 3D que recebeu nota 3 considerando os pesos e os critérios de cada peso, diante, principalmente, da dificuldade de se encontrar material teórico acerca do assunto e da sua relativa recência em termos de aplicação industrial, quando comparado com os demais componentes do projeto.
 
 A partir de tal definição foram realizados ensaios estruturais e simulações par a validação do componente crítico definido anteriormente. 
-
+</p>
 
 ### Ensaios Estruturais
 
+<p style="text-align: justify;">
 Graças aos pontos descritos nos tópicos anteriores, optou-se pela realização de um ensaio para avaliação de integridade estrutural simples, onde uma peça de testes foi elaborada e submetida a diversas quantidades de cargas com o intuito de validar seu uso para a aplicação desejada no projeto. A peça de estudo foi fabricada a partir do material PLA (biopolímero ácido poliláctico), com configuração de densidade de preenchimento de 10% do tipo zigue-zague e com 4 paredes de 0,88mm de espessura.
-
+</p>
 
 ![Geometria de preenchimento da peça](imagens/Proj_Subs_Estruturas_Ensaios_geometria_.jpeg)
 
@@ -94,9 +103,9 @@ Figura 1 - Geometria de preenchimento da peça <br />
 Fonte: Autores.
 </p>
 
-
+<p style="text-align: justify;">
 Foi realizada a montagem preliminar de um sistema análogo ao subsistema estrutural, formado por um perfil de alumínio, porcas, arruelas, parafusos e, claro, a peça estrutural de impressão 3D. Além disso foi incluido no sistema uma cantoneira de aço para facilitar a aplicação de carga. A simplificação do subsistema de estruturas pode ser visualizada na imagem abaixo:
-
+</p>
 
 ![Fixação da peça para o ensaio](imagens/Proj_Subs_Estruturas_Ensaios_Fixação_da_peça.jpeg)
 
@@ -105,8 +114,9 @@ Figura 2 - Fixação da peça para o ensaio <br />
 Fonte: Autores.
 </p>
 
-
+<p style="text-align: justify;">
 Com o auxílio de anilhas, a peça foi fixada e submetida continuamente a cargas cada vez maiores. O objetivo inicial da análise era a aplicação de carga até o colapso da estrutura, porém, a carga máxima aplicada à peça foi de 51,5 Kg. Não houve a possibilidade de acréscimo a esta, não representando sua capacidade máxima de submissão de carga suportada, porém fornecendo base suficiente para a análise.
+</p>
 
 ![Aparato com aplicação de carga](imagens/Proj_Subs_Estruturas_Ensaios_aplicação_carga.jpeg)
 
@@ -116,19 +126,20 @@ Fonte: Autores.
 </p>
 
 
-
+<p style="text-align: justify;">
 Como resultado, tem-se que apesar de não ter ocorrido o colapso estrutural do material, foram observadas deformações consideráveis na estrutura a partir de 35Kg, carga que foi considerada máxima para o retorno da estrutura a suas condições iniciais. 
 
 Após a definição de um fator de segurança de 2, foi definida assim uma carga total por componente impresso de 16Kg, obtido pela fórmula:
+</p>
 
 <p style="text-align:center;">
     Fs = Cf/Cmax
 </p>
 
 
-
+<p style="text-align: justify;">
 Onde Fs é o fator de segurança, Cf é a Carga de fratura e Cmax é a Carga máxima admissível considerando o fator de segurança definido.
-
+</p>
 
 
 ![Estrutura da peça após o ensaio](imagens/Proj_Subs_Estruturas_Ensaios_peça_pós_ensaio.jpeg)
@@ -144,14 +155,16 @@ Fonte: Autores.
 Figura 5 - Parafuso de fixação após o ensaio<br />
 Fonte: Autores.
 </p>
- 
-Assim, avaliando a composição da estrutura com 4 peças impressas em 3D, a carga máxima admissível para o projeto, já considerando o fator de segurança, seria de 64Kg no total, satisfazendo de maneira superdimensionada as condições iniciais e de requisitos do projeto. Tem-se assim que os resultados apresentam margem suficiente para simplificação e reduções de rigidez, custos e complexidade dos materiais para as próximas análises de dimensionamentos e de otimização.
 
+<p style="text-align: justify;"> 
+Assim, avaliando a composição da estrutura com 4 peças impressas em 3D, a carga máxima admissível para o projeto, já considerando o fator de segurança, seria de 64Kg no total, satisfazendo de maneira superdimensionada as condições iniciais e de requisitos do projeto. Tem-se assim que os resultados apresentam margem suficiente para simplificação e reduções de rigidez, custos e complexidade dos materiais para as próximas análises de dimensionamentos e de otimização.
+</p>
 
 ### Simulações numéricas
 
+<p style="text-align: justify;"> 
 Para complementação e representação do apresentado até então através do ensaio prático estrutural, foi realizada através do software Ansys Workbench uma simulação numérica da peça. 
-
+</p>
 
 ![Malha de elementos](imagens/Proj_Subs_Estruturas_Simulação_malha.png)
 
@@ -160,9 +173,9 @@ Figura 6 - Malha de elementos utilizada na simulação<br />
 Fonte: Autores.
 </p>
 
-
+<p style="text-align: justify;">
 Possuindo as mesmas dimensões, a peça foi submetida as condições de contorno de força e apoio, sendo aplicada uma carga de 500N na direção do eixo z e apoios onde a peça foi fixada, considerando as faces em contato com o perfil de alumínio que foi utilizado. Foi determinado, pela limitação do software, um tamanho de malha de 2mm, e foram utilizados 116744 nós e 79896 elementos na mesma.
-
+</p>
 
 ![Simulação tensão normal](imagens/Proj_Subs_Estruturas_Simulação_tensão_normal.png)
 
@@ -178,9 +191,11 @@ Figura 10 - Tensão de cisalhamento<br />
 Fonte: Autores.
 </p>
 
+<p style="text-align: justify;">
 Como pode ser observado nas imagens das simulações de tensão normal e de cisalhamento e nos pontos de interesse representados pelas setas azuis, as regiões analisadas representam possíveis regiões de fratura para a peça em questão. Apesar de as simulações não representarem a situação obtida no ensaio estrutural , visto que a peça utilizada tem características difíceis de se simular, como preenchimento não maciço e camadas de filamento sobrepostas, as análises computacionais servem de boa base para identificação de possíveis pontos críticos da estrutura e, posteriormente, realizar comparações entre os materiais pretendidos para cada componente.
 
 Por fim, realizando a comparação entre o material simulado e o ensaio estrutural podemos verificar que as condições estabelecidas pelo Ansys para pontos críticos da estrutura foram validadas, já que, como observado na figura abaixo, os pontos críticos representados pelo Ansys condizem com os pontos de ruptura e deformação da peça durante ensaio estrutural.
+</p>
 
 ![Face superior da peça real após o ensaio](imagens/Proj_Subs_Estruturas_Ensaios_deformação_face_superior.jpeg)
 
