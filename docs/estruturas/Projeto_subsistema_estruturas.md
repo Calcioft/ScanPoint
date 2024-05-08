@@ -52,11 +52,17 @@ Após a análise dos [requisitos funcionais e não funcionais](/docs/estruturas/
 
 <p style="text-align: justify;">
 A análise estrutural preliminar foi dividida em duas partes: A análise geral do problema, buscando os parâmetros para atender aos requisitos do projeto e a análise individual, realizada para os componentes elencados como críticos para o projeto.
+</p>
 
+<p style="text-align: justify;">
 Para a análise geral foram realizadas simulações preliminares através da simplificação dos modelos, buscando uma noção inicial das cargas, deslocamentos e esforços sobre os quais a estrutura estará submetida.
+</p>
 
+<p style="text-align: justify;">
 Para a análise individual foi utilizada a metodologia de matriz de preferência descrita na oitava edição do livro "Administração de produção e operações", onde foram atribuídas notas para cada componente da estrutura de acordo com os critérios definidos (KRAJEWSKI; RITZMAN; MALHOTRA; K,2012).
+</p>
 
+<p style="text-align: justify;">
 Os materiais com maior probabilidade de apresentar falhas ou problemas em relação aos demais foram chamados de componentes críticos e são, na matriz de preferência, aqueles com as menores notas. As notas foram atribuídas de 0 até 1, sendo as possibilidades:
 </p>
 
@@ -86,7 +92,8 @@ Cada uma das perguntas realizadas como critério de avaliação dos componentes 
 
 <p style="text-align: justify;">
 Dessa forma, como material crítico para a análise, foi escolhida a impressão 3D que recebeu nota 3 considerando os pesos e os critérios de cada peso, diante, principalmente, da dificuldade de se encontrar material teórico acerca do assunto e da sua relativa recência em termos de aplicação industrial, quando comparado com os demais componentes do projeto.
-
+</p>
+<p style="text-align: justify;">
 A partir de tal definição foram realizados ensaios estruturais e simulações par a validação do componente crítico definido anteriormente. 
 </p>
 
@@ -128,7 +135,9 @@ Fonte: Autores.
 
 <p style="text-align: justify;">
 Como resultado, tem-se que apesar de não ter ocorrido o colapso estrutural do material, foram observadas deformações consideráveis na estrutura a partir de 35Kg, carga que foi considerada máxima para o retorno da estrutura a suas condições iniciais. 
+</p>
 
+<p style="text-align: justify;">
 Após a definição de um fator de segurança de 2, foi definida assim uma carga total por componente impresso de 16Kg, obtido pela fórmula:
 </p>
 
@@ -193,7 +202,9 @@ Fonte: Autores.
 
 <p style="text-align: justify;">
 Como pode ser observado nas imagens das simulações de tensão normal e de cisalhamento e nos pontos de interesse representados pelas setas azuis, as regiões analisadas representam possíveis regiões de fratura para a peça em questão. Apesar de as simulações não representarem a situação obtida no ensaio estrutural , visto que a peça utilizada tem características difíceis de se simular, como preenchimento não maciço e camadas de filamento sobrepostas, as análises computacionais servem de boa base para identificação de possíveis pontos críticos da estrutura e, posteriormente, realizar comparações entre os materiais pretendidos para cada componente.
+</p>
 
+<p style="text-align: justify;">
 Por fim, realizando a comparação entre o material simulado e o ensaio estrutural podemos verificar que as condições estabelecidas pelo Ansys para pontos críticos da estrutura foram validadas, já que, como observado na figura abaixo, os pontos críticos representados pelo Ansys condizem com os pontos de ruptura e deformação da peça durante ensaio estrutural.
 </p>
 
