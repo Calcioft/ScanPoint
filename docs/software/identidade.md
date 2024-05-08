@@ -43,6 +43,7 @@
 
 
 <font size="2"><p style="text-align: center">Tabela 2 : Descrição dos elementos</p></font>
+
 | Elemento | Descrição |
 | --- | --- |
 | ![Elemento 1](../assets/identidade/elemento1.png) | Descrição do Elemento 1 |
