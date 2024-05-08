@@ -4,6 +4,7 @@ site_dir: public
 theme:
   name: material
   favicon: assets/scanpoint-logo.png
+  logo: assets/logo-fundo.png
   features:
     - content.code.annotate
     - content.tabs.link
