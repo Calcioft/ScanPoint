@@ -47,9 +47,10 @@ nav:
       - Subsistema de energia: eletronica-energia/Projeto_Subsistema_Energia.md
       - Requisitos: eletronica-energia/requisitos-eletronica-energia.md
   - Estruturas:
-      - Arquitetura: estruturas/arquitetura_subs_estruturas.md
-      - Desenhos mecanicos: estruturas/DTs.md
       - EAP: estruturas/EAP_estruturas.md
-      - Subsistema de Estruturas: estruturas/Projeto_subsistema_estruturas.md
       - Requisitos: estruturas/Requisitos_estruturas.md
+      - Arquitetura: estruturas/arquitetura_subs_estruturas.md
+      - Subsistema: estruturas/Projeto_subsistema_estruturas.md
+      - Desenhos mecanicos: estruturas/DTs.md
+      
 
