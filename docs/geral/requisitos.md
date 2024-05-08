@@ -2,7 +2,7 @@
 
 <p style="text-align:justify;"> Os requisitos são peças-chave em qualquer empreendimento, independentemente do campo de atuação, seja ele na área de estruturas, software ou eletroeletrônica. São responsáveis por representar as necessidades, expectativas e limitações a serem consideradas para atingir os objetivos estabelecidos nos projetos. </p>
 
-<p style="text-align:justify;"> Uma distinção comum dentro do escopo dos requisitos é entre **requisitos funcionais** e **requisitos não funcionais**. Os requisitos funcionais descrevem as funcionalidades específicas que o sistema, produto ou serviço deve oferecer. Eles definem as ações que o sistema deve executar, os serviços que ele deve prestar e como ele deve responder às entradas dos usuários. </p>
+<p style="text-align:justify;"> Uma distinção comum dentro do escopo dos requisitos é entre requisitos funcionais e requisitos não funcionais. Os requisitos funcionais descrevem as funcionalidades específicas que o sistema, produto ou serviço deve oferecer. Eles definem as ações que o sistema deve executar, os serviços que ele deve prestar e como ele deve responder às entradas dos usuários. </p>
 
 <p style="text-align:justify;"> Já os requisitos não funcionais dizem respeito às características e qualidades do sistema que não estão diretamente relacionadas às funcionalidades específicas, mas que têm um impacto significativo em sua qualidade global. Isso inclui aspectos como desempenho, segurança, usabilidade, confiabilidade e escalabilidade. </p>
 
