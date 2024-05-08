@@ -28,7 +28,7 @@ Na tabela abaixo, estão listados os critérios definidos as pontuações para c
 ### Lista e definição de materiais
 
 <p style="text-align: justify;">
-Após a análise dos [requisitos funcionais e não funcionais](/docs/estruturas/Requisitos_estruturas.md), foi realizado um levantamento dos materiais disponíveis no laboratório, resultando na seguinte relação que pode ser visualizada na tabela 2.
+Após a análise dos requisitos funcionais e não funcionais, foi realizado um levantamento dos materiais disponíveis no laboratório, resultando na seguinte relação que pode ser visualizada na tabela 2.
 </p>
 
 | Material                                       | Qtd. Disponível |
