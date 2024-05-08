@@ -62,8 +62,8 @@ Fonte: Autores.
 
 O prato giratório servirá para auxiliar na movimentação da peça em questão que estará sendo escaneada. Ele foi projetado de acordo com os requisitos de tamanho da peça e peso máximo, além de possuir suporte para fixação do motor e apoio com roldanas para aumento de estabilidade durante a sua movimentação.
 
-<center><img src="docs/estruturas/imagens/Arquitetura_Estruturas_prato.jpg"></center>
-<!--![Prato](imagens/Arquitetura_Estruturas_prato.jpg)-->
+<!--<center><img src="docs/estruturas/imagens/Arquitetura_Estruturas_prato.jpg"></center>-->
+![Prato](imagens/Arquitetura_Estruturas_prato.jpg)
 
 <p style="text-align:center;">
 Figura 6 - Prato utilizado para a rotação do objeto a ser escaneado <br />
