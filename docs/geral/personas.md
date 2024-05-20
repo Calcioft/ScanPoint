@@ -1,4 +1,6 @@
-# Introdução à Definição de Personas
+# Personas
+
+## Introdução à Definição de Personas
 
 <p style="text-align: justify;">
 A definição de personas é uma técnica utilizada no design centrado no usuário para criar representações fictícias e detalhadas de usuários típicos de um produto ou serviço. Essas representações ajudam a entender as necessidades, comportamentos, objetivos e desafios dos usuários, permitindo que os desenvolvedores e designers criem soluções mais eficazes e personalizadas. As personas são baseadas em dados reais obtidos por meio de pesquisa de mercado, entrevistas, observações e outras fontes de informação, garantindo que reflitam os perfis dos usuários de maneira precisa e realista.
