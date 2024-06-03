@@ -128,7 +128,8 @@ Como observado na Tabela 1, o Arduino Uno necessita uma alimentação de 5 V. As
 ## 5. Barramento
 
 <p style="text-align:justify;">
-Com a finalidade de ramificar as ligações e assim alimentar os dispositivos do projeto, será utilizado dois barramentos de 80 mm. Um barramento será utilizado para as ligações com a fiação positiva, identificada com cabos de coloração avermelhada, dos dispositivos e baterias e o outro para a fiação negativa, identificada com cabos da cor preta, dos mesmos. 
+Com a finalidade de ramificar as ligações e assim alimentar os dispositivos do projeto, serão utilizados dois barramentos de 80 mm. Um barramento será utilizado para as ligações com a fiação positiva, identificada com cabos de coloração avermelhada, e o outro para a fiação negativa, identificado com cabos da cor preta.
+</p>
 
 ![barramento](.../assets/eletronica-energia/BARRAMENTO.png)
 
@@ -143,6 +144,24 @@ A Figura 6 apresenta o diagrama unifilar do projeto, com as características de 
 ![Dia_Unifilar](.../assets/eletronica-energia/Update_Diagrama_unifilar_02_JUN_.jpg)
 
 <font size="2"><p style="text-align: center">Figura 8 - Diagrama unifilar.</p></font>
+
+## 7. Montagem
+
+<p style="text-align:justify;">
+Antes de iniciar o processo de montagem do subsistema de energia foi desenvolvido pela equipe um diagrama de montagem que, por sua vez, foi revisado e aprovado pelo docente responsável. Também foram revisitadas as normas técnicas relacionadas à solução.
+
+Após aprovação do diagrama e levantamento dos componentes, foi realizada a compra desses materiais e, posteriormente, iniciou-se a montagem do sistema no Laboratório de Eletricidade com auxílio do técnico responsável.
+
+O sistema foi montado por partes. Inicialmente as baterias foram testadas para garantir o fornecimento de 12 V. Em seguida foi realizado o teste do funcionamento do Módulo Abaixador de Tensão sendo alimentado por essas baterias, depois foram adicionados os barramentos e demais cabeamentos de acordo com a disposição do diagrama unifilar.
+
+Com auxílio de um multímetro, foi aferida a tensão em todas as conexões entre os componentes, garantindo assim um bom funcionamento do subsistema e qualidade de fornecimento de energia para os demais subsistemas.
+
+A Figura 9 mostra o resultado da montagem do subsistema de energia equipado com os conectores necessários para posterior integração com o subsistema de eletrônica.
+
+A integração com o subsistema de estruturas será realizada tendo como base o próprio projeto de estruturas. As baterias serão apoiadas em uma base de material não condutor e os barramentos serão fixados nessa mesma base para evitar curto-circuito causado pelo contato desses componentes. 
+</p>
+
+<font size="2"><p style="text-align: center">Figura 9 - Montagem do Subsistema de Energia.</p></font>
 
 ## Referências Bibliográficas
 
@@ -162,3 +181,4 @@ A Figura 6 apresenta o diagrama unifilar do projeto, com as características de 
 | 1.4 | 03/05/2024 | Revisão da Diretoria Técnica | Carolina |
 | 1.5 | 04/05/2024 | Ajustes de alinhamento e fontes | Ana Carolina |
 | 1.6 | 02/06/2024 | Modificação de imagens e inserção de tópicos (LM317 e barramento) | Lucas Pantoja |
+| 1.7 | 03/06/2024 | Revisão dos novos tópicos e inserção do tópico "Montagem" | Carolina |
