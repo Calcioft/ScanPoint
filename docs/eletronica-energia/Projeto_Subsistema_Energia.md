@@ -114,15 +114,30 @@ Assim, tem-se uma corrente corrigida de 2,77 A. A Figura 5 foi analisada para de
 Baseado na corrente corrigida de 2,77 A uma seção nominal de 0,5 mm^2 serviria, entretanto, a própria norma determina que para circuitos de força a seção nominal mínima deva ser de 2,5 mm^2. Assim sendo, a seção nominal selecionada será a de 2,5 mm^2.
 </p>
 
-## 4. Diagrama Unifilar
+
+## 4. Módulo Abaixador Tensão DC-DC (LM317)
+
+<p style="text-align:justify;">
+Como observado na Tabela 1, o Arduino Uno necessita uma alimentação de 5 V. Assim, há a necessidade do uso do módulo abaixador de tensão DC-DC a fim de que a tensão de 12 V das baterias seja reduzida para 5 V e assim alimente de forma segura o Arduino.
+</p>
+
+![LM317](docs/assets/eletronica-energia/Módulo_Abaixador_Tensão_DC-DC__LM317_.jpg)
+
+<font size="2"><p style="text-align: center">Figura 6 - Módulo abaixador de tensão DC-DC.</p></font>
+
+## 5. Barramento
+
+
+
+## 6. Diagrama Unifilar
 
 <p style="text-align:justify;">
 A Figura 6 apresenta o diagrama unifilar do projeto, com as características de fluxo de energia, no qual cada componente está identificado com suas respectivas características elétricas, como também as características da bitola do cabo.
 </p>
 
-![Dia_Unifilar](../assets/eletronica-energia/Diagrama_unifilar_page-0001.jpg)
+![Dia_Unifilar](docs/assets/eletronica-energia/Update_Diagrama_unifilar_02_JUN_.jpg)
 
-<font size="2"><p style="text-align: center">Figura 6 - Diagrama unifilar.</p></font>
+<font size="2"><p style="text-align: center">Figura 8 - Diagrama unifilar.</p></font>
 
 ## Referências Bibliográficas
 
@@ -141,3 +156,4 @@ A Figura 6 apresenta o diagrama unifilar do projeto, com as características de 
 | 1.3 | 03/05/2024 | Modificação de texto para padronização | Lucas Pantoja |
 | 1.4 | 03/05/2024 | Revisão da Diretoria Técnica | Carolina |
 | 1.5 | 04/05/2024 | Ajustes de alinhamento e fontes | Ana Carolina |
+| 1.6 | 02/06/2024 | Modificação de imagens e inserção de tópicos (LM317 e barramento) | Lucas Pantoja |
