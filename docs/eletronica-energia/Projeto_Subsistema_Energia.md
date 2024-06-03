@@ -127,7 +127,12 @@ Como observado na Tabela 1, o Arduino Uno necessita uma alimentação de 5 V. As
 
 ## 5. Barramento
 
+<p style="text-align:justify;">
+Com a finalidade de ramificar as ligações e assim alimentar os dispositivos do projeto, será utilizado dois barramentos de 80 mm. Um barramento será utilizado para as ligações com a fiação positiva, identificada com cabos de coloração avermelhada, dos dispositivos e baterias e o outro para a fiação negativa, identificada com cabos da cor preta, dos mesmos. 
 
+![LM317](.../assets/eletronica-energia/BARRAMENTO.png)
+
+<font size="2"><p style="text-align: center">Figura 7 - Barramento 80 mm.</p></font>
 
 ## 6. Diagrama Unifilar
 
@@ -135,7 +140,7 @@ Como observado na Tabela 1, o Arduino Uno necessita uma alimentação de 5 V. As
 A Figura 6 apresenta o diagrama unifilar do projeto, com as características de fluxo de energia, no qual cada componente está identificado com suas respectivas características elétricas, como também as características da bitola do cabo.
 </p>
 
-![Dia_Unifilar](docs/assets/eletronica-energia/Update_Diagrama_unifilar_02_JUN_.jpg)
+![Dia_Unifilar](.../assets/eletronica-energia/Update_Diagrama_unifilar_02_JUN_.jpg)
 
 <font size="2"><p style="text-align: center">Figura 8 - Diagrama unifilar.</p></font>
 
