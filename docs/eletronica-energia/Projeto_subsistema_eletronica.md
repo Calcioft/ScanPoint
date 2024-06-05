@@ -357,16 +357,16 @@ O VL53L0X é um sensor de distância infravermelho de alta precisão, produzido 
 <p style="text-align:justify;">
 O módulo VL53L0X, também conhecido como GY-VL53L0XV2, CJVL53L0XV2 ou VL53L0XV2, é compatível com várias placas Arduino. É compacto, preciso, possui regulador de tensão integrado, permitindo alimentação de 3V ou 5V, e vem em várias cores, todas com as mesmas funcionalidades. A comunicação é realizada via interface I2C  <a href="#ref-4"> [10]</a>. </p>
 
-### 4.5 Pinagem
+### 4.6 Pinagem
 <p style="text-align:justify;">
-Além de pinos de alimentação (VIN e GND), o módulo VL53L0X possui dois pinos dedicados a comunicação I2C (SCL e SDA), um pino de reset (XSHUT) e um pino de saída de dados (GPIO1) que pode ser utilizado para programar interrupções no microcontrolador ao qual o sensor está ligado  <a href="#ref-4"> [10]</a>.
+Além de pinos de alimentação (VIN e GND), o módulo VL53L0X possui dois pinos dedicados a comunicação I2C (SCL e SDA), um pino de reset (XSHUT) e um pino de saída de dados (GPIO1) que pode ser utilizado para programar interrupções no microcontrolador ao qual o sensor está ligado  <a href="#ref-4"> [11]</a>.
  </p>
 
 
 ![alt text](../assets/eletronica-energia/image-d.png)
 
 <font size="2"><p style="text-align: center">Figura 17: Módulo VL53L0X.
-Fonte <a href="#ref-5"> [10]</a>.</p></font>
+Fonte <a href="#ref-5"> [11]</a>.</p></font>
 
 
 
@@ -374,7 +374,7 @@ Fonte <a href="#ref-5"> [10]</a>.</p></font>
 ![alt text](../assets/eletronica-energia/image-e.png)
 
 <font size="2"><p style="text-align: center">Figura 18: descrição dos pinos do VL53L0X .
-Fonte <a href="#ref-5"> [10]</a>.</p></font>
+Fonte <a href="#ref-5"> [11]</a>.</p></font>
 
 
 
@@ -413,10 +413,7 @@ Assim conhecendo todos os componentes, foi montada uma simulação utilizando pr
 A Figura 21 apresenta a simulação realizada no proteus para verificar o funcionamento do motor e um preteste do funcionamento dos motores, seguidamente foi feita a simulação utilizando o Fritzing com o objetivo de criar os diagramas esquemáticos.
 </p>
 
- ![alt text](../assets/eletronica-energia/image-p.png)
-
-<font size="2"><p style="text-align: center">Figura 22: Simulação Arduino do sistema de motores.</p></font>
-
+ 
 <p style="text-align:justify;">
 Já nas Figuras 23 e 24 se apresentam os diagramas de eletrônica de blocos e de barramento respectivamente.
 </p>
@@ -431,7 +428,7 @@ Já nas Figuras 23 e 24 se apresentam os diagramas de eletrônica de blocos e de
 <font size="2"><p style="text-align: center">Figura 24: Diagrama de barramentos completo do circuito com motores de passo.</p></font>
 
 
-## 5. Descrição Matemática do Motor
+## 6. Descrição Matemática do Motor
 <p style="text-align:justify;">
 Um motor pode ser modelado utilizando um Resistor, um indutor e uma força contra eletromotriz que relaciona o fluxo magnético gerado pelo motor em função do fluxo magnético e do número de espiras que ele tem, sendo assim esta força é modelada pela relação de Faraday como se mostra na equação 1:
 </p>
@@ -530,12 +527,12 @@ Aplicando a transformada de Laplace para a EDO com condições iniciais nulas, e
 
 ![alt text](../assets/eletronica-energia/image-38.png)
 
-### 6. Cálculo dos Parâmetros do Motor
+## 7. Cálculo dos Parâmetros do Motor
 <p style="text-align:justify;">
 Para calcular os parâmetros do motor, é necessário conhecer as características dele publicadas pelo fabricante, considerando que os motores de passo tem o código NEMA 17 4.2Kgf 1.7A (Stepper Motor 17HS4401).
 </p>
 
-### 7. Especificações do Motor de Passo
+### 7.1 Especificações do Motor de Passo
 
 - Ângulo do passo: 1.8°
 - Tensão de Retenção: 3V
@@ -608,7 +605,7 @@ Até o momento no desenvolvimento da pesquisa, no circuito simulado e testado n�
 
 
 
-##  Testes Realizados de Eletrônica
+## 9.0 Testes Realizados de Eletrônica
 
 <p style="text-align:justify;">Analisando o diagrama esquemático e as simulações realizadas, foi iniciado o processo de testes reais, inicialmente, foi montado o controle só para um motor de passo, e realizado os testes de velocidade de giro programados, a figura 30 apresenta este teste realizado, e no link:https://drive.google.com/file/d/17S0KqP9jFBvWxs0SBKxmJ0b5pLKGv4TY/view?usp=drive_link, pode se acessar ao vídeo do teste.</p>
 
@@ -665,9 +662,6 @@ Fonte <a href="#ref-5"> [Própria]</a>.</p></font>
 
  
 
-
-Figura ZZ: Saída de dados no porto serial.
-
 <p style="text-align:justify;">A figura 34, mostra o circuito montado, esta imagem foi pega da gravação realizada do funcionamento dos motores e sensor, foi testada a mesmas velocidades dos motores e distância que media o sensor, os dados apareceram no porto serial conforme mostra a figura 35, onde se observa a distância registrada e a velocidade de cada motor.</p>
 
 
@@ -695,7 +689,7 @@ Fonte <a href="#ref-5"> [Própria]</a>.</p></font>
  
 
 
-## Testes futuros
+## 10. Testes futuros
 
 -Medir a corrente do sistema final, e a corrente proveniente da bateria para dimensionar os condutores (Motor) pois eles podem ter picos de até 2A;
 
