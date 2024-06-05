@@ -259,26 +259,8 @@ A placa Arduino Uno possui um fusível que protege a porta USB do PC de sobreten
 As características físicas de uma placa Arduino incluem principalmente comprimento e largura. O comprimento e a largura da placa de circuito impresso do Arduino Uno são 2,7 X 2,1 polegadas, mas o conector de alimentação e o conector USB se estenderão além dessa medida. A placa pode ser fixada na superfície, caso contrário, com os orifícios dos parafusos <a href="#ref-3"> [3]</a>.
 </p>
 
-## 3. Ponte H, Driver L298N
-<p style="text-align:justify;">
-Este componente facilita o projeto do controle PWM, pois nele encontra-se toda a configuração de portas lógicas, transistores e capacitores para realizar a modulação, ele tem as seguintes especificações segundo o fabricante.
-</p>
 
-### 3.1. Especificações
-
-- Tensão de Operação: 4.5 V a 46 V
-- Controle de 2 motores DC ou 1 motor de passo
-- Corrente de Operação máxima: 2 A por canal ou 4 A total
-- Tensão lógica: 4.5 V a 7 V
-- Corrente lógica: 0 a 36 mA
-- Limites de Temperatura: -20°C a +135°C
-- Potência Máxima: 25 W
-- Dimensões: 43 x 43 x 27 mm
-
-<p style="text-align:justify;">
-As pontes H  utilizam quatro transistores que, ao receber um sinal vindo do microcontrolador, permitem a passagem de corrente para os terminais do motor, fazendo com que ele rotacione no sentido desejado, esta ponde encontra-se no driver L298N utiliza duas pontes H para controlar separadamente dois motores. Porém, além de controlar o sentido de rotação do motor, o driver também é capaz de controlar a velocidade do motor. Utiliza-se um sinal PWM para regular o nível de rotação do eixo. 
-</p>
-
+## Modulação PWM
 <p style="text-align:justify;">
 A modulação por largura de pulso (PWM) é uma técnica fundamental que envolve a variação da largura dos pulsos em um sinal elétrico para transmitir informações. Em vez de manter um sinal em níveis constantes, o PWM altera a largura dos pulsos, controlando o tempo em que a chave fica ligada e desligada. Isso permite administrar a quantidade média de energia que chega à carga e, consequentemente, a potência elétrica <a href="#ref-4"> [4]</a>.
 </p>
@@ -309,19 +291,69 @@ Uma das principais vantagens do PWM é a manutenção do sinal digital em todo o
 Fonte <a href="#ref-5"> [5]</a>.</p></font>
 
 
-### 3.2. Funcionamento do Driver L298N
-<p style="text-align:justify;">
-O módulo L298N utiliza as portas In1, In2 e EnA para controlar o motor "A" (lado esquerdo do diagrama de blocos da imagem da figura 11). Os pinos In1 e In2 são responsáveis pelo direcionamento do sentido do motor, e o pino EnA é responsável pela regulação de velocidade do motor "A", portanto o pino de saída da BlackBoard para o pino EnA do módulo deverá permitir um sinal PWM. 
-</p>
+### Driver Motor de Passo A4988
+O Driver A4988 é um componente eletrônico utilizado para controlar motores de passo bipolares, com capacidade de pequenos passos (microstepping) para maior suavidade e precisão na movimentação dos motores.  A tensão de operação lógica do driver é de 3-5,5V, que são conectados nos pinos VDD e GND. Pode controlar motores de até 35V e 2A por bobina (picos de 4A), além disso, é capaz de controlar o motor com até 1/16 passos[R]
 
-<p style="text-align:justify;">
-Da mesma maneira que o motor "A", o motor "B" possui dois pinos de direcionamento de sentido, porém ao invés de serem os pinos In1 e In2, são os pinos In3 e In4. O pino que determina a velocidade do motor "B" é o EnB, que também deve permitir um sinal PWM vindo da BlackBoard. É possível observar o diagrama de blocos do funcionamento do chip L298N Figura 15.
-</p>
+### Calibração:
+Para calibrar o driver de motor faz-se o ajuste do trimpot integrado à placa. Para realizar a calibração deve-se utilizar a seguinte fórmula para cálculo da tensão de referência:
 
- ![alt text](../assets/eletronica-energia/image-a.png)
+Vref = Imotor x 8 x Rsense
 
-<font size="2"><p style="text-align: center">Figura 15: Diagrama de blocos do L298M
-Fonte <a href="#ref-7"> [7]</a>.</p></font>
+Onde Vref é a tensão de referência que devemos chegar no ajuste do driver, 8 é uma constante arbitrária específica para o A4988, e Rsense é o resistor de detecção de corrente presente no driver e Imotor é a corrente de trabalho no motor.  A corrente máxima de um motor está indicada no seu datasheet, e em geral recomenda-se utilizar até 70% desse valor[R].
+
+###Ajuste do A4988
+Com o valor da tensão de referência determinado, precisamos fazer o ajuste do potenciômetro. Não é preciso que o driver esteja conectado na placa da aplicação final, basta ligar os pinos RST e SLP do driver e alimentar parte lógica através dos pinos Vdd e GND do módulo. Com essas ligações, é medido com um multímetro a tensão entre o GND e a parte metálica do trimpot, onde é feito o ajuste. Girar o potenciômetro no sentido horário aumenta a tensão e no sentido anti-horário diminui. O ajuste deve ser feito até a leitura do multímetro coincidir com a tensão calculada [R].
+
+Uso do driver A4988
+Para usar o driver é simples, conecte a alimentação do motor aos pinos Vmot e GND e a alimentação da parte lógica aos pintos Vdd e GND. O pino DIR controla a direção em que o motor deve girar e o pino STEP faz o motor dar um passo a cada pulso que recebe [R]. 
+
+### Especificações técnicas do Driver Motor de Passo A4988
+– Chip: A4988 (datasheet)
+– Controle de passos e direção.
+– Tensão lógica: 3-5,5V
+– Tensão saída motores: 8-35V
+– 5 Resoluções: full-step, half-step, 1/4-step, 1/8-step e 1/16-step.
+– Regulador de tensão embutido.
+– Proteção conta sobrecarga de corrente e curto-circuito.
+ 
+Figura 11: Diagrama esquemático do drive A4988
+ 
+Figura 12: Drive do motor de passo [5]
+Tabela: Conexões do driver A4988 [6]
+A4988	Conexão
+VMOT	8-35V
+GND	Aterramento do motor
+SLP	REPOR
+RST	SLP
+VDD	5V
+GND	Terreno lógico
+STP	Pino 3
+DIR	Pino 2
+1A, 1B, 2A, 2B	Motor stepper
+
+##REFERENCIA AQUI
+
+[R] Marker Hero, Driver Motor de Passo A4988
+https://www.makerhero.com/produto/driver-motor-de-passo-a4988/, acesso 24/05/2024 hora: 07:30
+ 
+ 
+ 
+ 
+ 
+### Sensores de Distância Laser VL53L0X
+O VL53L0X é um sensor de distância infravermelho de alta precisão, produzido pela STMicroelectronics, conhecido como o menor sensor do mercado. Utiliza um VCSEL (Laser Emissor de Superfície de Cavidade Vertical) com filtros para evitar interferências de luz externa, aumentando seu alcance. Funciona como um sensor Time of Flight (ToF), emitindo uma luz invisível que reflete em obstáculos, e calcula a distância com base no tempo de retorno dessa luz, alcançando até 2 metros [R1].
+
+O módulo VL53L0X, também conhecido como GY-VL53L0XV2, CJVL53L0XV2 ou VL53L0XV2, é compatível com várias placas Arduino. É compacto, preciso, possui regulador de tensão integrado, permitindo alimentação de 3V ou 5V, e vem em várias cores, todas com as mesmas funcionalidades. A comunicação é realizada via interface I2C [R1].
+Pinagem
+Além de pinos de alimentação (VIN e GND), o módulo VL53L0X possui dois pinos dedicados a comunicação I2C (SCL e SDA), um pino de reset (XSHUT) e um pino de saída de dados (GPIO1) que pode ser utilizado para programar interrupções no microcontrolador ao qual o sensor está ligado [R1].
+ 
+imagem 1 — Módulo VL53L0X [R1].
+ 
+Imagem 2 — Descrição dos pinos do VL53L0X [R1].
+•	
+
+
+
 
 ## 4. Módulo Regulador C/LM2596
 <p style="text-align:justify;">
@@ -549,6 +581,118 @@ Fazendo a representação da equação de transferência proposta na equação 1
 <p style="text-align:justify;">
 Até o momento no desenvolvimento da pesquisa, no circuito simulado e testado não temos protocolos de comunicação, pois, os dados são uniderecionados e o controle está relacionado com tensão. Foi identificado que estes protocolos de comunicação estão mais relacionados com a etapa de software que trabalhará com a coleta de dados e o processamento dos mesmos.
 </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##  Testes Realizados de Eletrônica
+
+<p style="text-align:justify;">Analisando o diagrama esquemático e as simulações realizadas, foi iniciado o processo de testes reais, inicialmente, foi montado o controle só para um motor de passo, e realizado os testes de velocidade de giro programados, a figura XX apresenta este teste realizado</p>
+
+
+
+ 
+Figura xx; Funcionamento de um motor de passo.
+
+<p style="text-align:justify;">A figura apresenta o motor de passo com o controle proposto, foram feitos vários testes, programando diferentes velocidades de giro e monitoradas com o cronômetro de um celular, foi verificado que os resultados obtidos eram iguais aos simulados.</p>
+ 
+
+<p style="text-align:justify;">Assim, após ter testado o controle, foi modificado o código para poder controlar dois motores de passo com o mesmo código, porém com velocidades diferentes, pois, um motor vai controlar a mesa giratória e o outro a subida e descida da câmera e estes possivelmente tem velocidades diferentes, assim, usando um driver A4988 para cada motor foi testado  o controle projetado. O modelo real é mostrado na imagem X, retirada da gravação do funcionamento dos motores.</p>
+
+ 
+
+Figura X: Modelo real dos motores
+
+<p style="text-align:justify;">Na figura X, observa-se os dois motores funcionando de acordo com o controle. Foi programado para que um motor faça uma volta em um minuto e o segundo duas voltas em dois minutos. A velocidade dos motores é baixa, mas ainda não foi ajustada, pois isso dependerá da precisão na coleta de dados para realizar o escâner. Um motor controlará a mesa de giro e o outro a subida e descida da câmera, que fará a coleta dos dados.</p>
+
+
+<p style="text-align:justify;">Seguidamente, foi realizado um teste de funcionamento do sensor de distância VL53L0X, o qual foi conectado nos pinos A4 e A5 da placa Arduino, conforme se mostra no circuito da figura XX.</p>
+
+  
+Figura xx. Adição do sensor de distância VL53L0X ao projeto.
+
+<p style="text-align:justify;">Este sensor foi adicionado ao projeto, pois foi necessário realizar uma integração entre a parte de eletrônica, energia e Software, o sensor foi testado  para medir a distância do objeto que será colocado na mesa giratório, o teste é apresentado  na figura Y, onde se mostra a calibragem do sensor.</p>
+
+
+ 
+Figura Y: Calibragem do sensor VL53L0X
+
+<p style="text-align:justify;">O programa de calibragem foi obtido dos exemplos fornecidos na biblioteca do Arduino para o sensor. O teste foi realizado da seguinte forma, foi colocada uma régua, como mostra a figura e programado o sensor, e seguidamente foi colocado um objeto na frente do sensor seguindo a numeração da régua, onde o sensor mostrava no porto serial a distância do objeto, é importante mencionar que este sensor mede até 2m, após esta distância ele mostra uma mensagem no porto serial de fora de rango de medida.</p>
+
+
+<p style="text-align:justify;">Após finalizar esse teste de distância, os dois códigos (Motor e sensor de distância) foram combinados com o objetivo de mostrar no porto serial a velocidade dos motores e a distância captada pelo sensor. O objetivo é que o sensor detecte a distância do objeto na mesa e salve essas informações para posteriormente criar uma imagem a partir das distâncias coletadas, que serão processadas pela equipe de software.</p>
+
+
+
+ 
+
+Figura Z: Sistema completo de teste
+ 
+Figura ZZ: Saída de dados no porto serial.
+
+<p style="text-align:justify;">A figura Z, mostra o circuito montado, esta imagem foi pega da gravação realizada do funcionamento dos motores e sensor, foi testada a mesmas velocidades dos motores e distância que media o sensor, os dados apareceram no porto serial conforme mostra a figura ZZ, onde se observa a distância registrada e a velocidade de cada motor.</p>
+
+
+<p style="text-align:justify;">Finaliza-se atualizando os digramas circuitais, com a versão que adiciona o sensor VL53L0X pois este não tinha sido considerado inicialmente no projeto, e surgiu em função da necessidade de integrar a parte de eletrônica com a parte de software.</p>
+
+
+
+ 
+Diagrama esquemático com os motores e sensor de distância
+
+ 
+Diagrama de barramentos com os motores e sensor de distância
+
+## Testes futuros
+
+-Medir a corrente do sistema final, e a corrente proveniente da bateria para dimensionar os condutores (Motor) pois eles podem ter picos de até 2A;
+
+-Repetido os testes com a mesa montada, com o objetivo de testar o torque máximo com o peso máximo que a mesa poderá girar.
+
+-Ajuste das tensões dos sensores, pois o Arduino precisa de 5V, o A4988 de 5V os motores de 12V e o sensor de distância VL53L0X funcionou adequadamente com 3.3V, para este caso sugiro usar as baterias de 12V e uma fonte que fornece 5 e 3,3V e garante uma corrente baixa para evitar danificar os sensores.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Referências Bibliográficas
 
