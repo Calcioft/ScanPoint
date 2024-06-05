@@ -721,6 +721,12 @@ Diagrama de barramentos com os motores e sensor de distância
 <div id="ref-8" />
 [8] Casa da Robótica, egulador de Tensão Step Down - Buck Conversor DC DC LM2596 3A, https://www.casadarobotica.com/fonte-e-conversores/conversores-dc-dc/step-down/regulador-de-tensao-step-down-buck-conversor-dc-dc-lm2596-3a, acesso 26/04/2024, hora: 20:25.
 
+[R]Maker Hero, Driver Motor de Passo A4988, https://www.makerhero.com/produto/driver-motor-de-passo-a4988/, acesso 03/06/2024, hora 18:00
+
+[R1] Usando Múltiplos Sensores de Distância Laser VL53L0X, https://blog.smartkits.com.br/usando-multiplos-sensores-de-distancia-laser-vl53l0x/, acesso 01/06/2024 hora: 2:20
+[R2] ROJETO COM SENSOR DE DISTÂNCIA VL53L0X E ARDUINO PARA ALTA PRECISÃO, https://www.usinainfo.com.br/blog/projeto-com-sensor-de-distancia-vl53l0x-e-arduino-para-alta-precisao/, acesso 01/06/2024 hora: 2:20
+
+
 ## Tabela de versionamento
 
 | Versão| Data | Descrição | Responsável|
@@ -730,3 +736,4 @@ Diagrama de barramentos com os motores e sensor de distância
 | 1.3 | 03/05/2024 | Revisão da Diretoria Técnica para padronização | Carolina |
 | 1.4 | 04/05/2024 | Ajustes de fontes e alinhamentos | Ana Carolina |
 | 1.5 | 04/05/2024 | Atualização da formatação | Carolina |
+| 2.0 | 05/06/2024 | Atualização das imagens | Miguel |
