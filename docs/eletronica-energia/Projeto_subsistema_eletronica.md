@@ -93,7 +93,7 @@ No motor do tipo bipolar, cada bobina é composta por dois fios apenas, sem deri
 <font size="2"><p style="text-align: center">Figura 7: Driver bipolar <a href="#ref-1"> [1]</a>.</p></font>
 
 <p style="text-align:justify;">
-Como não há a derivação central, para controle de direção é necessário utilizar uma ponte H, exigindo um circuito de acionamento mais complexo. Para os motores desse tipo, temos que a corrente flui de A- para A+ quando os Mofets 2 e 3 estão ativos, e flui de A+ para A- quando 1 e 4 estão ativos. Apesar de possuir um acionamento mais complexo, os motores do tipo bipolar são mais comuns, pois permitem que o motor atinja maior torque <a href="#ref-1"> [1]</a>.
+Como não há a derivação central, para controle de direção é necessário utilizar uma ponte H, exigindo um circuito de acionamento mais complexo. Para os motores desse tipo, temos que a corrente flui de A- para A+ quando os Mofets 2 e 3 estão ativos, e flui de A+ para A- quando 1 e 4 estão ativos. Apesar de possuir um acionamento mais complexo, os motores do tipo bipolar são mais comuns, pois permitem que o motor atinja maior torque <a href="#ref-1"> [1].</a>, é importante mencionar para o desenvolvimento de este projeto foi escolhido trabalhar com motores bipolares, pois, além, deles existir no laboratório da UnB a manipulação de menos fios economiza conexões nas placas de controle que serão compartilhadas com sensores diferentes aos motores.
 </p>
 
 ![alt text](../assets/eletronica-energia/image-11.png)
@@ -402,21 +402,17 @@ Este módulo tem as seguintes carácterísticas:
 ![alt text](../assets/eletronica-energia/image-19.png)
 
 <p style="text-align:justify;">
-Assim conhecendo todos os componentes, foi montada uma simulação utilizando programa wokwi, a qual é motrada na Figura 21. Já na Figura 22, encontra-se a representação do circuito realizada utilizando o Fritzing que permite gerar o diagrama esquemático do circuito na Figura 20, e o diagrama de barramento na Figura 21.
-</p>
+Assim conhecendo todos os componentes, foi montada uma simulação utilizando programa wokwi, a qual é motrada na Figura 21, esta simulação foi importante para verificar o funcinamento da programação antes de realizar testes reais. Já na Figura 22, encontra-se a representação do circuito realizada utilizando o Fritzing que permite gerar o diagrama esquemáticos e de barramento os quais são apresentados nas figuras 23 e 24 respectivamente </p>
 
- ![alt text](../assets/eletronica-energia/image-21.png)
+![alt text](../assets/eletronica-energia/image-p.png)
 
 <font size="2"><p style="text-align: center">Figura 21: Simulação do wokwi do sistema de motores.</p></font>
 
-<p style="text-align:justify;">
-A Figura 21 apresenta a simulação realizada no proteus para verificar o funcionamento do motor e um preteste do funcionamento dos motores, seguidamente foi feita a simulação utilizando o Fritzing com o objetivo de criar os diagramas esquemáticos.
-</p>
 
- 
-<p style="text-align:justify;">
-Já nas Figuras 23 e 24 se apresentam os diagramas de eletrônica de blocos e de barramento respectivamente.
-</p>
+ ![alt text](../assets/eletronica-energia/image-21.png)
+
+<font size="2"><p style="text-align: center">Figura 22: Sistema realizado no Fritzing para gerar os diagramas.</p></font>
+
 
  ![alt text](../assets/eletronica-energia/image-22.png)
 
@@ -607,7 +603,7 @@ Até o momento no desenvolvimento da pesquisa, no circuito simulado e testado n�
 
 ## 9.0 Testes Realizados de Eletrônica
 
-<p style="text-align:justify;">Analisando o diagrama esquemático e as simulações realizadas, foi iniciado o processo de testes reais, inicialmente, foi montado o controle só para um motor de passo, e realizado os testes de velocidade de giro programados, a figura 30 apresenta este teste realizado, e no link:https://drive.google.com/file/d/17S0KqP9jFBvWxs0SBKxmJ0b5pLKGv4TY/view?usp=drive_link, pode se acessar ao vídeo do teste.</p>
+<p style="text-align:justify;">Analisando o diagrama esquemático da figura 23 foi foram realizadas algumas simulações, as quais permitiram iniciar o processo de testes reais. O primeiro teste realizado foi foi realizado com um motor de passo, sendo assim testado o controle, que consistia em dar uma velocidade de giro por minuto, e medir com um cronômetro que efetivamente, o giro estava acontecendo no tempo programado, para realizar este controle, foi considerado que o motor NEMA 17, da 200 passor para realizar um giro completo, isso equivale a 1,8 graus em cada passo, então em função desta carácterística foi feita a programação, a figura 30 apresenta este teste realizado, esta imagem corresponde a um print do vídio que mostra o teste, o qual também é encontrado no  link:https://drive.google.com/file/d/17S0KqP9jFBvWxs0SBKxmJ0b5pLKGv4TY/view?usp=drive_link.</p>
 
 
 ![alt text](../assets/eletronica-energia/image-f.png)
@@ -616,10 +612,10 @@ Até o momento no desenvolvimento da pesquisa, no circuito simulado e testado n�
 Fonte <a href="#ref-5"> [Própria]</a>.</p></font>
 
  
-<p style="text-align:justify;">A figura apresenta o motor de passo com o controle proposto, foram feitos vários testes, programando diferentes velocidades de giro e monitoradas com o cronômetro de um celular, foi verificado que os resultados obtidos eram iguais aos simulados.</p>
+<p style="text-align:justify;">A figura 30 apresenta o motor de passo com o controle proposto, foram feitos vários testes, programando diferentes velocidades de giro e monitoradas com o cronômetro de um celular, foi verificado que os resultados obtidos eram iguais aos simulados.</p>
  
 
-<p style="text-align:justify;">Assim, após ter testado o controle, foi modificado o código para poder controlar dois motores de passo com o mesmo código, porém com velocidades diferentes, pois, um motor vai controlar a mesa giratória e o outro a subida e descida da câmera e estes possivelmente tem velocidades diferentes, assim, usando um driver A4988 para cada motor foi testado  o controle projetado. O modelo real é mostrado na imagem X, retirada da gravação do funcionamento dos motores, este teste pode ser visto no link: https://drive.google.com/file/d/14f_WduWOIXEFRaSpRaQQ2b-iNbAaqliE/view?usp=drive_link </p>
+<p style="text-align:justify;">Assim, após ter testado o controle, foi modificado o código para poder controlar dois motores de passo com o mesmo código, porém com velocidades diferentes, pois, um motor vai controlar a mesa giratória e o outro a subida e descida da câmera e estes possivelmente tem velocidades diferentes, assim, usando um driver A4988 para cada motor foi testado  o controle projetado. O modelo real é mostrado na imagem 31, retirada da gravação do funcionamento dos motores, este teste pode ser visto no link: https://drive.google.com/file/d/14f_WduWOIXEFRaSpRaQQ2b-iNbAaqliE/view?usp=drive_link </p>
 
  ![alt text](../assets/eletronica-energia/image-j.png)
 
@@ -628,10 +624,10 @@ Fonte <a href="#ref-5"> [Própria]</a>.</p></font>
 
 
 
-<p style="text-align:justify;">Na figura 31, observa-se os dois motores funcionando de acordo com o controle. Foi programado para que um motor faça uma volta em um minuto e o segundo duas voltas em dois minutos. A velocidade dos motores é baixa, mas ainda não foi ajustada, pois isso dependerá da precisão na coleta de dados para realizar o escâner. Um motor controlará a mesa de giro e o outro a subida e descida da câmera, que fará a coleta dos dados.</p>
+<p style="text-align:justify;"> Na figura 31, observam-se os dois motores funcionando conforme o controle estabelecido. Um motor foi programado para completar uma volta em um minuto, enquanto o segundo realiza duas voltas em dois minutos. Apesar de a velocidade dos motores ser baixa, ela ainda não foi ajustada, pois depende da precisão na coleta de dados para realizar o escaneamento. Um motor controlará a rotação da mesa, enquanto o outro gerenciará a subida e descida da câmera responsável pela coleta de dados. A equipe de software ainda está estudando a definição da velocidade dos motores, mas essa alteração afetará apenas o código, sem necessidade de modificações na parte física do sistema.</p>
 
 
-<p style="text-align:justify;">Seguidamente, foi realizado um teste de funcionamento do sensor de distância VL53L0X, o qual foi conectado nos pinos A4 e A5 da placa Arduino, conforme se mostra no circuito da figura 32.</p>
+<p style="text-align:justify;">Seguidamente, foi realizado um teste de funcionamento do sensor de distância VL53L0X, o qual foi conectado nos pinos A4 e A5 da placa Arduino, a programação inicial foi realizada numa placa diferente, e testado unicamente o sensor de distância com o objetivo de evitar algum erro no sistema que já estava funcionando sem este sendor, a figura 32 apresenta à adição do sensor ao projeto. </p>
 
   
 ![alt text](../assets/eletronica-energia/image-g.png)
@@ -640,7 +636,8 @@ Fonte <a href="#ref-5"> [Própria]</a>.</p></font>
 Fonte <a href="#ref-5"> [Própria]</a>.</p></font>
 
 
-<p style="text-align:justify;">Este sensor foi adicionado ao projeto, pois foi necessário realizar uma integração entre a parte de eletrônica, energia e Software, o sensor foi testado  para medir a distância do objeto que será colocado na mesa giratório, o teste é apresentado  na figura 33, onde se mostra a calibragem do sensor, o teste pode ser assistido no link: https://drive.google.com/file/d/1DtzjjceVwn9kpxWSSLKbYMt8SEXWPkZC/view?usp=drive_link</p>
+<p style="text-align:justify;">A figura 33 foi tomada do vídio mostrado no link: https://drive.google.com/file/d/1DtzjjceVwn9kpxWSSLKbYMt8SEXWPkZC/view?usp=drive_link, que mostra o teste do sensor de distância e o resultado que ele apresenta no porto serial. O objetivo de uso deste sensor é para  realizar uma integração entre a parte de eletrônica, energia e Software, o sensor foi testado  para medir a distância do objeto que será colocado na mesa giratório, pois em função destes dados será realizado o escaneamento do objeto.</p>
+
 
 ![alt text](../assets/eletronica-energia/image-i.png)
 
@@ -671,7 +668,7 @@ Fonte <a href="#ref-5"> [Própria]</a>.</p></font>
 Fonte <a href="#ref-5"> [Própria]</a>.</p></font>
 
 
-<p style="text-align:justify;">Finaliza-se atualizando os digramas circuitais, com a versão que adiciona o sensor VL53L0X pois este não tinha sido considerado inicialmente no projeto, e surgiu em função da necessidade de integrar a parte de eletrônica com a parte de software.</p>
+<p style="text-align:justify;">Finaliza-se atualizando os digramas dos circuitos, com a versão que adiciona o sensor VL53L0X pois este não tinha sido considerado inicialmente no projeto, e surgiu em função da necessidade de integrar a parte de eletrônica com a parte de software.</p>
 
 
 ![alt text](../assets/eletronica-energia/image-l.png)
@@ -693,7 +690,7 @@ Fonte <a href="#ref-5"> [Própria]</a>.</p></font>
 
 -Medir a corrente do sistema final, e a corrente proveniente da bateria para dimensionar os condutores (Motor) pois eles podem ter picos de até 2A;
 
--Repetido os testes com a mesa montada, com o objetivo de testar o torque máximo com o peso máximo que a mesa poderá girar.
+-Repetido os testes com a mesa montada, com o objetivo de analisar o torque máximo com o peso máximo que a mesa poderá girar.
 
 -Ajuste das tensões dos sensores, pois o Arduino precisa de 5V, o A4988 de 5V os motores de 12V e o sensor de distância VL53L0X funcionou adequadamente com 3.3V, para este caso sugiro usar as baterias de 12V e uma fonte que fornece 5 e 3,3V e garante uma corrente baixa para evitar danificar os sensores.
 
@@ -780,3 +777,4 @@ Fonte <a href="#ref-5"> [Própria]</a>.</p></font>
 | 1.5 | 04/05/2024 | Atualização da formatação | Carolina |
 | 2.0 | 05/06/2024 | Atualização das imagens | Miguel |
 | 2.1 | 05/06/2024 | Ajuste do texto e numeração das imagens | Miguel |
+| 2.2 | 06/06/2024 | Finalização da Informação de Eletrônica | Miguel |
