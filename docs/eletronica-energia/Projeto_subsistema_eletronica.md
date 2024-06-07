@@ -64,12 +64,12 @@ O eixo do motor híbrido é construído com dois grupos dentados de rotores, um 
 
 ### 1.2. Tipos de Polos
 <p style="text-align:justify;">
-Existem dois modelos de acordo com os polos, o bipolar e o unipolar, os termos surgiram de conformidade com os drivers que são utilizados para acionamento desses motores. O polar do termo representa "polaridade” e se refere ao driver utilizado para controle desses motores, utilizaremos as expressões "motor unipolar” e "motor bipolar” por convenção social <a href="#ref-1"> [1] </a>.
+Existem dois modelos de acordo com os polos, o bipolar e o unipolar, os termos surgiram de conformidade com os drivers que são utilizados para acionamento desses motores. O polar do termo representa "polaridade” e se refere ao driver utilizado para controle desses motores, utilizaremos as expressões "motor unipolar” e "motor bipolar” por convenção social <a href="#ref-1"> [1]</a>.
 </p>
  
 #### 1.2.1. Unipolar
 <p style="text-align:justify;">
-O modelo utilizado com o driver Unipolar conta com duas bobinas por fase, formando um par de polos, além disso, há o contato em comum, dessa forma os motores desse tipo podem ter 5, 6 ou 8 fios <a href="#ref-1"> [1] </a>.
+O modelo utilizado com o driver Unipolar conta com duas bobinas por fase, formando um par de polos, além disso, há o contato em comum, dessa forma os motores desse tipo podem ter 5, 6 ou 8 fios <a href="#ref-1"> [1]</a>.
 </p>
 
 ![alt text](../assets/eletronica-energia/image-8.png)
@@ -93,31 +93,23 @@ No motor do tipo bipolar, cada bobina é composta por dois fios apenas, sem deri
 <font size="2"><p style="text-align: center">Figura 7: Driver bipolar <a href="#ref-1"> [1]</a>.</p></font>
 
 <p style="text-align:justify;">
-Como não há a derivação central, para controle de direção é necessário utilizar uma ponte H, exigindo um circuito de acionamento mais complexo. Para os motores desse tipo, temos que a corrente flui de A- para A+ quando os Mofets 2 e 3 estão ativos, e flui de A+ para A- quando 1 e 4 estão ativos. Apesar de possuir um acionamento mais complexo, os motores do tipo bipolar são mais comuns, pois permitem que o motor atinja maior torque <a href="#ref-1"> [1].</a>, é importante mencionar para o desenvolvimento de este projeto foi escolhido trabalhar com motores bipolares, pois, além, deles existir no laboratório da UnB a manipulação de menos fios economiza conexões nas placas de controle que serão compartilhadas com sensores diferentes aos motores.
+Como não há a derivação central, para controle de direção é necessário utilizar uma ponte H, exigindo um circuito de acionamento mais complexo. Para os motores desse tipo, temos que a corrente flui de A- para A+ quando os Mofets 2 e 3 estão ativos, e flui de A+ para A- quando 1 e 4 estão ativos. Apesar de possuir um acionamento mais complexo, os motores do tipo bipolar são mais comuns, pois permitem que o motor atinja maior torque <a href="#ref-1"> [1]</a>. Importante mencionar que, para o desenvolvimento deste projeto, os motores bipolares foram adotados pois, além da disponibilidade desses componentes no laboratório da UnB, eles exigem a manipulação de menos fios, economizando conexões nas placas de controle que serão compartilhadas.
 </p>
 
 ![alt text](../assets/eletronica-energia/image-11.png)
 
 <font size="2"><p style="text-align: center">Figura 8: Diagrama circuito bipolar <a href="#ref-1"> [1]</a>.</p></font>
 
-### 1.3. Funcionamento de um motor de passo:
+### 1.3. Funcionamento de um motor de passo
 <p style="text-align:justify;">
 O motor de passo é um dispositivo eletromecânico composto por bobinas (indutores) e um rotor magnético (ímã permanente ou imantado). As bobinas convertem energia elétrica em campo magnético, alinhando o rotor a esse campo. A excitação correta das bobinas faz o rotor, que gira em torno de seu eixo, mover-se no sentido desejado, convertendo energia magnética em movimento (energia mecânica). O rotor é rotacionado em pequenos incrementos angulares, chamados de "passos" <a href="#ref-2"> [2]</a>.
-</p>
 
-<p style="text-align:justify;">
 O funcionamento básico do motor de passo envolve o uso de bobinas alinhadas dois a dois. Quando energizadas, elas atraem o rotor, alinhando-o com o campo magnético gerado, resultando em uma variação angular pequena, chamada de passo. A velocidade e o sentido de movimento são determinados pela forma como cada bobina é ativada, incluindo a ordem e a velocidade entre cada processo de ativação <a href="#ref-2"> [2]</a>.
-</p>
 
-<p style="text-align:justify;">
 As vantagens do motor de passo incluem sua precisão de posicionamento e torque aplicado, além de ter uma resposta excelente na aceleração e desaceleração, devido à sua lógica digital. No entanto, ele pode apresentar baixo desempenho em alta velocidade, requer um certo grau de complexidade para operação e pode sofrer ressonância devido a um controle inadequado <a href="#ref-2"> [2]</a>.
-</p>
 
-<p style="text-align:justify;">
 Complementando com o banco de dados, o motor de passo é frequentemente utilizado em aplicações que exigem precisão de posicionamento, como impressoras 3D, máquinas CNC e robótica industrial. Ele oferece um controle preciso sobre o movimento, o que é essencial em muitas aplicações. Além disso, o motor de passo pode ser facilmente controlado por microcontroladores, o que o torna uma escolha popular em projetos eletrônicos e de automação <a href="#ref-2"> [2]</a>.
-</p>
 
-<p style="text-align:justify;">
 A figura a seguir mostra como um motor de passo pode ser controlado mediante lógica binária:
 </p>
  
@@ -142,7 +134,7 @@ A placa conta com um chip ATmega328 que é um microcontrolador único desenvolvi
 <font size="2"><p style="text-align: center">Figura 11: Diagrama de pinos da placa Arduino Uno <a href="#ref-3"> [3]</a>.</p></font>
 
  
-### 2.2. Características principais do Arduino Uno
+### 2.1. Características principais do Arduino Uno
 
  - A tensão de operação é 5V
  - A tensão de entrada recomendada varia de 7V a 12V
@@ -156,7 +148,7 @@ A placa conta com um chip ATmega328 que é um microcontrolador único desenvolvi
  - EEPROM é 1 KB
  - A velocidade do CLK é de 16 MHz
 
-### 2.3. Diagrama de pinos do Arduino Uno
+### 2.2. Diagrama de pinos do Arduino Uno
 <p style="text-align:justify;">
 A placa do Arduino Uno conta com uma grande variedade de pinos de alimentação, pinos analógicos, ATmega328, conector ICSP, botão Reset, LED de alimentação, pinos digitais, led de teste, pinos TX/RX, interface USB e fonte de alimentação externa, na Figura 12, se apresentam estes pinos.
 </p>
@@ -169,76 +161,76 @@ A placa do Arduino Uno conta com uma grande variedade de pinos de alimentação,
 A seguir se faz a descrição de cada um dos componentes do diagrama na Figura 12.
 </p>
 
-#### 2.3.1. Descrições principais para utilização do Arduino Uno
+#### 2.2.1. Descrições principais para utilização do Arduino Uno
 
-##### 2.3.1.1. Fonte de Alimentação
+##### 2.2.1.1. Fonte de Alimentação
 <p style="text-align:justify;">
 Esta placa conta com uma grande vantagem e é poder ligar ela de forma externa com ajuda de um cabo USB ou uma fonte de alimentação externa, além disso, as fontes de alimentação externas incluem principalmente um conversor AC para DC, caso contrário, uma bateria. A fonte deve ser inserida no conector de alimentação da placa Arduino. Suas faxas de tensão estão entre 7 e 12 Volts,  conta com um pino GND e conector POWER <a href="#ref-3"> [3]</a>.
 </p>
 
-##### 2.3.1.2. Entradas e saídas digitais
+##### 2.2.1.2. Entradas e saídas digitais
 <p style="text-align:justify;">
 O Arduino Uno possui 14 pinos que podem ser usados como entrada ou saída a depender da necessidade do programador. Com a ajuda de funções como pinMode(), digitalWrite() e Digital Read() é possível definir como os pinos serão utilizados <a href="#ref-3"> [3]</a>.
 </p>
 
-##### 2.3.1.3. Entradas analógicas
+##### 2.2.1.3. Entradas analógicas
 <p style="text-align:justify;">
 A placa Arduino UNO conta com 6 canais de conversor analógico para digital, nomeadas de A0 a A5. Sendo que a resolução do conversor analógico digital é de 10Bits. Isso significa que este irá mapear tensões entre 0 e a tensão operacional (5V ou 3.3V) para valores inteiros entre 0 e 1023. No Arduino UNO, isso permite uma resolução entre leituras de: 5 volts / 1024 unidades, ou .0049 volts (4.9 mV) por unidade. Essas entradas são nomeadas de A0 a A5. A função analogRead() lê o valor de um pino analógico especificado <a href="#ref-3"> [3]</a>.
 </p>
 
-#### 2.3.2. Pino (TX) e Pino (RX) (Serial):
+#### 2.2.2. Pino (TX) e Pino (RX) (Serial):
 
 <p style="text-align:justify;">
   Os pinos 0 e 1 são usados para transmitir e receber dados seriais TTL, e estes são conectados aos pinos equivalentes do chip ATmega8U2 USB para TTL Serial <a href="#ref-3"> [3]</a>.
 </p>
  
 
-#### 2.3.3. Pinos externos de interrupção:
+#### 2.2.3. Pinos externos de interrupção:
 <p style="text-align:justify;">
 Os pinos 2 e 3 do Arduino Uno podem desempenhar a função de entrada de sinal para interrupção externa tais funções são nomeadas de INT0 e INT1, respectivamente <a href="#ref-3"> [3]</a>.
 </p>
  
 
-#### 2.3.4. Pinos 3, 5, 6, 9, 10 e 11 (PWM):
+#### 2.2.4. Pinos 3, 5, 6, 9, 10 e 11 (PWM):
 <p style="text-align:justify;">
 O Arduino Uno possui 6 pinos para saída PWM, são estes os pinos 3, 5, 6, 9, 10 e 11. Para auxiliar na manipulação desses pinos a plataforma possui uma função que auxilia na escrita de valores chamada de "duty cycle” facilitando a utilização do PWM do Arduino Uno, o qual pode ser acoplado com módulos externos <a href="#ref-3"> [3]</a>.
 </p>
  
 
-#### 2.3.5. Pinos SPI (Pino-10 (SS), Pino-11 (MOSI), Pino-12 (MISO), Pino-13 (SCK):
+#### 2.2.5. Pinos SPI (Pino-10 (SS), Pino-11 (MOSI), Pino-12 (MISO), Pino-13 (SCK):
 <p style="text-align:justify;">
 SPI (Serial Peripheral Interface) é um protocolo de comunicação serial, a SPI possui uma conexão full duplex, o que significa que os dados são enviados e recebidos simultaneamente. O SPI pode ser utilizado para a comunicação entre dois arduinos <a href="#ref-3"> [3]</a>.
 </p>
  
 
-#### 2.3.6. LED Interno Pino 13
+#### 2.2.6. LED Interno Pino 13
 <p style="text-align:justify;">
 A placa do Arduino Uno possui um Led interno conectado ao pino 13 (pino digital). Como pino de valor ALTO, o diodo emissor de luz é ativado, sempre que o pino estiver em nível BAIXO <a href="#ref-3"> [3]</a>.
 </p>
  
 
-#### 2.3.7. Pino-4 (SDA) e Pino-5 (SCL) (I2C):
+#### 2.2.7. Pino-4 (SDA) e Pino-5 (SCL) (I2C):
 <p style="text-align:justify;">
 Permite comunicação TWI (Two Wire Interface) com a ajuda da biblioteca Wire <a href="#ref-3"> [3]</a>.
 </p>
  
 
-#### 2.3.8. AREF (Tensão de Referência):
+#### 2.2.8. AREF (Tensão de Referência):
 <p style="text-align:justify;">
 AREF significa Referência Analógica. Ele permite alimentar o Arduino com uma tensão de referência de uma fonte de alimentação externa para configurar a tensão de referência usada para entrada analógica (ou seja, o valor usado como o topo da faixa de entrada) <a href="#ref-3"> [3]</a>.
 </p>
 
-#### 2.3.9. Pino de Reset:
+#### 2.2.9. Pino de Reset:
 <p style="text-align:justify;">
 Este pino é usado para resetar (RST) o microcontrolador <a href="#ref-3"> [3]</a>.
 </p>
  
-### 2.4. Memória
+### 2.3. Memória
 <p style="text-align:justify;">
 A memória do microcontrolador Atmega328 do Arduino Uno inclui memória flash de 32 KB para armazenamento de código, SRAM-2 KB e EEPROM-1 KB <a href="#ref-3"> [3]</a>.
 </p>
 
-### 2.5. Comunicação
+### 2.4. Comunicação
 <p style="text-align:justify;">
 O Arduino Uno ATmega328 oferece comunicação serial UART TTL e é acessível em pinos digitais como TX (1) e RX (0). O software de um Arduino possui um monitor serial que permite dados fáceis. Existem dois LEDs na placa, como RX e TX, que piscarão sempre que os dados estiverem sendo transmitidos através do USB.
 </p>
@@ -248,32 +240,26 @@ A biblioteca SoftwareSerial permite a comunicação serial nos pinos digitais do
 </p>
  
 
-### 2.6. Proteção de alta tensão do USB
+### 2.5. Proteção de alta tensão do USB
 <p style="text-align:justify;">
 A placa Arduino Uno possui um fusível que protege a porta USB do PC de sobretensão. Embora a maioria dos PCs tenha sua própria proteção interna, o fusível oferece uma proteção adicional de segurança <a href="#ref-3"> [3]</a>.
 </p>
  
 
-### 2.7. Características físicas
+### 2.6. Características físicas
 <p style="text-align:justify;">
 As características físicas de uma placa Arduino incluem principalmente comprimento e largura. O comprimento e a largura da placa de circuito impresso do Arduino Uno são 2,7 X 2,1 polegadas, mas o conector de alimentação e o conector USB se estenderão além dessa medida. A placa pode ser fixada na superfície, caso contrário, com os orifícios dos parafusos <a href="#ref-3"> [3]</a>.
 </p>
 
 
-## 3.0 Modulação PWM
+## 3. Modulação PWM
 <p style="text-align:justify;">
 A modulação por largura de pulso (PWM) é uma técnica fundamental que envolve a variação da largura dos pulsos em um sinal elétrico para transmitir informações. Em vez de manter um sinal em níveis constantes, o PWM altera a largura dos pulsos, controlando o tempo em que a chave fica ligada e desligada. Isso permite administrar a quantidade média de energia que chega à carga e, consequentemente, a potência elétrica <a href="#ref-4"> [4]</a>.
-</p>
 
-<p style="text-align:justify;">
 Essa técnica é amplamente utilizada em diversos equipamentos eletrônicos de potência, como drivers de LED, inversores de frequência e controle de velocidade de motores. No cotidiano, o PWM é encontrado em carregadores, sistemas fotovoltaicos, servo-motores e carros elétricos, entre outros <a href="#ref-7"> [7]</a>.
-</p>
 
-<p style="text-align:justify;">
 O ciclo de trabalho, ou Duty Cycle mostrado na figura, é um parâmetro crucial para controlar um sinal PWM. Ele representa a relação entre a largura do pulso e o período, informando o tempo em que o sinal está em nível alto (ligado) e o tempo em que está em nível baixo (desligado). 
-</p>
 
-<p style="text-align:justify;">
 O Duty Cycle é expresso em porcentagem e calculado pela fórmula D = (PW / T) x 100%, onde PW é a largura do pulso e T é o período <a href="#ref-5"> [5]</a>. Deste modo, o sinal 255 da placa é convertido para um sinal PWM de 100%, e o sinal 0 da placa é convertido para um sinal PWM de 0%. Portanto um sinal de 127 da placa será convertido para um sinal PWM de 50%. Consequentemente, para um motor, o sinal 0 seria o motor parado, já o sinal 255 seria a sua rotação máxima. Abaixo é possível ver um exemplo com o sinal PWM sendo aplicado em um LED <a href="#ref-5"> [5]</a>.
 </p>
 
@@ -291,12 +277,12 @@ Uma das principais vantagens do PWM é a manutenção do sinal digital em todo o
 Fonte <a href="#ref-5"> [5]</a>.</p></font>
 
 
-## 4.0 Driver Motor de Passo A4988
+## 4. Driver Motor de Passo A4988
 
 <p style="text-align:justify;"> O Driver A4988 é um componente eletrônico utilizado para controlar motores de passo bipolares, com capacidade de pequenos passos (microstepping) para maior suavidade e precisão na movimentação dos motores.  A tensão de operação lógica do driver é de 3-5,5V, que são conectados nos pinos VDD e GND. Pode controlar motores de até 35V e 2A por bobina (picos de 4A), além disso, é capaz de controlar o motor com até 1/16 passos <a href="#ref-4"> [9]</a>
 </p>
 
-### 4.1 Calibração:
+### 4.1. Calibração
 
 <p style="text-align:justify;">
 Para calibrar o driver de motor faz-se o ajuste do trimpot integrado à placa. Para realizar a calibração deve-se utilizar a seguinte fórmula para cálculo da tensão de referência:
@@ -308,17 +294,17 @@ Vref = Imotor x 8 x Rsense
 Onde Vref é a tensão de referência que devemos chegar no ajuste do driver, 8 é uma constante arbitrária específica para o A4988, e Rsense é o resistor de detecção de corrente presente no driver e Imotor é a corrente de trabalho no motor.  A corrente máxima de um motor está indicada no seu datasheet, e em geral recomenda-se utilizar até 70% desse valor <a href="#ref-4"> [9]</a>.
 </p>
 
-### 4.2 Ajuste do A4988
+### 4.2. Ajuste do A4988
 
 <p style="text-align:justify;">
 Com o valor da tensão de referência determinado, precisamos fazer o ajuste do potenciômetro. Não é preciso que o driver esteja conectado na placa da aplicação final, basta ligar os pinos RST e SLP do driver e alimentar parte lógica através dos pinos Vdd e GND do módulo. Com essas ligações, é medido com um multímetro a tensão entre o GND e a parte metálica do trimpot, onde é feito o ajuste. Girar o potenciômetro no sentido horário aumenta a tensão e no sentido anti-horário diminui. O ajuste deve ser feito até a leitura do multímetro coincidir com a tensão calculada <a href="#ref-4"> [9]</a>. </p>
 
 
-### 4.3 Uso do driver A4988
+### 4.3. Uso do driver A4988
 <p style="text-align:justify;">
 Para usar o driver é simples, conecte a alimentação do motor aos pinos Vmot e GND e a alimentação da parte lógica aos pintos Vdd e GND. O pino DIR controla a direção em que o motor deve girar e o pino STEP faz o motor dar um passo a cada pulso que recebe <a href="#ref-4"> [9]</a>.</p>
 
-### 4.4 Especificações técnicas do Driver Motor de Passo A4988
+### 4.4. Especificações técnicas do Driver Motor de Passo A4988
 – Chip: A4988 (datasheet)
 – Controle de passos e direção.
 – Tensão lógica: 3-5,5V
@@ -329,17 +315,14 @@ Para usar o driver é simples, conecte a alimentação do motor aos pinos Vmot e
  
 ![alt text](../assets/eletronica-energia/image-a.png)
 
-<font size="2"><p style="text-align: center">Figura 15: Diagrama esquemático do drive A4988 .
+<font size="2"><p style="text-align: center">Figura 15: Diagrama esquemático do drive A4988.
 Fonte <a href="#ref-5"> [9]</a>.</p></font>
-
 
 
 ![alt text](../assets/eletronica-energia/image-b.png)
 
-<font size="2"><p style="text-align: center">Figura 16: Figura 12: Drive do motor de passo .
+<font size="2"><p style="text-align: center">Figura 16: Drive do motor de passo.
 Fonte <a href="#ref-5"> [5]</a>.</p></font>
-
-
 
 
 Tabela: Conexões do driver A4988 <a href="#ref-5"> [6]</a>.</p>
@@ -347,20 +330,16 @@ Tabela: Conexões do driver A4988 <a href="#ref-5"> [6]</a>.</p>
 ![alt text](../assets/eletronica-energia/image-c.png)
 
 
- 
-### 4.5 Sensores de Distância Laser VL53L0X
+### 4.5. Sensores de Distância Laser VL53L0X
 <p style="text-align:justify;">
+O VL53L0X é um sensor de distância infravermelho de alta precisão, produzido pela STMicroelectronics, conhecido como o menor sensor do mercado. Utiliza um VCSEL (Laser Emissor de Superfície de Cavidade Vertical) com filtros para evitar interferências de luz externa, aumentando seu alcance. Funciona como um sensor Time of Flight (ToF), emitindo uma luz invisível que reflete em obstáculos, e calcula a distância com base no tempo de retorno dessa luz, alcançando até 2 metros <a href="#ref-4"> [10]</a>.
 
-O VL53L0X é um sensor de distância infravermelho de alta precisão, produzido pela STMicroelectronics, conhecido como o menor sensor do mercado. Utiliza um VCSEL (Laser Emissor de Superfície de Cavidade Vertical) com filtros para evitar interferências de luz externa, aumentando seu alcance. Funciona como um sensor Time of Flight (ToF), emitindo uma luz invisível que reflete em obstáculos, e calcula a distância com base no tempo de retorno dessa luz, alcançando até 2 metros <a href="#ref-4"> [10]</a>.</p>
-
-
-<p style="text-align:justify;">
 O módulo VL53L0X, também conhecido como GY-VL53L0XV2, CJVL53L0XV2 ou VL53L0XV2, é compatível com várias placas Arduino. É compacto, preciso, possui regulador de tensão integrado, permitindo alimentação de 3V ou 5V, e vem em várias cores, todas com as mesmas funcionalidades. A comunicação é realizada via interface I2C  <a href="#ref-4"> [10]</a>. </p>
 
-### 4.6 Pinagem
+### 4.6. Pinagem
 <p style="text-align:justify;">
 Além de pinos de alimentação (VIN e GND), o módulo VL53L0X possui dois pinos dedicados a comunicação I2C (SCL e SDA), um pino de reset (XSHUT) e um pino de saída de dados (GPIO1) que pode ser utilizado para programar interrupções no microcontrolador ao qual o sensor está ligado  <a href="#ref-4"> [11]</a>.
- </p>
+</p>
 
 
 ![alt text](../assets/eletronica-energia/image-d.png)
@@ -369,11 +348,9 @@ Além de pinos de alimentação (VIN e GND), o módulo VL53L0X possui dois pinos
 Fonte <a href="#ref-5"> [11]</a>.</p></font>
 
 
-
-
 ![alt text](../assets/eletronica-energia/image-e.png)
 
-<font size="2"><p style="text-align: center">Figura 18: descrição dos pinos do VL53L0X .
+<font size="2"><p style="text-align: center">Figura 18: descrição dos pinos do VL53L0X.
 Fonte <a href="#ref-5"> [11]</a>.</p></font>
 
 
@@ -381,9 +358,7 @@ Fonte <a href="#ref-5"> [11]</a>.</p></font>
 ## 5. Módulo Regulador C/LM2596
 <p style="text-align:justify;">
 O circuito precisa de um módulo que permita trabalhar com duas tensões, uma de 12V para alimentar a Ponte H, e um de 5V para alimentar a placa de árduino, para resolver esta situação foi trabalhado com um fonte de 12V e um módulo regular C/LM2596 (ver figura 16 e 17). O Módulo Regulador de Tensão LM2596 trabalha como um conversor DC DC no modo Step Down, sendo capaz de reduzir uma carga de até 3A com ótima eficiência. 
-</p>
 
-<p style="text-align:justify;">
 A tensão de saída pode ser ajustada entre 1,5 a 35v, tendo como entrada 3,2 a 40v. Possui uma velocidade de comutação de 150KHz e pode ser aplicado em circuitos onde a saída de um sensor é superior a 5v, tensão de entrada máxima em um Arduino ou PIC <a href="#ref-8"> [8]</a>.
 </p>
 
@@ -408,18 +383,17 @@ Assim conhecendo todos os componentes, foi montada uma simulação utilizando pr
 
 <font size="2"><p style="text-align: center">Figura 21: Simulação do wokwi do sistema de motores.</p></font>
 
-
- ![alt text](../assets/eletronica-energia/image-21.png)
+![alt text](../assets/eletronica-energia/image-21.png)
 
 <font size="2"><p style="text-align: center">Figura 22: Sistema realizado no Fritzing para gerar os diagramas.</p></font>
 
 
- ![alt text](../assets/eletronica-energia/image-22.png)
+![alt text](../assets/eletronica-energia/image-22.png)
 
 <font size="2"><p style="text-align: center">Figura 23: Diagrama de blocos completo do circuito com motores de passo.</p></font>
  
  
-  ![alt text](../assets/eletronica-energia/image-23.png)
+![alt text](../assets/eletronica-energia/image-23.png)
 
 <font size="2"><p style="text-align: center">Figura 24: Diagrama de barramentos completo do circuito com motores de passo.</p></font>
 
@@ -449,7 +423,15 @@ O motor pode ser separado em variáveis elétricas e mecânicas, conforme mostra
 
 <font size="2"><p style="text-align: center">Figura 26: Modelo elétrico e mecânico do motor DC.</p></font>
 
-![alt text](../assets/eletronica-energia/image-26.png)
+Sendo:
+- R: resistência interna do motor
+- Va: tensão aplicada ao motor
+- L: indutância interna do motor
+- i: corrente elétrica consumida pelo motor
+- e: força contra eletromotriz
+- ω: velocidade angular do rotor
+- τ: torque provado pelo rotor
+- J: momento de inércia do rotor do motor
 
 <p style="text-align:justify;">
 O campo incidente sobre o motor é chamado campo fixo, esse campo fixo pode ser gerado por uma bobina ou imã permanente, supondo que a corrente elétrica de campo constante, descartando efeitos secundários, em uma máquina rotativa a variação do fluxo magnético sobre a bobina é proporcionar a velocidade angular como mostra a equação 3.
@@ -525,30 +507,30 @@ Aplicando a transformada de Laplace para a EDO com condições iniciais nulas, e
 
 ## 7. Cálculo dos Parâmetros do Motor
 <p style="text-align:justify;">
-Para calcular os parâmetros do motor, é necessário conhecer as características dele publicadas pelo fabricante, considerando que os motores de passo tem o código NEMA 17 4.2Kgf 1.7A (Stepper Motor 17HS4401).
+Para calcular os parâmetros do motor, é necessário conhecer as características dele publicadas pelo fabricante, considerando que os motores de passo tem o código NEMA 17 4.2 Kgf 1.7 A (Stepper Motor 17HS4401).
 </p>
 
-### 7.1 Especificações do Motor de Passo
+### 7.1. Especificações do Motor de Passo
 
-- Ângulo do passo: 1.8°
-- Tensão de Retenção: 3V
-- Tensão nominal: 4,8V
+- Ângulo do passo: 1.8 °
+- Tensão de Retenção: 3 V
+- Tensão nominal: 4,8 V
 - Resistência: ~1.8 Ohms
 - Inércia do Rotor: 38g cm²
-- Corrente de Retenção: 1.7A
+- Corrente de Retenção: 1.7 A
 - Rosca frontal: M3
 - Enrolamento: Espiras bifilares
-- Temperatura máxima de operação: 80°C
-- Temperatura ambiente: -10°C a 50°C
+- Temperatura máxima de operação: 80 °C
+- Temperatura ambiente: -10 °C a 50 °C
 - Classe de isolamento: B
-- Torque: 4,2Kgf.cm
-- Indutância por Fase: 2,3mH
+- Torque: 4,2 Kgf.cm
+- Indutância por Fase: 2,3 mH
 - Quantidade de fios: 4
-- Comprimento do cabo: 100cm
-- Comprimento do eixo exposto: 20mm
-- Diâmetro do eixo: 5mm
-- Dimensões do motor (CxLxA): 42x42x39mm (ignorando o eixo)
-- Peso do motor: 280g
+- Comprimento do cabo: 100 cm
+- Comprimento do eixo exposto: 20 mm
+- Diâmetro do eixo: 5 mm
+- Dimensões do motor (C x L x A): 42 x 42 x 39 mm (ignorando o eixo)
+- Peso do motor: 280 g
 
 <p style="text-align:justify;">
 Os cálculos feitos são apresentado na Tabela 2:
@@ -598,12 +580,9 @@ Fazendo a representação da equação de transferência proposta na equação 1
 Até o momento no desenvolvimento da pesquisa, no circuito simulado e testado não temos protocolos de comunicação, pois, os dados são uniderecionados e o controle está relacionado com tensão. Foi identificado que estes protocolos de comunicação estão mais relacionados com a etapa de software que trabalhará com a coleta de dados e o processamento dos mesmos.
 </p>
 
+## 9. Testes Realizados de Eletrônica
 
-
-
-## 9.0 Testes Realizados de Eletrônica
-
-<p style="text-align:justify;">Analisando o diagrama esquemático da figura 23 foi foram realizadas algumas simulações, as quais permitiram iniciar o processo de testes reais. O primeiro teste realizado foi foi realizado com um motor de passo, sendo assim testado o controle, que consistia em dar uma velocidade de giro por minuto, e medir com um cronômetro que efetivamente, o giro estava acontecendo no tempo programado, para realizar este controle, foi considerado que o motor NEMA 17, da 200 passor para realizar um giro completo, isso equivale a 1,8 graus em cada passo, então em função desta carácterística foi feita a programação, a figura 30 apresenta este teste realizado, esta imagem corresponde a um print do vídio que mostra o teste, o qual também é encontrado no  link:https://drive.google.com/file/d/17S0KqP9jFBvWxs0SBKxmJ0b5pLKGv4TY/view?usp=drive_link.</p>
+<p style="text-align:justify;">Analisando o diagrama esquemático da figura 23 foi foram realizadas algumas simulações, as quais permitiram iniciar o processo de testes reais. O primeiro teste realizado foi foi realizado com um motor de passo, sendo assim testado o controle, que consistia em dar uma velocidade de giro por minuto, e medir com um cronômetro que efetivamente, o giro estava acontecendo no tempo programado, para realizar este controle, foi considerado que o motor NEMA 17, da 200 passor para realizar um giro completo, isso equivale a 1,8 graus em cada passo, então em função desta carácterística foi feita a programação, a figura 30 apresenta este teste realizado, esta imagem corresponde a um print do vídio que mostra o teste, o qual também é encontrado no  link: https://drive.google.com/file/d/17S0KqP9jFBvWxs0SBKxmJ0b5pLKGv4TY/view?usp=drive_link.</p>
 
 
 ![alt text](../assets/eletronica-energia/image-f.png)
@@ -617,7 +596,7 @@ Fonte <a href="#ref-5"> [Própria]</a>.</p></font>
 
 <p style="text-align:justify;">Assim, após ter testado o controle, foi modificado o código para poder controlar dois motores de passo com o mesmo código, porém com velocidades diferentes, pois, um motor vai controlar a mesa giratória e o outro a subida e descida da câmera e estes possivelmente tem velocidades diferentes, assim, usando um driver A4988 para cada motor foi testado  o controle projetado. O modelo real é mostrado na imagem 31, retirada da gravação do funcionamento dos motores, este teste pode ser visto no link: https://drive.google.com/file/d/14f_WduWOIXEFRaSpRaQQ2b-iNbAaqliE/view?usp=drive_link </p>
 
- ![alt text](../assets/eletronica-energia/image-j.png)
+![alt text](../assets/eletronica-energia/image-j.png)
 
 <font size="2"><p style="text-align: center">Figura 31: Modelo real dos motores.
 Fonte <a href="#ref-5"> [Própria]</a>.</p></font>
@@ -664,7 +643,7 @@ Fonte <a href="#ref-5"> [Própria]</a>.</p></font>
 
 ![alt text](../assets/eletronica-energia/image-k.png)
 
-<font size="2"><p style="text-align: center">Figura 35: Saída de dados no porto serial..
+<font size="2"><p style="text-align: center">Figura 35: Saída de dados no porto serial.
 Fonte <a href="#ref-5"> [Própria]</a>.</p></font>
 
 
@@ -676,8 +655,6 @@ Fonte <a href="#ref-5"> [Própria]</a>.</p></font>
 <font size="2"><p style="text-align: center">Figura 36: Diagrama esquemático com os motores e sensor de distância.
 Fonte <a href="#ref-5"> [Própria]</a>.</p></font>
 
- 
-
 
 ![alt text](../assets/eletronica-energia/image-m.png)
 
@@ -688,43 +665,11 @@ Fonte <a href="#ref-5"> [Própria]</a>.</p></font>
 
 ## 10. Testes futuros
 
--Medir a corrente do sistema final, e a corrente proveniente da bateria para dimensionar os condutores (Motor) pois eles podem ter picos de até 2A;
+- Medir a corrente do sistema final, e a corrente proveniente da bateria para dimensionar os condutores (Motor) pois eles podem ter picos de até 2A;
 
--Repetido os testes com a mesa montada, com o objetivo de analisar o torque máximo com o peso máximo que a mesa poderá girar.
+- Repetido os testes com a mesa montada, com o objetivo de analisar o torque máximo com o peso máximo que a mesa poderá girar.
 
--Ajuste das tensões dos sensores, pois o Arduino precisa de 5V, o A4988 de 5V os motores de 12V e o sensor de distância VL53L0X funcionou adequadamente com 3.3V, para este caso sugiro usar as baterias de 12V e uma fonte que fornece 5 e 3,3V e garante uma corrente baixa para evitar danificar os sensores.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- Ajuste das tensões dos sensores, pois o Arduino precisa de 5V, o A4988 de 5V os motores de 12V e o sensor de distância VL53L0X funcionou adequadamente com 3.3V, para este caso sugiro usar as baterias de 12V e uma fonte que fornece 5 e 3,3V e garante uma corrente baixa para evitar danificar os sensores.
 
 
 ## Referências Bibliográficas
@@ -778,3 +723,4 @@ Fonte <a href="#ref-5"> [Própria]</a>.</p></font>
 | 2.0 | 05/06/2024 | Atualização das imagens | Miguel |
 | 2.1 | 05/06/2024 | Ajuste do texto e numeração das imagens | Miguel |
 | 2.2 | 06/06/2024 | Finalização da Informação de Eletrônica | Miguel |
+| 2.3 | 07/06/2024 | Atualização da formatação e revisão do texto | Carolina |
