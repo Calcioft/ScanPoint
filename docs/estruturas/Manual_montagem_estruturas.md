@@ -89,42 +89,71 @@ Para seguir essa etapa, devemos agora posicionar mais duas dobradiças na menor 
 Por fim, posicionamos a peça fêmea dos fechos nas laterais opostas às dobradiças: 
 </p>
 
-<p style="text-align: justify;">
-
-</p>
+![2](imagens/Manual_montagem_10.png)
 
 <p style="text-align: justify;">
-
+Um componente essencial dessa montagem é o motor de passo e seu suporte, que deve ser fixado na parte debaixo da tampa, centralizado com o furo da placa e parafusado utilizando :
 </p>
+
+![2](imagens/Manual_montagem_11.png)
 
 <p style="text-align: justify;">
-
+Ainda na parte inferior da tampa, porém agora na metade não furada, devemos posicionar centralizada a peça de suporte das guias, também impressa, representada de azul na figura, o motor de passe deve ser parafusado acima com parafusos M3, respeitando a furação já existente:
 </p>
+
+![2](imagens/Manual_montagem_12.png)
 
 <p style="text-align: justify;">
-
+Finalmente a tampa deve ser fixada na caixa da eletrônica, através de 4 parafusos M4 para as dobradiças e do conjunto macho do fecho com seus parafusos:
 </p>
+
+![2](imagens/Manual_montagem_13.png)
+![2](imagens/Manual_montagem_14.png)
+![2](imagens/Manual_montagem_15.png)
+
+## Etapa 5
 
 <p style="text-align: justify;">
-
+Partindo agora para a fixação final da tampa na estrutura de alumínio, de cima para baixo, desliza-se as peças impressas em 3D, da maneira como está descrita na imagem e atentando-se para o posicionamento individual de cada uma, após isso realiza-se a fixação com parafusos M4, porcas e arruelas, partindo do topo da peça impressa até a parede da tampa, repetindo para os 4 cantos da estrutura. Atente-se para posicionar uma porca martelo em cada um dos slots da peça impressa, como destacado em verde na primeira figura:
 </p>
+
+![2](imagens/Manual_montagem_16.png)
+![2](imagens/Manual_montagem_17.png)
+![2](imagens/Manual_montagem_18.png)
 
 <p style="text-align: justify;">
-
+Por fim, utilizando parafusos M4 e arruelas, deve-se parafusar as peças impressas diretamente nos perfis de alumínio, com auxílio das porcas-martelo, já posicionadas anteriormente.
 </p>
+
+## Etapa 6
 
 <p style="text-align: justify;">
-
+Respeitando a furação da peça azul, deve-se agora posicionar os encaixes de alumínio das guias, as guias e, com um acoplador de 8mm, o fuso no motor do eixo:
 </p>
+
+![2](imagens/Manual_montagem_19.png)
 
 <p style="text-align: justify;">
-
+Após, desliza-se o suporte do sensor com os rolamentos lineares atráves da guia, rotacionando o fuso na castanha para que o sistema desça uniformemente:
 </p>
 
-<div align="center">
-    Figura 1 - Descrição
-</div>
-<br />
+![2](imagens/Manual_montagem_20.png)
+
+<p style="text-align: justify;">
+Finalizando o conjunto do trilho, adiciona-se a peça superior impressa ao conjunto, com os apoios de alumínio e o rolamento posicionado, essa peça é deslizada em um perfil de alumínio que é fixado aos perfis verticais, conforme a representação:
+</p>
+
+![2](imagens/Manual_montagem_21.png)
+![2](imagens/Manual_montagem_22.png)
+
+## Etapa 7
+
+<p style="text-align: justify;">
+Finalizando a estrutura, posicionamos os perfis de alumínio restantes, juntamente com as cantoneiras e o prato de acrílico, com o acoplador de impressão 3D e o apoio do prato:
+</p>
+
+![2](imagens/Manual_montagem_24.png)
+![2](imagens/Manual_montagem_25.png)
 
 
 ## Versionamento
