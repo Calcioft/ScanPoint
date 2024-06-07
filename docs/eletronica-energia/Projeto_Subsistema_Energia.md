@@ -180,7 +180,7 @@ A integração com o subsistema de estruturas será realizada tendo como base o 
 |-------|------|-----------|------------|
 | 1.0 | 28/04/2024 | Criação do documento | Lucas Pantoja |
 | 1.1 | 29/04/2024 | Edição de textos, tabelas e imagens | Lucas Pantoja |
-| 1.2 | 01/05/2024 | Modificação da tebela 1 | Lucas Pantoja |
+| 1.2 | 01/05/2024 | Modificação da tabela 1 | Lucas Pantoja |
 | 1.3 | 03/05/2024 | Modificação de texto para padronização | Lucas Pantoja |
 | 1.4 | 03/05/2024 | Revisão da Diretoria Técnica | Carolina |
 | 1.5 | 04/05/2024 | Ajustes de alinhamento e fontes | Ana Carolina |
