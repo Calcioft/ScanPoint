@@ -167,8 +167,6 @@ A Figura 9 mostra o resultado da montagem do subsistema de energia equipado com 
 A integração com o subsistema de estruturas será realizada tendo como base o próprio projeto de estruturas. As baterias serão apoiadas em uma base de material não condutor e os barramentos serão fixados nessa mesma base para evitar curto-circuito causado pelo contato desses componentes. 
 </p>
 
-<font size="2"><p style="text-align: center">Figura 9 - Montagem do Subsistema de Energia.</p></font>
-
 ## Referências Bibliográficas
 
 [1] Associação Brasileira de Normas Técnicas (ABNT). NBR 5410: Instalações elétricas de baixa tensão. Rio de Janeiro, 2004.
