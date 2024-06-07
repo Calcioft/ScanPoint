@@ -22,7 +22,7 @@ Com o intuito de determinar as características energéticas do projeto realizou
 
 ## 2. Bateria
 <p style="text-align:justify;">
-Para o projeto ScanPoint está estimado em utilizar duas baterias de  12 V de 7Ah, cada.
+Para o projeto ScanPoint está estimado em utilizar duas baterias de  12 V de 7 Ah, cada.
 </p>
 
 ![Bateria](../assets/eletronica-energia/bateria_unipower.jpg)
@@ -36,17 +36,17 @@ Para o projeto ScanPoint está estimado em utilizar duas baterias de  12 V de 7A
 |------                             | ------        |
 |    Modelo                         |UP 1270 SEG    |
 |Composição das células da bateria  |Chumbo - Ácido |
-|Voltagem                           | 12V           |
-|    Amperagem                      |    7Ah        |
-|    Dimensões [cm]                 |   8x16x11     |
-|    Peso [kg]                       |    2,00       |
+|Voltagem                           | 12 V           |
+|    Amperagem                      |    7 Ah        |
+|    Dimensões [cm]                 |   8 x 16 x 11     |
+|    Peso [kg]                       |    2       |
 
 <p style="text-align:justify;">
-Nesse cenário o projeto apresenta uma autonomia de 2 horas e 48 minutos. Devido ao fato de não se ter o conhecimento real da leitura das peças não é possível determinar se o tempo de autonomia é suficiente ou não, assim,  caso haja a necessidade de uma maior autonomia no projeto, serão adicionadas baterias com as mesmas característica a fim de atender o tempo estipulado para a apresentação.
+Nesse cenário o projeto apresenta uma autonomia de 2 horas e 48 minutos. Devido ao fato de não se ter o conhecimento real da leitura das peças não é possível determinar se o tempo de autonomia é suficiente ou não, assim, caso haja a necessidade de uma maior autonomia no projeto, serão adicionadas baterias com as mesmas característica a fim de atender o tempo estipulado para a apresentação.
 </p>
 
 <p style="text-align:justify;">
-As baterias estarão configuradas em paralelo, visto que na configuração em série a tensão sofreria um aumento, o que não é o desejado, pois os componentes do projeto apresentam uma tensão de alimentação inferior a 12V.
+As baterias são configuradas em paralelo, visto que na configuração em série a tensão sofreria um aumento, o que não é o desejado, pois os componentes do projeto apresentam uma tensão de alimentação inferior ou igual a 12 V.
 </p>
 
 
@@ -111,7 +111,7 @@ Assim, tem-se uma corrente corrigida de 2,77 A. A Figura 5 foi analisada para de
 <font size="2"><p style="text-align: center">Figura 5 - Capacidade de condução de corrente. <font size="2"><p style="text-align: center">Fonte: [NBR 2410, 2004](https://edisciplinas.usp.br/pluginfile.php/5810747/mod_resource/content/1/NBR5410%20-%20Instala%C3%A7%C3%B5es%20el%C3%A9tricas%20de%20baixa%20tens%C3%A3o.pdf).</p></font></p></font>
 
 <p style="text-align:justify;">
-Baseado na corrente corrigida de 2,77 A uma seção nominal de 0,5 mm^2 serviria, entretanto, a própria norma determina que para circuitos de força a seção nominal mínima deva ser de 2,5 mm^2. Assim sendo, a seção nominal selecionada será a de 2,5 mm^2.
+Baseado na corrente corrigida de 2,77 A uma seção nominal de 0,5 mm² serviria, entretanto, a própria norma determina que para circuitos de força a seção nominal mínima deva ser de 2,5 mm². Assim sendo, a seção nominal selecionada é de 2,5 mm².
 </p>
 
 
@@ -128,7 +128,7 @@ Como observado na Tabela 1, o Arduino Uno necessita uma alimentação de 5 V. As
 ## 5. Barramento
 
 <p style="text-align:justify;">
-Com a finalidade de ramificar as ligações e assim alimentar os dispositivos do projeto, serão utilizados dois barramentos de 80 mm. Um barramento será utilizado para as ligações com a fiação positiva, identificada com cabos de coloração avermelhada, e o outro para a fiação negativa, identificado com cabos da cor preta.
+Com a finalidade de ramificar as ligações e assim alimentar os dispositivos do projeto, são utilizados dois barramentos de 80 mm. Um barramento é utilizado para as ligações com a fiação positiva, identificada com cabos de coloração avermelhada, e o outro para a fiação negativa, identificado com cabos da cor preta.
 </p>
 
 ![barramento](docs/assets/eletronica-energia/BARRAMENTO.jpg)
@@ -152,20 +152,18 @@ Antes de iniciar o processo de montagem do subsistema de energia foi desenvolvid
 
 Após aprovação do diagrama e levantamento dos componentes, foi realizada a compra desses materiais e, posteriormente, iniciou-se a montagem do sistema no Laboratório de Eletricidade com auxílio do técnico responsável.
 
-O sistema foi montado por partes. Inicialmente as baterias foram testadas para garantir o fornecimento de 12 V. Em seguida foi realizado o teste do funcionamento do Módulo Abaixador de Tensão sendo alimentado por essas baterias, depois foram adicionados os barramentos e demais cabeamentos de acordo com a disposição do diagrama unifilar.
+O sistema foi montado por partes. Inicialmente as baterias foram testadas para garantir o fornecimento de 12 V. Em seguida foi realizado o teste do funcionamento do Módulo Abaixador de Tensão sendo alimentado por essas baterias, depois foram adicionados os barramentos e demais cabeamentos de acordo com a disposição do diagrama unifilar e a NBR 5410.
 
 Com auxílio de um multímetro, foi aferida a tensão em todas as conexões entre os componentes, garantindo assim um bom funcionamento do subsistema e qualidade de fornecimento de energia para os demais subsistemas.
 
-A Figura 9 mostra o resultado da montagem do subsistema de energia equipado com os conectores necessários para posterior integração com o subsistema de eletrônica.
+A Figura 9 mostra o resultado da montagem do subsistema de energia equipado com os conectores necessários para posterior integração com os subsistemas eletrônico e estrutural.
+</p>
 
 
 ![Montagem](docs/assets/eletronica-energia/Energia.jpg)
 
 <font size="2"><p style="text-align: center">Figura 9 - Montagem do Subsistema de Energia.</p></font>
 
-
-A integração com o subsistema de estruturas será realizada tendo como base o próprio projeto de estruturas. As baterias serão apoiadas em uma base de material não condutor e os barramentos serão fixados nessa mesma base para evitar curto-circuito causado pelo contato desses componentes. 
-</p>
 
 ## Referências Bibliográficas
 
@@ -186,3 +184,6 @@ A integração com o subsistema de estruturas será realizada tendo como base o 
 | 1.5 | 04/05/2024 | Ajustes de alinhamento e fontes | Ana Carolina |
 | 1.6 | 02/06/2024 | Modificação de imagens e inserção de tópicos (LM317 e barramento) | Lucas Pantoja |
 | 1.7 | 03/06/2024 | Revisão dos novos tópicos e inserção do tópico "Montagem" | Carolina |
+| 1.8 | 06/06/2024 | Adição da imagem da montagem | Lucas Pantoja |
+| 1.9 | 07/06/2024 | Revisão final para o PC 2 | Carolina |
+
