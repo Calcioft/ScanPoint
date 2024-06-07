@@ -121,7 +121,9 @@ Baseado na corrente corrigida de 2,77 A uma seção nominal de 0,5 mm^2 serviria
 Como observado na Tabela 1, o Arduino Uno necessita uma alimentação de 5 V. Assim, há a necessidade do uso do módulo abaixador de tensão DC-DC a fim de que a tensão de 12 V das baterias seja reduzida para 5 V e assim alimente de forma segura o Arduino.
 </p>
 
-![LM317](docs/assets/eletronica-energia/Módulo_Abaixador_Tensão_DC-DC__LM317_.jpg)
+![LM317](.../assets/eletronica-energia/Módulo_Abaixador_Tensão_DC-DC__LM317_.jpg)
+
+![Bateria](../assets/eletronica-energia/bateria_unipower.jpg)
 
 <font size="2"><p style="text-align: center">Figura 6 - Módulo abaixador de tensão DC-DC.</p></font>
 
