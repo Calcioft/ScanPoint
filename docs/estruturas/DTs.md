@@ -44,7 +44,10 @@ Os desenhos técnicos estão apresentados nesta seção a partir de subsistemas 
 
 ![7](../estruturas/imagens/DTs/Part/trilho_castanha-1.png)
 
-![8](../estruturas/imagens/DTs/Part/trilho_encaixe_camera-1.png)
+![8](../estruturas/imagens/DTs/Part/trilho_encaixe_sensor-1.png)
+
+![8.1](../estruturas/imagens/DTs/Part/trilho_encaixe_sensor_superior-1.png)
+
 
 ![9](../estruturas/imagens/DTs/Part/trilho_encaixe_trilho-1.png)
 
