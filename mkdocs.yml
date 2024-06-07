@@ -28,6 +28,7 @@ nav:
       - Requisitos Gerais: geral/requisitos.md
       - Termo de Abertura: geral/termo_de_abertura_de_projeto.md
       - Visao geral: geral/visaogeral.md
+      - Integração: geral/integracao.md
   - Software: 
       - Arquitetura de software: software/arquitetura.md
       - Backlog do produto: software/backlog_produto.md
