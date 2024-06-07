@@ -97,7 +97,10 @@ Dessa forma, como material crítico para a análise, foi escolhida a impressão 
 A partir de tal definição foram realizados ensaios estruturais e simulações par a validação do componente crítico definido anteriormente. 
 </p>
 
+
+
 ### Ensaios Estruturais
+
 
 <p style="text-align: justify;">
 Graças aos pontos descritos nos tópicos anteriores, optou-se pela realização de um ensaio para avaliação de integridade estrutural simples, onde uma peça de testes foi elaborada e submetida a diversas quantidades de cargas com o intuito de validar seu uso para a aplicação desejada no projeto. A peça de estudo foi fabricada a partir do material PLA (biopolímero ácido poliláctico), com configuração de densidade de preenchimento de 10% do tipo zigue-zague e com 4 paredes de 0,88mm de espessura.
@@ -171,6 +174,8 @@ Assim, avaliando a composição da estrutura com 4 peças impressas em 3D, a car
 
 ### Simulações numéricas
 
+#### Suporte das Placas 
+
 <p style="text-align: justify;"> 
 Para complementação e representação do apresentado até então através do ensaio prático estrutural, foi realizada através do software Ansys Workbench uma simulação numérica da peça. 
 </p>
@@ -214,6 +219,42 @@ Por fim, realizando a comparação entre o material simulado e o ensaio estrutur
 Figura 8 - Face superior da peça real após o ensaio<br />
 Fonte: Autores.
 </p>
+
+### Placa do Fundo da Caixa
+
+<p style="text-align: justify;">
+Também através do Software Ansys Workbench, foi realizada a simulação da placa de madeira utilizada no fundo da caixa que abriga os componentes de energia e eletrônica. A madeira utilizada foi Medium Density Fiberboard (MDF), tendo 6mm de espessura e dimensões de 662mmx622mm. Para a simulação, foram importadas suas propriedades no software através da ferramenta Engeneering Data e a modelagem foi realizada através do Design Modeler. 
+</p>
+
+![Placa de madeira representando o fundo da caixa](imagens/Proj_Subs_Estruturas_Ensaios_Placa_Desenho.png)
+
+<p style="text-align:center;">
+Figura 9 - Placa de madeira representando o fundo da caixa<br />
+Fonte: Autores.
+</p>
+
+<p style="text-align: justify;">
+Após isso, foram adicionadas as condições de contorno a simulação. Considerando 5Kg como o peso aproximado dos componentes que estarão na caixa, foi adicionada uma pressão de 1,2358E-04 MPa a uma das superfícies. Também foram incluídos 4 apoios simples em suas arestas, representando os encaixes horizontais dos perfis de alumínio onde a placa está apoiada. Como malha, foi escolhido um tamanho de 6mm, e foram utilizados 11655 nós e 11440 elementos na mesma.
+</p>
+
+![Condições de Contorno](imagens/Proj_Subs_Estruturas_Ensaios_Placa_Contorno.png)
+
+<p style="text-align:center;">
+Figura 10 - Condições de contorno aplicadas<br />
+Fonte: Autores.
+</p>
+
+<p style="text-align: justify;">
+Por fim, pôde-se obter como resultado uma deformação máxima de 1,1771mm em seu centro, sendo um resultado dentro da margem aceita para a deformação do material, não sendo suficiente para sua ruptura nem para o desencaixe lateral.
+</p>
+
+![Deformação](imagens/Proj_Subs_Estruturas_Ensaios_Placa_Deformação.png)
+
+<p style="text-align:center;">
+Figura 11 - Deformação total da placa<br />
+Fonte: Autores.
+</p>    
+
 
 # Referências
 
