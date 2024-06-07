@@ -30,6 +30,7 @@ nav:
       - Visao geral: geral/visaogeral.md
       - Público alvo: geral/publico-alvo.md
       - Personas: geral/personas.md
+      - Integração: geral/integracao.md
   - Software: 
       - Arquitetura de software: software/arquitetura.md
       - Backlog do produto: software/backlog_produto.md
@@ -55,5 +56,5 @@ nav:
       - Arquitetura: estruturas/arquitetura_subs_estruturas.md
       - Subsistema: estruturas/Projeto_subsistema_estruturas.md
       - Desenhos mecanicos: estruturas/DTs.md
-      
+      - Manual de montagem: estruturas/Manual_montagem_estruturas.md
 
