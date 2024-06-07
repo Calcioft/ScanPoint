@@ -668,7 +668,7 @@ Fonte <a href="#ref-5"> [Própria]</a>.</p></font>
 Fonte <a href="#ref-5"> [Própria]</a>.</p></font>
 
 
-<p style="text-align:justify;">Finaliza-se atualizando os digramas dos circuitos, com a versão que adiciona o sensor VL53L0X pois este não tinha sido considerado inicialmente no projeto, e surgiu em função da necessidade de integrar a parte de eletrônica com a parte de software.</p>
+<p style="text-align:justify;">Finaliza-se atualizando os digramas dos circuitos, com a versão que adiciona o sensor VL53L0X pois este não tinha sido considerado inicialmente no projeto, e surgiu em função da necessidade de integrar a parte de eletrônica com a parte de software, além disso, no vídeo mostrado no link: https://drive.google.com/file/d/1Eel66Ayi5QpEg17CPtpXBnag1mDMAQU4/view?usp=sharing, se mostra o controle final, onde o motor 1, gira dando uma volta por minuto, este motor vai controlar a mesa giratória, e motor 2 está parado, assim que o motor 1 termine de dar a volta o motor 2, da uma volta enteira em um segundo, isso para subir um step a câmera e dar inicio toma de uma segunda camada de dados, este processo é repetido até o sistema coletar todos os dados para serem processados.</p>
 
 
 ![alt text](../assets/eletronica-energia/image-l.png)
