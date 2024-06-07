@@ -123,9 +123,6 @@ Como observado na Tabela 1, o Arduino Uno necessita uma alimentação de 5 V. As
 
 ![LM317](.../assets/eletronica-energia/Módulo_Abaixador_Tensão_DC-DC__LM317_.jpg)
 
-
-![Bateria](docs/assets/eletronica-energia/bateria_unipower.jpg)
-
 <font size="2"><p style="text-align: center">Figura 6 - Módulo abaixador de tensão DC-DC.</p></font>
 
 ## 5. Barramento
