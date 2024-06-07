@@ -77,7 +77,7 @@ Engloba as fases 1, 2 e 3 do ciclo de vida do projeto, sendo elas: **Problematiz
 - [Arquitetura](docs/estruturas/arquitetura_subs_estruturas.md)
 - [Subsistema](docs/estruturas/Projeto_subsistema_estruturas.md)
 - [Desenhos técnicos](docs/estruturas/DTs.md)
-
+- [Manual de montagem](docs/estruturas/Manual_montagem_estruturas.md)
 
 ### C2
 
