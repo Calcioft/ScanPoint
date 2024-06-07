@@ -233,3 +233,4 @@ Fonte: Autores.
 | 0.1 | 30/04/2024 | Criação do documento | Cássio Filho; Diogo Soares e Maria Claudia |
 | 0.2 | 02/05/2024 | Adicionando arquivos de simulação | Cássio Filho; Diogo Soares e Maria Claudia|
 | 1.0 | 03/05/2024 | Atualizações finais |Cássio Filho; Diogo Soares e Maria Claudia|
+| 2.0 | 07/06/2024 | Atualizações  |Cássio Filho e Maria Claudia|
