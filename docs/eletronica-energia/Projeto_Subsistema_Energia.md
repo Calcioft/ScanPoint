@@ -141,7 +141,7 @@ Com a finalidade de ramificar as ligações e assim alimentar os dispositivos do
 A Figura 6 apresenta o diagrama unifilar do projeto, com as características de fluxo de energia, no qual cada componente está identificado com suas respectivas características elétricas, como também as características da bitola do cabo.
 </p>
 
-![Dia_Unifilar](.../assets/eletronica-energia/Update_Diagrama_unifilar_02_JUN_.jpg)
+![Dia_Unifilar](docs/assets/eletronica-energia/Diagrama_unifilar_6_JUN.pdf)
 
 <font size="2"><p style="text-align: center">Figura 8 - Diagrama unifilar.</p></font>
 
