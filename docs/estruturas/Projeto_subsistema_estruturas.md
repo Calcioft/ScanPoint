@@ -220,7 +220,7 @@ Figura 8 - Face superior da peça real após o ensaio<br />
 Fonte: Autores.
 </p>
 
-### Placa do Fundo da Caixa
+#### Placa do Fundo da Caixa
 
 <p style="text-align: justify;">
 Também através do Software Ansys Workbench, foi realizada a simulação da placa de madeira utilizada no fundo da caixa que abriga os componentes de energia e eletrônica. A madeira utilizada foi Medium Density Fiberboard (MDF), tendo 6mm de espessura e dimensões de 662mmx622mm. Para a simulação, foram importadas suas propriedades no software através da ferramenta Engeneering Data e a modelagem foi realizada através do Design Modeler. 
