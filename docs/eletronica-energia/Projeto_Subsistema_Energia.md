@@ -143,11 +143,15 @@ Utilizar um carregador adequado é crucial para garantir a longevidade e o desem
 A corrente de carregamento para uma bateria de chumbo-ácido é geralmente expressa como uma fração da capacidade nominal da bateria, conhecida como "C", onde "C" representa a capacidade da bateria em ampere-horas (Ah). Para uma bateria de 14Ah, a corrente de carregamento é determinada usando valores seguros típicos entre 0,1C e 0,3C.
 
 Cálculo da Corrente de Carregamento
+
 A capacidade da bateria em Ah é dada como 14Ah.
 
 A taxa de carga segura para baterias de chumbo-ácido é tipicamente entre 0,1C e 0,3C.
+
 Para uma bateria de 14Ah:
+
 0,1C (corrente de carga baixa): 0,1 x 14Ah = 1,4 A
+
 0,3C (corrente de carga alta): 0,3 x 14 Ah = 4,2 A
 
 Portanto, a corrente de carregamento ideal para uma bateria de 12V e 14Ah deve estar na faixa de 1,4A a 4,2A.
