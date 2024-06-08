@@ -4,15 +4,13 @@
 
 <p style="text-align: justify;"> No contexto atual da fabricação digital, a demanda por soluções que simplifiquem e aprimorem o processo de digitalização 3D está em constante crescimento. No âmbito da disciplina de Projeto Integrador 2 da Universidade de Brasília, cujo objetivo é integrar as engenharias eletrônica, energia, aeroespacial, automotiva e de software do campus Gama, surgiu a iniciativa de desenvolver um projeto que viabilize a construção de um scanner. A abordagem escolhida é baseada na utilização de sensores infravermelhos para capturar pontos de distância de objetos físicos, concentrando o controle dos sensores e motores em apenas um Arduino. Posteriormente, os pontos identificados são enviados para um computador, onde são processados para formar uma nuvem de pontos (point cloud), que, por sua vez, é utilizada para gerar um modelo tridimensional.</p>
 
-<p style="text-align: justify;"> Este projeto representa uma abordagem inovadora, devido à sua abordagem que utiliza tecnologia de ponta, como o Arduino e sensores infravermelhos, e acessível, uma vez que o uso de hardware de baixo custo, como o Arduino, torna essa tecnologia disponível para uma gama mais ampla de usuários, reduzindo as barreiras de entrada para a digitalização 3D. A versatilidade e a capacidade de processamento do Arduino em conjunto com a precisão dos sensores infravermelho são responsáveis pela captura dos pontos de distância do objeto em questão, e, assim, o sistema cria uma representação digital precisa da sua superfície, sem a necessidade de equipamentos complexos ou de alto custo. </p>
+<p style="text-align: justify;"> Este projeto representa uma abordagem que utiliza tecnologias como o Arduino e sensores infravermelhos, tornando o projeto mais acessível e disponível para uma gama mais ampla de usuários, reduzindo as barreiras de entrada para a digitalização 3D. A versatilidade e a capacidade de processamento do Arduino em conjunto com a precisão dos sensores infravermelho são responsáveis pela captura dos pontos de distância do objeto em questão, e, assim, o sistema cria uma representação digital precisa da sua superfície, sem a necessidade de equipamentos complexos ou de alto custo. </p>
 
 <p style="text-align: justify;"> Ao adotar uma abordagem que combina acessibilidade, simplicidade e, futuramente, eficiência ao realizar o escaneamento e digitalização 3D, este projeto tem o potencial de democratizar esse processo e torná-lo utilizável a uma ampla gama de usuários, desde entusiastas e estudantes até profissionais e empresas. Além disso, ao utilizar tecnologias de código aberto, incentiva-se a colaboração e o desenvolvimento contínuo, criando um ecossistema de inovação compartilhado. Este documento tem como objetivo apresentar o ScanPoint em detalhes, destacando seus recursos, benefícios e aplicações. </p> 
 
 ## 2. Definição do Produto
 
-<p style="text-align: justify;"> O projeto ScanPoint surge como uma resposta à necessidade crescente por soluções que simplifiquem e aprimorem o processo de digitalização 3D e reprodução tridimensional de objetos físicos. O projeto é formado por uma mesa escaner e um aplicativo desktop. </p>
-
-<p style="text-align: justify;"> A mesa escaner é composta por um Arduino e sensores infravermelho que realizam a captura pontos de distância dos objetos. O aplicativo desktop é responsável pela interação com o usuário e por processar os pontos enviados pela mesa, de modo que gere um arquivo em stl que permite o objeto ser reproduzido por uma impressora 3D. </p>
+<p style="text-align: justify;"> O ScanPoint é composto por uma mesa escaner e um aplicativo desktop. A mesa escaner foi desenvolvida com um Arduino e sensores infravermelhos, capazes de realizar leituras de objetos em tempo real. Esses dados são enviados para o aplicativo desktop, que permite o acompanhamento do processamento dos pontos capturados e serve de interface para a disponibilização do arquivo em formato STL e seu download. O processo de modelagem envolve a captura e processamento de dados para criar um modelo virtual o mais preciso possível. Esses modelos podem ser salvos e exibidos para o usuário, permitindo que reinicie o processo caso não esteja satisfeito antes de realizar o download. </p>
 
 ### 2.1. Perspectiva do Produto
 
@@ -115,7 +113,21 @@
 
 <p style="text-align: justify;"> A aplicação poderá ser acessada por meio de computadores, sendo necessário conexão com a internet apenas para seu download e atualização. Para uso da aplicação não é necessário conexão com a internet, todo o processo de escaneamento e geração do arquivo será realizado no ScanPoint e localmente na máquina do usuário. </p>
 
-## 9. Referências
+## 9. Viabilidade de Mercado
+
+O ScanPoint apresenta diversas características que o tornam viável no mercado:
+
+* <p style="text-align: justify;"> Simplicidade de Uso: Ao oferecer uma solução composta por uma mesa escaner e um aplicativo desktop, o ScanPoint torna o processo de digitalização 3D mais acessível para um público mais amplo. A interface amigável do aplicativo desktop facilita a interação do usuário, desde a captura dos objetos até o processo de download do arquivo STL.</p>
+
+* <p style="text-align: justify;">Custo Acessível: Utilizando componentes como Arduino e sensores infravermelhos, o projeto pode ser desenvolvido com custos relativamente baixos em comparação com outras soluções de digitalização 3D disponíveis no mercado. Isso torna o ScanPoint uma opção atraente para pequenas empresas, instituições educacionais e entusiastas que buscam uma solução acessível para digitalizar objetos em 3D.</p>
+
+* <p style="text-align: justify;">Flexibilidade e Customização: O uso de um Arduino permite que o ScanPoint seja facilmente adaptado e personalizado de acordo com as necessidades específicas do usuário ou do mercado. Além disso, o aplicativo desktop pode ser atualizado e aprimorado com novos recursos e funcionalidades à medida que o projeto evolui.</p>
+
+* <p style="text-align: justify;">Potencial de Mercado: Com o crescente interesse em tecnologias de digitalização 3D e impressão 3D, o ScanPoint tem um amplo mercado-alvo que inclui desde empresas de design e engenharia até artistas e hobistas. Além disso, o projeto pode encontrar aplicações em áreas como arquitetura, medicina, conservação do patrimônio cultural e muito mais.</p>
+
+* <p style="text-align: justify;">Suporte à Economia Circular: A capacidade de digitalizar e reproduzir objetos físicos em 3D pode contribuir para a redução do desperdício de materiais, incentivando práticas mais sustentáveis e apoiando a economia circular.</p>
+
+## 10. Referências
 
 IBM Knowledge Center - Documento de Visão: A estrutura de tópicos do documento de visão. Disponível em: https://www.ibm.com/support/knowledgecenter/pt-br/SSWMEQ_3.0.1/com.ibm.rational.rrm.help.doc/topics/r_vision_doc.htm. Acesso em: 23 abr. 2024;
 
@@ -123,7 +135,7 @@ MIGUEL, Alexandre; ALVES, Dani; GUEDES, Gabriela; GOULART, Helena; ROBSON, João
 
 Souza, P. (2014). Lean Inception: Como Alinhar Pessoas e Construir o Produto Certo. São Paulo: Editora Casa do Código. Acesso em: 04 mai. 2024;
 
-## 9. Histórico de Revisão
+## 11. Histórico de Revisão
 
 | Versão | Data | Descrição | Autor |
 |----|----|----|----|
@@ -135,3 +147,4 @@ Souza, P. (2014). Lean Inception: Como Alinhar Pessoas e Construir o Produto Cer
 | 6.0 | 03/05/2024 | Refatoração total do documento  | Ana Carolina, Brenda, Carla |
 | 7.0 | 03/05/2024 | Inclusão do É/Não é e Faz/Não faz, feito pelo Ciro| Carla |
 | 8.0 | 04/05/2024 | Ajuste de alinhamento, padronização do histórico e inclusão da definição do É/Não é e Faz/Não faz| Ana Carolina |
+| 8.1 | 08/06/2024 | Ajustes | Brenda |
