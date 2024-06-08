@@ -200,6 +200,7 @@ A Figura 9 mostra o resultado da montagem do subsistema de energia equipado com 
 <div id="ref-2"/>
 [2] Instituto Nacional de Meteorologia (INMET): Clima. Prognóstico de Tempo (2024). Acesso em: 27 abr. 2024. Disponível em: https://clima.inmet.gov.br/progt.
 
+
 [3] ABNT NBR IEC 60335-2-29:2010. Aparelhos eletrodomésticos e similares - Segurança - Parte 2-29: Requisitos particulares para carregadores de baterias. Rio de Janeiro: ABNT, 2010.
 
 ## Tabela de versionamento
