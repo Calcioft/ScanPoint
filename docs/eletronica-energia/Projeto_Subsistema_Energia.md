@@ -135,17 +135,27 @@ Com a finalidade de ramificar as ligações e assim alimentar os dispositivos do
 
 <font size="2"><p style="text-align: center">Figura 7 - Barramento 80 mm.</p></font>
 
-## 6. Diagrama Unifilar
+## 6. Carregador da Bateria
 
 <p style="text-align:justify;">
 A Figura 6 apresenta o diagrama unifilar do projeto, com as características de fluxo de energia, no qual cada componente está identificado com suas respectivas características elétricas, como também as características da bitola do cabo.
 </p>
 
-![Dia_Unifilar](../assets/eletronica-energia/Diagrama_unifilar_6_JUN.jpg)
+![Carregador](docs/assets/eletronica-energia/ACDC.jpg)
 
-<font size="2"><p style="text-align: center">Figura 8 - Diagrama unifilar.</p></font>
+<font size="2"><p style="text-align: center">Figura 8 - Carregador da bateria A4514_DSM.</p></font>
 
-## 7. Montagem
+## 7. Diagrama Unifilar
+
+<p style="text-align:justify;">
+A Figura 6 apresenta o diagrama unifilar do projeto, com as características de fluxo de energia, no qual cada componente está identificado com suas respectivas características elétricas, como também as características da bitola do cabo.
+</p>
+
+![Dia_Unifilar](docs/assets/eletronica-energia/Diagrama_unifilar_7_JUN.jpg)
+
+<font size="2"><p style="text-align: center">Figura 9 - Diagrama unifilar.</p></font>
+
+## 8. Montagem
 
 <p style="text-align:justify;">
 Antes de iniciar o processo de montagem do subsistema de energia foi desenvolvido pela equipe um diagrama de montagem que, por sua vez, foi revisado e aprovado pelo docente responsável. Também foram revisitadas as normas técnicas relacionadas à solução.
@@ -162,7 +172,7 @@ A Figura 9 mostra o resultado da montagem do subsistema de energia equipado com 
 
 ![Montagem](../assets/eletronica-energia/Energia.jpg)
 
-<font size="2"><p style="text-align: center">Figura 9 - Montagem do Subsistema de Energia.</p></font>
+<font size="2"><p style="text-align: center">Figura 10 - Montagem do Subsistema de Energia.</p></font>
 
 
 ## Referências Bibliográficas
