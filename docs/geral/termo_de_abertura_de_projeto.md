@@ -35,9 +35,9 @@
 
 | Data | Marco | Descrição |
 |---|---|---|
-| 08/10/2020 | PC 1 | Entrega da documentação envolvendo a problematização, concepção e detalhamento da solução e projeto e construção de subsistemas da solução proposta. |
-| 10/12/2020 | PC 2 | Entrega apresentando as adequações realizadas no projeto e demonstração de funcionamento de todos os subsistemas que compõe a solução, já considerando a integração entre as respectivas partes |
-| 10/12/2020 | PC 3 | Exibição da integração e funcionamento do protótipo de produto, demonstração do funcionamento completo da solução, documentação técnica atualizada nos repositórios do projeto, bannner de apresentação do projeto, e vídeo de propaganda da solução, contemplando seu funcionamento completo. |
+| 03/05/2024 | PC 1 | Entrega da documentação envolvendo a problematização, concepção e detalhamento da solução e projeto e construção de subsistemas da solução proposta. |
+| 07/06/2024 | PC 2 | Entrega apresentando as adequações realizadas no projeto e demonstração de funcionamento de todos os subsistemas que compõe a solução, já considerando a integração entre as respectivas partes |
+| 12/07/2024 | PC 3 | Exibição da integração e funcionamento do protótipo de produto, demonstração do funcionamento completo da solução, documentação técnica atualizada nos repositórios do projeto, bannner de apresentação do projeto, e vídeo de propaganda da solução, contemplando seu funcionamento completo. |
 
 ## 8. Orçamento
 <p style="text-align:justify;">O orçamento total do projeto é de R$ 494,01 com seus custos divididos entre recursos materiais e equipamentos, fora os que foram herdados das turmas anteriores de Pojeto Integrador 2.</p> Para mais detalhes desse processo consultar a [Estimativa de custos](/docs/geral/estimativa-custos.md).
