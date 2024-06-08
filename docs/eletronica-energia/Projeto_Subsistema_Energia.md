@@ -138,7 +138,21 @@ Com a finalidade de ramificar as ligações e assim alimentar os dispositivos do
 ## 6. Carregador da Bateria
 
 <p style="text-align:justify;">
-A Figura 6 apresenta o diagrama unifilar do projeto, com as características de fluxo de energia, no qual cada componente está identificado com suas respectivas características elétricas, como também as características da bitola do cabo.
+Utilizar um carregador adequado é crucial para garantir a longevidade e o desempenho da bateria. Um carregador que fornece uma corrente inadequada pode comprometer a bateria ocasionando danos, reduzindo a vida útil da bateria ou não carregá-la de maneira eficiente. Os carregadores modernos geralmente seguem normas específicas de segurança, como a ABNT NBR IEC 60335-2-29, que garantem que os dispositivos operem de maneira segura e eficiente.
+
+A corrente de carregamento para uma bateria de chumbo-ácido é geralmente expressa como uma fração da capacidade nominal da bateria, conhecida como "C", onde "C" representa a capacidade da bateria em ampere-horas (Ah). Para uma bateria de 14Ah, a corrente de carregamento é determinada usando valores seguros típicos entre 0,1C e 0,3C.
+
+Cálculo da Corrente de Carregamento
+A capacidade da bateria em Ah é dada como 14Ah.
+
+A taxa de carga segura para baterias de chumbo-ácido é tipicamente entre 0,1C e 0,3C.
+Para uma bateria de 14Ah:
+0,1C (corrente de carga baixa): 0,1 x 14Ah = 1,4 A
+0,3C (corrente de carga alta): 0,3 x 14 Ah = 4,2 A
+
+Portanto, a corrente de carregamento ideal para uma bateria de 12V e 14Ah deve estar na faixa de 1,4A a 4,2A.
+
+O carregador que será utilizado no projeto apresenta uma corrente de 3,215A, encontrando-se dentro da faixa anteriormente calculada.
 </p>
 
 ![Carregador](docs/assets/eletronica-energia/ACDC.jpg)
@@ -182,6 +196,8 @@ A Figura 9 mostra o resultado da montagem do subsistema de energia equipado com 
 <div id="ref-2"/>
 [2] Instituto Nacional de Meteorologia (INMET): Clima. Prognóstico de Tempo (2024). Acesso em: 27 abr. 2024. Disponível em: https://clima.inmet.gov.br/progt.
 
+[3] ABNT NBR IEC 60335-2-29:2010. Aparelhos eletrodomésticos e similares - Segurança - Parte 2-29: Requisitos particulares para carregadores de baterias. Rio de Janeiro: ABNT, 2010.
+
 ## Tabela de versionamento
 
 | Versão| Data | Descrição | Responsável|
@@ -195,5 +211,6 @@ A Figura 9 mostra o resultado da montagem do subsistema de energia equipado com 
 | 1.6 | 02/06/2024 | Modificação de imagens e inserção de tópicos (LM317 e barramento) | Lucas Pantoja |
 | 1.7 | 03/06/2024 | Revisão dos novos tópicos e inserção do tópico "Montagem" | Carolina |
 | 1.8 | 06/06/2024 | Adição da imagem da montagem | Lucas Pantoja |
-| 1.9 | 07/06/2024 | Revisão final para o PC 2 | Carolina |
+| 1.9 | 07/06/2024 | Criação do tópico "Carregador da Bateria" | Lucas Pantoja |
+| 2.0 | 07/06/2024 | Revisão final para o PC 2 | Carolina |
 
