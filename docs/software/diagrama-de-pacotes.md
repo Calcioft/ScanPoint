@@ -46,8 +46,8 @@ Pasta para funções utilitárias que fornecem funcionalidades comuns que podem 
 Pasta destinada aos testes do aplicativo, onde são colocados os arquivos de teste que serão executados para validar o comportamento do código.
 
 
-<iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1#G1dewdzgdTry6qgIo8Vlwkd4NHWoNoxTGk"></iframe>
-<font size="2"><p style="text-align: center">Figura 1: [Diagrama de Pacotes](hhttps://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1#G1dewdzgdTry6qgIo8Vlwkd4NHWoNoxTGk).</p></font>
+<iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Diagrama%20de%20pacotes%20ScanPoint.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1Tcw9ueLF6176Fopg-bWvCZiZEexY8ZOh%26export%3Ddownload"></iframe>
+<font size="2"><p style="text-align: center">Figura 1: [Diagrama de Pacotes](https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Diagrama%20de%20pacotes%20ScanPoint.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1Tcw9ueLF6176Fopg-bWvCZiZEexY8ZOh%26export%3Ddownload).</p></font>
 
 ## Referências
 <div id="ref-1"/>
@@ -60,3 +60,4 @@ Pasta destinada aos testes do aplicativo, onde são colocados os arquivos de tes
 | 1.0 | 24/04/2024 | Criação do documento | Vinicius Vieira |
 | 1.1 | 03/05/2024 | Organização de fontes e referências  | Vinicius Vieira e Ciro Araújo|
 | 1.2 | 03/06/2024 | Atualização do diagrama | Guilherme Basilio |
+| 1.3 | 12/06/2024 | Atualização do link do embed | Guilherme Basilio |
