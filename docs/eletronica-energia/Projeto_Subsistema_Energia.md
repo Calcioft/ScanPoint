@@ -139,9 +139,13 @@ Com a finalidade de ramificar as ligações e assim alimentar os dispositivos do
 
 <p style="text-align:justify;">
 Utilizar um carregador adequado é crucial para garantir a longevidade e o desempenho da bateria. Um carregador que fornece uma corrente inadequada pode comprometer a bateria ocasionando danos, reduzindo a vida útil da bateria ou não carregá-la de maneira eficiente. Os carregadores modernos geralmente seguem normas específicas de segurança, como a ABNT NBR IEC 60335-2-29, que garantem que os dispositivos operem de maneira segura e eficiente.
+<\p>
 
+<p style="text-align:justify;">
 A corrente de carregamento para uma bateria de chumbo-ácido é geralmente expressa como uma fração da capacidade nominal da bateria, conhecida como "C", onde "C" representa a capacidade da bateria em ampere-horas (Ah). Para uma bateria de 14Ah, a corrente de carregamento é determinada usando valores seguros típicos entre 0,1C e 0,3C.
+</p>
 
+<p style="text-align:justify;">
 Cálculo da Corrente de Carregamento
 
 A capacidade da bateria em Ah é dada como 14Ah.
@@ -153,9 +157,13 @@ Para uma bateria de 14Ah:
 0,1C (corrente de carga baixa): 0,1 x 14Ah = 1,4 A
 
 0,3C (corrente de carga alta): 0,3 x 14 Ah = 4,2 A
+</p>
 
+<p style="text-align:justify;">
 Portanto, a corrente de carregamento ideal para uma bateria de 12V e 14Ah deve estar na faixa de 1,4A a 4,2A.
+</p>
 
+<p style="text-align:justify;">
 O carregador que será utilizado no projeto apresenta uma corrente de 3,215A, encontrando-se dentro da faixa anteriormente calculada.
 </p>
 
@@ -177,13 +185,21 @@ A Figura 6 apresenta o diagrama unifilar do projeto, com as características de 
 
 <p style="text-align:justify;">
 Antes de iniciar o processo de montagem do subsistema de energia foi desenvolvido pela equipe um diagrama de montagem que, por sua vez, foi revisado e aprovado pelo docente responsável. Também foram revisitadas as normas técnicas relacionadas à solução.
+</p>
 
+<p style="text-align:justify;">
 Após aprovação do diagrama e levantamento dos componentes, foi realizada a compra desses materiais e, posteriormente, iniciou-se a montagem do sistema no Laboratório de Eletricidade com auxílio do técnico responsável.
+</p>
 
+<p style="text-align:justify;">
 O sistema foi montado por partes. Inicialmente as baterias foram testadas para garantir o fornecimento de 12 V. Em seguida foi realizado o teste do funcionamento do Módulo Abaixador de Tensão sendo alimentado por essas baterias, depois foram adicionados os barramentos e demais cabeamentos de acordo com a disposição do diagrama unifilar e a NBR 5410.
+</p>
 
+<p style="text-align:justify;">
 Com auxílio de um multímetro, foi aferida a tensão em todas as conexões entre os componentes, garantindo assim um bom funcionamento do subsistema e qualidade de fornecimento de energia para os demais subsistemas.
+</p>
 
+<p style="text-align:justify;">
 A Figura 9 mostra o resultado da montagem do subsistema de energia equipado com os conectores necessários para posterior integração com os subsistemas eletrônico e estrutural.
 </p>
 
