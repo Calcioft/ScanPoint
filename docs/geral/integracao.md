@@ -35,7 +35,8 @@ O funcionamento dos motores é o seguinte:
 O motor 1 controla o prato, conforme mostrado na Figura 1, onde será colocado o objeto a ser escaneado. O motor 1 gira a uma volta por minuto, realizando 200 passos de 1,8 graus cada para completar uma rotação completa.
 </p>
 
-![Integracao](../assets/eletronica-energia/integracao_1.png)
+![Integracao1](../assets/eletronica-energia/integracao_1.png)
+
 <div align="center">
     Figura 1 - Prato acoplado ao Motor 1
 </div>
@@ -45,7 +46,8 @@ O motor 1 controla o prato, conforme mostrado na Figura 1, onde será colocado o
 O motor 2, que estará acoplado a uma barra de giro conforme mostrado na Figura 2, permanecerá parado até que o motor 1 complete sua rotação. Assim que o motor 1 finalizar sua volta, o motor 2 realizará um giro completo em 1 segundo. A função deste motor é elevar a câmera que fará o escaneamento, movimentando-se em passos de um minuto. Na câmera, estará instalado o sensor de distância a laser VL53L0X, responsável por medir a distância entre o objeto e a câmera.
 </p>
 
-![Integracao](../assets/eletronica-energia/integracao_2.png)
+![Integracao2](../assets/eletronica-energia/integracao_2.png)
+
 <div align="center">
     Figura 2 - Acoplamento do Motor 2 a barra que subirá a câmera
 </div>
@@ -79,7 +81,7 @@ Com isso o código para a comunicação é dividido no envio da mensagem pela ap
 
 - Envio da mensagem: A aplicação deve instânciar um Port, definindo o baudRate, em seguida, chama um port.write com a mensagem a ser mandada ao Arduíno.
 
--Recebimento da mensagem: Após instânciar o Serial, faz a leitura dessa mensagem até identificar o fim da mensagem, ao receber a mensagem de início, se chama o código para leitura;
+- Recebimento da mensagem: Após instânciar o Serial, faz a leitura dessa mensagem até identificar o fim da mensagem, ao receber a mensagem de início, se chama o código para leitura;
 
 ### Medição do Sensor
 
@@ -94,3 +96,4 @@ Para fazer o processo de escaneamento e processamento da nuvem de pontos, os dad
 | 0.2 | 07/06/2024 | Artur de Sousa | Adicionado integração software e eletrônica |
 | 0.3 | 07/06/2024 | Maria Claudia e Carolina | Adicionado integração estruturas e energia |
 | 0.4 | 07/06/2024 | Carolina | Adicionado integração energia e eletrônica |
+| 0.5 | 07/06/2024 | Brenda | Ajustes |

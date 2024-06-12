@@ -20,21 +20,21 @@
 	<img class="photoRepo" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Geral">
   </div>
 	<h4 class="legenda">Geral</h4>
-	<h6 class=legenda>Relatórios e informações gerais</h6>
+	<h6 class=legenda>Relatórios gerais</h6>
 </a>
 <a href="https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/tree/main/docs/software?ref_type=heads">
   <div class="repo-border">
 	<img class="photoRepo" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Software">
   </div>
 	<h4 class="legenda">Software</h4>
-	<h6 class=legenda>Documentos e código fonte</h6>
+	<h6 class=legenda>Documentos</h6>
 </a>
 <a href="https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/tree/main/docs/eletronica-energia?ref_type=heads">
   <div class="repo-border">
 	<img class="photoRepo" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Eletrônica e Energia">
   </div>
 	<h4 class="legenda">Eletrônica/Energia</h4>
-	<h6 class=legenda>Documentos e código fonte</h6>
+	<h6 class=legenda>Documentos</h6>
 </a>
 <a href="https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint/-/tree/main/docs/estruturas?ref_type=heads">
   <div class="repo-border">
@@ -42,6 +42,13 @@
   </div>
 	<h4 class="legenda">Estruturas</h4>
 	<h6 class=legenda>Documentos e modelos</h6>
+</a>
+<a href="https://gitlab.com/lappis-unb/fga-pi2/semestre-2024-1/grupo-08/scanpoint-app">
+  <div class="repo-border">
+	<img class="photoRepo" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="App">
+  </div>
+	<h4 class="legenda">ScanPoint App</h4>
+	<h6 class=legenda>Código</h6>
 </a>
 </div>
 </div>
