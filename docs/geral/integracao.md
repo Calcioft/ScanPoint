@@ -35,7 +35,7 @@ O funcionamento dos motores é o seguinte:
 O motor 1 controla o prato, conforme mostrado na Figura 1, onde será colocado o objeto a ser escaneado. O motor 1 gira a uma volta por minuto, realizando 200 passos de 1,8 graus cada para completar uma rotação completa.
 </p>
 
-![Integracao](docs/assets/eletronica-energia/integracao_1.png)
+![Integracao](../assets/eletronica-energia/integracao_1.png)
 <div align="center">
     Figura 1 - Prato acoplado ao Motor 1
 </div>
@@ -45,7 +45,7 @@ O motor 1 controla o prato, conforme mostrado na Figura 1, onde será colocado o
 O motor 2, que estará acoplado a uma barra de giro conforme mostrado na Figura 2, permanecerá parado até que o motor 1 complete sua rotação. Assim que o motor 1 finalizar sua volta, o motor 2 realizará um giro completo em 1 segundo. A função deste motor é elevar a câmera que fará o escaneamento, movimentando-se em passos de um minuto. Na câmera, estará instalado o sensor de distância a laser VL53L0X, responsável por medir a distância entre o objeto e a câmera.
 </p>
 
-![Integracao](docs/assets/eletronica-energia/integracao_2.png)
+![Integracao](../assets/eletronica-energia/integracao_2.png)
 <div align="center">
     Figura 2 - Acoplamento do Motor 2 a barra que subirá a câmera
 </div>
