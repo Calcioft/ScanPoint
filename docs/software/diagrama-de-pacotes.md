@@ -12,42 +12,42 @@ Raiz do aplicativo, contendo todas as outras pastas e arquivos relevantes para o
 ### `/node_modules`
 Pasta gerada pelo Node.js que armazena os pacotes de terceiros instalados pelo npm ou yarn. Estes são os módulos de que o aplicativo depende para executar.
 
+### `/resources`
+Pasta para armazenar recursos estáticos como imagens, fontes, arquivos de configuração e outros arquivos que não fazem parte do código-fonte do aplicativo.
+
 ### `/src`
-Pasta principal que contém o código fonte do aplicativo. 
+Pasta principal que contém o código-fonte do aplicativo, dividido em três subpastas: main, preload e renderer.
 
-#### `/types`
-Contém as definições de tipos TypeScript para o projeto, facilitando o uso do sistema de tipos do TypeScript para garantir a qualidade do código.
+#### `/main`
+Contém o código do processo principal do aplicativo, responsável por inicializar o aplicativo e gerenciar os processos de pré-carga e renderização.
 
-#### `/libraries`
-Armazena bibliotecas específicas do projeto ou módulos que podem ser usados em todo o aplicativo.
+#### `/preload`
+Contém o código do processo de pré-carga do aplicativo, que é executado antes do processo principal ser carregado e pode ser usado para realizar tarefas como carregar bibliotecas nativas ou interceptar solicitações de rede.
 
-#### `/services`
-Inclui serviços que encapsulam a lógica de negócios, operações de banco de dados, comunicação com APIs externas e qualquer outra funcionalidade central do aplicativo.
+#### `/renderer`
+Contém o código da interface gráfica do usuário (GUI) do aplicativo, que é renderizado em uma janela separada do processo principal.
 
-#### `/screens`
+###### `/assets`
+Contém arquivos estáticos da GUI, como imagens, CSS e arquivos de configuração.
+
+###### `/components`
+Contém componentes reutilizáveis da GUI, como botões, menus e caixas de diálogo.
+
+###### `/screens`
 Específico para arquivos da interface gráfica, esta pasta contém os componentes de tela ou páginas da aplicação.
 
-#### `/components`
-Contém componentes reutilizáveis de UI que podem ser usados em diferentes telas ou partes do aplicativo.
+###### `/types`
+Contém as definições de tipos TypeScript para o projeto, facilitando o uso do sistema de tipos do TypeScript para garantir a qualidade do código.
 
-### `/assets`
-Pasta para armazenar recursos estáticos como imagens e outros arquivos de mídia.
-
-#### `/css`
-Armazena arquivos de estilo para o projeto, em formato CSS.
-
-#### `/images`
-Contém imagens que serão usadas no aplicativo.
-
-### `/utils`
+###### `/utils`
 Pasta para funções utilitárias que fornecem funcionalidades comuns que podem ser compartilhadas em todo o projeto.
 
 ## `/tests`
 Pasta destinada aos testes do aplicativo, onde são colocados os arquivos de teste que serão executados para validar o comportamento do código.
 
 
-<iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&layers=1&nav=1&title=Diagrama%20de%20Pacotes.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1OZjpVScP9D7Csr7_BQcHX6EjR7xMO650%26export%3Ddownload"></iframe>
-<font size="2"><p style="text-align: center">Figura 1: [Diagrama de Pacotes](https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&layers=1&nav=1&title=Diagrama%20de%20Pacotes.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1OZjpVScP9D7Csr7_BQcHX6EjR7xMO650%26export%3Ddownload).</p></font>
+<iframe frameborder="0" style="width:100%;height:400px;" src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Diagrama%20de%20pacotes%20ScanPoint.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1Tcw9ueLF6176Fopg-bWvCZiZEexY8ZOh%26export%3Ddownload"></iframe>
+<font size="2"><p style="text-align: center">Figura 1: [Diagrama de Pacotes](https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Diagrama%20de%20pacotes%20ScanPoint.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1Tcw9ueLF6176Fopg-bWvCZiZEexY8ZOh%26export%3Ddownload).</p></font>
 
 ## Referências
 <div id="ref-1"/>
@@ -59,3 +59,5 @@ Pasta destinada aos testes do aplicativo, onde são colocados os arquivos de tes
 |-------|------|-----------|------------|
 | 1.0 | 24/04/2024 | Criação do documento | Vinicius Vieira |
 | 1.1 | 03/05/2024 | Organização de fontes e referências  | Vinicius Vieira e Ciro Araújo|
+| 1.2 | 03/06/2024 | Atualização do diagrama | Guilherme Basilio |
+| 1.3 | 12/06/2024 | Atualização do link do embed | Guilherme Basilio |

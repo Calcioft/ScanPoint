@@ -49,6 +49,7 @@ Engloba as fases 1, 2 e 3 do ciclo de vida do projeto, sendo elas: **Problematiz
 - [Requisitos Gerais](docs/geral/requisitos.md)
 - [Termo de Abertura](docs/geral/termo_de_abertura_de_projeto.md)
 - [Visao geral](docs/geral/visaogeral.md)
+- [Integracao de Áreas](docs/geral/integracao.md)
 
 **Software**
 - [Arquitetura de software](docs/software/arquitetura.md)
@@ -77,7 +78,7 @@ Engloba as fases 1, 2 e 3 do ciclo de vida do projeto, sendo elas: **Problematiz
 - [Arquitetura](docs/estruturas/arquitetura_subs_estruturas.md)
 - [Subsistema](docs/estruturas/Projeto_subsistema_estruturas.md)
 - [Desenhos técnicos](docs/estruturas/DTs.md)
-
+- [Manual de montagem](docs/estruturas/Manual_montagem_estruturas.md)
 
 ### C2
 
