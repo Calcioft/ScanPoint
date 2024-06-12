@@ -139,32 +139,35 @@ Com a finalidade de ramificar as ligações e assim alimentar os dispositivos do
 
 <p style="text-align:justify;">
 Utilizar um carregador adequado é crucial para garantir a longevidade e o desempenho da bateria. Um carregador que fornece uma corrente inadequada pode comprometer a bateria ocasionando danos, reduzindo a vida útil da bateria ou não carregá-la de maneira eficiente. Os carregadores modernos geralmente seguem normas específicas de segurança, como a ABNT NBR IEC 60335-2-29, que garantem que os dispositivos operem de maneira segura e eficiente.
-<\p>
-
-<p style="text-align:justify;">
-A corrente de carregamento para uma bateria de chumbo-ácido é geralmente expressa como uma fração da capacidade nominal da bateria, conhecida como "C", onde "C" representa a capacidade da bateria em ampere-horas (Ah). Para uma bateria de 14Ah, a corrente de carregamento é determinada usando valores seguros típicos entre 0,1C e 0,3C.
 </p>
 
 <p style="text-align:justify;">
-Cálculo da Corrente de Carregamento
+A corrente de carregamento para uma bateria de chumbo-ácido é geralmente expressa como uma fração da capacidade nominal da bateria, conhecida como "C", onde "C" representa a capacidade da bateria em ampere-horas (Ah). Para uma bateria de 14 Ah, a corrente de carregamento é determinada usando valores seguros típicos entre 0,1 C e 0,3 C.
+</p>
 
-A capacidade da bateria em Ah é dada como 14Ah.
+### 6.1. Cálculo da Corrente de Carregamento
 
-A taxa de carga segura para baterias de chumbo-ácido é tipicamente entre 0,1C e 0,3C.
-
-Para uma bateria de 14Ah:
-
-0,1C (corrente de carga baixa): 0,1 x 14Ah = 1,4 A
-
-0,3C (corrente de carga alta): 0,3 x 14 Ah = 4,2 A
+<p style="text-align:justify;">
+A capacidade da bateria em Ah é dada como 14 Ah.
 </p>
 
 <p style="text-align:justify;">
-Portanto, a corrente de carregamento ideal para uma bateria de 12V e 14Ah deve estar na faixa de 1,4A a 4,2A.
+A taxa de carga segura para baterias de chumbo-ácido é tipicamente entre 0,1 C e 0,3 C.
 </p>
 
 <p style="text-align:justify;">
-O carregador que será utilizado no projeto apresenta uma corrente de 3,215A, encontrando-se dentro da faixa anteriormente calculada.
+Para uma bateria de 14 Ah:
+</p>
+
+- 0,1C (corrente de carga baixa): 0,1 x 14 Ah = 1,4 A
+- 0,3C (corrente de carga alta): 0,3 x 14 Ah = 4,2 A
+
+<p style="text-align:justify;">
+Portanto, a corrente de carregamento ideal para uma bateria de 12 V e 14 Ah deve estar na faixa de 1,4 A a 4,2 A.
+</p>
+
+<p style="text-align:justify;">
+O carregador que será utilizado no projeto apresenta uma corrente de 3,215 A, encontrando-se dentro da faixa anteriormente calculada.
 </p>
 
 ![Carregador](../assets/eletronica-energia/ACDC.jpg)
