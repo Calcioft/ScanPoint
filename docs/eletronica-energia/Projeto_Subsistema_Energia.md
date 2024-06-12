@@ -159,7 +159,7 @@ Portanto, a corrente de carregamento ideal para uma bateria de 12V e 14Ah deve e
 O carregador que será utilizado no projeto apresenta uma corrente de 3,215A, encontrando-se dentro da faixa anteriormente calculada.
 </p>
 
-![Carregador](docs/assets/eletronica-energia/ACDC.jpg)
+![Carregador](../assets/eletronica-energia/ACDC.jpg)
 
 <font size="2"><p style="text-align: center">Figura 8 - Carregador da bateria A4514_DSM.</p></font>
 
@@ -169,7 +169,7 @@ O carregador que será utilizado no projeto apresenta uma corrente de 3,215A, en
 A Figura 6 apresenta o diagrama unifilar do projeto, com as características de fluxo de energia, no qual cada componente está identificado com suas respectivas características elétricas, como também as características da bitola do cabo.
 </p>
 
-![Dia_Unifilar](docs/assets/eletronica-energia/Diagrama_unifilar_7_JUN.jpg)
+![Dia_Unifilar](../assets/eletronica-energia/Diagrama_unifilar_7_JUN.jpg)
 
 <font size="2"><p style="text-align: center">Figura 9 - Diagrama unifilar.</p></font>
 
